@@ -1,0 +1,686 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<title>±‡º≠±Ì∏Ò Ù–‘</title>
+	
+<script language="javascript">
+function onLoad() {
+		var DHTMLSafe=eval("document.all.tbContentElement");
+		
+		var trSel = DHTMLSafe.DOM.selection.createRange();
+		trSel.collapse();
+		trSel.select();
+		
+		thisCell = DHTMLSafe.DOM.selection.createRange().parentElement();
+
+		while(thisCell.tagName!="TD"&&thisCell.tagName!="HTML")
+			thisCell = thisCell.parentElement;
+		
+		if(thisCell.tagName=="HTML") {
+			alert("Selection is not in a table cell"); //this shouldn't ever happen
+			window.close();
+		}
+		
+		thisRow = thisCell;
+
+		while(thisRow.tagName!="TR"&&thisRow.tagName!="HTML") 
+			thisRow = thisRow.parentElement;
+
+		if(thisRow.tagName=="HTML") {
+			alert("Missing TR tag."); //this shouldn't ever happen
+			window.close();
+		}
+
+		thisTable = thisRow;
+
+		while(thisTable.tagName!="TABLE"&&thisTable.tagName!="HTML") {
+			thisTable = thisTable.parentElement;
+		}
+
+		if(thisTable.tagName=="HTML") {
+			alert("Missing TABLE tag."); //this shouldn't ever happen
+			window.close();
+		}
+		
+		//initialize the tabular pane
+		tro.style.visibility = "hidden";
+		tableo.style.visibility = "hidden";
+		table2.style.visibility = "hidden";
+		tdo.style.visibility = "visible";
+		
+		//init current values
+		var et = edit_table_form;
+		et.table_border.value = thisTable.getAttribute("BORDER");
+		et.table_cellpadding.value = thisTable.getAttribute("CELLPADDING");
+		et.table_cellspacing.value = thisTable.getAttribute("CELLSPACING");
+		et.table_width.value = thisTable.getAttribute("WIDTH");
+		et.table_height.value = thisTable.getAttribute("HEIGHT");
+		et.td_width.value = thisCell.getAttribute("WIDTH");
+		et.td_height.value = thisCell.getAttribute("HEIGHT");
+		//et.table_style.value = thisTable.STYLE;
+		
+	
+	
+}
+
+
+function toggle(sel) {
+	switch(sel) {
+		case 'tr':
+			trC.style.backgroundColor = 'silver';
+			trA.style.color = 'white';
+			tro.style.visibility = 'visible';
+			//hide everything else
+			tdC.style.backgroundColor = 'white';
+			tdA.style.color = 'silver';
+			tdo.style.visibility = 'hidden';
+			tableC.style.backgroundColor = 'white';
+			tableA.style.color = 'silver';
+			tableo.style.visibility = 'hidden';
+			table2.style.visibility = 'hidden';
+			break;
+		case 'td':
+			tdC.style.backgroundColor = 'silver';
+			tdA.style.color = 'white';
+			tdo.style.visibility = 'visible';
+			//hide everything else
+			trC.style.backgroundColor = 'white';
+			trA.style.color = 'silver';
+			tro.style.visibility = 'hidden';
+			tableC.style.backgroundColor = 'white';
+			tableA.style.color = 'silver';
+			tableo.style.visibility = 'hidden';
+			table2.style.visibility = 'hidden';
+			break;
+		case 'table':
+			tableC.style.backgroundColor = 'silver';
+			tableA.style.color = 'white';
+			tableo.style.visibility = 'visible';
+			//hide everything else
+			trC.style.backgroundColor = 'white';
+			trA.style.color = 'silver';
+			tro.style.visibility = 'hidden';
+			tdC.style.backgroundColor = 'white';
+			tdA.style.color = 'silver';
+			tdo.style.visibility = 'hidden';
+			table2.style.visibility = 'hidden';
+			break;
+		case 'table2':
+			tableo.style.visibility = 'hidden';
+			table2.style.visibility = 'visible';
+			break;	  
+	}		
+}
+
+function apply() {
+	var et = edit_table_form;
+	// -- Cell --
+	if (et.td_bgcolor.value != "current")  thisCell.setAttribute("BGCOLOR", et.td_bgcolor.value, 0);
+	if (et.td_valign.value != "current")  thisCell.setAttribute("VALIGN", et.td_valign.value, 0);
+	if (et.td_align.value != "current")  thisCell.setAttribute("ALIGN", et.td_align.value, 0);
+	if (et.td_fontfamily.value != "current") thisCell.style.fontFamily = et.td_fontfamily.value;
+	if (et.td_fontcolor.value != "current") thisCell.style.color = et.td_fontcolor.value;
+	if (et.td_fontsize.value != "current") thisCell.style.fontSize = et.td_fontsize.value;
+	if (et.td_width.value.length > 0) thisCell.setAttribute("WIDTH", et.td_width.value,0);
+	if (et.td_height.value.length > 0) thisCell.setAttribute("HEIGHT", et.td_height.value,0);
+	// -- Row --
+	if (et.tr_bgcolor.value != "current")  thisRow.setAttribute("BGCOLOR", et.tr_bgcolor.value, 0);
+	if (et.tr_valign.value != "current")  thisRow.setAttribute("VALIGN", et.tr_valign.value, 0);
+	if (et.tr_align.value != "current")  thisRow.setAttribute("ALIGN", et.tr_align.value, 0);
+	if (et.tr_fontfamily.value != "current") thisRow.style.fontFamily = et.tr_fontfamily.value;
+	if (et.tr_fontcolor.value != "current") thisRow.style.color = et.tr_fontcolor.value;
+	if (et.tr_fontsize.value != "current") thisRow.style.fontSize = et.tr_fontsize.value;
+	if (et.tr_style.value.length > 0) thisRow.STYLE = et.tr_style.value;
+	// -- Table --
+	if (et.table_bgcolor.value != "current")  thisTable.setAttribute("BGCOLOR", et.table_bgcolor.value, 0);
+	if (et.table_border.value.length > 0)  thisTable.setAttribute("BORDER", et.table_border.value, 0);
+	if (et.table_cellspacing.value.length > 0) thisTable.setAttribute("CELLSPACING", et.table_cellspacing.value, 0);
+	if (et.table_cellpadding.value.length > 0) thisTable.setAttribute("CELLPADDING", et.table_cellpadding.value, 0);
+	if (et.table_width.value.length > 0) thisTable.setAttribute("WIDTH", et.table_width.value, 0);
+	if (et.table_height.value.length > 0) thisTable.setAttribute("HEIGHT", et.table_height.value, 0);
+	if (et.table_valign.value != "current") thisTable.setAttribute("VALIGN", et.table_valign.value, 0);
+	if (et.table_align.value != "current") thisTable.setAttribute("ALIGN", et.table_align.value, 0);
+	if (et.table_bordercolor.value != "current") thisTable.setAttribute("BORDERCOLOR", et.table_bordercolor.value, 0);
+	if (et.table_fontfamily.value != "current") thisTable.style.fontFamily = et.table_fontfamily.value;
+	if (et.table_fontcolor.value != "current") thisTable.style.color = et.table_fontcolor.value;
+	if (et.table_fontsize.value != "current") thisTable.style.fontSize = et.table_fontsize.value;
+	if (et.table_style.value.length > 0) thisTable.STYLE = et.table_style.value;
+
+	
+	var DHTMLSafe=eval("document.all.tbContentElement");
+	DHTMLSafe.focus();
+	//var tmp = DHTMLSafe.DocumentHTML;
+	//DHTMLSafe.DocumentHTML = tmp;
+	this.window.close();
+}
+
+function custom_color(obj) {
+	if (obj.selectedIndex == 1) {
+		var c = prompt("Enter a Color, or a RGB Value Represented in Hex", "");
+		if (c != null) {
+			var oOption = document.createElement("OPTION");
+			oOption.text = c;
+			oOption.value = c;
+			oOption.style.color = c;
+			obj.add(oOption);
+			obj.selectedIndex = obj.options.length-1;
+		}
+	}
+}
+
+</script>
+<style>
+BODY {
+	font-family: verdana, arial;
+	font-size : 10pt;
+}
+TD {
+	font-size : 10pt;
+	color : white;
+}
+TD.Title {
+	color : black;
+}
+A.btn {
+		color : 1d039e;
+		text-decoration : none;
+	}
+	A:Hover {
+		color : 1d039e;
+		text-decoration : underline;
+	}
+
+</style>
+</head>
+
+<body bgcolor="white" topmargin="5" link="silver" alink="silver" vlink="silver" onLoad="onLoad()">
+<form style="position:absolute" id="edit_table_form">
+<span style="font:12pt Verdana;">
+<div id="tdo" style="position:absolute;">
+	<table width="330" border="0" cellpadding="0" cellspacing="3" bgcolor="silver" height="243">
+		<tr>
+			<td colspan="2" align="center" bgcolor="white" class="title"><b>Table Cell Properties</b></td>
+		</tr>
+		<tr>
+			<td>
+				<B>Background Color</b>
+			</td>
+			<td>
+				<select name="td_bgcolor" style="width:150;" onChange="custom_color(this.form.td_bgcolor)">
+					<option value="current" selected>Current Value</option>
+					<option value="custom">Custom Value</option>
+					<option value="">Transparent</option>
+					<option value="white" style="color:black;">White</option>
+					<option value="black" style="color:black;">Black</option>
+					<option value="silver" style="color:silver">Silver
+					<option value="navy" style="color:navy">Navy
+					<option value="maroon" style="color:maroon">Maroon
+					<option value="red" style="color:red">Red
+					<option value="blue" style="color:blue">Blue
+					<option value="gray" style="color:gray">Gray
+					<option value="green" style="color:green">Green
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Vertical Alignment</b>
+			</td>
+			<td>
+				<select name="td_valign" style="width:150">
+					<option value="current" selected>Current Value</option>
+					<option value="top">Top</option>
+					<option value="bottom">Bottom</option>
+					<option value="middle">Middle</option>
+					<option value="baseline">Base Line</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Horizontal Alignment</b>
+			</td>
+			<td>
+				<select name="td_align" style="width:150">
+					<option value="current" selected>Current Value</option>
+					<option value="left">Left</option>
+					<option value="center">Center</option>
+					<option value="right">Right</option>
+					<option value="justify">Justify</option>
+				</select>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<td>
+				<B>Font Name</b>
+			</td>
+			<td>
+				<select name="td_fontfamily" style="width:150">
+					<option value="current" selected>Current Value</option>
+					<option value="arial,verdana,helvetica,geneva">arial,verdana,helvetica,...</option>
+					<option value="arial,helvetica">Arial</option>
+					<option value="verdana,helvetica">Verdana</option>
+					<option value="helvetica,arial">Helvetica</option>
+					<option value="geneva,arial,helvetica">Geneva</option>
+					<option value="sans-serif,arial">Sans-Serif</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Font Color</b>
+			</td>
+			<td>
+				<select name="td_fontcolor" style="width:150;" onChange="custom_color(this.form.td_fontcolor)">
+					<option value="current" selected>Current Value</option>
+					<option value="custom">Custom Value</option>
+					<option value="">Transparent</option>
+					<option value="white" style="color:black;">White</option>
+					<option value="black" style="color:black;">Black</option>
+					<option value="silver" style="color:silver">Silver
+					<option value="navy" style="color:navy">Navy
+					<option value="maroon" style="color:maroon">Maroon
+					<option value="red" style="color:red">Red
+					<option value="blue" style="color:blue">Blue
+					<option value="gray" style="color:gray">Gray
+					<option value="green" style="color:green">Green
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Font Size</b>
+			</td>
+			<td>
+				<select name="td_fontsize" style="width:150">
+					<option value="current" selected>Current Value</option>
+					<option value="10pt">10 point (recommended)</option>
+					<option value="8pt">8 point</option>
+					<option value="12pt">12 point</option>
+					<option value="14pt">14 point</option>
+					
+				</select>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+				<B>Cell Width</b>
+			</td>
+			<td>
+				<input type="text" name="td_width" size="5" style="border:1px solid black;">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Cell Height</b>
+			</td>
+			<td>
+				<input type="text" name="td_height" size="5" style="border:1px solid black;">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" height="100%">
+				
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="tro" style="position:absolute;">
+	<table width="330" border="0" cellpadding="0" cellspacing="3" bgcolor="silver"height="243">
+		<tr>
+			<td colspan="2" align="center" bgcolor="white" class="title"><b>Table Row Properties</b></td>
+		</tr>
+		<tr>
+			<td>
+				<B>Background Color</b>
+			</td>
+			<td>
+				<select name="tr_bgcolor" style="width:150;" onChange="custom_color(this.form.tr_bgcolor)">
+					<option value="current" selected>Current Value</option>
+					<option value="custom">Custom Value</option>
+					<option value="">Transparent</option>
+					<option value="white" style="color:black;">White</option>
+					<option value="black" style="color:black;">Black</option>
+					<option value="silver" style="color:silver">Silver
+					<option value="navy" style="color:navy">Navy
+					<option value="maroon" style="color:maroon">Maroon
+					<option value="red" style="color:red">Red
+					<option value="blue" style="color:blue">Blue
+					<option value="gray" style="color:gray">Gray
+					<option value="green" style="color:green">Green
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Vertical Alignment</b>
+			</td>
+			<td>
+				<select name="tr_valign" style="width:150">
+					<option value="current" selected>Current Value</option>
+					<option value="top">Top</option>
+					<option value="bottom">Bottom</option>
+					<option value="middle">Middle</option>
+					<option value="baseline">Base Line</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Horizontal Alignment</b>
+			</td>
+			<td>
+				<select name="tr_align" style="width:150">
+					<option value="current" selected>Current Value</option>
+					<option value="left">Left</option>
+					<option value="center">Center</option>
+					<option value="right">Right</option>
+					<option value="justify">Justify</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Font Name</b>
+			</td>
+			<td>
+				<select name="tr_fontfamily" style="width:150">
+					<option value="current" selected>Current Value</option>
+					<option value="arial,verdana,helvetica,geneva">arial,verdana,helvetica,...</option>
+					<option value="arial,helvetica">Arial</option>
+					<option value="verdana,helvetica">Verdana</option>
+					<option value="helvetica,arial">Helvetica</option>
+					<option value="geneva,arial,helvetica">Geneva</option>
+					<option value="sans-serif,arial">Sans-Serif</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Font Color</b>
+			</td>
+			<td>
+				<select name="tr_fontcolor" style="width:150;" onChange="custom_color(this.form.tr_fontcolor)">
+					<option value="current" selected>Current Value</option>
+					<option value="custom">Custom Value</option>
+					<option value="">Transparent</option>
+					<option value="white" style="color:black;">White</option>
+					<option value="black" style="color:black;">Black</option>
+					<option value="silver" style="color:silver">Silver
+					<option value="navy" style="color:navy">Navy
+					<option value="maroon" style="color:maroon">Maroon
+					<option value="red" style="color:red">Red
+					<option value="blue" style="color:blue">Blue
+					<option value="gray" style="color:gray">Gray
+					<option value="green" style="color:green">Green
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Font Size</b>
+			</td>
+			<td>
+				<select name="tr_fontsize" style="width:150">
+					<option value="current" selected>Current Value</option>
+					<option value="10pt">10 point (recommended)</option>
+					<option value="8pt">8 point</option>
+					<option value="12pt">12 point</option>
+					<option value="14pt">14 point</option>
+					
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Style (CSS)</b>
+			</td>
+			<td>
+				<input type="text" name="tr_style" size="15" style="width:150;border:1px solid black">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" height="100%">
+				&nbsp;
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="tableo" style="position:absolute;backgroundColor:silver;">
+	<table width="330" border="0" cellpadding="0" cellspacing="3" bgcolor="silver"  height="243">
+		<tr>
+			<td colspan="2" align="center" bgcolor="white" class="title"><b>Table Properties</b></td>
+		</tr>
+		<tr>
+			<td>
+				<B>Background Color</b>
+			</td>
+			<td>
+				<select name="table_bgcolor" style="width:150;" onChange="custom_color(this.form.table_bgcolor)">
+					<option value="current" selected>Current Value</option>
+					<option value="custom">Custom Value</option>
+					<option value="">Transparent</option>
+					<option value="white" style="color:black;">White</option>
+					<option value="black" style="color:black;">Black</option>
+					<option value="silver" style="color:silver">Silver
+					<option value="navy" style="color:navy">Navy
+					<option value="maroon" style="color:maroon">Maroon
+					<option value="red" style="color:red">Red
+					<option value="blue" style="color:blue">Blue
+					<option value="gray" style="color:gray">Gray
+					<option value="green" style="color:green">Green
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Border Size</b>
+			</td>
+			<td>
+				<input type="text" name="table_border" size="5" style="border:1px solid black;">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Table Spacing</b>
+			</td>
+			<td>
+				<input type="text" name="table_cellspacing" size="5" style="border:1px solid black;">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Table Padding</b>
+			</td>
+			<td>
+				<input type="text" name="table_cellpadding" size="5" style="border:1px solid black;">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Table Width</b>
+			</td>
+			<td>
+				<input type="text" name="table_width" size="5" style="border:1px solid black;">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Table Height</b>
+			</td>
+			<td>
+				<input type="text" name="table_height" size="5" style="border:1px solid black;">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Vertical Alignment</b>
+			</td>
+			<td>
+				<select name="table_valign" style="width:150">
+					<option value="current" selected>Current Value</option>
+					<option value="top">Top</option>
+					<option value="bottom">Bottom</option>
+					<option value="middle">Middle</option>
+					<option value="baseline">Base Line</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Horizontal Alignment</b>
+			</td>
+			<td>
+				<select name="table_align" style="width:150">
+					<option value="current" selected>Current Value</option>
+					<option value="left">Left</option>
+					<option value="center">Center</option>
+					<option value="right">Right</option>
+					<option value="justify">Justify</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" height="100%" valign="bottom" align="right">
+				<A href="javascript:toggle('table2')" style="color:gray;font-size:8pt"><b>More Options...</b></a>
+			</td>
+		</tr>
+	</table>
+</div>
+<div style="position:absolute;top:243" id="botm">
+<table border="0" cellpadding="0" cellspacing="0" height="40">
+	<tr>
+		<td>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</td>
+		<td bgcolor="silver" id="tdC" width="70">
+			&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:toggle('td')" id="tdA" style="color:white"><b>Cell</b></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		</td>
+		<td id="trC" width="70">
+			&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:toggle('tr')" id="trA" ><B>Row</b></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		</td>
+		<td id="tableC" width="70">
+			&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:toggle('table')" id="tableA"><B>Table</b></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		</td>
+		<td width="100%">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="5" align="center" height="100%" valign="bottom">
+			<BR>
+			<a href="javascript:apply()" class="btn"><img src="images/down.gif" border="0" align="absmiddle"></a>&nbsp;<A href="javascript:apply()" class="btn"><b>Apply</b></a>
+			
+			&nbsp;&nbsp;&nbsp;
+			<a href="javascript:self.close()" class="btn"><img src="images/delete.gif" border="0" align="absmiddle"></a>&nbsp;<A href="javascript:window.close()" class="btn"><b>Close</b></a>
+			
+		</td>
+	</tr>
+</table>
+</div>
+
+<div id="table2" style="position:absolute;visibility:hidden;">
+	<table width="330" border="0" cellpadding="0" cellspacing="3" bgcolor="silver"height="243">
+		<tr>
+			<td colspan="2" align="center" bgcolor="white" class="title"><b>More Table Properties</b></td>
+		</tr>
+		<tr>
+			<td>
+				<B>Border Color</b>
+			</td>
+			<td>
+				<select name="table_bordercolor" style="width:150;" onChange="custom_color(this.form.table_bordercolor)">
+					<option value="current" selected>Current Value</option>
+					<option value="custom">Custom Value</option>
+					<option value="">Transparent</option>
+					<option value="white" style="color:black;">White</option>
+					<option value="black" style="color:black;">Black</option>
+					<option value="silver" style="color:silver">Silver
+					<option value="navy" style="color:navy">Navy
+					<option value="maroon" style="color:maroon">Maroon
+					<option value="red" style="color:red">Red
+					<option value="blue" style="color:blue">Blue
+					<option value="gray" style="color:gray">Gray
+					<option value="green" style="color:green">Green
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Font Name</b>
+			</td>
+			<td>
+				<select name="table_fontfamily" style="width:150">
+					<option value="current" selected>Current Value</option>
+					<option value="arial,verdana,helvetica,geneva">arial,verdana,helvetica,...</option>
+					<option value="arial,helvetica">Arial</option>
+					<option value="verdana,helvetica">Verdana</option>
+					<option value="helvetica,arial">Helvetica</option>
+					<option value="geneva,arial,helvetica">Geneva</option>
+					<option value="sans-serif,arial">Sans-Serif</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Font Color</b>
+			</td>
+			<td>
+				<select name="table_fontcolor" style="width:150;" onChange="custom_color(this.form.table_fontcolor)">
+					<option value="current" selected>Current Value</option>
+					<option value="custom">Custom Value</option>
+					<option value="">Transparent</option>
+					<option value="white" style="color:black;">White</option>
+					<option value="black" style="color:black;">Black</option>
+					<option value="silver" style="color:silver">Silver
+					<option value="navy" style="color:navy">Navy
+					<option value="maroon" style="color:maroon">Maroon
+					<option value="red" style="color:red">Red
+					<option value="blue" style="color:blue">Blue
+					<option value="gray" style="color:gray">Gray
+					<option value="green" style="color:green">Green
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Font Size</b>
+			</td>
+			<td>
+				<select name="table_fontsize" style="width:150">
+					<option value="current" selected>Current Value</option>
+					<option value="10pt">10 point (recommended)</option>
+					<option value="8pt">8 point</option>
+					<option value="12pt">12 point</option>
+					<option value="14pt">14 point</option>
+					
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<B>Style (CSS)</b>
+			</td>
+			<td>
+				<input type="text" name="table_style" size="15" style="width:150;border:1px solid black">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" height="100%">
+				&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" height="100%">
+				&nbsp;
+			</td>
+		</tr>
+	</table>
+</div>
+
+</span>
+</form>
+</body>
+</html>

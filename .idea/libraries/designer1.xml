@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="designer1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/docs/designer/foxtrot.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/docs/designer/syntax.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/docs/designer/looks.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/docs/designer/designer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/docs/designer/forms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/docs/designer/jgraph.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

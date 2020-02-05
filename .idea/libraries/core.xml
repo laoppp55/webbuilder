@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="core">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/core/propertyset-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/core/commons-logging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/core/oscore-2.2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

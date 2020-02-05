@@ -1,0 +1,199 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>问吧 > 问吧 > 中国劳动法务网</title>
+<META content="" name=keywords>
+<META content="" name=description>
+<META http-equiv=Content-Type content="text/html; charset=gb2312"><LINK 
+href="/images/css.css" type=text/css rel=stylesheet><LINK 
+href="/images/hr-low.css" type=text/css rel=stylesheet>
+<META content="MSHTML 6.00.3790.4589" name=GENERATOR>
+<SCRIPT language=javascript>
+ function temail()
+{
+　var mail=document.getElementById("mail").value;
+    falg=(new RegExp(/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/).test(mail));
+   if(falg)
+    {
+     
+                                             var objXml;
+                 if(window.ActiveXObject)
+                 {
+                    objXml = new ActiveXObject("Microsoft.XMLHTTP");
+                 }
+                 else if(window.XMLHttpRequest)
+                 {
+                     objXml = new XMLHttpRequest();
+                 }
+                objXml.open("POST", "/articleemail.jsp?email="+mail+"&articleid="+195142+"&title=问吧", false);
+                objXml.send(null);
+                   var retstr = objXml.responseText;
+                   
+                if (retstr.indexOf("false")!=-1)
+                {
+                                  alert("对不起发送失败");
+                                 return;
+                }
+                else{
+                     alert("已经发送到您的邮箱中");
+                 }
+    }
+   else{
+                      alert("邮箱格式不正确，请重新输入");
+        }
+}
+function doZoom(size){
+ document.getElementById("content").style.fontSize=size+'px';
+}
+         function checkjurisdiction(){
+        var objXmlss;
+if(window.ActiveXObject)
+{
+objXmlss = new ActiveXObject("Microsoft.XMLHTTP");
+}
+else if(window.XMLHttpRequest)
+{
+objXmlss = new XMLHttpRequest();
+}
+  objXmlss.open("POST", "/updateonclicknum.jsp?email="+mail+"&articleid="+195142+"&title=问吧", false);
+objXmlss.send(null);
+       var xmlhttp;
+       if (window.ActiveXObject)
+              {
+                  xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+              }
+              else if (window.XMLHttpRequest)
+              {
+                  xmlhttp = new XMLHttpRequest();
+              }
+       xmlhttp.open("POST","http://www.hrlaw.com.cn/docheckzhuce.jsp",false);
+       xmlhttp.send(null);
+       var retstr = xmlhttp.responseText.replace(/\s/ig,'');
+       //var retstr = xmlhttp.responseText;
+       if(retstr=="nologin"){ 
+       alert('您还没有登录，请你登录后再查看此信息！');
+               window.location="/login.jsp?id=195142";
+        }else if(retstr=="login"){
+        document.getElementById("s").style.display="";
+       }
+document.getElementById("tagsss").contentWindow.document.body.scrollHeight
+document.getElementById("tagsss").style.height = document.getElementById("tagsss").contentWindow.document.body.scrollHeight + "px";
+      }
+</SCRIPT>
+</HEAD>
+<BODY onload=checkjurisdiction()>
+<DIV id=s style="DISPLAY: none"><!--#include virtual="/include/laodongtop.shtml"--><TABLE cellSpacing=0 cellPadding=0 width=980 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD bgColor=#eeeeee height=30>&nbsp;<SPAN 
+      class=ju-bookname-lj>您目前的位置</SPAN>：<a href=/index.shtml>中国劳动法务网</a>-<A HREF=></A>-问吧</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width=1 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD><IMG height=8 src="/images/bai.gif" 
+      width=1></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width=980 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <TABLE class=huibian cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD class=bian-gra-de-lj>
+            <TABLE cellSpacing=0 cellPadding=0 width=1 align=center border=0>
+              <TBODY>
+              <TR>
+                <TD><IMG height=8 
+                  src="/images/bai.gif" 
+              width=1></TD></TR></TBODY></TABLE>
+            <TABLE cellSpacing=0 cellPadding=0 width=820 align=center 
+              border=0><TBODY>
+              <TR>
+                <TD align=middle height=50><A class=link-18-blue 
+                  href="http://www.hrlaw.com.cn/anli/anlizhaopin/20081107/172330.shtml#">问吧</A></TD></TR>
+              <TR>
+                <TD bgColor=#515151><IMG height=1 
+                  src="/images/bai.gif" 
+              width=1></TD></TR></TBODY></TABLE>
+            <TABLE cellSpacing=0 cellPadding=0 width=820 align=center 
+              border=0><TBODY>
+              <TR>
+                <TD bgColor=#515151><IMG height=1 
+                  src="/images/bai.gif" 
+              width=1></TD></TR>
+              <TR>
+                <TD align=middle 
+                  height=25>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发布日期:&nbsp;2008-12-14 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;来源：&nbsp;&nbsp; 
+                  &nbsp;[ 字号：<A class=blue1 
+                  href="javascript:doZoom(16)"><U>大</U></A> <A class=blue1 
+                  href="javascript:doZoom(14)"><U>中</U></A> <A class=blue1 
+                  href="javascript:doZoom(12)"><U>小</U></A>&nbsp;&nbsp; <A 
+                  class=blue1 href="javascript:window.print()"><U>打印</U></A> ] 
+                </TD></TR>
+              <TR>
+                <TD>
+                  <P><FONT id=content>　　<BR>
+                  <P>
+    </P>
+                  <P>&nbsp;&nbsp;&nbsp;&nbsp; </P></FONT>
+                  <P></P>
+                  <P>
+                  <TABLE cellSpacing=1 cellPadding=1 width="100%" border=0>
+                    <TBODY>
+                    <TR>
+                      <TD></TD>
+                      <TD>
+                        <P align=center></P></TD>
+                      <TD></TD></TR></TBODY></TABLE></P>
+                  <TABLE cellSpacing=1 cellPadding=1 width="100%" border=0>
+                    <TBODY>
+                    <TR>
+                      <TD align=left width="33%"><A 
+                        href="/shoucang.jsp?id=195142&amp;type=2">放入收藏夹</A></TD>
+                      <TD align=middle><A 
+                        href="/mobile/getcaixindowns.jsp?id=195142&amp;title=问吧" 
+                        target=_blank><IMG 
+                        src="/images/shoujisss.gif" 
+                        border=0></A></TD>
+                      <TD align=right width="33%">[Email推荐：<INPUT 
+                        class=us-name id=mail size=18 name=textfield> <A 
+                        href="javascript:temail()">提交</A>]</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+            <TABLE cellSpacing=0 cellPadding=0 width=820 align=center 
+              border=0><TBODY>
+              <TR>
+                <TD class=black16 align=middle height=40></TD></TR>
+              <TR>
+                <TD bgColor=#515151><IMG height=1 
+                  src="/images/bai.gif" 
+              width=1></TD></TR>
+              <TR>
+                <TD>相关文章</TD></TR>
+              <TR>
+                <TD>
+                  <TABLE cellSpacing=0 cellPadding=3 width="100%" border=0>
+                    <TBODY></TBODY></TABLE><TABLE cellSpacing=0 cellPadding=3 width="100%" border=0>
+  <TBODY>
+
+</TBODY></TABLE></TD></TR>
+              <TR>
+                <TD bgColor=#515151><IMG height=1 
+                  src="/images/bai.gif" 
+              width=1></TD></TR>
+              <TR>
+                <TD align=middle height=25></TD></TR>
+              <TR>
+                <TD class=unnamed5><IFRAME id=tagsss name=tag 
+                  src="/pinglun.jsp?articleid=195142" 
+                  frameBorder=0 width=820 
+            scrolling=no></IFRAME></TD></TR></TBODY></TABLE>
+            <P></P>
+            <TABLE cellSpacing=0 cellPadding=0 width=1 align=center border=0>
+              <TBODY>
+              <TR>
+                <TD><IMG height=8 
+                  src="/images/bai.gif" 
+              width=1></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!--#include virtual="/include/low.shtml"--><TABLE cellSpacing=0 cellPadding=0 width=980 bgColor=#d0d2d6 border=0>
+  <TBODY>
+  <TR>
+    <TD><IMG height=1 src="/images/space.gif" 
+      width=1></TD></TR></TBODY></TABLE>
+<DIV></DIV></IFRAME></TR></TBODY></TABLE></TR></TBODY></TABLE></TR></TBODY></TABLE></IFRAME></TR></TBODY></TABLE></TR></TBODY></TABLE></TR></TBODY></TABLE></IFRAME></TR></TBODY></TABLE></TR></TBODY></TABLE></TR></TBODY></TABLE>
+<DIV></DIV></DIV></BODY></HTML>

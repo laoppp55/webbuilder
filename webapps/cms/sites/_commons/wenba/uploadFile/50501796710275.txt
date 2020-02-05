@@ -1,0 +1,4 @@
+/images/wen_ba_r2_c2.jpg
+
+<%@ include file="/include/laodongtop.shtml" %>
+<%@ include file="/include/laodongtop.shtml" %>

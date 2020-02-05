@@ -1,0 +1,11 @@
+/images/wen_ba_r2_c2.jpg
+
+<%@ include file="/include/laodongtop.shtml" %>
+<%@ include file="/include/laodongtop.shtml" %>
+
+var pos = str.lastIndexOf(".");
+var lastname = str.substring(pos,str.length)
+if (lastname.toLowerCase()!=".jpg" && lastname.toLowerCase()!=".gif")
+
+http://www.gdmoa.org/webbuilder/
+gdmoadc/111111

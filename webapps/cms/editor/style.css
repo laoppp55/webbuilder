@@ -1,0 +1,31 @@
+#container, #content { margin: 0.0 auto; width: 700px }
+#container, #content, #content h2, #content p, #footer, #footerAbove, #header, #nav, #nav ul, #navBelow, #r, body { padding: 0.0 }
+#container, #footer, #footerAbove, #nav, #r, body { text-align: center }
+#content { text-align: left }
+#content h2 { border-bottom: 3px solid #960c19; font-size: 1.0em; font-variant: small-caps; text-indent: 0.1em }
+#content h2, #footer, #header, #nav, #nav li, #nav ul, #navBelow, #r, body { margin: 0.0 }
+#content p { margin: 0.0 0.0 1.0em 0.0; text-align: justify }
+#footer { background-color: #960c19 }
+#footer a { color: #ffffff }
+#footer a:hover, #nav li a, a, h1 a { text-decoration: none }
+#footer p, #nav li a { color: #f3f3f3 }
+#footer, #footerAbove, #header, #nav, #nav ul, #navBelow, #r { width: 100.0% }
+#footerAbove { margin-bottom: -13px }
+#navBelow, #r { height: 2px }
+#footerAbove, #r { background-color: #965A48 }
+#header { background-color: #E3886D; height: 26px }
+#header h1 { color: #960C19; font-family: tahoma; font-size: 34px; letter-spacing: -1px }
+#header h1, #nav li { display: inline }
+#nav { background-color: #960C19 }
+#nav li { padding: 1.5em }
+#nav li a:hover { border-bottom: 3px solid #f3f3f3 }
+#nav ul { height: 30px; list-style-type: none }
+#navBelow { background-color: #969696 }
+#white { background-color: #ffffff }
+a { color: #996666 }
+a:hover { text-decoration: underline }
+body { background: url("background.gif"); font: normal 11px / 24px Verdana , Arial , Helvetica , sans-serif }
+h1 a { color: inherit }
+.img, .profile-img img { border: 1px solid #965A48; float: right; margin: 15px; padding: 5px }
+#left { float: left; height: 250px; width: 300px; }
+#right{ float: right; height: 250px; width: 300px; }

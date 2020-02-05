@@ -1,0 +1,69 @@
+body{ background:url(../images/zhuce_bg_minsu.jpg) top center no-repeat; margin:0 auto; padding:0px;font-family:"Microsoft YaHei"}
+ol,ul,dl,dt,dd,li,p,form,label,input { margin:0;padding:0; list-style-type:none; }
+h1,h2,h3,h4{ padding:0px; margin:0px; line-height:100%;}
+div,ul {display:block;}
+a img,img{border:0;}
+a{ text-decoration:none; color:#333333;}
+.clear { clear:both;}
+
+.box{ width:954px; margin:0 auto;}
+.top{ width:954px; margin-top:36px;}
+.logo{ width:325px; float:left; height:50px; text-align:left;}
+.menu{ width:430px; float:left; height:25px; padding-top:25px;}
+.menu a{ font-size:18px;color:#ffffff; margin-right:20px;}
+.menu a:link,.menu a:visited,.menu a:hover{ color:#ffffff;}
+.login{ width:190px; float:left; text-align:right; font-size:12px;font-family:"SimSun"; color:#ffffff;}
+.login a:link,.login a:visited,.login a:hover{ color:#ffffff;}
+.login_con{ width:954px;}
+.login_con1{ width:954px; background:url(../images/20150527_83.jpg) center no-repeat; padding-top:20px; padding-bottom:43px;}
+
+/******  login end ******/
+
+.login_con_11{ width:303px; padding-left:174px; height:380px; border-right:1px solid #b6b5b5; float:left; text-align:left;}
+.login_con_22{ width:301px; padding-left:174px; height:380px; float:left; text-align:left;}
+.login_con_33{ width:447px; padding-left:30px; border-right:1px solid #b6b5b5; float:left; text-align:left;}
+.login_con_44{ width:410px; padding-left:60px;height:310px; padding-top:70px; float:left; text-align:left;}
+
+.zhuce_1{ width:132px; text-align:center;}
+.zhuce_bt{ width:132px; text-align:center; font-size:24px; color:#2c98d6; line-height:60px;}
+.zhuce_bt img{ margin-top:15px;}
+.zhuce_2{ width:117px; padding-left:15px;}
+.zhuce_2 ul{ margin:0px; padding:0px;}
+.zhuce_2 ul li{ background:url(../images/20150527_82.jpg) left no-repeat; width:105px; padding-left:12px; font-size:14px; color:#000000;font-family:"SimSun"; height:30px; line-height:30px;}
+.hyzc{ width:427px; height:47px; line-height:47px; background-color:#f7f7f7; font-size:18px; color:#5d5d5d; text-align:center; margin-bottom:20px;}
+.gaze_1229{ width:427px; float:left; text-align:center; color:#666666; padding-bottom:20px;}
+.gaze_1229 span{ color:#ff0000;}
+
+.zc_bd{ width:427px;}
+.zc_bd_1{ width:134px; text-align:right; padding-right:5px; float:left; font-size:14px; color:#666666;}
+.zc_bd_1 span{ color:#FF0000;}
+
+.zc_bd_2{ width:280px; float:left;font-size:12px;font-family:"SimSun";color:#666666; line-height:28px;}
+.zc_btn{ background:none; border:1px solid #b6b5b5; height:25px; line-height:25px; color:#666666; width:270px; }
+
+.zc_bd_3{ width:327px; padding-left:100px; float:left;font-size:12px;font-family:"SimSun";color:#666666;}
+.zc_bd_3 span{ color:#26afff;}
+.zc_bd_3 img{ margin-top:10px;}
+
+.zc_bd_4{ width:212px; float:left;font-size:12px;font-family:"SimSun";color:#666666;}
+.zc_bd_4 .zc_btn{ background:none; border:1px solid #b6b5b5; height:25px; line-height:25px; color:#666666; width:200px;}
+.zc_bd_5{width:58px;float:left;font-size:12px;font-family:"SimSun";color:#666666;}
+.zc_bd_5 input{ background-color:#d52b2a; color:#FFFFFF; width:58px; height:25px; border:none; cursor:pointer; font-family:"Microsoft YaHei"; font-size:14px;}
+
+.zc_bd_6{ width:115px; float:left;font-size:12px;font-family:"SimSun";color:#666666;}
+.zc_bd_6 .zc_btn{ background:none; border:1px solid #b6b5b5; height:25px; line-height:25px; color:#666666; width:105px;}
+.zc_bd_7{ width:170px; float:left;font-size:12px;font-family:"SimSun";color:#666666;}
+.zc_msc{font-size: 12px;color: red;padding-left: 139px; width:288px;line-height: 28px; height:23px;}
+
+.yyzh{ width:400px; font-size:22px; color:#666666;}
+.yyzh_1{ width:400px; padding:15px 0px;}
+.yyzh_1 img{ margin-right:15px;}
+.again_login{ background:url(../images/20151229.png) no-repeat; width:122px; height:35px; border:none; color:#FFFFFF; cursor:pointer;  font-family:"Microsoft YaHei"; font-size:20px; margin-left:15px;}
+
+
+
+.bg3{ width:100%; height:120px; border-top:1px solid #cccccc; background-color:#efefef; margin-top:25px;}
+.footer{ width:1000px; margin:0 auto;font-family:"Microsoft YaHei"}
+.footer_sub{ width:1000px; text-align:center; padding:25px 0px; font-size:14px; color:#333333;}
+.footer_sub a:link,.footer_sub a:visited,.footer_sub a:hover{ color:#333333;}
+.footer_p{width:1000px; text-align:center;font-size:14px; color:#333333;}

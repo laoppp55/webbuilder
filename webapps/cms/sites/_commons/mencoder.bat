@@ -1,0 +1,1 @@
+mencoder.exe %1 -o %2 -lavfopts i_certify_that_my_video_stream_does_not_use_b_frames -of lavf -oac mp3lame -lameopts abr:br=56 -ovc lavc -lavcopts vcodec=flv:vbitrate=1000:mbd=2:mv0:trell:v4mv:cbp:last_pred=3:dia=4:cmp=3:vb_strategy=1 -vf scale=320:240,expand=320:240:::1,crop=320:240:0:0 -ofps 30 -srate 22050

@@ -1,0 +1,144 @@
+
+<ul class="g-nav f-clear">
+	<li><a href="/">网站首页</a></li>
+	<li><a class="u-nav-links" href="/zwgk/" target="_blank">政务公开</a>
+	<div class="m-nav-secondary">
+	<ul class="u-nav-ywdt f-clear">
+		<li><a href="/zwgk/ldbz/quwei/" target="_blank">领导班子</a></li>
+		<li><a href="/zwgk/zzjg/" target="_blank">机构职能</a></li>
+		<li><a href="/zwgk/rsxx/" target="_blank">人事信息</a></li>
+		<li><a href="/zwgk/zcwj/qzfwj/" target="_blank">政策文件</a></li>
+		<li><a href="/zwgk/zcjd/" target="_blank">政策解读</a></li>
+		<li><a href="/zwgk/sjgk/" target="_blank">审计公开</a></li>
+		<li><a href="/zwgk/zfbg/" target="_blank">政府报告</a></li>
+	</ul>
+	</div>
+	</li>
+	<li><a class="u-nav-links" href="/wsbs/" target="_blank">网上办事</a></li>
+	<li><a class="u-nav-links" href="/zmhd/" target="_blank">政民互动</a>
+	<div class="m-nav-secondary">
+	<ul class="u-nav-zcwj f-clear">
+		<li><a href="/zmhd/bmdh/" target="_blank">政府服务热线</a></li>
+		<li><a href="/zmhd/xzts/" target="_blank">行政投诉</a></li>
+		<li><a href="/zmhd/lxxd/" target="_blank">来信选登</a></li>
+		<li><a href="/zmhd/jjxf/" target="_blank">纪检信访</a></li>
+		<li><a href="/zmhd/cjwt/" target="_blank">常见问题</a></li>
+	</ul>
+	</div>
+	</li>
+	<li><a href="/yshj/" target="_blank">优化营商环境</a></li>
+	<li><a class="u-nav-links" href="/bxsh/" target="_blank">百姓生活</a></li>
+	<li><a class="u-nav-links" href="/zxds/" target="_blank">在线电视</a>
+	<div class="m-nav-secondary">
+	<ul class="u-nav-zwfw f-clear">
+		<li><a href="/zxds/zxft/" target="_blank">在线访谈</a></li>
+		<li><a href="/zxds/jzsx/" target="_blank">记者视线</a></li>
+		<li><a href="/zxds/lytd/" target="_blank">旅游天地</a></li>
+		<li><a href="/zxds/sthy/" target="_blank">少图花苑</a></li>
+		<li><a href="/zxds/fzjj/" target="_blank">法治聚焦</a></li>
+		<li><a href="/zxds/bxwd/" target="_blank">百姓舞台</a></li>
+		<li><a href="/zxds/ztjm/" target="_blank">专题节目</a></li>
+	</ul>
+	</div>
+	</li>
+	<li><a href="/sjsview/" target="_blank">石景山风采</a></li>
+</ul>
+<script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script><script type="text/javascript">
+   $(function(){
+            //顶通banner
+            $(".u-top-close").on("click",function(){
+                $(".g-top-banner").hide();
+            })
+
+
+            //导航
+            $(".g-nav li").on("mouseover",function(){
+                var i = $(".g-nav li").index(this);
+                $(".g-nav li").eq(i).find(".m-nav-secondary").show();
+                $(".g-nav li").eq(i).find(".u-nav-links").addClass("u-nav-select");
+            });
+            $(".g-nav li").on("mouseout",function(){
+                var i = $(".g-nav li").index(this);
+                $(".g-nav li").eq(i).find(".m-nav-secondary").hide();
+                $(".g-nav li").eq(i).find(".u-nav-links").removeClass("u-nav-select");
+            });
+
+            // 首屏要闻tab切换
+            $(".m-one-news_nav li").on("mouseover",function(){
+                var i = $(".m-one-news_nav li").index(this);
+                $(".m-one-news_nav a").eq(i).addClass("f-select").parent().siblings().find("a").removeClass("f-select");
+                $(".m-one-news ul").eq(i).addClass("f-show").siblings().removeClass("f-show");
+            });
+
+            // 首屏公开tab切换
+            $(".m-one-news_nav2 li").on("mouseover",function(){
+                var i = $(".m-one-news_nav2 li").index(this);
+                $(".m-one-news_nav2 a").eq(i).addClass("f-select").parent().siblings().find("a").removeClass("f-select");
+                $(".m-one-news2 ul").eq(i).addClass("f-show").siblings().removeClass("f-show");
+            });
+            //公开-政策版块
+            $(".zcSearch_title li").click(function(){
+                $(this).addClass("on").siblings("li").removeClass("on");
+                $(".m-zcSearch .zcSearch_con").eq($(this).index()).show().siblings("div").hide();
+            });
+            var numChoice1=1,numChoice2=1,numChoice3=1,numChoice4=1;
+            function changeFun(docU, docD, Num){
+                docU.on("click", function(){
+                    var _top = $(this).parent().find("ul").css("top");
+                    if (_top < "0px") {
+                        $(this).parent().find("ul").stop().animate({top:"+=34px"},100);
+                    }
+                    Num--;
+                    // console.log(Num);
+                    if (Num <= 1) {
+                        Num = 1;
+                        $(this).addClass("disabled");
+                    } else {
+                        $(this).removeClass("disabled");
+                    }
+
+                    var valueTxt = $(this).siblings(".woshi_Box").find("li").eq(Num).html();
+                    // console.log(valueTxt);
+                    if (valueTxt == "全部") {
+                        $(this).siblings(".woshi_Box").find("input").val("");
+                    } else {
+                        $(this).siblings(".woshi_Box").find("input").val(valueTxt);
+                    }
+                });
+                docD.on("click", function(){
+                    var _topNum = Math.abs(parseInt($(this).parent().find("ul").css("top")));
+                    var _height = $(this).parent().find("ul").height();
+                    var Dvalue = _height-_topNum;
+                    if (Dvalue > 102) {
+                        $(this).parent().find("ul").stop().animate({top:"-=34px"},100);
+                        Num++;
+                    }
+                    // console.log(Num);
+                    if (Num > 0) {
+                        $(".zc_up_btn").removeClass("disabled");
+                    }
+                    var valueTxt = $(this).siblings(".woshi_Box").find("li").eq(Num).html();
+                    $(this).siblings(".woshi_Box").find("input").val(valueTxt);
+                });
+            }
+            changeFun($("#zc_up_btn1"),$("#zc_down_btn1"),numChoice1);
+            changeFun($("#zc_up_btn2"),$("#zc_down_btn2"),numChoice2);
+            changeFun($("#zc_up_btn3"),$("#zc_down_btn3"),numChoice3);
+            changeFun($("#zc_up_btn4"),$("#zc_down_btn4"),numChoice4);
+
+
+            // 首屏三张图
+            var _one_imgs = $(".m-one-photo-box img").length;
+            switch(_one_imgs){
+                case 1:
+                    $(".m-one-photo-box img").css({"width":"1160px"});
+                    break;
+                case 3:
+                    $(".m-one-photo-box img").css({"width":"376px"});
+                    break;
+                default:
+                    return false;
+            }
+
+         });  
+    </script>

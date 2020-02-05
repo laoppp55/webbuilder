@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding:0
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{ text-decoration:none;}
+img{
+    border:none;
+}
+i{
+    font-style: normal;
+}
+/*清除浮动*/
+.clear_both{
+    clear: both;
+}
+/*多余字符串省略号代替*/
+.box-ellipsis{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.c-blue{
+    color: #4289da;
+}
+.c-yellow{
+    color: #ef7800 !important;
+}
+body{
+    background-color: #dcdcdc;
+}
+.page-auto{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}

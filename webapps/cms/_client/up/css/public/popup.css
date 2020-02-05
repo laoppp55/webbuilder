@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.shade {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    filter: alpha(opacity=40);
+    -moz-opacity: 0.4;
+    opacity: 0.4;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    display: none;
+    z-index: 10;
+}
+
+.windowcontent {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: none;
+    z-index: 15;
+ /*   background-color: #EEEEEE;*/
+    background-color: #ffffff;
+    border: 1px solid #cdcdcd;
+}
+
+.windowcontent-a {
+    width: 1000px;
+    height: 600px;
+    margin-left: -500px;
+    margin-top: -300px;
+}
+
+.windowcontent-b {
+    width: 800px;
+    height: 500px;
+    margin-left: -400px;
+    margin-top: -250px;
+}
+
+.windowcontent-c {
+    width: 600px;
+    height: 200px;
+    margin-left: -300px;
+    margin-top: -100px;
+}
+
+.window-title {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #0083cd;
+    color: #fff;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+
+.btclose {
+    width: 10px;
+    height: 10px;
+    background: url("../../img/public/icon_delete_white.png");
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    cursor: pointer;
+}
+
+/* .window-content{
+	border:1px solid red;
+	width:800px;
+	height:460px;
+	overflow:scroll;
+	margin:20px auto 0;
+} */
+.window-bbox {
+    width: 186px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -93px;
+    text-align: center;
+}
+
+.window-sure, .window-cancel {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 15px;
+    padding: 0 15px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #ef7900;
+    border-radius: 15px;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+}

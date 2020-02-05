@@ -1,0 +1,81 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:context="http://www.springframework.org/schema/context"
+xmlns:aop="http://www.springframework.org/schema/aop"
+xmlns:tx="http://www.springframework.org/schema/tx"
+xmlns:mvc="http://www.springframework.org/schema/mvc"
+xmlns:p="http://www.springframework.org/schema/p"
+xsi:schemaLocation="http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+http://www.springframework.org/schema/context 
+http://www.springframework.org/schema/context/spring-context-4.2.xsd
+http://www.springframework.org/schema/aop
+http://www.springframework.org/schema/aop/spring-aop-4.2.xsd
+http://www.springframework.org/schema/tx 
+http://www.springframework.org/schema/tx/spring-tx-4.2.xsd
+http://www.springframework.org/schema/mvc 
+http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd">
+
+<!--加载配置文件  -->
+<context:property-placeholder location="classpath:db.properties"/>
+
+<!-- transaction manager, use JtaTransactionManager for global tx -->
+<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+     <property name="dataSource" ref="myDataSource" />
+</bean>
+
+<!-- enable component scanning (beware that this does not enable mapper scanning!) -->
+<!--context:component-scan base-package="org.mybatis.jpetstore.service" /-->
+
+<!-- enable autowire -->
+<context:annotation-config />
+
+<!-- enable transaction demarcation with annotations -->
+<tx:annotation-driven transaction-manager="transactionManager"/>
+
+<!--配置数据源 
+使用第三方数据源
+也可以使用dbcp
+或者 spring自带的:org.springframework.jdbc.datasource.DriverManagerDataSource
+ -->
+<bean id="myDataSource" class="com.jolbox.bonecp.BoneCPDataSource" destroy-method="close">
+     <!--加载数据库驱动  -->
+     <property name="driverClass" value="${driverClass}"/>
+     <!--连接数据库的URL  -->
+     <property name="jdbcUrl" value="#{jdbcUrl}"/>
+     <!--连接数据库的用户名和密码  -->
+     <property name="user" value="${user}"/>
+     <property name="password" value="${password}"/>
+     <property name="IdleConnectionTestPeriodInMinutes" value="{IdleConnectionTestPeriodInMinutes}"/>
+     <property name="idleMaxAgeInMinutes" value="{idleMaxAgeInMinutes}"/>
+     <!-- 连接池中保留的最小连接数 -->
+     <property name="minPoolSize" value="${minPoolSize}"/>
+     <!-- 连接池中保留的最大连接数 -->
+     <property name="maxPoolSize" value="${maxPoolSize}"/>
+     <!-- 最大空闲时间 -->
+     <property name="maxIdletime" value="${maxIdletime}"/>
+     <!--当连接池中的连接耗尽的时候c3p0一次同时获取的连接数。Default: 3  -->
+     <property name="acquireIncrement" value="${acquireIncrement}"/>
+     <!--连接池中初始化连接数  应在minPoolSize与maxPoolSize之间取值。默认为3-->
+     <property name="initialPoolSize" value="${initialPoolSize}"/>
+     <property name="partitionCount" value="{partitionCount}"/>
+     <property name="statementsCacheSize" value="{statementsCacheSize}"/>
+     <property name="releaseHelperThreads" value="{releaseHelperThreads}"/>
+     <property name="logStatementsEnabled"  value="{logStatementsEnabled}"/>
+</bean>
+
+<!--配置SqlSessionFacotry  在mybatis-spring包中-->
+<!--bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+     <property name="dataSource" ref="myDataSource" />
+     <property name="typeAliasesPackage" value="com.bizwink.po" />
+</bean-->
+
+<!-- 注册Mapper方式二：也可不指定特定mapper，而使用自动扫描包的方式来注册各种Mapper ，配置如下：-->
+<!--bean class="org.mybatis.spring.mapper.MapperScannerConfigurer" p:basePackage="com.bizwink.persistence"/-->
+
+<!-- 将mybatis的配置文件注入-->
+<property name="configLocation" value="configuration.xml"/>
+
+<!-- enable component scanning (beware that this does not enable mapper scanning!) -->
+<context:component-scan base-package="com.bizwink.service" />       
+</bean>

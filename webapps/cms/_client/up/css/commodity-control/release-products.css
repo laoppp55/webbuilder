@@ -1,0 +1,146 @@
+ .info-title {
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    background-color: #f1f1f5;
+}
+ .info-title span {
+     margin: 0 4px;
+     padding-left: 10px;
+     border-left: 3px solid #666;
+}
+ .info-title a {
+     color: #666;
+     font-size: 14px;
+     font-weight: 600;
+}
+ .info-content {
+    min-height: 600px;
+    color: #333;
+    font-size: 12px;
+    width: 1108px;
+    padding: 20px;
+    border: 1px solid #eeeeee;
+    border-bottom: none;
+    background-color: #fff;
+}
+ .info-content .f-yellow {
+    color: #ff0000;
+}
+
+/*图片上传*/
+.info-content ul {
+    width: 840px;
+    margin: 0 auto;
+}
+
+.info-content ul li {
+    height: 30px;
+    line-height: 30px;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.info-content .describe-li {
+    height: 200px;
+}
+
+.info-content .describe-li textarea {
+    width: 688px;
+    height: 180px;
+    line-height: 22px;
+    padding-left: 10px;
+    border: 1px solid #e3e3e3;
+    vertical-align: text-top;
+    resize: none;
+}
+
+.info-content ul li .text-error {
+    position: absolute;
+    left: 143px;
+    bottom: -2px;
+    color: red;
+}
+
+.info-content ul .form-key {
+    margin-right: 18px;
+    text-align: right;
+    display: inline-block;
+    width: 98px;
+}
+
+.info-content ul .span-sex {
+    margin-right: 40px;
+}
+
+.info-content ul input[type="text"] {
+    width: 288px;
+    height: 14px;
+    padding: 7px 0 7px 10px;
+    border: 1px solid #e3e3e3;
+}
+
+.info-content .upload-book {
+    height: 130px;
+}
+
+.info-content .upload-book .upload-book-box {
+    display: inline-block;
+    position: relative;
+}
+
+.info-content .upload-book img {
+    vertical-align: top;
+}
+
+.info-content .upload-book .pre-btn {
+    position: absolute;
+    left: 128px;
+    top: 30px;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #eeeeee;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+    color: #ef7800;
+    cursor: pointer;
+}
+
+.info-content .upload-book input {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: #000;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.info-content .submit {
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #ef7800;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.info-content .submit a {
+    color: #fff;
+}
+
+#preview {
+    width: 98px;
+    height: 98px;
+    border: 1px solid #dcdcdc;
+}
+
+#imghead {
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);
+}

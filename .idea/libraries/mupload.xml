@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="mupload">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/webapps/cms/mupload/mupload.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webapps/cms/mupload/mjc-mupload.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

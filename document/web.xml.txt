@@ -1,0 +1,111 @@
+    <servlet>
+        <servlet-name>multipartformserv</servlet-name>
+        <servlet-class>com.bizwink.upload.MultipartFormServ</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>serverthreaded</servlet-name>
+        <servlet-class>com.bizwink.net.ftp.ServerThreaded</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>autopubapp</servlet-name>
+        <servlet-class>com.bizwink.cms.publishx.AutoPubApp</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>multipartformserv</servlet-name>
+        <url-pattern>/multipartformserv</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>serverthreaded</servlet-name>
+        <url-pattern>/serverthreaded</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>autopubapp</servlet-name>
+        <url-pattern>/autopubapp</url-pattern>
+    </servlet-mapping>
+    
+    <taglib>
+        <taglib-uri>/FCKeditor</taglib-uri>
+        <taglib-location>/fckeditor/WEB-INF/FCKeditor.tld</taglib-location>
+    </taglib>
+
+    <!--axis web service -->
+    <display-name>Apache-Axis</display-name>
+    <listener>
+        <listener-class>org.apache.axis.transport.http.AxisHTTPSessionListener</listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>AxisServlet</servlet-name>
+        <display-name>Apache-Axis Servlet</display-name>
+        <servlet-class>
+            org.apache.axis.transport.http.AxisServlet
+        </servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>AdminServlet</servlet-name>
+        <display-name>Axis Admin Servlet</display-name>
+        <servlet-class>
+            org.apache.axis.transport.http.AdminServlet
+        </servlet-class>
+        <load-on-startup>100</load-on-startup>
+    </servlet>
+
+    <servlet>
+        <servlet-name>SOAPMonitorService</servlet-name>
+        <display-name>SOAPMonitorService</display-name>
+        <servlet-class>
+            org.apache.axis.monitor.SOAPMonitorService
+        </servlet-class>
+        <init-param>
+            <param-name>SOAPMonitorPort</param-name>
+            <param-value>5001</param-value>
+        </init-param>
+        <load-on-startup>100</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AxisServlet</servlet-name>
+        <url-pattern>/servlet/AxisServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>AxisServlet</servlet-name>
+        <url-pattern>*.jws</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>AxisServlet</servlet-name>
+        <url-pattern>/services/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SOAPMonitorService</servlet-name>
+        <url-pattern>/SOAPMonitor</url-pattern>
+    </servlet-mapping>
+
+    <session-config>
+        <session-timeout>5</session-timeout>
+    </session-config>
+
+    <mime-mapping>
+        <extension>wsdl</extension>
+        <mime-type>text/xml</mime-type>
+    </mime-mapping>
+    
+    <mime-mapping>
+        <extension>xsd</extension>
+        <mime-type>text/xml</mime-type>
+    </mime-mapping>
+
+    <!--define the workflow-->
+    <display-name>CMS Workflow</display-name>
+    <servlet>
+        <servlet-name>SOAPWorkflow</servlet-name>
+        <servlet-class>com.opensymphony.workflow.soap.SOAPWorkflowServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SOAPWorkflow</servlet-name>
+        <url-pattern>/soap/*</url-pattern>
+    </servlet-mapping>

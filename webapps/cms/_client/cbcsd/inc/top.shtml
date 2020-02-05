@@ -1,0 +1,19 @@
+<div class="top">
+    <div class="top_in">
+        <div class="top_in_txt">您好！欢迎来到全球治理和企业发展数据平台！</div>
+        <div class="top_in_login" id="userInfos">
+            <form name="loginForm">
+                <input class="txt" name="userid" type="text" />
+                <input class="txt" type="password" name="passwd" />
+                <input class="btn" type="button" name="" onclick="javascript:doLogin();" value="登录" />
+                <input class="btn" type="button" onclick="javascript:doRegister(800,1000);" value="注册" />
+            </form>
+        </div>
+    </div>
+</div>
+<div class="top_mid">
+    <div class="logo"><img alt="" width="510" height="80" src="/images/logo.jpg" /></div>
+    <form id="form1" method="post" action="/sitesearch/sitesearch" name="form1">
+        <div class="top_mid_search"><input class="txt" name="searchWord" type="text" /><input id="pagesize" type="hidden" value="50" /><input class="btn" type="submit" name="" value="搜索" /></div>
+    </form>
+</div>

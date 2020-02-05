@@ -1,0 +1,293 @@
+create table tbl_sites_number (
+        ipaddress varchar(15),
+	sitesnum int,
+	hashcode int,
+        primary key (ipaddress)
+);
+
+insert into tbl_sites_number(ipaddress,sitesnum,hashcode) values('127.0.0.1',18,0);
+
+
+insert into tbl_right values(57,'留言板管理','LYB','留言板管理');
+insert into tbl_right values(58,'网上调查','SW','网上调查');
+insert into tbl_right values(59,'注册用户管理','RU','注册用户管理');
+insert into tbl_right values(60,'企业注册用户管理','ERU','企业注册用户管理');
+insert into tbl_right values(61,'工作日管理','WD','工作日管理');
+insert into tbl_right values(62,'业务审批结果','YWR','业务审批结果');
+
+
+create table tbl_role (
+	roleid			int      		not null,
+	rolename		varchar(30)		not null,
+	rolecat		        varchar(30),
+	roledesc		varchar(100),
+        primary key (roleid)
+);
+
+insert into tbl_role values(0,'信息员','XXY','负责向网站录入信息');
+insert into tbl_role values(1,'部门领导','BML','录入信息的审核');
+insert into tbl_role values(2,'主管领导','ZGL','录入信息的审核');
+insert into tbl_role values(3,'系统管理员','SM','超级系统管理员');
+insert into tbl_role values(4,'留言版管理员','LWM','留言版管理员');
+insert into tbl_role values(5,'部门留言版管理员','DLWM','部门留言版管理员');
+
+
+alter table tbl_log add
+	maintitle               varchar(600),
+	createdate              datetime;
+
+
+alter table tbl_members add
+	sex                     tinyint              default(0),      
+	country                 varchar(30),                          
+        province                varchar(50),                          
+        city                    varchar(50),                          
+        area                    varchar(50),                          
+        jiedao                  varchar(50),                          
+        shequ                   varchar(50),                          
+        postcode                varchar(6),                           
+        birthdate               datetime,                             
+        myimage                 varchar(100),                         
+        usertype                tinyint              default(0),              
+        joincompanyid           int,                                
+        joinid                  int,                                
+        dflag                   int,                                
+        createarticles	        int                  default(0),                    
+        editarticles		int                  default(0),                    
+        deletearticles	        int                  default(0),                    
+        score                   int                  default(0),
+        createdate              datetime,
+        company                 varchar(200),
+        address                 varchar(500),
+        department              varchar(50),                          
+        emailaccount            varchar(100),                         
+        emailpasswd             varchar(100),                        
+        departmentarticlestype  int                  default(0),     
+        departmentarticlesids   varchar(500);
+
+create table tbl_member_roles (
+       id                       int identity(1, 1)      not null,
+       siteid                   int                     not null,
+       userid                   varchar(30)             not null,
+       deptid                   int                     not null,      --用户所属部门ID       
+       rolename                 varchar(20)             not null,      --信息员   部门负责人   主管
+       rolelevel                tinyint,                               --角色级别 0-9
+       primary key(id)
+);
+
+
+create table tbl_member_authorized_resouce (
+       id                       int identity(1, 1)         not null,
+       siteid                   int                        not null,
+       userid                   varchar(30)                not null,
+       lwid                     int,                                     --该用户管理的留言表ID
+       lwname                   varchar(100),                             --该用户管理的留言表的名称
+       lwrole                   varchar(20),                              --留言板管理角色 是某个留言板的管理员 或是留言板的部门管理员
+       contenttype              int                         default(0),    --内容类型 0为留言板
+       primary key(id)
+);
+
+create table tbl_department (
+       id                      int identity(1, 1)       not null,
+       siteid                  int                      not null,
+       cname                   varchar(100)             not null,
+       ename                   varchar(100),
+       telephone               varchar(12),
+       manager                 varchar(50),                            --部门经理
+       vicemanager             varchar(50),                            --部门副经理
+       leader                  varchar(50),                            --部门主管领导       
+       primary key(id)
+);          
+
+create table tbl_user_articlebycolumn (
+       id                       int   identity(1, 1)    not null,
+       columnid                 int                     not null,
+       userid                   varchar(30)             not null,
+       siteid                   int                     not null,   
+       articlecount             int    default 0 ,
+       primary key(id)
+);
+
+alter table tbl_article add 
+     siteid                  int        default(0),
+     multimediatype          smallint           default(0),
+     modelID                 int,                 
+     notearticleid           int                     default(0),         --定义与该篇文章相关联的其他文章的内容，其他文章的内容可以是本页面一个标签的内容
+     vipprice                decimal(9,2),	
+     score                   int,
+     voucher                 decimal(9,2),
+     articlepic              varchar(600),
+     urltype		        smallint            default 0,
+     defineurl               varchar(200),
+     wordsnum                int                 default 0,
+     downfilename	        varchar(100),
+     beidate                 datetime,
+     salesnum                int,
+     commentnum              int                 default 0,        --文章被评论的次数
+     changepic               smallint            default 0,
+     t1                      int                 default 0,
+     t2                      int                 default 0,
+     t3                      int                 default 0,
+     t4                      int                 default 0,
+     t5                      int                 default 0;
+
+
+alter table tbl_template  add
+     siteid                  int        default(0),
+     tempnum                 int        default(0);
+
+create table tbl_template_extend (
+	id                      int  identity(1, 1)  not null,
+	siteid                  int       default 0,
+	columnid                int                  not null,
+        errorurl                varchar(150),
+        successurl              varchar(150),
+        tablebackcolor          varchar(10),
+        primary key(id)
+);
+
+alter table tbl_column add 
+	publicflag              tinyint     default 0,
+	shareflag               tinyint     default 0,                 --栏目是否是和其他网站共享的栏目
+	articlecount            int         default 0,                 --本栏目的文章总数量
+	titlepic                varchar(10),                           --标题图片大小
+	vtitlepic               varchar(10),                           --副标题图片大小
+	sourcepic               varchar(10),                           --来源图片大小
+	authorpic               varchar(10),                           --作者图片大小
+	contentpic              varchar(10),                           --内容图片大小
+	specialpic              varchar(10),                           --文章特效图片大小
+	productpic              varchar(10),                           --商品大图片大小
+	productsmallpic         varchar(10),                           --商品小图片大小
+        ts_pic                  varchar(10),                           --特小图图片大小
+        s_pic                   varchar(10),                           --小图图片大小
+        ms_pic                  varchar(10),                           --中小图图片大小
+        m_pic                   varchar(10),                           --中型图片大小 
+        ml_pic                  varchar(10),                           --中大型图片大小
+        l_pic                   varchar(10),                           --大型图片大小
+        tl_pic                  varchar(10);                           --特大型图片大小
+
+alter table tbl_template  add
+     articlenum                  int        default(0),
+     ispublished                 int        default(0);
+
+--栏目模板和标记的相关表
+CREATE TABLE TBL_TemplateMark (
+	ID                   int  identity(1, 1)  NOT NULL,                   --编号
+	siteid               int    not null,                   --站点id
+        tid                  int    not null,                   --模板id
+        mid                  int    not null,                   --该模板上的标记id
+        primary key(id)
+);
+
+	CONSTRAINT pk_tmid PRIMARY KEY (ID),
+	CONSTRAINT fk_templateMarkID FOREIGN KEY (tid) REFERENCES  tbl_template(ID) ON DELETE CASCADE
+
+--标记与栏目的相关表
+CREATE TABLE TBL_MarkColumn (
+	ID                   int identity(1, 1)   NOT NULL,                   --编号
+	siteid               int    not null,                   --站点id
+        mid                  int    not null,                   --标记id
+        cid                  int    not null,                   --标记引用的栏目id
+        primary key(id)
+);
+	CONSTRAINT pk_mcid PRIMARY KEY (ID),
+	CONSTRAINT fk_markColumnID FOREIGN KEY (mid) REFERENCES  tbl_mark(ID) ON DELETE CASCADE
+
+
+create table tbl_sitegroup (
+       id                       int identity(1, 1)    not null,
+       sitegroupid              int                   not null,     --站点组ID，就是主站ID
+       siteid                   int                   not null,     --组成员ID
+       sitename                 varchar(100),                       --组成员名称
+       createdate               datetime,                               --创建日期
+       primary key(id)
+);
+insert into tbl_sitegroup(sitegroupid,siteid,sitename,createdate) values(36,931,'wangjian.coosite.com',getdate());
+insert into tbl_sitegroup(sitegroupid,siteid,sitename,createdate) values(36,933,'petersong103.coosite.com',getdate());
+insert into tbl_sitegroup(sitegroupid,siteid,sitename,createdate) values(36,934,'wangjianjilin1.coosite.com',getdate());
+insert into tbl_sitegroup(sitegroupid,siteid,sitename,createdate) values(36,971,'bjchaohong.coosite.com',getdate());
+insert into tbl_sitegroup(sitegroupid,siteid,sitename,createdate) values(36,885,'ssdemotest.coosite.com',getdate());
+
+
+create table tbl_navigator (
+       id                       int identity(1, 1)    not null,
+       cname                    varchar(200)          not null,     --主导航中文名称
+       content                  varchar(3500),                      --主导航HTML代码
+       fcontent                 varchar(3500),                      --辅助导航HTML代码
+       notes                    varchar(250),
+       createdate               datetime,                               --创建日期
+       primary key(id)
+);
+
+create table tbl_refers_article (
+        id                      int  identity(1, 1)   not null,
+	articleid               int                   not null,     --文章ID
+        siteid                  int                   not null,     --文章原站点ID
+	columnid       	        int 	              not null,     --目的栏目的ID
+	scolumnid               int                   not null,     --源栏目ID
+	columnname	        varchar(100),                       --目的栏目的中文名称
+	orders		        smallint   default 0,
+	createdate	        datetime,
+	title		        varchar(600),                       --在目的栏目中的标题名称
+	status                  smallint              not null,     --目的栏目中的状态
+	pubflag                 smallint              not null,
+	auditflag               smallint              not null,
+	usearticletype          int,
+	refers_column_status    int,
+	tsiteid                 int,                                --目的站点ID
+	artfrom                 smallint,                           --0-栏目定义处设置的引用，1-文章录入时设置的引用    
+	primary key(id)
+);
+
+create table tbl_refers_column (
+        id                int  identity(1, 1)         not null,
+        ssiteid           int                         not null,
+        scid              int                         not null,
+        tsiteid           int                         not null,
+        tcid              int                         not null,
+        subs              smallint   default 0,
+        createdate        datetime,
+        primary key(id)
+);
+
+alter table tbl_new_publish_queue  add
+	columnid                int,
+        title                   varchar(200),
+        errcode                 int           default 0,              --作业发布出错时保存错误代码,默认0表示成功发布
+        errmsg                  varchar(500),                        --出现错误时存储错误信息
+        errnum                  smallint      default 0,              --存储发布错误后重新发布的次数，最多重新发布3次
+        priority                smallint      default 0;              --作业的优先级 0-表示一般优先级
+
+
+alter table tbl_siteinfo  add
+	cssjsdir		smallint       default(0),
+	copycolumn	        smallint       default(0),                --
+	becopycolumn	        smallint       default(0),                --
+	pusharticle	        smallint       default(0),                --发布文件数量
+	movearticle	        smallint       default(0),                --移动文件数量
+	sitepic                 varchar(200),                                    --站点首页图片
+	sitevalid               int        default(0),                       --0-样例网站 1-普通网站 2-共享网站
+	sitelogo                varchar(200),                                    --站点LOGO
+	banner                  varchar(200),                                    --站点主BANNER
+	navigator               int             default(0),                       --站点导航样式
+	samsiteid               int             default(0),                       --样例站点ID
+	scores                  int          default(0),                       --积分和货币兑换规则
+	sharetemplatenum        int             default(0),                       --共享样例站点的模板套号
+	managesharesite         int        default(0),                       --管理共享站点信息   0-不管理  1-管理
+        copyright               varchar(1000),	                                  --网站版权
+        titlepic                varchar(10),                                     --标题图片大小
+	vtitlepic               varchar(10),                                     --副标题图片大小
+	sourcepic               varchar(10),                                     --来源图片大小
+	authorpic               varchar(10),                                     --作者图片大小
+	contentpic              varchar(10),                                     --内容图片大小
+	specialpic              varchar(10),                                     --文章特效图片大小
+	productpic              varchar(10),                                     --商品大图片大小
+	productsmallpic         varchar(10),                                     --商品小图片大小
+        ts_pic                  varchar(10),
+        s_pic                   varchar(10),
+        ms_pic                  varchar(10),
+        m_pic                   varchar(10),
+        ml_pic                  varchar(10),
+        l_pic                   varchar(10),
+        tl_pic                  varchar(10);
+

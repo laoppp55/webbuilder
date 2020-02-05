@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script language="Javascript" type="text/javascript">
+function ImgArray(len){
+    this.length=len;
+}
+ImgName = new ImgArray(10);
+ImgName[0]="http://auto.avl.com.cn/zhiyou/shiche/200706/W020070615557868938294.jpg";
+ImgName[1]="http://auto.china.com/zh_cn/mill/fordmazda/car/11063656/20080528/images/14872345_2008052808574665624300.jpg";
+var t=0;
+function playImg(){
+    if (t==1)
+    {t=0;}
+    else{t++;}
+    img.style.filter="blendTrans(Duration=3)";
+    img.filters[0].apply();
+    img.src=ImgName[t];
+    img.filters[0].play();
+    mytimeout=setTimeout("playImg()",5000);
+}
+</script>
+</head>
+<img src="http://www.cnknow.com/images/Main/1.gif" name="img" />
+<script language="Javascript">playImg();</script>
+ 
+</body>
+</html>

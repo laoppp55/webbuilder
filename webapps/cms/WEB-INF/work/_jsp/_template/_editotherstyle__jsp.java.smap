@@ -1,0 +1,13 @@
+SMAP
+_editotherstyle__jsp.java
+JSP
+*S JSP
+*F
++ 1 editOtherStyle.jsp
+template/editOtherStyle.jsp
+*L
+1#1,15:56
+15#1:71
+23#1:72,10
+25#1:82
+*E

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.bizwink.persistence.PublishJobMapper" >
+    <resultMap id="BaseResultMap" type="com.bizwink.po.PublishJob" >
+        <id column="ID" property="id" jdbcType="INTEGER" />
+        <result column="siteid" property="siteid" jdbcType="INTEGER" />
+        <result column="columnid" property="columnid" jdbcType="INTEGER" />
+        <result column="targetid" property="targetid" jdbcType="INTEGER" />
+        <result column="type" property="type" jdbcType="INTEGER" />
+        <result column="status" property="status" jdbcType="INTEGER" />
+        <result column="errcode" property="errcode" jdbcType="INTEGER" />
+        <result column="errnum" property="errnum" jdbcType="INTEGER" />
+        <result column="errmsg" property="errmsg" jdbcType="VARCHAR" />
+        <result column="priority" property="priority" jdbcType="INTEGER" />
+        <result column="createdate" property="createdate" jdbcType="DATE" />
+        <result column="publishdate" property="publishdate" jdbcType="DATE" />
+        <result column="title" property="title" jdbcType="VARCHAR" />
+        <result column="uniqueid" property="uniqueid" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        id,siteid,columnid,targetid,type,status,errcode,errnum,errmsg,priority,createdate,publishdate,title,uniqueid
+    </sql>
+
+    <select id="getArticlePublishJobs" resultMap="BaseResultMap" parameterType="java.sql.Timestamp" >
+
+    </select>
+
+    <select id="getTemplatePublishJobs" resultMap="BaseResultMap" parameterType="java.sql.Timestamp" >
+
+    </select>
+
+    <select id="getIncludePublishJobs" resultMap="BaseResultMap" parameterType="java.sql.Timestamp" >
+
+    </select>
+
+</mapper>

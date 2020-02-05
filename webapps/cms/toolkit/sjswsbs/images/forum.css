@@ -1,0 +1,109 @@
+A:visited {
+    TEXT-DECORATION: none
+}
+
+A:active {
+    TEXT-DECORATION: none
+}
+
+A:hover {
+    TEXT-DECORATION: underline overline
+}
+
+A:link {
+    TEXT-DECORATION: none
+}
+
+.t {
+    LINE-HEIGHT: 1.4
+}
+
+BODY {
+    FONT-SIZE: 11pt;
+    SCROLLBAR-HIGHLIGHT-COLOR: buttonface;
+    SCROLLBAR-SHADOW-COLOR: buttonface;
+    SCROLLBAR-3DLIGHT-COLOR: buttonhighlight;
+    SCROLLBAR-TRACK-COLOR: #eeeeee;
+    FONT-FAMILY: 宋 体;
+    SCROLLBAR-DARKSHADOW-COLOR: buttonshadow
+}
+
+TD {
+    FONT-SIZE: 11pt;
+    FONT-FAMILY: 宋 体
+}
+
+DIV {
+    FONT-SIZE: 11pt;
+    FONT-FAMILY: 宋 体
+}
+
+FORM {
+    FONT-SIZE: 11pt;
+    FONT-FAMILY: 宋 体
+}
+
+OPTION {
+    FONT-SIZE: 11pt;
+    FONT-FAMILY: 宋 体
+}
+
+P {
+    FONT-SIZE: 11pt;
+    FONT-FAMILY: 宋 体
+}
+
+TD {
+    FONT-SIZE: 11pt;
+    FONT-FAMILY: 宋 体
+}
+
+BR {
+    FONT-SIZE: 11pt;
+    FONT-FAMILY: 宋 体
+}
+
+INPUT {
+    BORDER-TOP-WIDTH: 1px;
+    PADDING-RIGHT: 1px;
+    PADDING-LEFT: 1px;
+    BORDER-LEFT-WIDTH: 1px;
+    FONT-SIZE: 11pt;
+    BORDER-LEFT-COLOR: #cccccc;
+    BORDER-BOTTOM-WIDTH: 1px;
+    BORDER-BOTTOM-COLOR: #cccccc;
+    PADDING-BOTTOM: 1px;
+    BORDER-TOP-COLOR: #cccccc;
+    PADDING-TOP: 1px;
+    HEIGHT: 22px;
+    BORDER-RIGHT-WIDTH: 1px;
+    BORDER-RIGHT-COLOR: #cccccc
+}
+
+TEXTAREA {
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-LEFT-WIDTH: 1px;
+    FONT-SIZE: 11pt;
+    BORDER-LEFT-COLOR: #000000;
+    BORDER-BOTTOM-WIDTH: 1px;
+    BORDER-BOTTOM-COLOR: #000000;
+    BORDER-TOP-COLOR: #000000;
+    FONT-FAMILY: 宋 体;
+    BACKGROUND-COLOR: #efefef;
+    BORDER-RIGHT-WIDTH: 1px;
+    BORDER-RIGHT-COLOR: #000000
+}
+
+SELECT {
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-LEFT-WIDTH: 1px;
+    FONT-SIZE: 11pt;
+    BORDER-LEFT-COLOR: #000000;
+    BORDER-BOTTOM-WIDTH: 1px;
+    BORDER-BOTTOM-COLOR: #000000;
+    BORDER-TOP-COLOR: #000000;
+    FONT-FAMILY: 宋 体;
+    BACKGROUND-COLOR: #efefef;
+    BORDER-RIGHT-WIDTH: 1px;
+    BORDER-RIGHT-COLOR: #000000
+}

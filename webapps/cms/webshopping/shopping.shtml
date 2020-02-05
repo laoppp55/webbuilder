@@ -1,0 +1,11 @@
+<html>
+<head>
+    <script type="text/javascript" src="shoppingcart.js"></script>
+</head>
+<body>
+<center>
+    <div id="shopping"></div>
+    <script type="text/javascript">shoppingcart();</script>
+</center>
+</body>
+</html>

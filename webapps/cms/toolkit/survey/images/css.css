@@ -1,0 +1,39 @@
+.white12 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.bian {
+	border: 1px solid #898898;
+}
+.kinput {
+	height: 18px;
+	width: 150px;
+}
+.red12 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FF0000;
+}
+
+
+.black12c {
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+.black12 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+}
+A:link {
+	FONT-SIZE: 9pt; COLOR: #000000; LINE-HEIGHT: 15pt; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 9pt; COLOR: #000000; LINE-HEIGHT: 15pt; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 9pt; COLOR: #ff0000; LINE-HEIGHT: 15pt; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}

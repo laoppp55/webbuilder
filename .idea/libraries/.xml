@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="生成文字云图需要的类">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/document/生成文字云图需要的类/commons-lang3-3.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/生成文字云图需要的类/segment-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/生成文字云图需要的类/kumo-core-1.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/生成文字云图需要的类/rtree-0.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/生成文字云图需要的类/ictclas4j-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/生成文字云图需要的类/languagetool-core-4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/生成文字云图需要的类/kumo-api-1.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/生成文字云图需要的类/kumo-tokenizers-1.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/生成文字云图需要的类/language-all-4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/生成文字云图需要的类/language-zh-4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/生成文字云图需要的类/rxjava-core-0.17.0-RC6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/生成文字云图需要的类/knotx-core-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/生成文字云图需要的类/kumo-cli-1.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

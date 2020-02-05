@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head xmlns="">
+    <title>全球治理和企业发展数据平台</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <meta content="IE=8" http-equiv="X-UA-Compatible" />
+    <link rel="stylesheet" type="text/css" href="/css/banner.css" />
+    <link rel="stylesheet" type="text/css" href="/css/css.css" />
+    <link rel="stylesheet" type="text/css" href="/css/common.css" />
+    <!--咨询要问特效-->
+    <script type="text/javascript" src="/js/users.js"></script>
+    <script src="/js/md5-min.js" type="text/javascript"></script>
+    <script type="text/javascript"  src="/js/jquery.min.js" ></script>
+    <!--以下是主图部分特效-->
+    <script src="/images/181.js"></script>
+    <script src="/js/jquery.slides.min.js"></script>
+    <script type="text/javascript">
+        var $top=jQuery.noConflict();
+        $top(function() {
+            $top('#slides').slidesjs({
+                play:{
+                    active: false,
+                    effect: "fade",
+                    auto: true,
+                    interval: 2000
+                },
+                effect: {
+                    fade: {
+                        speed: 1500,
+                        crossfade: true
+                    }
+                },
+                pagination: {
+                    active: true
+                },
+                navigation:{
+                    active: false
+                }
+            });
+        });
+
+
+    </script>
+    <!--以下是标签切换特效-->
+    <script src="/js/change_tab.js"></script>
+    <script src="/js/xiala.js"></script>
+    <!--以下是咨询要问特效-->
+    <script type="text/javascript" src="/js/slides.min.jquery.js"></script>
+    <script type="text/javascript">
+        var $jiaodian=jQuery.noConflict();
+        $jiaodian(function(){
+            $jiaodian('#screenshots1').slides({
+                generateNextPrev: true,
+                play: 2000
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        var $jiaodian=jQuery.noConflict();
+        $jiaodian(function(){
+            $jiaodian('#screenshots2').slides({
+                generateNextPrev: true,
+                play: 4000
+            });		});
+    </script>
+    <script type="text/javascript">
+        var $jiaodian=jQuery.noConflict();
+        $jiaodian(function(){
+            $jiaodian('#screenshots3').slides({
+                generateNextPrev: true,
+                play: 6000
+            });
+        });
+    </script>
+    <script type="text/javascript"  src="/js/jquery-1.10.2.min.js" ></script>
+    <script>
+        var jquery102 = jQuery.noConflict( true );
+        jquery102(document).ready(function(){
+            jquery102.post("/users/showLoginInfo.jsp",{
+                        username:encodeURI(name)
+                    },
+                    function(data) {
+                        if (data.username!=null) {
+                            jquery102("#userInfos").html("欢迎你：" + data.username + "&nbsp;&nbsp;<a href='#' onclick='javascript:logoff();'>退出</a>");
+                            jquery102("#userInfos").css({color:"red"});
+                        } else {
+                            //alert(data.result);
+                        }
+                    },
+                    "json"
+            )
+        })
+    </script>
+</head>
+<body xmlns="">
+<!--head begin-->
+<div><!--#include virtual="/inc/top.shtml"--></div>
+<div class="menu">
+    <div class="menu_in"><!--#include virtual="/inc/menu.shtml"--></div>
+</div>
+<!--head end-->
+<div class="banner">
+    <div class="slide-bg">
+        <div class="slide-wp">
+            <div id="slides" class="slides">
+                <div><img alt="" galleryimg="no" src="/images/banner1.jpg" /></div>
+                <div><img alt="" width="1920" height="455" galleryimg="no" src="/images/banner2.jpg" /></div>
+                <div><img alt="" galleryimg="no" src="/images/banner1.jpg" /></div>
+            </div>
+            <!--end slides--></div>
+        <!--end slide-wp--></div>
+</div>
+<div class="containter">
+    <div class="box">
+        <div class="zxyw">
+            <div class="zxyw_title"><span>资讯要问</span></div>
+            <div class="zxyw_box">
+                <div class="zxyw_in_title">
+                    <h2 id="tcg_tab01" class="act"><a onmouseover="Hovertab('1','4','tcg_','');" href="#">热点关注</a></h2>
+                    <h2 id="tcg_tab02"><a onmouseover="Hovertab('2','4','tcg_','');" href="#">权威视角</a></h2>
+                    <h2 id="tcg_tab03"><a onmouseover="Hovertab('3','4','tcg_','');" href="#">CESI动态</a></h2>
+                    <h2 id="tcg_tab04"><a onmouseover="Hovertab('4','4','tcg_','');" href="#">技术前瞻</a></h2>
+                </div>
+                <div class="news_pic">
+                    <div id="screenshots1">
+                        <div class="slides_container">
+                            <div class="slide"><a href="#"><img border="0" alt="" width="311" height="205" src="/images/new_pic1.jpg" /></a></div>
+                            <div class="slide"><a href="#"><img border="0" alt="" width="311" height="205" src="/images/new_pic2.jpg" /></a></div>
+                            <div class="slide"><a href="#"><img border="0" alt="" width="311" height="205" src="/images/new_pic3.jpg" /></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tcg_div01" class="zxyw_txt">
+                    <ul>
+                        <li><a href=/business/news/20180102/241965.shtml>诺奖得主James MIRRLEES：全球经济治理需要加强合作</a><span>2018-01-02</span></li><li><a href=/business/news/20171228/241910.shtml>明年人民币汇率走势基本稳定</a><span>2017-12-28</span></li><li><a href=/business/news/20171228/241909.shtml>世行上调中国经济增长预期至6.8</a><span>2017-12-28</span></li><li><a href=/business/news/20171228/241908.shtml>剑指规避监管 强监管助信托业“阳光化”转型</a><span>2017-12-28</span></li><li><a href=/business/news/20171228/241907.shtml>共商共建共享：中国全球经济治理的新理念</a><span>2017-12-28</span></li><li><a href=/business/news/20171228/241868.shtml>《企业境外投资管理办法》的主要变化和几点建议</a><span>2017-12-28</span></li>
+                    </ul>
+                </div>
+                <div id="tcg_div02" class="zxyw_txt" style="display: none">
+                    <ul>
+                        <li><a href=/business/perspectives/20171228/241832.shtml>王辉耀:以削减治理赤字促进经济全球化发展</a><span>2017-12-28</span></li><li><a href=/business/perspectives/20171228/241825.shtml>世界经济论坛创始人：在裂变的世界实现灵活治理</a><span>2017-12-28</span></li><li><a href=/business/perspectives/20171225/241466.shtml>习近平主席亚太工商峰会主旨演讲推动全球治理体系改革</a><span>2017-11-13</span></li><li><a href=/business/perspectives/20171227/241625.shtml>陈凤英：中国将为全球经济治理提供更多开放样板</a><span>2017-11-10</span></li>
+                    </ul>
+                </div>
+                <div id="tcg_div03" class="zxyw_txt" style="display: none">
+                    <ul>
+                        <li><a href=http://mailchi.mp/3e384c154ac8/cbcsd-1068841>CBCSD 2017可持续发展CEO论坛暨《企业可持续发展指数研究报</a><span>2017-12-28</span></li><li><a href=https://mp.weixin.qq.com/s/KNnsXu21mOsauSm7_tr3kg>《企业可持续发展指数研究报告》在2017中国500强年会期间正</a><span>2017-09-10</span></li>
+                    </ul>
+                </div>
+                <div id="tcg_div04" class="zxyw_txt" style="display: none">
+                    <ul>
+                        <li><a href=/solutions/technology/20180102/241947.shtml>2018年，哪些科技突破将带来新惊喜</a><span>2018-01-02</span></li><li><a href=/solutions/technology/20180102/241946.shtml>韩国研究团队发明0.1秒内合成有机材料新方法</a><span>2018-01-02</span></li><li><a href=/solutions/technology/20180102/241945.shtml>攻克新能源友好并网核心技术——世界首个具备虚拟同步机功能</a><span>2018-01-02</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="box_main">
+            <div class="box_main_l">
+                <div class="tsfw">
+                    <div class="tsfw_title"><span>特色服务</span></div>
+                    <div class="tsfw_box">
+                        <div id="test">
+                            <div class="subnav">
+                                <ul class="subnav_ul">
+                                    <li><a href="/"><img alt="" width="114" height="81" src="/images/tsfw_1.jpg" /><br />
+                                        SD政策查询</a>
+                                        <div class="subnav_down" style="width: 150px; margin-left: -18px; display: none">
+                                            <dl class="subnav_down_dl">
+                                                <dd><span><a href="/sector/policies/">分行业政策汇编</a></span> </dd>
+                                                <dd><span><a href="#">海外可持续发展政策</a></span> </dd>
+                                                <dd><span><a href="#">国内可持续发展政策</a></span> </dd>
+                                            </dl>
+                                        </div>
+                                    </li>
+                                    <li><a href="/"><img alt="" width="114" height="81" src="/images/tsfw_2.jpg" /><br />
+                                        SD报告查询</a>
+                                        <div class="subnav_down" style="width: 200px; margin-left: -42px; display: none">
+                                            <dl class="subnav_down_dl">
+                                                <dd><span><a href="/business/evaluation_systems/">全球治理评价体系</a></span> </dd>
+                                                <dd><span><a href="/business/publications/">国际投资环境报告</a></span> </dd>
+                                                <dd><span><a href="/business/outbound_guide/">对外投资指南</a></span> </dd>
+                                                <dd><span><a href="/sector/standards/">行业指南方法学</a></span> </dd>
+                                                <dd><span><a href="/sustainability/sdevaluation/">可持续发展评价体系</a></span> </dd>
+                                                <dd><span><a href="/sustainability/reports/guide/">可持续发展报告编制指南</a></span> </dd>
+                                                <dd><span><a href="/sustainability/reports/report/">企业可持续发展报告</a></span> </dd>
+                                            </dl>
+                                        </div>
+                                    </li>
+                                    <li><a href="/"><img alt="" width="114" height="81" src="/images/tsfw_3.jpg" /><br />
+                                        案例查询</a>
+                                        <div class="subnav_down" style="width: 150px; margin-left: -18px; display: none">
+                                            <dl class="subnav_down_dl">
+                                                <dd><span><a href="#">海外可持续发展案例</a></span> </dd>
+                                                <dd><span><a href="#">国内可持续发展案例</a></span> </dd>
+                                                <dd><span><a href="/solutions/cases/">工商业解决方案</a></span> </dd>
+                                            </dl>
+                                        </div>
+                                    </li>
+                                    <li><a href="/"><img alt="" width="114" height="81" src="/images/tsfw_4.jpg" /><br />
+                                        指数测评</a></li>
+                                    <li><a href="/"><img alt="" width="114" height="81" src="/images/tsfw_5.jpg" /><br />
+                                        我要发布</a>
+                                        <div class="subnav_down" style="width: 200px; margin-left: -42px; display: none">
+                                            <dl class="subnav_down_dl">
+                                                <dd><span><a href="#">发布企业可持续发展报告</a></span> </dd>
+                                                <dd><span><a href="#">发布海外可持续发展案例</a></span> </dd>
+                                                <dd><span><a href="#">发布国内可持续发展案例</a></span> </dd>
+                                                <dd><span><a href="#">发布工商业解决方案</a></span> </dd>
+                                            </dl>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="aldt">
+                    <div class="aldt_title"><span>案例地图</span></div>
+                    <div class="aldt_box">
+                        <div id="screenshots2">
+                            <div class="slides_container">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box_main_r">
+                <div class="ztlj">
+                    <div class="ztlj_title"><span>专题链接</span></div>
+                    <div class="ztlj_txt">
+                        <ul>
+                            <li><a href=/zhuanti/ydyl/><img alt="" width="272" height="86" src="/zhuanti/images/pictuxeo2xk.jpg" /></a></li><li><a href=/zhuanti/kcxfz/><img alt="" width="272" height="86" src="/zhuanti/images/picnx3u3r7a.jpg" /></a></li><li><a href=/zhuanti/drzt/><img alt="" width="272" height="86" src="/zhuanti/images/picd40i3j4a.jpg" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ewm">
+                    <div class="ewm_1"><img alt="" width="106" height="106" src="/images/ewm.jpg" /><span>请关注CBCSD<br />
+官方微信公众号</span></div>
+                    <div class="ewm_2"><a href="#">中国可持续发展工商理事会（CBCSD）</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="hzdw">
+            <div class="hzdw_title"><span>合作单位</span></div>
+            <div class="hzdw_txt">
+                <div id="screenshots3">
+                    <div class="slides_container">
+                        <div class="slide">
+                            <ul class="slide_ul">
+                            </ul>
+                        </div>
+                        <div class="slide">
+                            <ul class="slide_ul">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div><!--#include virtual="/inc/bottom.shtml"--></div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head xmlns="">
+        <title>珠海振国肿瘤康复医院</title>
+        <meta content="text/html; charset=gb2312" http-equiv="Content-Type" />
+        <link rel="stylesheet" type="text/css" href="/css/wzgstyle.css" />
+    </head>
+    <body xmlns="">
+        <table border="0" cellspacing="0" cellpadding="0" width="1000" background="/images/2010527wzg-bg.gif" align="center" style="background-repeat: repeat-y">
+            <tbody>
+                <tr>
+                    <td valign="top" width="233" align="left">
+                    <table border="0" cellspacing="0" cellpadding="0" width="233">
+                        <tbody>
+                            <tr>
+                                <td valign="top" align="left"><img alt="" width="128" height="434" src="/images/2010527wag-logo2.jpg" /></td>
+                                <td width="2"><img alt="" width="2" height="434" src="/images/2010527wzg-line2.gif" /></td>
+                                <td valign="top" width="103" align="left"><!--#include virtual="/inc/menu.shtml"--></td>
+                            </tr>
+                        </tbody>
+                    </table><!--#include virtual="/inc/expert.shtml"--></td>
+                    <td valign="top" width="767" align="left"><!--#include virtual="/inc/weather.shtml"--><table border="0" cellspacing="0" cellpadding="0" width="767">
+                        <tbody>
+                            <tr>
+                                <td valign="top" align="left"><img border="0" hspace="0" alt="" src="/rczp/images/pico7u6oone.jpg" /></td>
+                            </tr>
+                            <tr>
+                                <td height="30">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table border="0" cellspacing="0" cellpadding="0" width="767">
+                        <tbody>
+                            <tr>
+                                <td><img alt="" width="13" height="1" src="/images/space.gif" /></td>
+                                <td height="18" valign="bottom" align="left"><span class="titlered">友情链接</span></td>
+                            </tr>
+                            <tr>
+                                <td width="13"><img alt="" width="13" height="1" src="/images/space.gif" /></td>
+                                <td><img alt="" width="740" height="8" src="/images/2010527wag-tbg.jpg" /></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table border="0" cellspacing="0" cellpadding="0" width="767" background="/images/2010527wag-tbg2.jpg" style="background-repeat: no-repeat">
+                        <tbody>
+                            <tr>
+                                <td width="13"><img alt="" width="13" height="1" src="/images/space.gif" /></td>
+                                <td height="368" valign="top" width="754" align="left">
+                                <table border="0" cellspacing="0" cellpadding="0" width="734">
+                                    <tbody>
+                                        <tr>
+                                            <td><img alt="" height="12" src="/images/space.gif" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                            <div style="scrollbar-arrow-color: #daae7f; scrollbar-face-color: #98642b; scrollbar-base-color: #98642b; height: 336px; scrollbar-highlight-color: #98642b; scrollbar-shadow-color: #98642b; overflow: auto; scrollbar-dark-shadow-color: #98642B">
+                                            <table border="0" cellspacing="0" cellpadding="0" width="700" style="width: 700px; height: 56px">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text14px" valign="top" align="left">
+                                                        <p><a target="_blank" href="http://www.wzgyl.com">振国医疗集团</a>&nbsp;|<a target="_blank" href="http://www.wzgjt.com">振国集团</a>|<a target="_blank" href="http://www.gdwzg.cn/">广州振国门诊</a>|<a target="_blank" href="http://www.tjwzg.cn/">天津振国门诊</a>|<a target="_blank" href="http://www.no1zy.com/">壹号庄园养生谷</a>|<a target="_blank" href="http://www.ccwzg.cn/">长春振国门诊</a>|<a target="_blank" href="http://www.hrbwzg.com">哈尔滨振国门诊</a>|<a target="_blank" href="http://www.tywzg.cn">太源振国门诊</a></p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top" align="left">
+                                                        <p></p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table><!--#include virtual="/inc/low.shtml"--></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

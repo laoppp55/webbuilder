@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <classPathEntry location="C:\projects\webbuilder\generator\lib\mysql-connector-java-5.1.6-bin.jar" />
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+        <commentGenerator>
+            <property name="suppressDate" value="true" />
+			<property name="mergeable" value="false"></property>
+        </commentGenerator>
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+            connectionURL="jdbc:mysql://116.90.87.233:3306/junk" userId="junkdbadmin" password="Yjcsxdl223401">
+        </jdbcConnection>
+
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+
+        <javaModelGenerator targetPackage="com.bizwink.junk.po" targetProject="src">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        <sqlMapGenerator targetPackage="com.bizwink.junk.persistence" targetProject="src">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+
+		<!-- 生成DAO的包名和位置 -->
+        <javaClientGenerator type="XMLMAPPER"
+            targetPackage="com.bizwink.junk.persistence" targetProject="src">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+		<table tableName="wo_request" domainObjectName="worequest"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>
+		
+		<table tableName="wo_requmate" domainObjectName="worequmate"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>	
+
+		<table tableName="wo_project" domainObjectName="woproject"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>	
+
+		<table tableName="wo_project_wz" domainObjectName="woprojectwz"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>	
+
+		<table tableName="wo_project_buyer" domainObjectName="woprojectbuyer"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>	
+
+		<table tableName="wo_project_group" domainObjectName="woprojectgroup"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>	
+	</context>
+</generatorConfiguration>

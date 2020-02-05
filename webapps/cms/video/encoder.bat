@@ -1,0 +1,1 @@
+ffmpeg.exe -i %1 -y -s 400x300 -deinterlace -b 256 -ab 64 -ar 22050 -ac 2 %2 2>encode.txt

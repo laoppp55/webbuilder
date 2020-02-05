@@ -1,0 +1,64 @@
+webbuilder3.5升级到webbuilder4.0步骤(SQL Server2000为例)
+
+1. 修改表tbl_article，增加字段articlepic varchar(600)
+	 		      									urltype	int not null default 0
+			      									defineurl	varchar(200)
+			      									wordsnum	number not null default 0
+			      
+2. 修改表tbl_column，增加字段isrss tinyint default 0 not null
+			     									 getRssArticleTime int(4)
+			     									 archivingrules tinyint default 0 not null
+			     									 检查是否存在字段contentshowtype，如果不存在增加字段contentshowtype tinyint not null
+
+3. 修改表tbl_log，增加字段columnid int not null
+													maintitle varchar(600)
+													createdate	datetime
+													
+4. 修改表tbl_members，增加字段createarticles	int	not null default 0
+															editarticles	int	not null default 0
+															deletearticles	int	not null default 0
+	     									 
+5. 查看是否存在表：tbl_picture，如果不存在创建表：
+create table tbl_picture
+(
+  ID         int,
+  SITEID     int,
+  COLUMNID   int,
+  WIDTH      int not null,
+  HEIGHT     int not null,
+  PICSIZE    int not null,
+  PICNAME    varchar(200),
+  IMGURL     varchar(255) not null,
+  CREATEDATE datetime default getdate() not null
+);
+
+6. 查看是否存在表：TBL_relatedartids，如果不存在创建表：
+create table TBL_relatedartids
+(
+  ID         int not null,
+  cname	     varchar(100) not null,
+  articleid  int not null,
+  type       int,
+  joinedid   int
+);
+
+7. 查看是否存在表：TBL_Article_Keyword，如果不存在创建表：
+create table TBL_Article_Keyword
+(
+  ID         int not null,
+  siteid     int not null,
+  columnid   int not null,
+  keyword    varchar(200),
+  url	     	 varchar(200),
+  primary key (id)
+);
+
+8. 依次执行/webbuilder/updateto4.jsp
+					 /webbuilder/updateto4_2.jsp
+					 /webbuilder/updateto4_3.jsp
+
+注：如果是Oracle数据库，查看是否存在以下Sequence，如果不存在创建
+create sequence tbl_article_keyword_id minvalue 1 maxvalue 9999999 start with 1 increment by 1 cache 20;
+create sequence tbl_image_id minvalue 1 maxvalue 9999999 start with 1 increment by 1 cache 20;
+create sequence tbl_pic_id minvalue 1 maxvalue 9999999 start with 1 increment by 1 cache 20;
+create sequence tbl_log_id minvalue 1 maxvalue 9999999 start with 1 increment by 1 cache 20;

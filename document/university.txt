@@ -1,0 +1,20 @@
+1	"university of california, Irvine"	加州大学欧文分校	UCI		10	10	"UC Irvine, 260 Aldrich Hall, Irvine, CA 92697，US"		92967
+2	"university of california, San diego"	加州大学圣地亚哥分校	UCSD		10	10	"9500 Gilman Drive, La Jolla, CA 92093, US"		92093
+3	"University of California, Los Angeles"	加州大学洛杉矶分校	UCLA		10	10	"Los Angeles, CA 90095, US"		90095
+4	"University of California, Berkeley"	加州大学伯克利分校	UCB		10	10			
+5	"University of California, Davis"	加州大学戴维斯分校	UCD		10	10			
+6	"University of California, Santa Barbara"	加州大学圣塔芭芭拉分校	UCSB		10	10	"UC Santa Barbara, CA 93106,US"		93106
+7	"University of California, Santa Cruz"	加州大学圣克鲁兹分校	UCSC		10	10	"1156 High St,Santa Cruz, CA 95064"		95064
+8	"University of California, Riverside"	加州大学滨河分校	UCR		10	10	"900 University Avenue, Riverside, CA 92521, US"		92251
+9	"University of California, Merced"	加州大学默塞德分校	UCM		10	10			
+10	"University of California, San Francisco"	加州大学旧金山分校	UCSF		10	10			
+11	University of Southern California	南加州大学	USC		10	10			
+12	California Institute of Technology	加州理工学院	CIT		10	10			
+13	Leland Stanford Junior University	斯坦福大学	Stanford		10	10			
+14	Pepperdine University	佩珀代因大学			10	10	"24255 Pacific Coast Highway Malibu, CA 90263"		90263
+15	University of San Diego	圣地亚哥大学			10	10	"5998 Alcala Park San Diego, CA 92110-2492"		92110
+16	University of the Pacific	太平洋大学			10	10			
+17	San Diego State University	圣地亚哥州立大学			10	10			
+18	Biola University	拜欧拉大学			10	10	"13800 Biola Avenue La Mirada, CA 90639-0001"		90639
+19	University of La Verne	拉文大学			10	10	"1950 Third Street La Verne, CA 91750"		91750
+20	Azusa Pacific University	阿兹塞太平洋大学			10	10	"901 E. Alosta Avenue Azusa, CA 91702"		91702

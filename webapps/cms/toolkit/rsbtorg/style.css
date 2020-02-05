@@ -1,0 +1,33 @@
+body {
+	font-family: "ËÎÌו";
+	font-size: 14px;
+	color: #000000;
+	background-color: #FFFFFF;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	line-height: 25px;
+}
+a {color:#000000; text-decoration:none;}
+.paddingtrlb {
+	border: 1px solid #CDCDCB;
+}
+.fonttitle {
+	font-size: 24px;
+	font-weight: bold;
+	color: #0C65B7;
+}
+.fontblue {
+	font-size: 28px;
+	font-weight: bold;
+	color: #0C65B7;
+}
+.textborder {
+	border: 1px solid #CDCBCB;
+	background-color: #FFFFFF;
+	height: 18px;
+	width: 180px;
+}
+.trlb {
+	padding: 5px;
+}

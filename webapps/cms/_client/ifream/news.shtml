@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title></title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="/css/base2017.css" />
+        <link rel="stylesheet" href="/css/new-index.css" />
+    </head>
+    <body>
+        <div class="news-title">
+        <div class="center-auto">
+        <div class="left news-list">
+        <ul>
+            <li><span class="left"><a href="javascript:;">11《招标投标法》对&ldquo;责令改正&rdquo;的情形有哪些？</a></span><span class="right">01-10</span></li>
+            <li><span class="left"><a href="javascript:;">22《招标投标法》对&ldquo;责令改正&rdquo;的情形有哪些？</a></span><span class="right">01-10</span></li>
+            <li><span class="left"><a href="javascript:;">33新年感恩 广告大促 会员八折</a></span><span class="right">01-03</span></li>
+            <li><span class="left"><a href="javascript:;">44新年感恩 广告大促 会员八折</a></span><span class="right">01-03</span></li>
+        </ul>
+        </div>
+        <div class="right news-list">
+        <ul>
+            <li><span class="left"><a href="javascript:;">1《招标投标法》对&ldquo;责令改正&rdquo;的情形有哪些？</a></span><span class="right">01-10</span></li>
+            <li><span class="left"><a href="javascript:;">2《招标投标法》对&ldquo;责令改正&rdquo;的情形有哪些？</a></span><span class="right">01-10</span></li>
+            <li><span class="left"><a href="javascript:;">3新年感恩 广告大促 会员八折</a></span><span class="right">01-03</span></li>
+        </ul>
+        </div>
+        <div class="trumpet"><img alt="" src="/images/icon_trumpet.png" /></div>
+        </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+SMAP
+_flag__jsp.java
+JSP
+*S JSP
+*F
++ 1 flag.jsp
+toolkit/survey/flag.jsp
+*L
+1#1:59
+7#1,16:60
+22#1:76
+*E

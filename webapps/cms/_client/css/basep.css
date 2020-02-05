@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding:0
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{ text-decoration:none;}
+img{
+    border:none;
+}
+i{
+    font-style: normal;
+}
+/*清除浮动*/
+.clear_both{
+    clear: both;
+}
+/*多余字符串省略号代替*/
+.box-ellipsis{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.c-yellow {
+    color: #ef7800 !important;
+}
+body{
+    background-color: #dcdcdc;
+}
+.page-auto{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/***翻页列表****/
+.lable1738{ width:1200px; float:left; text-align:center; padding-bottom: 100px;}
+.lable1738_left a{ border:1px solid #CCC; padding:5px 10px; color:#666;}
+.lable1738_left a:hover{ border:1px solid #0d6bca; padding:5px 10px; color:#333; background:#0d6bca; color:#FFF;}
+
+.lable1738_mid strong{ color:#0d6bca}
+
+.lable1738_right input{ width:35px; height:20px; border:1px solid #CCC;}
+.lable1738_right .btn{ background:#FFF;border:1px solid #CCC; height:22px; cursor:pointer;color:#666;}

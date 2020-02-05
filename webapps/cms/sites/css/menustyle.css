@@ -1,0 +1,48 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.headerMenuBorder {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 0px solid; HEIGHT: 28px
+}
+.headerMenuList {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN: 0px auto
+}
+.headerMenuLi {
+	FLOAT: left; MARGIN-LEFT: 8px; PADDING-TOP: 8px; HEIGHT: 20px
+}
+.headerMenuLiCheck {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; MARGIN-TOP: 3px; FLOAT: left; MARGIN-LEFT: 12px; BORDER-LEFT: 1px solid; LINE-HEIGHT: 24px; BORDER-BOTTOM: 0px solid
+}
+.headerMenuBottom {
+	BORDER-BOTTOM: 3px solid
+}
+.headerMenuBottom {
+	BORDER-BOTTOM-COLOR: #e04242
+}
+.headerMenuList {
+	COLOR: #001d4c
+}
+.headerMenuLiCheck {
+	BORDER-LEFT-COLOR: #a0cedd; BACKGROUND: #ffffff; BORDER-BOTTOM-COLOR: #a0cedd; COLOR: #001d4c; BORDER-TOP-COLOR: #a0cedd; BORDER-RIGHT-COLOR: #a0cedd
+}
+.headerMenuBottom {
+	BORDER-BOTTOM-COLOR: #a0cedd
+}
+.headerMenuBorder {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 0px solid; HEIGHT: 28px
+}
+.headerMenuList {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN: 0px auto
+}
+.headerMenuLi {
+	FLOAT: left; MARGIN-LEFT: 8px; CURSOR: pointer; PADDING-TOP: 8px; HEIGHT: 20px
+}
+.headerMenuLiCheck {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; MARGIN-TOP: 3px; FLOAT: left; MARGIN-LEFT: 12px; BORDER-LEFT: 1px solid; CURSOR: pointer; LINE-HEIGHT: 24px; BORDER-BOTTOM: 0px solid
+}
+.headerMenuBottom {
+	BORDER-BOTTOM: 3px solid
+}

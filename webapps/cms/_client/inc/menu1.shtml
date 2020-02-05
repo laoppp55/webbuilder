@@ -1,0 +1,73 @@
+
+        <script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script><script type="text/javascript" src="/js/jquery.slides.min.js"></script><script type="text/javascript" src="/js/left.js"></script><!--<div id="menu_div">
+        <ul id="webmenu">
+            <li><a href="/">首页</a></li>
+            <li><a href="/purchase/knowledge/">采购管理</a></li>
+            <li><a href="/product/operation/">产品服务</a></li>
+            <li><a href="/case/sinopec/">经典案例</a></li>
+            <li><a href="/about/introduction/">关于我们</a></li>
+            <li><a href="/login/">平台登录</a></li>
+        </ul>
+        </div>-->
+        <div id="navbox">
+        <ul id="nav">
+            <li><span class="vv"><a href="/">首页</a></span></li>
+            <li><span class="vv"><a href="/purchase/index.shtml">采购管理</a></span>
+            <div class="kind_menu" style="left: 150px; display: none"><a href="/purchase/knowledge/index.shtml">采购管理知识</a><a href="/purchase/supplier/index.shtml">供应商介绍</a></div>
+            </li>
+            <li><span class="vv"><a href="/product/operation/">产品服务</a></span>
+            <div class="kind_menu" style="left: 267px; display: none"><a href="/product/operation/index.shtml">电子商务平台</a><a href="/product/construction/index.shtml">采购平台建设</a><a href="/product/consult/index.shtml">采购管理咨询</a><a href="/product/other/index.shtml">行业资讯服务</a></div>
+            </li>
+            <li><span class="vv"><a href="/case/sinopec/">经典案例</a></span>
+            <div class="kind_menu" style="left: 388px; display: none"><a href="/case/sinopec/index.shtml">中国石化</a><a href="/case/sino_qz/index.shtml">中化泉州</a><a href="/case/yitai/index.shtml">伊泰集团</a><a href="/case/cssc/index.shtml">中国船舶</a></div>
+            </li>
+            <li><span class="vv"><a href="/about/introduction/">关于我们</a></span>
+            <div class="kind_menu" style="left: 507px; display: none"><a href="/about/introduction/index.shtml">企业简介</a><a href="/about/news/index.shtml">长城速报</a><a href="/about/offers/index.shtml">诚聘英才</a><a href="/about/law/index.shtml">法律声明</a><a href="/about/about/index.shtml">联系我们</a></div>
+            </li>
+        </ul>
+        <SCRIPT type=text/javascript>
+	//导航js开始
+    var site_url = window.location.href.toLowerCase();
+    switch (true) {
+        default :
+            $("#nav li").attr("class","");
+            //$("#nav li").eq(0).attr("class","nav_lishw");
+            //$(".nav_lishw .vv a").attr("class","sele");
+            $(".kind_menu").hide();
+    }
+    $("#nav li").hover(
+            function(){
+                clearTimeout(setTimeout("0")-1);
+                $("#nav .kind_menu").hide();
+                $("#nav li .vv .sele").attr("class","shutAhover");
+                $(this).attr("id","nav_hover")
+                $("#nav_hover .vv a").attr("class","sele");
+                $("#nav_hover .kind_menu").show();
+            },
+            function(){
+
+                if($(this).attr("class") != "nav_hover"){
+                    $("#nav_hover .vv .sele").attr("class","");
+                    $("#nav_hover .kind_menu").hide();
+                }
+                $(this).attr("id","")
+                $("#nav li .vv .shutAhover").attr("class","sele");
+                setTimeout(function(){
+                    $(".nav_hover .kind_menu").hide();
+                    $(".nav_hover .vv a").removeClass("class","sele");
+                },50);
+            }
+    );
+	</SCRIPT></div>
+        <div class="lianjie"><a href="/en/"><img alt="" src="/images/2013-07-08.png" /></a><a target="_blank" href="http://weibo.com/edarong/"><img alt="" src="/images/sina.png" /></a></div>
+        <div class="sousuo_box">
+        <form method="post" action="/_prog/search.jsp" target="_blank" name="searchForm">
+            <input onclick="if(this.value=='搜索')this.value=''" onblur="if (value ==''){value='搜索'}" name="searchcontent" value="搜索" type="text" /><a href="javascript:checksubmit();">&nbsp;</a>
+        </form>
+        <script>
+function checksubmit()
+{
+document.searchForm.submit();
+}
+</script></div>
+    

@@ -1,0 +1,586 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("top2017.css");
+
+.center{
+    width: 100%;
+}
+.center-auto{
+    width: 1200px;
+    margin:0 auto;
+    position: relative;
+}
+.center-advert{
+    width: 100%;
+    height: 320px;
+    background-color: #b9d2e8;
+    position: relative;
+}
+.advert-middle{
+    width: 1200px;
+    height: 320px;
+    margin: 0 auto;
+    position: relative;
+}
+.inner{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.innerCenter{
+    width: 400%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.innerNum{
+    width:1200px;
+    height: 100%;
+    float: left;
+}
+#num{
+    position: absolute;
+    left:50%;
+    margin-left: -47px;
+    bottom: 20px;
+    height: 16px;
+    text-align: right;
+}
+#num li {
+    width: 16px;
+    height: 16px;
+    background-image: url("/images/viewpoint_unselected.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    line-height: 20px;
+    font-size: 12px;
+    color: #83b8f5;
+    margin-left: 10px;
+}
+#num li.activetrue{
+    background-image: url("/images/viewpoint_selected.png");
+}
+.middle-img{
+    width: 100%;
+    height: 100%;
+}
+.advert-content {
+    width: 218px;
+    height: 318px;
+    border: 1px solid #c9caca;
+    position: absolute;
+    right: 10px;
+    top:0;
+    background-color:#fff;
+    background-color: rgba(255,255,255,.5);
+    filter:alpha(opacity=50);
+}
+.content-lists{
+    width: 100%;
+    height: 40px;
+}
+.login-title{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #666;
+    margin-top: 20px;
+    padding-left: 19px;
+}
+.login-name{
+    width:100%;
+    height: 258px;
+}
+.login-center{
+    padding:0 19px;
+    padding-top: 25px;
+    border-top: 1px solid #c9caca;
+
+}
+.login-input{
+    width: 100%;
+    height: 38px;
+    border: 1px solid #c9caca;
+    position: relative;
+    background-position: 50%;
+    margin-bottom: 20px;
+}
+.name-ico{
+    display: block;
+    width: 30px;
+    background:#c9caca;
+    height:100%;
+    background-image: url("/images/icon_user.png");
+    background-repeat: no-repeat;
+    background-size: 12px 14px;
+    background-position: 50%;;
+    position: absolute;
+    top:0;
+    left:0
+}
+.login-ico-focused{
+    width: 130px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #999;
+    height: 16px;
+    padding: 11px 10px 11px 40px;
+    border: none;
+    font-family: SimSun;
+}
+.error{
+    font-size: 12px;
+    color: #ee7800;
+    font-family: 宋体;
+    padding-left: 40px;
+}
+.lock-ico{
+    display: block;
+    width: 30px;
+    background:#c9caca;
+    height:100%;
+    background-image: url("/images/icon_password.png");
+    background-repeat: no-repeat;
+    background-size: 12px 14px;
+    background-position: 50%;
+    position: absolute;
+    top:0;
+    left:0
+}
+.login-btn{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #c9caca;
+    background:url("/images/bg_loginbutton-normal.png") ;
+    margin-bottom: 18px;
+}
+.login-btn:hover{
+    background:url("/images/bg_loginbutton-hover.png") ;
+}
+.login-btn:active{
+    background:url("/images/bg_loginbutton-press.png") ;
+}
+.login-links{
+    width: 162px;
+    margin-top: 18px;
+    padding:0 10px;
+}
+.forget-pwd{
+    font-size: 12px;
+    color: #666666;
+    font-family: SimSun;
+    float: left;
+}
+.reg-link{
+    font-size: 12px;
+    color: #666666;
+    font-family: SimSun;
+    float:right;
+}
+.advert-content1{
+text-align: center;
+}
+.login-me{
+    width: 180px;
+    margin:25px auto 0;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #c9caca;
+    background:url("/images/bg_businessplatform-normal.png") no-repeat;
+    margin-bottom: 18px;
+}
+.login-me:hover{
+    background:url("/images/bg_businessplatform-hover.png") no-repeat;
+}
+.login-me:active{
+    background:url("/images/bg_businessplatform-press.png") no-repeat;
+}
+.people-img{
+	margin:65px 0 25px;
+}
+.center-news{
+
+}
+.news-title{
+    height:30px;
+    font-size: 12px;
+    position: relative;
+}
+.news-list{
+    width: 50%;
+    height:30px;
+    line-height: 30px;
+    position: relative;
+    overflow: hidden;
+} 
+.news-title ul{
+    height: 120px;
+    position: absolute;
+    top:0;
+    left: 0;
+    
+}
+.news-title ul li{
+    width: 460px;
+    height: 30px;
+    padding:0 60px 0 80px;
+}
+.news-title a{
+    color: #666;
+}
+.news-title .trumpet{
+    position: absolute;
+    top: 6px;
+}
+.news-content{
+    background-color: #fff;
+    width: 100%;
+    height:100px;
+    padding:11px 0 10px;
+    color: #666;
+}
+.leftdeal,.rightplatform{
+    overflow: hidden;
+    width: 549px;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.leftdeal{
+    width: 549px;
+    border-right: 1px solid #b9d2e8;
+}
+.buyervolume,.ordervolume,.tradingvolume{
+    float: left;
+    width: 150px;
+    text-align: center;
+}
+.buyervolume div,.ordervolume div,.tradingvolume div{
+    height: 34px;
+    font-size: 18px;
+}
+.volumetop{
+    font-family: "微软雅黑";
+}
+.buyervolume span,.ordervolume span,.tradingvolume span{
+    font-size: 24px;
+}
+
+.platform-top{
+    font-size: 18px;
+    font-family: "微软雅黑";
+}
+.platform-top span
+{
+    font-style: italic
+}
+.platform-bottom{
+    font-size: 12px;
+    margin-top: 30px;
+}
+.platform-bottom ul{
+    overflow: hidden;
+}
+.platform-bottom li{
+    float: left;
+    width: 132px;
+}
+.platform-bottom li a{
+    color: #666;
+}
+.platform-bottom  img {
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.top-area{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color:#666;
+    background-color: #dcdcdc;
+}
+.top-area a{
+    font-size: 12px;
+    color: #666;
+    position: absolute;
+    right: 60px;
+    top: 0px;
+}
+/*ä¾›åº”å•†æ¨¡å—*/
+.supplier-content{
+    width: 100%;
+    height: 110px;
+    padding-top: 16px;
+    font-size: 12px;
+    background-color: #fff;
+    color: #666;
+}
+.supplier-list{
+    width: 350px;
+    padding-left: 50px;
+}
+.supplier-list li{
+    height: 24px;
+    line-height: 24px;
+}
+.supplier-list span{
+    display: inline-block;
+    color: #666;
+}
+.firm{
+    width: 87px;
+}
+.firmtype{
+    width: 51px;
+}
+.firmnumber{
+    width: 57px;
+}
+.firmmoney{
+    width: 81px;
+}
+/*å•†å“ä¿¡æ¯*/
+.commodoty-content{
+    height: 315px;
+    width: 100%;
+    background-color: #fff;
+    font-size: 12px;
+    color: #666;
+    padding-top: 25px;
+}
+.commodoty-content li{
+    width: 196px;
+    height: 298px;
+    border:1px solid #eaeaea;
+    margin: 0 20px;
+}
+.commodoty-content li div{
+    width: 196px;
+    height: 240px;
+    text-align: center;
+}
+.commodoty-content li a{
+    color: #666;
+}
+.commodoty-content p{
+    text-indent: 10px;
+}
+.commodoty-content .imgtext{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-indent: 0;
+}
+li.commodoty-last{
+    margin-right: 0;
+}
+/*å•†æœºä¿¡æ¯*/
+.opportunities-content{
+    padding-top:10px;
+    background-color: #fff;width: 100%;
+    height: 226px;
+    font-size: 14px;
+}
+.opportunities-content li{
+    height: 36px;
+    line-height: 36px;
+}
+.project-message{
+    display: inline-block;
+    width: 890px;
+}
+.project-message a{
+    color: #666;
+}
+.release-time{
+    display: inline-block;
+    width:90px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #666;
+}
+.expiry-date{
+    display: inline-block;
+    width: 160px;
+    padding-left: 40px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #666;
+    background:url("/images/icon_time.png") no-repeat 0  5px;
+}
+/*ä¸­éƒ¨bannerå›¾ç‰‡*/
+.banner-img{
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    background-color:#0551a5 ;
+}
+/*ä¾›åº”é“¾èµ„è®¯å’Œç²¾å½©é•¿åŸŽæ¿å—titleæ ·å¼*/
+.ri-title{
+    height: 40px;
+    line-height: 40px;
+    background-color: #eee;
+    font-size: 16px;
+    color: #666;
+    font-family: "微软雅黑";
+    background-color: #dcdcdc;
+}
+.ri-title li{
+    width: 600px;
+    position: relative;
+}
+.ri-title a{
+    font-size: 12px;
+    color: #666;
+    position: absolute;
+    right: 60px;
+    top: 0px;
+}
+.supply-chain,.great-wall{
+    width: 600px;
+}
+/*ä¾›åº”é“¾èµ„è®¯å’Œç²¾å½©é•¿åŸŽæ¿å—å†…å®¹åŒºæ ·å¼*/
+.supply-chain,.great-wall{
+    width: 550px;
+    height: 326px;
+    padding-top: 4px;
+    padding-right: 50px;
+}
+.supply-content,.great-content{
+    height: 120px;
+    width: 100%;
+    overflow: hidden;
+}
+.supply-img,.great-img{
+    width: 198px;
+    height: 118px;
+    border: 1px solid #eaeaea;
+}
+.supply-text,.great-text{
+    width: 325px;
+    height: 120px;
+    color: #666;
+    position: relative;
+}
+.supply-text a,.great-text a{
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+    font-size: 12px;
+}
+.text-title{
+    font-size: 14px;
+    height: 27px;
+    line-height: 27px;
+    font-family: SimSun;
+}
+.text-content{
+    width: 325px;
+    height: 72px;
+    font-size:12px;
+    line-height: 24px;
+   /* overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;*/
+    color:#999;
+}
+/*p.text-content:after{
+    content: "..."; position: absolute; bottom: 24px; right: 0; padding-left: 40px;
+    background: -webkit-linear-gradient(left, transparent, #fff 55%);
+    background: -o-linear-gradient(right, transparent, #fff 55%);
+    background: -moz-linear-gradient(right, transparent, #fff 55%);
+    background: linear-gradient(to right, transparent, #fff 55%);
+}*/
+.case-text a{
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+    font-size: 12px;
+}
+.supply-list,.great-list{
+    width: 100%;
+    padding-top: 12px;
+    color: #666;
+}
+.supply-list li,.great-list li{
+    line-height: 36px;
+    font-size: 14px;
+    font-family: SimSun;
+}
+.supply-list li a,.great-list li a{
+    font-size: 14px;
+    font-family: SimSun;
+    color: #666;
+}
+/*ç»å…¸æ¡ˆä¾‹ç‰ˆå—æ ·å¼*/
+.case{
+    width: 100%;
+}
+.case-title{
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    margin:0 auto;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    position: relative;
+    font-family: "微软雅黑";
+    background-color: #dcdcdc;
+}
+.case-title a{
+    font-size: 12px;
+    color: #666;
+    position: absolute;
+    right: 60px;
+    top: 0px;
+}
+.case-content{
+    width: 100%;
+    background-color: #fff;
+    height: 400px;
+}
+.case-top{
+    height: 280px;
+    padding:10px 0;
+    overflow: hidden;
+}
+.case-top li{
+    width: 550px;
+    height: 120px;
+    padding: 10px 50px 10px 0;
+}
+.case-img{
+    width: 200px;
+    height: 120px;
+    border: 1px solid #eaeaea;
+}
+.case-text{
+    width: 325px;
+    height: 120px;
+    color: #666;
+    position: relative;
+}
+.case-bottom{
+    height: 80px;
+    padding-bottom: 20px;
+}
+.case-bottom li{
+    float: left;
+    width: 198px;
+    height: 78px;
+    margin-right: 49px;
+    text-align: center;
+    border: 1px solid #eaeaea;
+}

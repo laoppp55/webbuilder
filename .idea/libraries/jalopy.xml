@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="jalopy">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/build/jalopy/jalopy-1.0b10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/build/jalopy/jalopy-ant-0.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/build/jalopy/oro-2.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/build/jalopy/log4j-1.2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/build/jalopy/jdom-1.0b8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/build/jalopy/aelfred-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

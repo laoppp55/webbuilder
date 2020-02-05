@@ -1,0 +1,1 @@
+ffmpeg.exe -i weiyi1551923975682.mp4 -y -s 640x480 -deinterlace -b 256 -ab 128 -ar 22050 -ac 2 -qscale 6 -c:v libx264 -crf 24 weiyi1551923975682.flv

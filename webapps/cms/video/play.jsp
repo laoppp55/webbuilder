@@ -1,0 +1,14 @@
+<%@ page contentType="text/html;charset=GBK" %>
+<%@ page import="com.bizwink.cms.util.ParamUtil" %>
+<%
+        //String getflvpath = ParamUtil.getParameter(request, "flvvalue");
+        String getflvpath = "http://test.coosite.com/webbuilder/video/1.flv";
+%>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="341" height="288" id="FLVPlayer">
+  <param name="movie" value="FLVPlayer_Progressive.swf" />
+  <param name="salign" value="lt" />
+  <param name="quality" value="high" />
+  <param name="scale" value="noscale" />
+  <param name="FlashVars" value="&MM_ComponentVersion=1&skinName=Halo_Skin_3&streamName=<%=getflvpath%>&autoPlay=true&autoRewind=false" />
+  <embed src="FLVPlayer_Progressive.swf" flashvars="&MM_ComponentVersion=1&skinName=Halo_Skin_3&streamName=<%=getflvpath%>&autoPlay=true&autoRewind=false" quality="high" scale="noscale" width="341" height="288" name="FLVPlayer" salign="LT" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</object>

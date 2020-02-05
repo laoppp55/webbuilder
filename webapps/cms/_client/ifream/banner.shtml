@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>长城云采</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="/css/base2017.css" />
+        <link rel="stylesheet" href="/css/new-index.css" />
+    </head>
+    <body>
+        <div class="banner-img"><img alt="" src="/images/banner.jpg" /></div>
+        <!--资讯和长城相关信息-->
+        <div class="ri-title">
+        <ul class="center-auto">
+            <li class="left"><span>供应链资讯</span> <a target="_blank" href="http://info.egreatwall.com/purchase/knowledge/">更多&gt;&gt;</a></li>
+            <li class="left"><span>精彩长城</span> <a target="_blank" href="http://info.egreatwall.com/about/news/">更多&gt;&gt;</a></li>
+        </ul>
+        </div>
+        <div style="overflow: hidden; width: 100%; background-color: #fff">
+        <div class="center-auto"><!--供应链资讯-->
+        <div class="supply-chain left">
+        <div class="supply-content">
+<div class="supply-img left"><img alt="" src="/purchase/knowledge/lilun/images/pic8x2vwpy7.png" /></div>                        <div class="supply-text right">                        <p class="text-title">实施电子化采购的步骤</p>                        <p class="text-content"> 企业的信息化程度低,可不可以做电子化采购？这是很多企业面临的问题。这个问题有三个不同层次的答案。第一、电子化采购可以是一个独立的系统。在企业没有ERP，没有SCM，只要企业能够上网，就可以实施初步的电子化采....</p>                        <a href="http://info.egreatwall.com/purchase/knowledge/lilun/20140404/189251.shtml" target="_blank">[详细]</a></div>
+</div>
+        <ul class="supply-list">
+<li><a href="http://info.egreatwall.com/purchase/knowledge/xinwen/20170327/203433.shtml" target="_blank">贾康：在公共资源市场化配置改革中创新机制提高绩效</a> <span class="right">2017-03-27</span></li><li><a href="http://info.egreatwall.com/purchase/knowledge/xinwen/20170227/199308.shtml" target="_blank">中国化工对先正达的要约收购延至4月28日</a> <span class="right">2017-02-27</span></li><li><a href="http://info.egreatwall.com/purchase/knowledge/xinwen/20170227/199307.shtml" target="_blank">阿联酋最大油田谈判敲定 中国企业获得12%的股权</a> <span class="right">2017-02-27</span></li><li><a href="http://info.egreatwall.com/purchase/knowledge/lilun/20170227/199306.shtml" target="_blank">2016年我国石油和化工行业利润与上年持平</a> <span class="right">2017-02-27</span></li><li><a href="http://info.egreatwall.com/purchase/knowledge/xinwen/20170207/197791.shtml" target="_blank">2016年度中国石油行业10大新闻</a> <span class="right">2017-02-07</span></li>
+</ul>
+            </div>
+            <!--精彩长城-->
+            <div class="great-wall right">
+            <div class="supply-content">
+<div class="supply-img left"><img alt="" src="/about/news/images/pic165u5b52.jpg" /></div>                        <div class="supply-text right">                        <p class="text-title">中国三桶油齐聚一堂共讨国内石油石化领域物资采</p>                        <p class="text-content">论坛邀请到中石化、中石油、中海油齐聚一堂，与到场来宾分享采购现状并进行趋势分析，论坛还设有互动访谈环节，让来宾能够聆听采购领域领航者的智慧和心得分享，得到全方位、多角度、深层次的专业疑难解答。....</p>                        <a href="http://info.egreatwall.com/about/news/20160721/196785.shtml" target="_blank">[详细]</a></div>
+</div>
+            <ul class="supply-list">
+<li><a href="http://info.egreatwall.com/about/news/20170405/204043.shtml" target="_blank">长城电商携供应商亮相阿曼油气买家见面会</a> <span class="right">2017-04-05</span></li><li><a href="http://info.egreatwall.com/about/news/20170330/203805.shtml" target="_blank">商机惠GET新功能  赶紧来体验吧！</a> <span class="right">2017-03-30</span></li><li><a href="http://info.egreatwall.com/about/news/20170320/202525.shtml" target="_blank">全球最大石油展CIPPE今天在京开幕</a> <span class="right">2017-03-20</span></li><li><a href="http://info.egreatwall.com/about/news/20170316/202109.shtml" target="_blank">阳春三月 长城电商与您相约中国国际石油石化技术装备展览会</a> <span class="right">2017-03-16</span></li><li><a href="http://info.egreatwall.com/about/news/20170315/202083.shtml" target="_blank">中国钢研集团采购平台建设项目启动会召开</a> <span class="right">2017-03-15</span></li>
+</ul>
+                </div>
+                </div>
+                </div>
+                <!--经典案例-->
+                <div class="case">
+                <div class="case-title"><span>经典案例</span> <a class="right" target="_blank" href="/case/">更多&gt;&gt;</a></div>
+                <div class="case-content">
+                <div class="center-auto">
+                <ul class="case-top">
+<li class="left">                                    <div class="case-img left"><img alt="" src="/case/images/pic536fl66g_300X300.jpg" /></div>                                    <div class="case-text right">                                    <p class="text-title">中国石化</p>                                    <p class="text-content">中国石油化工集团公司(简称中国石化)是中国最大的一体化能源化工公司，石油产品和主要石化产品生产商和供应商，也是中国第二大原油生产商。中国石化在《财富》2011年全球500强企业中排名第5位...</p>                                    <a href="http://info.egreatwall.com/case/20150122/192827.shtml" target="_blank">[详细]</a></div>                                    </li><li class="left">                                    <div class="case-img left"><img alt="" src="/case/images/pic46uf3886_300X300.jpg" /></div>                                    <div class="case-text right">                                    <p class="text-title">中国化工</p>                                    <p class="text-content">2013年5月29日，在国资委组织召开的中央企业集中采购管理培训班上，中国石化与中国化工集团签订战略合作协议，由长城电商承担中国化工集中采购和电子化采购改造任务，经过一年多的探索实践，试点企业取得了显著效果...</p>                                    <a href="http://info.egreatwall.com/case/20150122/192825.shtml" target="_blank">[详细]</a></div>                                    </li><li class="left">                                    <div class="case-img left"><img alt="" src="/case/images/pics52h11xu_300X300.jpg" /></div>                                    <div class="case-text right">                                    <p class="text-title">中国节能</p>                                    <p class="text-content">中国节能环保集团是节能环保领域国际领先的科技服务集团，“十二五”期间，集团明确了“打造节能环保领域具有国际竞争力、世界一流的科技型服务型产业集团”的战略定位，提出了“战略管控+财务管控+关键经营要素管控...</p>                                    <a href="http://info.egreatwall.com/case/20150122/192826.shtml" target="_blank">[详细]</a></div>                                    </li><li class="left">                                    <div class="case-img left"><img alt="" src="/case/images/pict26r1wv6_300X300.jpg" /></div>                                    <div class="case-text right">                                    <p class="text-title">中化泉州</p>                                    <p class="text-content">中化泉州石化有限公司（简称“中化泉州石化”）成立于2006年9月，是国有大型骨干企业、世界五百强之一中国中化集团公司的全资子公司。承担中化泉州1200万吨/年炼化项目的建设、运营任务...</p>                                    <a href="http://info.egreatwall.com/case/20150122/192828.shtml" target="_blank">[详细]</a></div>                                    </li>
+</ul>
+                    <ul class="case-bottom">
+<li><a href="http://info.egreatwall.com/case/20170407/204046.shtml" target="_blank"><img alt="" src="/case/images/pic57pd83aj_300X300.jpg" /></a></li><li><a href="http://info.egreatwall.com/case/20170407/204045.shtml" target="_blank"><img alt="" src="/case/images/pic432u1220_300X300.jpg" /></a></li><li><a href="http://info.egreatwall.com/case/20150122/192830.shtml" target="_blank"><img alt="" src="/case/images/picshui7i3i_300X300.jpg" /></a></li><li><a href="http://info.egreatwall.com/case/20150122/192829.shtml" target="_blank"><img alt="" src="/case/images/pic7jv4l7iu_300X300.jpg" /></a></li>
+</ul>
+                        </div>
+                        </div>
+                        </div>
+                    </body>
+                </html>

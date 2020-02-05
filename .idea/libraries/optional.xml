@@ -1,0 +1,43 @@
+<component name="libraryTable">
+  <library name="optional">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/jms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/webwork.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/glue_stub.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/spring-1.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/servlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/bsh-1.2b7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/propertyset-ejb-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/jta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/bsf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/commons-pool.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/dom4j-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/commons-collections-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/xwork-1.0-beta2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/aopalliance.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/osuser-1.0-dev-2Feb05.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/jdbc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/ejb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/propertyset-ofbiz-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/ehcache.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/commons-dbcp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/ofbcore-entity.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/propertyset-hibernate-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/db-ojb-1.0.rc4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/jnet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/ofbcore-share.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/hibernate3.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/velocity-dep-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/commons-beanutils-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/activation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/quartz.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/prevayler2.00.001alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/cglib2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/hibernate-2.1.7c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/commons-lang-2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

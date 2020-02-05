@@ -1,0 +1,96 @@
+<!-- Copyright 1998 Microsoft Corporation. All rights reserved. -->
+<HTML>
+<HEAD>
+<TITLE>输入表格属性</TITLE>
+
+<STYLE TYPE="text/css">
+ BODY   {margin-left:10; font-family:Verdana; font-size:12; background:menu}
+ BUTTON {width:5em}
+ TABLE  {font-family:Verdana; font-size:12}
+ P      {text-align:center}
+</STYLE>
+
+<SCRIPT LANGUAGE=JavaScript>
+function IsDigit()
+{
+  return ((event.keyCode >= 48) && (event.keyCode <= 57))
+}
+</SCRIPT>
+
+<SCRIPT LANGUAGE=JavaScript FOR=Ok EVENT=onclick>
+   
+  var arr =null;
+  if (popurl.value ==""){
+	alert("必须输入弹出窗口的url");
+    popurl.focus();
+    return false;
+  }
+  arr = "   onload=\"window.open('"+popurl.value+"',";
+  
+  if (poptitle.value !=""){
+	arr += "'"+poptitle.value+"',";	
+  }else{
+	arr += "'',";
+  }
+  
+  if (popH.value <1){
+	alert("弹出窗口的高度必须大于0");
+    popH.focus();
+    return false;
+  }
+  arr += "'height="+popH.value;	
+
+  if (popW.value <1){
+	alert("弹出窗口的宽度必须大于0");
+    popW.focus();
+    return false;
+  }
+  arr += ",width="+popW.value;	
+  
+  if(popT.value !=null && popT.value>0){
+	arr += ",top="+popT.value;	
+  }
+  if(popL.value !=null && popL.value>0){
+	arr += ",left="+popL.value ;	
+  }
+  if(popEXT.value !=null && popEXT.value!=""){
+	arr += ","+popEXT.value ;	
+  }
+  arr +="')\"  ";
+  window.returnValue = arr;
+  window.close();
+</SCRIPT>
+
+</HEAD>
+
+<BODY>
+
+<TABLE CELLSPACING=10>
+ <TR>
+  <TD COLSPAN=2>弹出窗口URL:<INPUT ID=popurl TYPE=TEXT SIZE=20 NAME=popurl value=""></td>
+  <td COLSPAN=2>窗口标题:<INPUT ID=poptitle TYPE=TEXT SIZE=20 NAME=poptitle value="">
+  </TD>
+ </TR>
+ <TR>
+	<TD>窗口高度: <INPUT ID=popH NAME=popH TYPE=TEXT SIZE=3 value=0 ONKEYPRESS="event.returnValue=IsDigit();"></TD><TD>窗口宽度: <INPUT ID=popW NAME=popW TYPE=TEXT SIZE=3 value=0 ONKEYPRESS="event.returnValue=IsDigit();"></TD>
+    <TD>TOP   值: <INPUT ID=popT NAME=popT TYPE=TEXT SIZE=3 ONKEYPRESS="event.returnValue=IsDigit();"></TD><TD>LEFT  值: <INPUT ID=popL NAME=popL TYPE=TEXT SIZE=3 ONKEYPRESS="event.returnValue=IsDigit();"></TD>
+ </TR>
+ <TR>
+	<TD COLSPAN=4>其它选项：<INPUT TYPE=TEXT NAME=popEXT SIZE=80 VALUE="toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no"></TD>
+ </TR>
+ <TR>
+    <TD COLSPAN=4> 其它选项说明：<br>toolbar=no 是否显示工具栏，yes为显示； 
+	<BR>menubar，scrollbars 表示菜单栏和滚动栏。 <br>
+	resizable=no 是否允许改变窗口大小，yes为允许；<BR> 
+	location=no 是否显示地址栏，yes为允许； <BR>
+	status=no 是否显示状态栏内的信息（通常是文件已经打开），yes为允许； 
+    </TD>
+  </TR>
+</TABLE>
+
+<P>
+<BUTTON ID=Ok TYPE=SUBMIT>确定</BUTTON>
+<BUTTON ONCLICK="window.close();">取消</BUTTON>
+
+</BODY>
+</HTML>

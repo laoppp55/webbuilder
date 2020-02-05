@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GB2312"?>
+<COO_SETTING>
+  <FTP_INFO ip="localhost" ftpuser="" ftppwd="" pubbasedir="d:\sites\coosite\usersites" publishway="1" status="1" logowidth="140" logoheight="50" />
+  <BUILD_SITE system="win2000" />
+  <RESIN_CONFIG>
+     <path>e:\resin-2.1.11</path>
+     <webapp>e:\AppServer\AppServer\webapps</webapp>
+     <content>  
+        [host id='hostname']
+            [access-log id='logs/hostname_access.log' format='%h %l %u %t "%r" %s %b "%{Referer}i" "%{User-Agent}i"' rollover-period='1W'/]
+            [error-log id='logs/hostname_error.log'/]
+            [web-app id='/webapp']
+               [app-dir]applications[/app-dir]
+                 [classpath id='WEB-INF/classes' source='WEB-INF/classes' compile='true'/]
+                 [session-config]
+                   [session-max]4096[/session-max]
+                   [session-timeout]30[/session-timeout]
+                   [enable-cookies]true[/enable-cookies]
+                   [enable-url-rewriting]true[/enable-url-rewriting]
+                 [/session-config]
+               [path-mapping url-regexp='^/~([^/]*)' real-path='/home/$1/public_html/'/]
+               [servlet-mapping url-pattern='/servlet/*' servlet-name='invoker'/]
+               [servlet-mapping url-pattern='*.xtp'servlet-name='com.caucho.jsp.XtpServlet'/]
+               [servlet-mapping url-pattern='*.jsp' servlet-name='com.caucho.jsp.JspServlet'/]       
+            [/web-app]      
+        [/host]
+        
+        [!--new host --]
+  </content>
+  </RESIN_CONFIG>
+</COO_SETTING>

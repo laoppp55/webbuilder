@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head xmlns="">
+        <title>振国内部交流</title>
+        <meta content="text/html; charset=gb2312" http-equiv="Content-Type" /><style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family:"新宋体";
+	font-size:14px;
+	background-color: #FFFFFF;
+}
+ul li{float:left; line-height:32px;}
+ul .lititle{ width:500px; list-style-type:square;}
+ul .litime{ width:200px; text-align:right; list-style-type:none;} 
+a:link{ text-decoration:none; color:#000000;}
+a:hover{ text-decoration:none; color:#000000;}
+a:visited{ text-decoration:none; color:#000000;}
+a:active{ text-decoration:none; color:#000000;}
+a.item01:link{ text-decoration:none; color:#000000;}
+a.item01:hover{ text-decoration:underline; color:#000000;}
+a.item01:visited{ text-decoration:none; color:#000000;}
+a.item01:active{ text-decoration:none; color:#000000;}
+--></style>
+<script src="/_sys_js/commentarticle.js" type="text/javascript"></script>
+<script language="javascript">
+var objXml = new ActiveXObject("Microsoft.XMLHTTP");
+objXml.open("POST", "/_commons/checkArticle.jsp?userflag=1&userlevel=1", false);
+objXml.Send();
+var retstr = objXml.responseText;
+if (retstr != null && retstr.length > 0 && retstr.indexOf("nologin") > -1) {    alert("请先登录！");
+    window.location="/www_zhwzg_com/_prog/login.jsp";
+    }
+if (retstr != null && retstr.length > 0 && retstr.indexOf("nolevel") > -1) {
+   alert("只有一定级别的用户才能浏览！");
+    window.close();    }
+</script>
+    </head>
+    <body xmlns="">
+        <div align="center">
+        <table cellspacing="0" cellpadding="0" width="750" border="0">
+            <tbody>
+                <tr>
+                    <td valign="bottom" align="center" height="60" style="font-weight: bold; font-size: 28px; line-height: 30px">振国内部交流</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td valign="middle" align="left"><ul><li class="lititle"><a href=/nbjl/20110801/139189.shtml target=_blank>北京医院回款数据比较</a></li>
+<li class="litime">2011-08-01 17:29:00</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139188.shtml target=_blank>北京医院按记回款排序各地介绍患者情况</a></li>
+<li class="litime">2011-08-01 17:28:00</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139186.shtml target=_blank>北京医院2011年上半年出院情况统计</a></li>
+<li class="litime">2011-08-01 17:26:00</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139187.shtml target=_blank>北京医院各地介绍患者情况</a></li>
+<li class="litime">2011-08-01 17:26:00</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139185.shtml target=_blank>2011年1至6月各地给北京医院介绍患者记回款排序</a></li>
+<li class="litime">2011-08-01 17:25:13</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139184.shtml target=_blank>2011年1至6月各地给北京医院介绍患者记利润（返利）排 名</a></li>
+<li class="litime">2011-08-01 17:24:50</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139183.shtml target=_blank>北京区各地回款增幅排名</a></li>
+<li class="litime">2011-08-01 17:24:00</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139182.shtml target=_blank>2011年上半年北京医院入院患者信息来源统计分析</a></li>
+<li class="litime">2011-08-01 17:23:29</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139181.shtml target=_blank>滕总《对上半年总结的感悟和对下半年市场工作的建议》</a></li>
+<li class="litime">2011-08-01 17:23:00</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139180.shtml target=_blank>北京医院2011年上半年网络客服部数据统计及工作总结</a></li>
+<li class="litime">2011-08-01 17:22:00</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139179.shtml target=_blank>2011年安徽服务处上半年工作总结</a></li>
+<li class="litime">2011-08-01 17:21:00</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139178.shtml target=_blank>2011年河南省上半年工作总结及下半年工作安排</a></li>
+<li class="litime">2011-08-01 17:19:49</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139177.shtml target=_blank>广州销售处2011年上半年工作情况</a></li>
+<li class="litime">2011-08-01 17:19:21</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139176.shtml target=_blank>太原销售处2011年上半年工作总结</a></li>
+<li class="litime">2011-08-01 17:18:27</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139175.shtml target=_blank>南昌2011年上半年工作总结及下半年工作计划</a></li>
+<li class="litime">2011-08-01 17:17:36</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139174.shtml target=_blank>重庆振国门诊部2011年半年工作小结</a></li>
+<li class="litime">2011-08-01 17:16:43</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139173.shtml target=_blank>青岛销售处2011年上半年工作总结</a></li>
+<li class="litime">2011-08-01 17:14:24</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139172.shtml target=_blank>武汉销售处2011年上半年工作总结</a></li>
+<li class="litime">2011-08-01 17:13:28</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139171.shtml target=_blank>胶州服务处2011年上半年市场工作总结</a></li>
+<li class="litime">2011-08-01 17:13:01</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139170.shtml target=_blank>2011年上半年甘肃销售处工作总结</a></li>
+<li class="litime">2011-08-01 17:12:02</li>
+
+</ul></td>
+                </tr>
+                <tr>
+                    <td valign="middle" align="center" height="55"><a class="item01" href=/nbjl/index.shtml>首页</a> | <A class="item01" href=/nbjl/index.shtml>上一页</A> | <A class="item01" href=/nbjl/index1.shtml>下一页</A> | <A class="item01" href=/nbjl/index1.shtml>尾页</A> 共2页</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </body>
+</html>

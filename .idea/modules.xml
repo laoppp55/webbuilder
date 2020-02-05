@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/document/document.iml" filepath="$PROJECT_DIR$/document/document.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generator/generator.iml" filepath="$PROJECT_DIR$/generator/generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webbuilder.iml" filepath="$PROJECT_DIR$/webbuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webapps/cms/sites/_commons/播放器src/播放器src.iml" filepath="$PROJECT_DIR$/webapps/cms/sites/_commons/播放器src/播放器src.iml" />
+    </modules>
+  </component>
+</project>

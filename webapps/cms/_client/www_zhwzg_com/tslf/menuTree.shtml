@@ -1,0 +1,92 @@
+<link href="/images/sinopec.css" rel="stylesheet" type="text/css" /><script language=javascript>function showM(i){eval("m"+i).style.display = "";eval("icon"+i).innerHTML="<a href='javascript:hideM("+i+");'><img src='/images/icon-nav-hide.gif' border=0></a>";}function hideM(i){eval("m"+i).style.display = "none";eval("icon"+i).innerHTML="<a href='javascript:showM("+i+");'><img src='/images/icon-nav-show.gif' border=0></a>";}function showArrow(i){if(currentid != i)eval("arr"+i).style.display = "";}function hideArrow(i){if(currentid != i)eval("arr"+i).style.display = "none";}</script></head><body><table border=0 width=178 cellspacing="0" cellpadding="0"><tr><td width="178" valign="top">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="15" align="left">
+</td>
+<td align="left">
+<a href="/tslf/sl/" class="left-nav">食疗</a></td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="/images/dotline-insite.gif" width="178" height="1" /></td>
+</tr>
+</table>
+<div id="m44133" style="display:none"></div>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="15" align="left">
+</td>
+<td align="left">
+<a href="/tslf/lajypf/" class="left-nav">抗癌经验配方</a></td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="/images/dotline-insite.gif" width="178" height="1" /></td>
+</tr>
+</table>
+<div id="m44134" style="display:none"></div>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="15" align="left">
+</td>
+<td align="left">
+<a href="/tslf/zxyzl/" class="left-nav">中西医治疗</a></td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="/images/dotline-insite.gif" width="178" height="1" /></td>
+</tr>
+</table>
+<div id="m44135" style="display:none"></div>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="15" align="left">
+</td>
+<td align="left">
+<a href="/tslf/chongjilf/" class="left-nav">冲击疗法</a></td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="/images/dotline-insite.gif" width="178" height="1" /></td>
+</tr>
+</table>
+<div id="m44413" style="display:none"></div>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="15" align="left">
+</td>
+<td align="left">
+<a href="/tslf/zhongyaojrlf/" class="left-nav">中药介入疗法</a></td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="/images/dotline-insite.gif" width="178" height="1" /></td>
+</tr>
+</table>
+<div id="m44414" style="display:none"></div>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="15" align="left">
+</td>
+<td align="left">
+<a href="/tslf/xbzl/" class="left-nav">细胞治疗</a></td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><img src="/images/dotline-insite.gif" width="178" height="1" /></td>
+</tr>
+</table>
+<div id="m45352" style="display:none"></div>
+</td></tr></table><div id="m0"></div><div id="arr0"></div><div id="icon0"></div><script language=javascript>if(currentid != 0){if(currentid != currentpid){eval("m"+currentpid).style.display = "";eval("icon"+currentpid).innerHTML="<a href='javascript:hideM("+currentpid+");'><img src='/images/icon-nav-hide.gif' border=0></a>";eval("arr"+currentid).style.display = "";}else{eval("m"+currentpid).style.display = "";eval("icon"+currentpid).innerHTML="<a href='javascript:hideM("+currentpid+");'><img src='/images/icon-nav-hide.gif' border=0></a>";}}</script>

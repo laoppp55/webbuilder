@@ -1,0 +1,40 @@
+
+        <div class="top"><!--顶部导航栏-->
+        <div class="top_auto">
+        <div id="nologinview1" class="login-info"><em>欢迎来到长城云采</em> <a class="sn-login" href="#">请登录</a> <a class="sn-register" href="#">免费注册</a></div>
+        <div id="loginview10" class="login-info" hidden="true">&nbsp;&nbsp; &nbsp;</div>
+        <div class="top_quick_menu">
+        <div id="jumptoecaiDiv" class="left"><a id="jumptoecai" class="menu-hd" onclick="junptoecai()" href="javascript:void(0);">我的业务平台</a></div>
+        <div class="left client-service"><a class="menu-hd" href="#">客服中心</a> <i class="arrow_down"><img alt="" src="/images/icon_arrow_down.png" /></i> <i class="arrow_up"><img alt="" src="/images/icon_arrow_up.png" /></i>
+        <ul class="helpmessage">
+            <li><a href="javascript:;">新手入门</a></li>
+            <li><a href="javascript:;">联系客服</a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+        <!--顶部 log和顶部搜索框-->
+        <div class="top-center">
+        <div class="header-con">
+        <div class="mall-login"><img class="mlogo" alt="" src="/images/logo_cn.png" /></div>
+        <div class="search-box">
+        <ul class="hot-query">
+            <li class="query-list"><a class="chooseQuery" style="color: #ef7800" href="#">商机信息</a></li>
+            <li class="query-list"><a href="#">供应信息</a></li>
+            <li class="query-list"><a href="#">供应商</a></li>
+        </ul>
+        <div id="mall-search" class="mall-search"><input id="searchtext" class="search-m-input" placeholder="输入物资名称、供应商名称等 " type="text" />
+        <div id="search-btn" class="search-btn pointer"><img alt="" src="/images/icon_search.png" /></div>
+        </div>
+        </div>
+        <div class="header-tel"><img alt="" src="/images/tel2.png" /></div>
+        <div class="mobil-two-bar-codes"><img class="two-bar-codes" alt="" src="/images/downloadAPP.png" /></div>
+        </div>
+        </div>
+        <div class="nav">
+        <div class="nav-auto">
+        <div class="nav-lists"><a class="nav-list navselectflag nav-selected" href="http://www1.egreatwall.com/">首页</a> <a class="nav-list" href="/case/">采购商</a> <a id="materiamanager" class="nav-list" href="javascript:void(0);">物料管理</a> <a id="supplier" class="nav-list" onclick="jumptosupp()" href="javascript:void(0);">供应商</a> <a id="sjh-web" class="nav-list" onclick="jumptosjh()" href="#">商机信息</a> <a class="nav-list" href="/about/introduction/">关于我们</a></div>
+        </div>
+        </div>
+    

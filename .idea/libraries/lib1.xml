@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/document/fckeditor2.6.6/WEB-INF/lib/activation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/fckeditor2.6.6/WEB-INF/lib/dt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/fckeditor2.6.6/WEB-INF/lib/tools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/fckeditor2.6.6/WEB-INF/lib/servlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/fckeditor2.6.6/WEB-INF/lib/commons-fileupload.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/fckeditor2.6.6/WEB-INF/lib/FCKeditor-2.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

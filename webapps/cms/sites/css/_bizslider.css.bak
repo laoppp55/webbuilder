@@ -1,0 +1,131 @@
+.bizul
+{
+    PADDING-BOTTOM: 0px;
+    LIST-STYLE-TYPE: none;
+    MARGIN: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 0px
+}
+.bizli
+{
+    PADDING-BOTTOM: 0px;
+    LIST-STYLE-TYPE: none;
+    MARGIN: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 0px
+}
+.bizslider-con
+{
+    MARGIN-RIGHT: auto;
+    MARGIN-LEFT: auto;
+    WIDTH: 660px;
+    HEIGHT: 315px
+}
+.bizslider .bg
+{
+    POSITION: absolute;
+    LINE-HEIGHT: 25px;
+    BACKGROUND-COLOR: #ffffff;
+    WIDTH: 100%;
+    BOTTOM: 0px;
+    HEIGHT: 25px;
+    LEFT: 0px
+}
+.bizslider .desc
+{
+    POSITION: absolute;
+    LINE-HEIGHT: 25px;
+    BACKGROUND-COLOR: #ffffff;
+    WIDTH: 100%;
+    BOTTOM: 0px;
+    HEIGHT: 25px;
+    LEFT: 0px
+}
+.bizslider .bg
+{
+    FILTER: alpha(opacity=1);
+    BACKGROUND-COLOR: #ffffff;
+    opacity: 0.01
+}
+.bizslider .desc
+{
+    PADDING-LEFT: 6px;
+    COLOR: #000;
+    FONT-SIZE: 12px;
+    TEXT-DECORATION: none
+}
+.bizslider .desc .sname
+{
+    FONT-WEIGHT: bold
+}
+.bizslider .desc:hover
+{
+    TEXT-DECORATION: none
+}
+.bizslider IMG
+{
+    DISPLAY: inline
+}
+.bizslider .slider-t
+{
+    FLOAT: left;
+    HEIGHT: 324px;
+    OVERFLOW: hidden
+}
+.bizslider .slider-b
+{
+    FLOAT: left;
+    HEIGHT: 324px;
+    OVERFLOW: hidden
+    POSITION: relative;
+    WIDTH: 528px;
+    MARGIN-LEFT: 200px
+}
+.bizslider .slider-t LI
+{
+    POSITION: relative;
+    PADDING-BOTTOM: 0px;
+    HEIGHT: 61px;
+    MARGIN-LEFT: 0px
+}
+.bizslider .slider-b IMG
+{
+    WIDTH: 528px;
+    HEIGHT: 324px
+}
+.bizslider .slider-t IMG
+{
+    FILTER: alpha(opacity=35);
+    PADDING-LEFT: 5px;
+    WIDTH: 88px;
+    HEIGHT: 50px;
+    opacity: 0.35
+}
+.bizslider .slider-t .on IMG
+{
+    FILTER: alpha(opacity=100);
+    opacity: 1
+}
+.bizslider .slider-t .on SPAN
+{
+    BORDER-BOTTOM: #ff9900 2px solid;
+    POSITION: absolute;
+    BORDER-LEFT: #ff9900 2px solid;
+    WIDTH: 101px;
+    DISPLAY: block;
+    MARGIN-LEFT: 5px;
+    BORDER-TOP: #ff9900 2px solid;
+    TOP: 0px;
+    BORDER-RIGHT: #ff9900 2px solid;
+    LEFT: 0px
+}
+.bizslider .slider-t .on B
+{
+    POSITION: absolute;
+    WIDTH: 6px;
+    HEIGHT: 6px;
+    TOP: 26px;
+    LEFT: 1px
+}

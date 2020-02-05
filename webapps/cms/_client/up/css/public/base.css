@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0
+}
+html,body{
+    margin: 0;
+    padding: 0
+}
+body {
+    font-family: "微软雅黑"!important;
+    background-color: #f1f1f5;
+}
+
+ul li {
+    list-style: none;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+
+i {
+    font-style: normal;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.page-auto {
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+.content-auto{
+    width: 1150px;
+    margin: 0 auto;
+    position: relative;
+}
+
+input[type="reset"],
+input[type="checkbox"],
+input[type="button"],
+input[type="sunmit"],
+select,
+button {
+    cursor: pointer;
+}
+input,select,textarea{
+    font-family: 微软雅黑;
+    color: #444;
+    font-size: 12px;
+}
+.pointer {
+    cursor: pointer;
+}
+
+/*清除浮动*/
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+/*多余字符串省略号代替*/
+.box-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

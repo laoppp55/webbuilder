@@ -1,0 +1,101 @@
+#
+# System environment and DB infos
+#
+# language：Database language
+# db.type：Database type. If Database is Oracle, the value is 'oracle'. 
+#											 If Database is SQLServer, the value is 'mssql'.
+# cpool：Database connection pool type. If use resin's connection pool, value is 'system'. 
+#				 If use CMS's connection pool, value is 'general'.
+# driver: Connect database driver. If use MSSQL Server database, driver is 'weblogic.jdbc.mssqlserver4.Driver'.
+#					If use Oracle database, driver is 'oracle.jdbc.driver.OracleDriver'.
+#	url: Connect database url. If use MSSQL Server database, url is 'jdbc:weblogic:mssqlserver4:dbip:dbport'.
+#			 If use Oracle database, url is 'jdbc:oracle:thin:@dbip:dbport:dbsid'.
+#			 dbip - IP Address of Database
+#			 dbport - Connect database port
+#			 dbsid - Connect oracle database sid. Only use oracle database, this is needed.
+# username: The user's name of connecting database. 
+#						If use general connection pool(cpool's value is general), this value must be setted.
+# password: The password of connecting database. 
+#						If use general connection pool(cpool's value is general), this value must be setted.
+# minconnect: Creating min connection num of connection pool.
+# maxconnect: Creating max connection num of connection pool.
+# connectionTimeout: The time of connection timeout.
+# logPath: If use general connection pool(cpool's value is general), this value must be setted. 
+#					 For saving connection information.
+# jndi: If use system connection pool(cpool's value is system), this value must be setted. It should equals the value
+#				setted in resin's config file.
+# os.type: OS type of running the cms.
+# appserver: Run cms's application server. Usually this value is 'resin'.
+# indexPath: Saveing the index file's path.
+# publishway: Publishing type. If you need auto publish, please setting this value equals 1. Else equals 0.
+# tpool.maxnum: Thread pool creating max thread's num. This thread pool service for auto publishing.
+#								If this value is setted too bigger, it will use more system resources.
+# writelog: When auto publish articles, writing log or not. 1 - write log. 0 - not write log.
+# uploadsize: Allow user to upload file's size. This value's unit is M.
+#
+##############################################################################
+main.db.language=chinese
+main.db.type=oracle
+main.db.cpool=general
+main.db.driver=oracle.jdbc.driver.OracleDriver
+main.db.url=jdbc:oracle:thin:@localhost:1521:orcl11g
+main.db.username=bjsjsdbadmin
+main.db.password=qazwsxokm
+main.db.minconnect=5
+main.db.maxconnect=10
+main.db.connectionTimeout=5
+main.db.logPath=c:\\log\\server.log
+main.db.jndi=webbuilder
+main.db.k_line_path=c:\\kline
+main.os.type=win2000
+main.os.lang=gbk
+main.appserver=resin
+main.indexPath=c:\\cms\\indexer\\
+main.publishway=1
+main.tpool.maxnum=30
+main.writelong=1
+main.uploadsize=10
+
+#
+# RSS infos
+#
+#	companyname: Company name. This info will be showed in rss pages.
+#	description: Description. This info will be showed in rss pages.
+# url: Description's url. In rss pages, click the description will open this url's page.
+# language: Publishing rss pages used language.
+# livetime: Living time.
+# domain:	Domain name of your website. This info will be showed in rss pages.
+# copyright: Copyright. This info will be showed in rss pages bottom.
+# image.title: Logo picture title. This will be showed when move the mouse on it.
+# image.link: Logo's link url. Clicking the logo will open this url's page.
+# image:url: Logo picture url. This picture will show in the rss pages.
+#
+###############################################################################
+main.rss.companyname=北京盈商动力软件开发有限公司
+main.rss.description=新闻中心
+main.rss.url=http://www.bizwink.com.cn/companynews/
+main.rss.language=zh-cn
+main.rss.livetime=5
+main.rss.domain=www.bizwink.com.cn
+main.rss.copyright=Copyright 2007 All rights reserved. 北京盈商动力软件开发有限公司
+main.rss.image.title=北京盈商动力软件开发有限公司
+main.rss.image.link=http://www.bizwink.com.cn
+main.rss.image.url=http://www.bizwink.com.cn/images/picb6y6p3b4.gif
+
+#
+# WaterMark Infos
+#
+# type: The type of watermark. 1-image watermark; 2-text watermark; 3-image and text watermark
+# image: The image of watermark will by used
+# content: The text of watermark
+# color: If use text watermark, then this means color of text watermark
+# font: If use text watermark, then this means font of text watermark
+# size: If use textwatermark, then this means size of text watermark
+#
+################################################################################
+main.watermark.type=3
+main.watermark.image=D:\\watermark\\webapps\\smalllogo.jpg
+main.watermark.text.content=52宠物俱乐部
+main.watermark.text.color=FF3300
+main.watermark.text.font=宋体
+main.watermark.text.size=40

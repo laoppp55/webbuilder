@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head xmlns="">
+    <title>CBCSD</title>
+    <meta content="text/html; charset=gb2312" http-equiv="Content-Type" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/css/huiyuan.css" />
+    <script type="text/javascript"  src="/js/jquery.min.js" ></script>
+    <script type="text/javascript"  src="/js/jquery.jcarousel.pack.js" ></script>
+    <script type="text/javascript"  src="/js/menu.js" ></script>
+    <script type="text/javascript">
+        function check(){
+            if(form.content.value == "" || form.content.value == null){
+                alert("请输入留言的内容！");
+                form.content.focus();
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body xmlns="">
+<div class="main">
+    <div class="box"><!--#include virtual="/inc/head.shtml"--><div class="banner"></div>
+        <div class="con">
+            <div class="path"><span>当前位置：</span><a href="/">首页</a>-&gt;<a href="#">会员专区</a></div>
+            <div class="left">
+                <div class="left_box">
+                    <div class="title">开展项目</div>
+                    <div class="con1">
+                        <ul class="xm">
+                            <li><A HREF=/xmhhd/shehui/index.shtml>企业社会责任项目</A></li><li><A HREF=/xmhhd/shui/index.shtml>水的可持续发展项目</A></li><li><A HREF=/xmhhd/shengtai/index.shtml>生态文明和城镇化项目</A></li><li><A HREF=/xmhhd/baogao/index.shtml>可持续发展报告编制项目</A></li><li><A HREF=/xmhhd/nengyuan/index.shtml>能源与气候变化项目</A></li><li><A HREF=/xmhhd/HSE/index.shtml>安全生产项目(HSE)</A></li></ul>
+                        <div class="pic"><img border="0" hspace="0" alt="" src="/hyzq/images/pic0gl3b0vb.jpg" /><img border="0" hspace="0" alt="" src="/hyzq/images/pic86x45867.jpg" /></div>
+                    </div>
+                </div>
+                <div class="left_box">
+                    <div class="title">会员稿件摘登</div>
+                    <div class="con1">
+                        <ul>
+                            <li><a href=/hyzq/memberlist/20130531/57431.shtml target="_blank" title="威立雅水务SADE公司启动燃气管网服务" >威立雅水务SADE公司启动燃气管网服务</a></li><li><a href=/hyzq/memberlist/20130531/57430.shtml target="_blank" title="威立雅水务应急管理：以完善的风险管理来确保值得信赖的服务" >威立雅水务应急管理：以完善的风险管理来确保值得</a></li><li><a href=/hyzq/memberlist/20130115/57433.shtml target="_blank" title="施耐德电气2012年再度实现可持续发展" >施耐德电气2012年再度实现可持续发展</a></li><li><a href=/hyzq/memberlist/20130122/57434.shtml target="_blank" title="宝钢资源获评“中央企业企业文化示范单位”" >宝钢资源获评“中央企业企业文化示范单位”</a></li><li><a href=/hyzq/memberlist/20130106/57432.shtml target="_blank" title="高希文被任命为拉法基瑞安水泥新任首席执行官" >高希文被任命为拉法基瑞安水泥新任首席执行官</a></li><li><a href=/hyzq/memberlist/20130122/57436.shtml target="_blank" title="巴斯夫荣获奥托立夫集团最佳品质供应商奖" >巴斯夫荣获奥托立夫集团最佳品质供应商奖</a></li>
+                        </ul>
+                        <div class="more"><a href="/hyzq/memberlist/"><img alt="" src="/images/home_more.jpg" /></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="center">
+                <div class="center_box">
+                    <div class="title">最佳案例分享</div>
+                    <div class="con2">
+                        <ul>
+                            <li><a href=/hyzq/wellshare/20121113/13871.shtml target="_blank" title="我国林业总产值去年突破3.7万亿" >我国林业总产值去年突破3.7万亿</a></li><li><a href=/hyzq/wellshare/20121113/13866.shtml target="_blank" title="广西林业创造七项全国第一" >广西林业创造七项全国第一</a></li><li><a href=/hyzq/wellshare/20121113/13868.shtml target="_blank" title="重庆力争今年全市森林覆盖率提高1个百分点" >重庆力争今年全市森林覆盖率提高1个百分点</a></li><li><a href=/hyzq/wellshare/20121024/13798.shtml target="_blank" title="国家林业局要求从五方面强化野生动物保护执法" >国家林业局要求从五方面强化野生动物保护执法</a></li><li><a href=/hyzq/wellshare/20121024/13801.shtml target="_blank" title="国家林业局：林业承担构建生态安全格局的重大职责" >国家林业局：林业承担构建生态安全格局的重大职责</a></li><li><a href=/hyzq/wellshare/20121024/13800.shtml target="_blank" title="国家林业局：尽快实现我国因林而美、因林而绿、因林而富" >国家林业局：尽快实现我国因林而美、因林而绿、因林而富</a></li><li><a href=/hyzq/wellshare/20121006/13634.shtml target="_blank" title="林业局：森林抚育经营成效显著 实现“五增加”" >林业局：森林抚育经营成效显著 实现“五增加”</a></li><li><a href=/hyzq/wellshare/20121006/13633.shtml target="_blank" title="多哈“中国角”系列边会：“林业碳汇”研讨会举行" >多哈“中国角”系列边会：“林业碳汇”研讨会举行</a></li><li><a href=/hyzq/wellshare/20120903/13537.shtml target="_blank" title="国家林业局西南生态监测评估中心在昆明揭牌" >国家林业局西南生态监测评估中心在昆明揭牌</a></li><li><a href=/hyzq/wellshare/20120826/13502.shtml target="_blank" title="中国绿色碳汇基金会两年造林120多万亩" >中国绿色碳汇基金会两年造林120多万亩</a></li>
+                        </ul>
+                        <ul class="img_list">
+                            <li><img alt="" width="103" height="69" src="/images/home_pic03.jpg" /></li>
+                            <li><img alt="" width="103" height="69" src="/images/home_pic04.jpg" /></li>
+                            <li><img alt="" width="103" height="69" src="/images/home_pic05.jpg" /></li>
+                        </ul>
+                        <div class="more"><a href="/hyzq/wellshare/"><img alt="" src="/images/home_more.jpg" /></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="right_box">
+                    <div class="title">活动布告栏</div>
+                    <div class="con3">
+                        <ul>
+                            <li><a href=/hyzq/pubulic/20130531/57441.shtml target="_blank" title="第八届中国企业社会责任国际论坛暨2012“金蜜蜂企业社会责任&#8226;中国榜”发布典礼将于京举行" >第八届中国企业社会责任国际论坛暨2012“金蜜蜂企业社会</a></li><li><a href=/hyzq/pubulic/20121202/57437.shtml target="_blank" title="壳牌全球最大润滑脂厂在中国珠海投产" >壳牌全球最大润滑脂厂在中国珠海投产</a></li><li><a href=/hyzq/pubulic/20130104/57440.shtml target="_blank" title="中集集团完成对中集来福士的全部收购" >中集集团完成对中集来福士的全部收购</a></li><li><a href=/hyzq/pubulic/20121204/57438.shtml target="_blank" title="国家电网“特高压交流输电关键技术、成套设备及工程应用”获国家科技进步奖特等奖" >国家电网“特高压交流输电关键技术、成套设备及工程应用</a></li><li><a href=/hyzq/pubulic/20130101/57439.shtml target="_blank" title="国家电网公司发布2012年社会责任报告" >国家电网公司发布2012年社会责任报告</a></li><li><a href=/hyzq/pubulic/20130213/14258.shtml target="_blank" title="中国石化召开二季度HSE工作会" >中国石化召开二季度HSE工作会</a></li>
+                        </ul>
+                        <div class="more"><a href="/hyzq/pubulic/"><img alt="" src="/images/home_more.jpg" /></a></div>
+                    </div>
+                </div>
+                <div class="right_box">
+                    <div class="title">意见和建议</div>
+                    <div class="con3">
+                        <div class="liuyan">
+                            <form action="/_commons/leavemessage.jsp" onsubmit='return check();' name="form">
+                                <input type="hidden" name="siteid" value="39" />
+                                <input type="hidden" name="startflag" value="1" />
+                                <label><textarea id="textarea" class="txt_input" name="content" cols="45" rows="5"></textarea></label><label class="submit_input"><input id="button3" src="/images/submit.jpg" type="image" name="button3" value="提交" /></label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--#include virtual="/inc/tail.shtml"--><div class="clear"></div>
+    </div>
+</div>
+<div class="bg-bottom"></div>
+</body>
+</html>

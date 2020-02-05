@@ -1,0 +1,20 @@
+<html>
+<head>
+
+</head>
+<script type="text/javascript" src="shoppingcart.js"></script>
+<body>
+<center>
+    <table border="0">
+        <tr>
+            <td>
+                <input type="button" name="but" value="放入购物车" onclick="javascript:insertcart(12105);">
+            </td>
+            <td>
+                <input type="button" name="but" value="放入购物车" onclick="javascript:insertcart(12104);">
+            </td>
+        </tr>
+    </table>
+</center>
+</body>
+</html>

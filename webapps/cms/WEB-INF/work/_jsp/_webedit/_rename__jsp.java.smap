@@ -1,0 +1,15 @@
+SMAP
+_rename__jsp.java
+JSP
+*S JSP
+*F
++ 1 rename.jsp
+webedit/rename.jsp
+*L
+6#1:58
+8#1,48:59
+55#1:107
+77#1:108,2
+82#1:110,2
+95#1:112
+*E

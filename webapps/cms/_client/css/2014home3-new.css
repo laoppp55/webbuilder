@@ -1,0 +1,57 @@
+@import url("2014main3.css");
+.home_banner{height:240px; width:960px; margin-top:15px; margin-bottom:15px;}
+.mainbox{ overflow:hidden; position:relative;}
+.flashbox{ overflow:hidden; position:relative;}
+.imagebox{ text-align:right;position:relative;z-index:999;}
+.bitdiv{display:inline-block;width:18px;height:18px;margin:0 10px 10px 0px;cursor:pointer;float:right;}
+.defimg{background-image:url(/images/02.png); background-repeat:no-repeat;}
+.curimg{background-image:url(/images/01.png); background-repeat:no-repeat;}
+
+.yewu {width:696px; float:left; overflow:hidden;}
+.yewu_tit { height:33px; width:660px; background:url(/images/2014titlebg.jpg) left top no-repeat; padding-left:36px;}
+.yewu_tit h1 { color:#FFFFFF; font-size:18px;/* font-family:"microsoft yahei";*/ font-weight:normal; height:33px; line-height:33px; float:left;}
+.yewu_con { width:335px; float:left; padding-top:15px;}
+.yewu_con_pic img{ border:1px solid #e6e6e6; padding:3px;}
+.yewu_con_tit { border-bottom:1px solid #E9EBF3; width:325px; height:35px; color:#333399; font-size:18px; line-height:35px; font-weight:bold; padding:5px;}
+.yewu_con_txt { line-height:22px; color:#3c3c3c; padding:5px; /* font-family:"Microsoft YaHei";*/ font-size:12px;}
+.space_right { padding-right:24px;}
+.login { width:249px; height:186px; background:url(/images/2014loginbg.jpg) left top no-repeat; float:right}
+.login_tit { width:239px; height:36px; line-height:36px;color:#333399; font-size:18px; font-weight:bold; padding-left:10px;}
+.login_con { width:204px; height:37px; padding-left:22px; margin-top:15px;}
+.login_con a { width:204px; height:30px; padding-top:7px; background:url(/images/2014sysbg1_1.jpg) left top no-repeat; display:block; text-align:center}
+.login_con1 { width:227px; height:37px; padding-left:22px; margin-top:25px;}
+.login_con1 a { width:98px; height:30px; padding-top:7px; background:url(/images/2014sysbg2.jpg) left top no-repeat; display:block; margin-right:9px; float:left; text-align:center}
+.login_con1 a:hover { background:url(/images/2014sysbg2_2.jpg) left top no-repeat;}
+.connect {  width:249px; background:url(/images/2014loginbg.jpg) left top no-repeat; float:right; padding:20px 0; margin-top:10px;}
+.connect_tit { width:239px; height:36px; line-height:36px;color:#333399; font-size:18px; font-weight:bold; padding-left:10px;}
+.connect_con { width:234px; float:left; padding-left:15px;}
+.connect_con p { line-height:25px;}
+
+.long_title { float:left; width:924px; height:33px; background:url(/images/2014titlebg.jpg) left top no-repeat; padding-left:36px; margin-top:15px;}
+.long_title h1 { color:#FFFFFF; font-size:18px;/* font-family:"microsoft yahei";*/ font-weight:normal; height:33px; line-height:33px; display:block; float:left;}
+.long_title a { float:right; padding-right:15px; display:block;color:#333399; padding-top:8px;}
+
+.case_list { float:left; width:960px;}
+.case { padding:15px; width:450px; float:left;}
+.case_logo { float:left; width:117px; text-align:center;}
+.case_logo p { font-size:18px;/*  font-family:"microsoft yahei";*/ padding-bottom:10px;}
+.case_txt { float:left; width:323px; padding-left:10px;}
+.case_txt p.tit{ border-bottom:2px solid #E9EBF3; width:318px; text-align:right; line-height:30px; padding-right:5px; margin-bottom:10px;}
+.case_txt  p { line-height:22px;/*  font-family:"Microsoft YaHei";*/ font-size:12px;}
+
+.edge_list { float:left; width:960px;}
+.edge { width:280px; padding:15px 20px; float:left; text-align:center;}
+.edge p { text-align:left; width:280px;/*  font-family:"Microsoft YaHei";*/ font-size:12px; line-height:22px;}
+.edge p.pic { text-align:center;}
+.edge p.tit { text-align:center; color:#333399; line-height:60px; font-size:16px; /* font-family:"microsoft yahei";*/}
+
+.short_list{ float:left; width:468px;}
+.short_title { float:left; width:432px; height:33px; background:url(/images/2014titlebg.jpg) left top no-repeat; padding-left:36px; margin-top:15px;}
+.short_title h1 { color:#FFFFFF; font-size:18px;/*  font-family:"microsoft yahei"; */font-weight:normal; height:33px; line-height:33px; display:block; float:left;}
+.short_title a { float:right; padding-right:15px; display:block;color:#333399; padding-top:8px;}
+
+.news { float:left; width:468px; padding:10px 0;}
+.news .pic { width:200px; float:left; padding-top:13px;}
+.news .pic img { padding:3px; border:1px solid #e6e6e6;}
+.news .list { width:268px; float:left; height:146px; overflow:hidden;}
+.news .list ul li { width:260px; float:left; font-size:12px; background:url(/images/2014icon1.gif) left 18px no-repeat; line-height:36px; padding-left:8px; border-bottom:1px dashed #b2b2b2;/*  font-family:"Microsoft YaHei";*/}

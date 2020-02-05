@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="osworkflow-2.8.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/osworkflow-2.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/designer.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

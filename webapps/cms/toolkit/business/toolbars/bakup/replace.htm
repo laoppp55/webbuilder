@@ -1,0 +1,55 @@
+<HTML>
+<HEAD>
+<TITLE>插入图片</TITLE>
+
+<STYLE TYPE="text/css">
+ BODY   {margin-left:10; font-family:Verdana; font-size:12; background:menu}
+ BUTTON {width:5em}
+ TABLE  {font-family:Verdana; font-size:12}
+ P      {text-align:center}
+</STYLE>
+<SCRIPT LANGUAGE="JavaScript" >
+<!--
+function upload() {
+  var arr = new Array();
+  
+  if ((searchtext.value !="") && (replacetext.value != "")) {	
+	arr["para1"] = searchtext.value;
+    arr["para2"] = replacetext.value;
+  	 window.returnValue =arr;
+  	 window.close();
+  }else {
+  	alert("请输入相关的替换参数");
+  	searchtext.focus();
+  }
+}  
+// -->
+
+</SCRIPT>
+
+</HEAD>
+
+<BODY onload="searchtext.focus()">
+
+  <TABLE  border="1">
+    <TR> 
+      <TD >查找文字:
+      <TD > 
+        <input  type="text"  size=18 name="searchtext" id="searchtext" value="">
+    </TR>
+	<TR> 
+      <TD >替换文字： 
+      <TD > 
+        <input  type="text"  size=18 name="replacetext" id="replacetext" value="">
+    </TR>
+    <TR> 
+      <TD colspan=2 align=center> 
+        <input type="button" ID=Ok name=ok onclick="javascript:upload()" value="确定">
+        <input type="button" ONCLICK="javascript:window.close();" value="取消">
+      </TD>
+    </TR>
+  </TABLE>
+
+
+</BODY>
+</HTML>

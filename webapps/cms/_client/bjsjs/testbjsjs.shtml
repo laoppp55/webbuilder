@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>test bjsjs head</title>
+</head>
+<body>
+<script language="javascript" src="http://www.bjsjs.gov.cn/js/head2019.js"></script>
+<p>hello word</p>
+
+<script language="javascript" src="http://www.bjsjs.gov.cn/js/tail2019.js"></script>
+</body>
+</html>

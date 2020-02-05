@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <classPathEntry location="C:\projects\webbuilder\generator\lib\ojdbc6.jar" />
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+        <commentGenerator>
+            <property name="suppressDate" value="true" />
+			<property name="mergeable" value="false"></property>
+        </commentGenerator>
+
+        <jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver"
+            connectionURL="jdbc:oracle:thin:@localhost:1521:orcl11g" userId="bucgdxdbadmin" password="qazwsxokm">
+        </jdbcConnection>
+
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+
+        <javaModelGenerator targetPackage="com.bizwink.po" targetProject="src">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        <sqlMapGenerator targetPackage="com.bizwink.persistence" targetProject="src">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+
+		<!-- 生成DAO的包名和位置 -->
+        <javaClientGenerator type="XMLMAPPER"
+            targetPackage="com.bizwink.persistence" targetProject="src">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+		<!--table tableName="TLOG_BAD" domainObjectName="LogBad"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>	
+		<table tableName="TLOG_BADNAME" domainObjectName="LogBadname"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>	
+		<table tableName="TLOG_BOT" domainObjectName="LogBot"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>	
+		<table tableName="TLOG_BOTKEYWORD" domainObjectName="LogBotKeyword"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>	
+		<table tableName="TLOG_BOTNAME" domainObjectName="LogBotname"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>	
+		<table tableName="TLOG_BROWSER" domainObjectName="LogBrowser"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>	
+		<table tableName="TLOG_BROWSERNAME" domainObjectName="LogBrowsername"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>	
+		<table tableName="TLOG_COLUMN" domainObjectName="LogColumn"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>	
+		<table tableName="TLOG_COOKIEINFO" domainObjectName="LogCookieinfo"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>	
+		<table tableName="TLOG_DETAIL" domainObjectName="LogDetail"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>	
+
+		<table tableName="TLOG_DOMAININFO" domainObjectName="LogDomaininfo"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>	
+
+		<table tableName="TLOG_HOSTINFO" domainObjectName="LogHostinfo"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>	
+
+		<table tableName="TLOG_IP" domainObjectName="LogIP"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>	
+
+		<table tableName="TLOG_OS" domainObjectName="LogOS"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>	
+
+		<table tableName="TLOG_OSNAME" domainObjectName="LogOSName"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>	
+
+		<table tableName="TLOG_REFER" domainObjectName="LogRefer"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>
+		
+		<table tableName="TLOG_STATISTIC_IN_HOUR" domainObjectName="LogStatisticInHour"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>
+
+		<table tableName="TLOG_SUMMARY" domainObjectName="LogSummary"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>
+
+		<table tableName="TLOG_UNIQUEIPINFO" domainObjectName="LogUniqueipinfo"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>
+
+		<table tableName="TLOG_UNIQUEIPINFO_URL" domainObjectName="LogUniqueipinfoUrl"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>
+
+		<table tableName="TLOG_USERSESSION" domainObjectName="LogUserSession"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>
+
+		<table tableName="TLOG_USERSESSION_URL" domainObjectName="LogUserSessionUrl"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table-->
+
+		<table tableName="tbl_article_class" domainObjectName="ArticleClass"  enableUpdateByExample="false" enableDeleteByExample="false"  enableSelectByExample="false" selectByExampleQueryId="false">  
+          <property name="useActualColumnNames" value="true"/>
+        </table>
+
+	</context>
+</generatorConfiguration>

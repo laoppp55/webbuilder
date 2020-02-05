@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title>mupload上传组件演示</title>
+	<script language="javascript">
+		// 文件上传，调用模式对话框
+		function upload()
+		{
+			var returnVal = window.showModalDialog('./mupload_dialog.html', 'muploader', 
+				'dialogHeight=280px; dialogWidth=500px; status=no; help=no; scroll=no');
+			if (typeof(returnVal) != 'object') {
+				alert('您没有上传文件！');
+			} else if (returnVal.success == true) {
+				alert('[文件上传成功]返回值为：\n' + '本地上传的文件路径为：' + returnVal.localFile + '\n'
+					+ '上传的文件大小为：' + returnVal.fileSize + '\n'
+					+ '服务器上文件的路径为：' + returnVal.serverFilePath);
+			} else {
+				alert('[文件上传失败]返回值为：\n' + '本地上传的文件路径为：' + returnVal.localFile + '\n'
+					+ '上传的文件大小为：' + returnVal.fileSize);
+			}
+		}
+		
+	</script>
+</head>
+<body>
+	<input type="button" value="上传文件" onclick="upload()" />
+</body>
+</html>

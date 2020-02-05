@@ -1,0 +1,56 @@
+<script  language=JavaScript type=text/JavaScript>
+    var reqforcounter;
+
+    function getXMLHTTP()
+    {
+        var C = null;
+        try{
+            C = new ActiveXObject("Msxml2.XMLHTTP");
+        } catch(e) {
+            try {
+                C = new ActiveXObject("Microsoft.XMLHTTP");
+            } catch(sc) {
+                C = null;
+            }
+        }
+
+        if( !C && typeof XMLHttpRequest != "undefined" )
+        {
+            C = new XMLHttpRequest();
+        }
+
+        return C;
+    }
+
+    function onReadyForCounter(){
+        var ready=reqforcounter.readyState;
+        var data=null;
+        if (ready ==4) {
+            data = reqforcounter.responseText;
+            if (data.indexOf("nologin") == -1) {
+               document.getElementById("count").innerHTML = data;
+            }
+        }
+    }
+
+    function getCounter() {
+        //alert(params);
+        reqforcounter = getXMLHTTP();
+        if (reqforcounter) {
+            reqforcounter.onreadystatechange=onReadyForCounter;
+            reqforcounter.Open("post","/_prog/counter.jsp?",true);
+            reqforcounter.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+            reqforcounter.send(null);
+        }
+    }
+</script>
+<div class="footer">
+<div class="footer_in">
+<p><a href="/law/">法律声明</a> | <a href="/gycbcsd/">联系我们</a></p>
+<p>版权所有 中国可持续发展工商理事会（CBCSD）</p>
+<p>京备ICP号123456789-1</p>
+<script language="javascript">getCounter();</script>
+<div id="count"></div>
+<!--p>您是第100000123位访问者</p-->
+</div>
+</div>

@@ -1,0 +1,95 @@
+
+<CENTER>
+<DIV 
+style="Z-INDEX: 2; LEFT: 50%; MARGIN-LEFT: -490px; WIDTH: 980px; POSITION: absolute; TOP: 0px; HEIGHT: 5px">
+<DIV id=Layer1 
+style="Z-INDEX: 1; LEFT: 940px; VISIBILITY: visible; WIDTH: 48px; POSITION: absolute; TOP: 5px; HEIGHT: 63px" 
+align=right>
+<TABLE cellSpacing=0 cellPadding=0 width=48 border=0>
+  <TBODY>
+  <TR>
+    <TD align=right><IMG height=33 src="/images/floating.gif" width=48></TD></TR></TBODY></TABLE></DIV></DIV>
+<TABLE cellSpacing=0 cellPadding=0 width=980 border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top width=760>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD align=middle width=200><IMG height=89 src="/images/logo.gif" width=181></TD>
+          <TD width=20><IMG height=1 src="/images/space.gif" width=1></TD>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#ebeff2 
+            border=0>
+              <TBODY>
+              <TR>
+                <TD align=left><IMG height=4 src="/images/corner-1.gif" width=4></TD>
+                <TD align=right><IMG height=4 src="/images/corner-2.gif" width=4></TD></TR></TBODY></TABLE>
+            <TABLE cellSpacing=6 cellPadding=0 width="100%" bgColor=#ebeff2 
+            border=0>
+              <TBODY>
+              <TR>
+                <TD align=middle><A href="/" target=_blank>首&nbsp;&nbsp;&nbsp;&nbsp;页</A></TD>
+                <TD align=middle width=1>|</TD>
+                <TD align=middle><A href="/yaowen/" target=_blank>要&nbsp;&nbsp;&nbsp;&nbsp;闻</A></TD>
+                <TD align=middle width=1>|</TD>
+                <TD align=middle><A href="/faguichaxun/" target=_blank>法规查询</A></TD>
+                <TD align=middle width=1>|</TD>
+                <TD align=middle><A href="/gedibiaozhun/gzbz.jsp" target=_blank>各地标准</A></TD>
+                <TD align=middle width=1>|</TD>
+                <TD align=middle><A href="/medias/" target=_blank>视&nbsp;&nbsp;&nbsp;&nbsp;频</A></TD>
+                <TD align=middle width=1>|</TD>
+                <TD align=middle><A href="/yuyinzixun/" target=_blank>语音咨询</A><A href="#"></A></TD>
+                <TD align=middle width=1>|</TD>
+                <TD align=middle><A href="/mobile/shoujizixun.jsp" target=_blank>手机咨询</A></TD></TR>
+              <TR>
+                <TD align=middle><A href="/contract/" target=_blank>劳动合同</A></TD>
+                <TD align=middle>|</TD>
+                <TD align=middle><A href="/salery/" target=_blank>工&nbsp;&nbsp;&nbsp;&nbsp;资</A></TD>
+                <TD align=middle>|</TD>
+                <TD align=middle><A href="/shehuibaoxian/" target=_blank>社会保险</A></TD>
+                <TD align=middle>|</TD>
+                <TD align=middle><A href="/zpyjy/" target=_blank>招聘/培训</A></TD>
+                <TD align=middle>|</TD>
+                <TD align=middle><A href="/ldbh/" target=_blank>劳动保护</A></TD>
+                <TD align=middle>|</TD>
+                <TD align=middle><A href="/zcyjc/" target=_blank>仲裁/监察</A><A href="#"></A></TD>
+                <TD align=middle>|</TD>
+                <TD align=middle><A href="http://www.cos-hr.com/index.php" target=_blank>HR&nbsp;外&nbsp;包</A></TD></TR>
+              <TR>
+                <TD align=middle><A href="/peixunkecheng/" target=_blank>培训课程</A></TD>
+                <TD align=middle>|</TD>
+                <TD align=middle><A href="/xiangqishuofa/" target=_blank>祥琦说法</A></TD>
+                <TD align=middle>|</TD>
+                <TD align=middle><A href="/wenba/wenba.jsp" target=_blank>问&nbsp;&nbsp;&nbsp;&nbsp;吧</A></TD>
+                <TD align=middle>|</TD>
+                <TD align=middle><A href="/zaixianshudian/" target=_blank>在线读书</A></TD>
+                <TD align=middle>|</TD>
+                <TD align=middle><A href="/bookstore/" target=_blank>精品书市</A></TD>
+                <TD align=middle>|</TD>
+                <TD align=middle><A href="/zhuangjiatuan/" target=_blank>专&nbsp;家&nbsp;团</A><A href="#"></A></TD>
+                <TD align=middle>|</TD>
+                <TD align=middle><A href="/hrgongju/" target=_blank>HR&nbsp;工&nbsp;具</A></TD></TR></TBODY></TABLE>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#ebeff2 
+            border=0>
+              <TBODY>
+              <TR>
+                <TD align=left><IMG height=4 src="/images/corner-3.gif" width=4></TD>
+                <TD align=right><IMG height=4 src="/images/corner-4.gif" width=4></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+    <TD width=10><IMG height=1 src="/images/space.gif" width=1></TD>
+    <TD>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#ebeff2 
+        border=0><TBODY>
+        <TR>
+          <TD align=left><IMG height=4 src="/images/corner-1.gif" width=4></TD>
+          <TD align=right><IMG height=4 src="/images/corner-2.gif" width=4></TD></TR></TBODY></TABLE><!--#include virtual="/include/denglu.jsp"--> <%@ include file="/include/denglu.jsp" %>
+
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#ebeff2 
+        border=0><TBODY>
+        <TR>
+          <TD align=left><IMG height=4 src="/images/corner-3.gif" width=4></TD>
+          <TD align=right><IMG height=4 src="/images/corner-4.gif" width=4></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+  <TBODY>
+  <TR>
+    <TD><IMG height=16 alt="" src="/images/space.gif" width=1></TD></TR></TBODY></TABLE></CENTER>

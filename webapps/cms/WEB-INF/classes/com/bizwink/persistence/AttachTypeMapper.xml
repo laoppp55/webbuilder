@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.bizwink.persistence.AttachTypeMapper">
+
+    <cache flushInterval="1800000"  />
+
+    <resultMap id="BaseResultMap" type="com.bizwink.po.AttachType" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="siteid" property="siteid" jdbcType="INTEGER" />
+        <result column="classid" property="classid" jdbcType="INTEGER" />
+        <result column="cname" property="cname" jdbcType="VARCHAR" />
+        <result column="ename" property="enname" jdbcType="VARCHAR" />
+        <result column="cltype" property="cltype" jdbcType="VARCHAR" />
+        <result column="summary" property="summary" jdbcType="VARCHAR" />
+        <result column="editor" property="editor" jdbcType="VARCHAR" />
+        <result column="createdate" property="createdate" jdbcType="TIMESTAMP" />
+        <result column="lastupdated" property="lastupdated" jdbcType="TIMESTAMP" />
+    </resultMap>
+
+
+    <sql id="Base_Column_List" >
+        id,siteid,classid,cname,ename,cltype,editor,createdate,lastupdated
+    </sql>
+
+    <insert id="createAttachType" parameterType="com.bizwink.po.AttachType">
+        <selectKey resultType="INTEGER"  order="BEFORE" keyProperty="id">
+            select tbl_article_attach_id.nextval from dual
+        </selectKey>
+
+        insert into tbl_attachment_class(id,siteid,cname,summary,editor,createdate,lastupdated) values (#{id,jdbcType=INTEGER},#{siteid,jdbcType=INTEGER},#{cname,jdbcType=VARCHAR},#{summary,jdbcType=VARCHAR},#{editor,jdbcType=VARCHAR},#{createdate,jdbcType=TIMESTAMP},#{lastupdated,jdbcType=TIMESTAMP})
+    </insert>
+
+    <insert id="createAttachTypePart" parameterType="com.bizwink.po.AttachType">
+        <selectKey resultType="INTEGER"  order="BEFORE" keyProperty="id">
+            select tbl_article_attach_id.nextval from dual
+        </selectKey>
+
+        insert into tbl_attachment_class_part(id,siteid,classid,cname,ename,cltype,editor,createdate,lastupdated) values (#{id,jdbcType=INTEGER},#{siteid,jdbcType=INTEGER},#{classid,jdbcType=INTEGER},#{cname,jdbcType=VARCHAR},#{ename,jdbcType=VARCHAR},#{cltype,jdbcType=VARCHAR},#{editor,jdbcType=VARCHAR},#{createdate,jdbcType=TIMESTAMP},#{lastupdated,jdbcType=TIMESTAMP})
+    </insert>
+</mapper>

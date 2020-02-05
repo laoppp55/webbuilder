@@ -1,0 +1,90 @@
+.center{
+    width: 1200px;
+    padding: 20px 0;
+    background-color: #fff;
+    color: #666;
+}
+.class,.location{
+    position: relative;
+    height: 22px;
+    line-height: 22px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    padding-left: 25px;
+}
+.class ul,.location ul{
+    position: absolute;
+    left: 105px;
+    top: 0;
+    font-size: 12px;
+}
+.class ul li,.location ul li{
+    cursor: pointer;
+    height: 22px;
+    line-height: 22px;
+    float: left;
+    padding:0 8px;
+    margin-right: 14px;
+}
+
+.class ul li a,.location ul li a{
+    cursor: pointer;
+    height: 22px;
+    line-height: 22px;
+    float: left;
+    padding:0 8px;
+	color:#666;
+}
+
+.loc-select{
+    background-color: #0083cd;
+    color: #fff;
+}
+
+.class ul li.loc-select a{
+    background-color: #0083cd;
+    color: #fff;
+}
+
+
+.registered-capital ul li input{
+    margin-right: 8px;
+    vertical-align: sub;
+}
+/*å•†å“ä¿¡æ¯*/
+.commodity-content{
+    height: 1100px;
+    width: 1200px;
+    background-color: #fff;
+    font-size: 12px;
+    color: #666;
+    padding-top: 25px;
+}
+.commodity-content .commodity-list{
+    height: 990px;
+    width: 1200px;
+}
+.commodity-list li{
+    float: left;
+    width: 198px;
+    height: 298px;
+    border:1px solid #eaeaea;
+    margin:0 20px 30px;
+}
+.commodity-list li div{
+    width: 196px;
+    height: 210px;
+    text-align: center;
+}
+.commodity-list li a{
+    color: #666;
+}
+.commodity-list p{
+    text-indent: 10px;
+}
+.commodity-list .imgtext{
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: 14px;
+    text-indent: 0;
+}

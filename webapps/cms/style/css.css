@@ -1,0 +1,290 @@
+@charset "gb2312";
+body {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #EAEAEA;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+td {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+.black1 {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 20px;
+	color: #000000;
+	text-decoration: none;
+}
+a.a1:link {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #587492;
+	text-decoration: none;
+}
+a.a1:visited {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #587492;
+	text-decoration: none;
+}
+a.a1:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+a.a1:active {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #587492;
+	text-decoration: none;
+}
+a.a2:link {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+a.a2:visited {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+a.a2:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #0C66A4;
+	text-decoration: none;
+}
+a.a2:active {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+
+a.a30:link {
+	font-family: "宋体";
+	font-size: 30px;
+	color: #FF3300;
+	text-decoration: none;
+}
+a.a30:visited {
+	font-family: "宋体";
+	font-size: 30px;
+	color: #FF3300;
+	text-decoration: none;
+}
+a.a30:hover {
+	font-family: "宋体";
+	font-size: 30px;
+	color: #FF3300;
+	text-decoration: none;
+}
+a.a30:active {
+	font-family: "宋体";
+	font-size: 30px;
+	color: #FF3300;
+	text-decoration: none;
+}
+
+.table1 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #1C79B6;
+	text-decoration: none;
+	border: 1px solid #045A97;
+}
+.red1 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #D3832C;
+	text-decoration: none;
+}
+.white {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.g1 {
+	margin-top: 8px;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+a.a3:link {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #015696;
+	text-decoration: none;
+}
+a.a3:visited {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #015696;
+	text-decoration: none;
+}
+a.a3:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #2089FD;
+	text-decoration: none;
+}
+a.a3:active {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #015696;
+	text-decoration: none;
+}
+.gray1 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #5082AB;
+	text-decoration: none;
+}
+.gray2 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #999999;
+	text-decoration: none;
+}
+.table2 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+	background-color: #FDFAE3;
+	border: 1px solid #999999;
+}
+.black2 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #938457;
+	text-decoration: underline;
+}
+a.a4:link {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #529598;
+	text-decoration: underline;
+}
+a.a4:visited {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #529598;
+	text-decoration: underline;
+}
+a.a4:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+a.a4:active {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #529598;
+	text-decoration: underline;
+}
+a.a5:link {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #0978D0;
+	text-decoration: none;
+}
+a.a5:visited {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #0978D0;
+	text-decoration: none;
+}
+a.a5:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: none;
+}
+a.a5:active {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #0978D0;
+	text-decoration: none;
+}
+.g2 {
+	margin: 10px;
+}
+.blue1 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #005897;
+	text-decoration: none;
+	line-height: 25px;
+	padding-top: 2px;
+}
+.blue2 {
+	font-family: "宋体";
+	font-size: 15px;
+	color: #434650;
+	text-decoration: none;
+}
+.red2 {
+	font-family: "宋体";
+	font-size: 15px;
+	color: #FE8001;
+	text-decoration: none;
+}
+.dbt {
+	font-family: "宋体";
+	font-size: 24px;
+	font-weight: bold;
+	color: #000000;
+}
+.gray3 {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 25px;
+	color: #666666;
+	text-decoration: none;
+	margin: 9px;
+}
+.gray4 {
+	font-family: "宋体";
+	font-size: 14px;
+	line-height: 25px;
+	color: #666666;
+	text-decoration: none;
+	margin: 9px;
+}
+a.a6:link {
+	font-family: "宋体";
+	font-size: 12px;line-height: 22px;
+	color: #000000;
+	text-decoration: none;
+}
+a.a6:visited {
+	font-family: "宋体";
+	font-size: 12px;line-height: 22px;
+	color: #000000;
+	text-decoration: none;
+}
+a.a6:hover {
+	font-family: "宋体";
+	font-size: 12px;line-height: 22px;
+	color: #FF0000;
+	text-decoration: none;
+}
+a.a6:active {
+	font-family: "宋体";
+	font-size: 12px;line-height: 22px;
+	color: #000000;
+	text-decoration: none;

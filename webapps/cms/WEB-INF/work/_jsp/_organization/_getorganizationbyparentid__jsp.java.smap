@@ -1,0 +1,12 @@
+SMAP
+_getorganizationbyparentid__jsp.java
+JSP
+*S JSP
+*F
++ 1 getOrganizationByParentID.jsp
+organization/getOrganizationByParentID.jsp
+*L
+1#1:67
+22#1,84:68
+105#1:152
+*E

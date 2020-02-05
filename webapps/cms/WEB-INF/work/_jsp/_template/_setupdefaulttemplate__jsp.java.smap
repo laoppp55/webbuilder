@@ -1,0 +1,12 @@
+SMAP
+_setupdefaulttemplate__jsp.java
+JSP
+*S JSP
+*F
++ 1 setupDefaultTemplate.jsp
+template/setupDefaultTemplate.jsp
+*L
+1#1:63
+11#1,30:64
+40#1:94
+*E

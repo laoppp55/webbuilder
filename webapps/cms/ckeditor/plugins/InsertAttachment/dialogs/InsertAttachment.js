@@ -1,0 +1,97 @@
+﻿	   /*
+       /* 获取CKEditorFuncNum
+       */
+		function getUrlParam(url)   
+        {   
+            var reParam = new RegExp('(?:[\?&]|&amp;)CKEditorFuncNum=([^&]+)', 'i') ;   
+            var match = url.match(reParam) ;   
+    
+            return (match && match.length > 1) ? match[1] : '' ;   
+        }   
+
+
+	   CKEDITOR.dialog.add( 'InsertAttachment', function( editor )
+        {
+            return {
+                    title : '上传附件',
+                    minWidth : 400,
+                    minHeight : 200,
+                    contents : 
+                    [
+                        {
+                            id : 'InsertAttachment',
+                            label : '上传附件',
+                            title : '上传附件',
+                            filebrowser : 'uploadButton',
+                            elements :
+                            [
+                              {    
+                                  id : 'brief',
+                                  type : 'text',
+                                  label : '附件文件说明',
+                                  required: true
+                              },
+
+   							{    
+                                  id : 'txtUrl',
+                                  type : 'text',
+                                  label : '上传文件地址',
+                                  required: true
+                              },
+                              {
+                                    id : 'photo',
+                                    type : 'file',
+                                    label : '上传附件',
+                                    style: 'height:40px',
+                                    size : 38
+                              },
+                              {
+                                   id : 'uploadButton',
+                                   type : 'fileButton',
+                                   label : '上传',
+                                   filebrowser :
+                                   {
+                                        action : 'QuickUpload',
+                                        target : 'InsertAttachment:txtUrl',
+                                        onSelect:function(fileUrl, errorMessage){
+                                            //在这里可以添加其他的操作
+											
+                                        }
+                                   },
+
+                                   onClick: function(){   
+                                        var d = this.getDialog();   
+                                        var _txtUrl = d.getContentElement('InsertAttachment','txtUrl');   
+                                        var _photo =  d.getContentElement('InsertAttachment','photo');   
+                                        var _frameId = _photo._.frameId;   
+                                        var _iframe =  CKEDITOR.document.getById(_frameId);   
+										
+                                        //给iframe添加onload事件   
+										//alert(getUrlParam(_photo.action)+"==" + _txtUrl + "==" + _photo + "==" + _frameId);
+                                        _iframe.setAttribute('onload','getAjaxResult(this,'+getUrlParam(_photo.action)+')');   
+                                   },   
+
+                                   'for' : [ 'InsertAttachment', 'photo']
+                              }
+                            ]
+                        }
+                   ],
+                   onOk : function(){
+					   _brief = this.getContentElement('InsertAttachment', 'brief').getValue();
+                       if (_brief.match(/(^\s*(\d+)((px)|\%)?\s*$)|^$/i)) {
+                           alert('请输入上传文件说明');
+                           return false;
+                       }
+
+					   _url = this.getContentElement('InsertAttachment', 'txtUrl').getValue();
+					 
+                       if (_url.match(/(^\s*(\d+)((px)|\%)?\s*$)|^$/i)) {
+                           alert('请输入网址或者上传文件');
+                           return false;
+                       }
+
+ 					   var element = CKEDITOR.dom.element.createFromHtml( '<a href="' + _url + '">' + _brief + '</a>' );
+                       editor.insertElement(element);
+                   }
+            };
+        });

@@ -1,0 +1,126 @@
+<%@ page import="com.bizwink.cms.util.ParamUtil" %>
+<%@ page import="com.bizwink.webapps.feedback.FeedbackPeer" %>
+<%@ page import="com.bizwink.webapps.feedback.IFeedbackManager" %>
+<%@ page import="java.util.List" %>
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="com.bizwink.cms.util.StringUtil" %>
+<%@ page import="com.bizwink.webapps.comment.webCommentPeer" %>
+<%@ page import="com.bizwink.webapps.comment.IWebCommentManager" %>
+<%@ page import="com.bizwink.webapps.comment.webComment" %>
+<%@page contentType="text/html;charset=GBK" %>
+<%
+    int startrow = ParamUtil.getIntParameter(request, "startrow", 0);
+    int range = ParamUtil.getIntParameter(request, "range", 100);
+
+    IFeedbackManager feedMgr = FeedbackPeer.getInstance();
+    IWebCommentManager cMgr = webCommentPeer.getInstance();
+    String sitename = request.getServerName();  //site name
+    int siteid = feedMgr.getSiteID(sitename);       //get siteid
+                                                        
+    int articleid = ParamUtil.getIntParameter(request, "a1", 0);
+    int startflag = ParamUtil.getIntParameter(request,"startflag",-1);
+    
+    System.out.println("articleid=" + articleid);
+    System.out.println("startflag=" + startflag);
+    
+    
+    if(startflag == 1){
+        String content = ParamUtil.getParameter(request,"content");
+        String links = ParamUtil.getParameter(request,"link");
+        String name = ParamUtil.getParameter(request,"name");
+        String ip = request.getRemoteHost();
+
+        webComment comment = new webComment();
+        comment.setAbout(articleid);
+        comment.setSiteid(siteid);
+        comment.setContent(content);
+        comment.setLink(links);
+        comment.setName(name);
+        comment.setIP(ip);
+        comment.setUsrid(ip);
+        int errcode = cMgr.createComment(comment);
+        System.out.println("articleid=" + articleid);
+        if(errcode == 0){
+            response.sendRedirect("comment.jsp?articleid=" + articleid);
+        }else{
+            response.sendRedirect("err.jsp");
+        }
+        return;
+    }
+
+    List list = new ArrayList();
+    List rowsList = new ArrayList();
+    int rows = 0;
+
+    String sqlstr = "select * from tbl_comment where siteid = " + siteid + " and about = " + articleid + " order by createdate desc";
+
+    list = cMgr.getAllcommentInfo(sqlstr,startrow,range);
+    rows = cMgr.getAllCommentNum("select count(*) from tbl_comment where siteid = "+siteid+" and about = "+articleid);
+
+    int totalpages = 0;
+    int currentpage = 0;
+    if(rows < range){
+        totalpages = 1;
+        currentpage = 1;
+    }else{
+        if(rows%range == 0)
+          totalpages = rows/range;
+        else
+          totalpages = rows/range + 1;
+        currentpage = startrow/range + 1;
+    }
+%><html>
+    <head>
+        <title></title>
+    <script type="text/javascript">
+function golist(r){
+      window.location = "index.jsp?startrow="+r;
+    }
+function check(){
+    if(form.content.value == "" || form.content.value == null){
+        alert("请输入评论的内容！");
+        form.content.focus();
+        return false;
+    }
+    return true;
+}
+function pages(pages){
+        var objXml = new ActiveXObject("Microsoft.XMLHTTP");
+        objXml.open("POST", "/_commons/sendComment.jsp?startrow="+pages+"&errcode=0&articleid=<%=articleid%>", false);
+        objXml.Send(null);
+        var retstr = objXml.responseText;
+        if (retstr != null && retstr.length > 0 && retstr.indexOf("false")==-1) {
+            document.getElementById("comment").innerHTML = retstr;
+        }
+    }
+</script>
+<style type="text/css">
+<!--.biz_table{ border:1 dashed null;
+ } 
+.biz_table td{ font-size:12px; color:#000000; font-family:宋体 ; text-align:left;
+}
+.biz_table input{ font-size:18px;  size:12px;
+
+}
+biz_table img{ border:0;
+}
+-->
+</style></head>
+    <body>
+        <p><table    class="biz_table"><div id="comment"></div>
+    
+        <script type="text/javascript">pages(0);</script>
+        <form name='form' method="post" action='/www_chinabuy360_cn/_prog/comment.jsp' onsubmit='return check();'><input type='hidden' name='siteid' value='36>
+        <input type='hidden' name="a1" value="<%=articleid%>">
+        <input type='hidden' name='startflag' value='1'>
+        <tr><td valign='top'> &#22995;&#21517;&#65306;</td>
+        <td valign='top'>
+        <input type='text' name='name' value=''></td></tr>
+        <tr><td valign='top'>&#32852;&#31995;&#26041;&#24335;&#65306;</td>
+        <td valign='top'><input type='text' name='link' value=''></td></tr>
+        <tr><td valign='top'>&#20869;&#23481;&#65306;</td>
+        <td valign='top'><textarea rows='10' cols='50' name='content'></textarea></td></tr><tr><td valign='top' colspan='2'>
+        <input type='submit' name='sub' value='&#25552;&#20132;'></td></tr>
+        </form></table></p>
+    </body>
+</html>

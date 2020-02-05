@@ -1,0 +1,12 @@
+SMAP
+_getallrightforuser__jsp.java
+JSP
+*S JSP
+*F
++ 1 getAllRightForUser.jsp
+member/getAllRightForUser.jsp
+*L
+5#1:64
+13#1,45:65
+57#1:110
+*E

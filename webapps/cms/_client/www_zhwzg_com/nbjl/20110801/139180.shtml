@@ -1,0 +1,327 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head xmlns="">
+        <title>北京医院2011年上半年网络客服部数据统计及工作总结 > 振国内部交流</title>
+        <meta content="text/html; charset=gb2312" http-equiv="Content-Type" /><style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family:"新宋体";
+	font-size:14px;
+	line-height:25px;
+	background-color: #FFFFFF;
+}
+--></style>
+    <meta name="description" content="网站流量（独立IP）
+                    
+                    
+                    客户端咨询人数
+                    
+                    
+                    留下电话总数
+                    
+                    
+                    回访电话总数
+                    
+                    
+                    会诊次数短信总数
+                    
+                    
+                    住院人数
+                    
+                    
+                    备注
+                    
+                
+                
+                    
+                    1月份
+                    
+                    
+                    97912平均3158.4
+                    
+                    
+                    973平均31.3
+                    
+                    
+                    345平均11.1
+                    
+                    
+                    客服登记患者全部回访至少两次，会诊期间协助门诊患者打回访电话预约会诊。">
+<script src="/_sys_js/commentarticle.js" type="text/javascript"></script>
+<script language="javascript">
+var objXml = new ActiveXObject("Microsoft.XMLHTTP");
+objXml.open("POST", "/_commons/checkArticle.jsp?userflag=1&userlevel=1", false);
+objXml.Send();
+var retstr = objXml.responseText;
+if (retstr != null && retstr.length > 0 && retstr.indexOf("nologin") > -1) {    alert("请先登录！");
+    window.location="/www_zhwzg_com/_prog/login.jsp";
+    }
+if (retstr != null && retstr.length > 0 && retstr.indexOf("nolevel") > -1) {
+   alert("只有一定级别的用户才能浏览！");
+    window.close();    }
+</script>
+</head>
+    <body xmlns="">
+        <div align="center">
+        <table cellspacing="0" cellpadding="0" width="1000" border="0">
+            <tbody>
+                <tr>
+                    <td valign="bottom" align="center" height="60" style="font-weight: bold; font-size: 28px; line-height: 30px">振国内部交流</td>
+                </tr>
+                <tr>
+                    <td valign="middle" align="center" height="75"><strong>北京医院2011年上半年网络客服部数据统计及工作总结</strong><br />
+                    <span style="font-size: 12px; color: #333333">2011-08-01 17:22:00</span></td>
+                </tr>
+                <tr>
+                    <td valign="top" align="left"><div id=biz_cms_content>
+        <div align="center"><b>&nbsp;</b></div>
+        <div>
+        <table cellspacing="0" cellpadding="0" border="1">
+            <tbody>
+                <tr>
+                    <td valign="top" width="63">
+                    <div align="center">&nbsp;</div>
+                    </td>
+                    <td valign="top" width="132">
+                    <div align="center"><b>网站流量（独立</b><b>IP</b><b>）</b></div>
+                    </td>
+                    <td valign="top" width="113">
+                    <div align="center"><b>客户端咨询人数</b></div>
+                    </td>
+                    <td valign="top" width="113">
+                    <div align="center"><b>留下电话总数</b></div>
+                    </td>
+                    <td valign="top" width="104">
+                    <div align="center"><b>回访电话总数</b></div>
+                    </td>
+                    <td valign="top" width="132">
+                    <div align="center"><b>会诊次数短信总数</b></div>
+                    </td>
+                    <td valign="top" width="104">
+                    <div align="center"><b>住院人数</b></div>
+                    </td>
+                    <td valign="top" width="123">
+                    <div align="center"><b>备注</b></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" width="63">
+                    <div align="center"><b>1</b><b>月份</b></div>
+                    </td>
+                    <td valign="top" width="132">
+                    <div align="center">97912平均3158.4</div>
+                    </td>
+                    <td valign="top" width="113">
+                    <div align="center">973平均31.3</div>
+                    </td>
+                    <td valign="top" width="113">
+                    <div align="center">345平均11.1</div>
+                    </td>
+                    <td valign="top" width="104" rowspan="6">
+                    <div><b>客服登记患者全部回访至少两次，会诊期间协助门诊患者打回访电话预约会诊。</b></div>
+                    </td>
+                    <td valign="top" width="132">
+                    <div align="center">1天会诊，短信1822</div>
+                    </td>
+                    <td valign="top" width="104">
+                    <div align="center">29人3重复</div>
+                    </td>
+                    <td width="123">
+                    <div align="center">1月15日会诊</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" width="63">
+                    <div align="center"><b>2</b><b>月份</b></div>
+                    </td>
+                    <td valign="top" width="132">
+                    <div align="center">89971平均3213.2</div>
+                    </td>
+                    <td valign="top" width="113">
+                    <div align="center">1025平均41</div>
+                    </td>
+                    <td valign="top" width="113">
+                    <div align="center">319平均13</div>
+                    </td>
+                    <td valign="top" width="132">
+                    <div align="center">1天会诊，没发短信</div>
+                    </td>
+                    <td valign="top" width="104">
+                    <div align="center">33人12重复</div>
+                    </td>
+                    <td valign="top" width="123">
+                    <div align="center">2月27日临时会诊</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" width="63">
+                    <div align="center"><b>3</b><b>月份</b></div>
+                    </td>
+                    <td valign="top" width="132">
+                    <div align="center">99075平均3196</div>
+                    </td>
+                    <td valign="top" width="113">
+                    <div align="center">1320平均43</div>
+                    </td>
+                    <td valign="top" width="113">
+                    <div align="center">448平均15</div>
+                    </td>
+                    <td valign="top" width="132">
+                    <div align="center">2天会诊，短信3000</div>
+                    </td>
+                    <td valign="top" width="104">
+                    <div align="center">38人10重复</div>
+                    </td>
+                    <td valign="top" width="123">
+                    <div align="center">3月26、27会诊</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" width="63">
+                    <div align="center"><b>4</b><b>月份</b></div>
+                    </td>
+                    <td valign="top" width="132">
+                    <div align="center">99404平均3313</div>
+                    </td>
+                    <td valign="top" width="113">
+                    <div align="center">1139平均38</div>
+                    </td>
+                    <td valign="top" width="113">
+                    <div align="center">458平均16</div>
+                    </td>
+                    <td valign="top" width="132">
+                    <div align="center">1天会诊，短信2400</div>
+                    </td>
+                    <td valign="top" width="104">
+                    <div align="center">37人15重复</div>
+                    </td>
+                    <td valign="top" width="123">
+                    <div align="center">4月19日会诊</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" width="63">
+                    <div align="center"><b>5</b><b>月份</b></div>
+                    </td>
+                    <td valign="top" width="132">
+                    <div align="center">53170平均1715</div>
+                    </td>
+                    <td valign="top" width="113">
+                    <div align="center">980平均32</div>
+                    </td>
+                    <td valign="top" width="113">
+                    <div align="center">424平均13.7</div>
+                    </td>
+                    <td valign="top" width="132">
+                    <div align="center">1天会诊，短信2300</div>
+                    </td>
+                    <td valign="top" width="104">
+                    <div align="center">40人19重复</div>
+                    </td>
+                    <td valign="top" width="123">
+                    <div align="center">5月11日会诊</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" width="63">
+                    <div align="center"><b>6</b><b>月份</b></div>
+                    </td>
+                    <td valign="top" width="132">
+                    <div align="center">101456平均3382</div>
+                    </td>
+                    <td valign="top" width="113">
+                    <div align="center">981平均32.7</div>
+                    </td>
+                    <td valign="top" width="113">
+                    <div align="center">384平均12.8</div>
+                    </td>
+                    <td valign="top" width="132">
+                    <div align="center">2天会诊，短信5700</div>
+                    </td>
+                    <td valign="top" width="104">
+                    <div align="center">22人11重复</div>
+                    </td>
+                    <td valign="top" width="123">
+                    <div align="center">6月7、8会诊</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="63">
+                    <div align="center"><b>总计</b></div>
+                    </td>
+                    <td valign="top" width="132">
+                    <div><b>540988</b><b>月平均90164.6</b></div>
+                    </td>
+                    <td valign="top" width="113">
+                    <div><b>6418</b><b>月平均1069.6</b></div>
+                    </td>
+                    <td valign="top" width="113">
+                    <div><b>2378</b><b>月平均396.3</b></div>
+                    </td>
+                    <td valign="top" width="104">
+                    <div><b>回访电话总数大约4500</b><b>以上</b></div>
+                    </td>
+                    <td valign="top" width="132">
+                    <div><b>会诊总天数：8</b><b>天</b></div>
+                    <div><b>短信总数约16000</b></div>
+                    </td>
+                    <td valign="top" width="104">
+                    <div><b>住院总数人199</b><b>人</b></div>
+                    </td>
+                    <td width="123">
+                    <div align="center"><b>半年统计完毕</b></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 网站情况：今年上半年网站独立IP访问情况比去年稍微高一些，但是五月份由于39健康网的原因导致访问量当月下降60%，整体看来比较稳定，半年访问总量540988月平均90164.6日平均3200以上！比去年整体水平要好。</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 从搜索引擎的搜索次数看，网站访问量绝大部分是通过各种搜索引擎访问过来的，像是百度、谷歌，还有其他的小型搜索引擎，数据方面至少达到90%以上！</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 从网站域名访问的来路看，上半年39健康网访问次数21.48万次，百度14.9万次，其他的占19.54万次，其他中包括像是直接输入域名或者小型搜索引擎等等。今年上半年总体看来搜索引擎方面比去年整体效果都好，应该说是网站优化方面比较稳定。去年基本上39网和搜索引擎持平，今年上半年就已经超过39网12.96万次！百度上收录的关于振国网站的文章有79500篇，其中有8940篇是被提及访问过的，谷歌收录19400篇，被提及7。收录软文方面比去年一年提高了将近<b>8</b>倍！谷歌也翻了<b>8</b>倍，但是谷歌的点击量没有百度的高！网站优化方面的关键字现在达到67347个去年一年只有5000左右，增加了13倍！像是振国、王振国、振国肿瘤医院，还有很多病种的搜索，在现在的搜索引擎中都是排在前十位的，而且现在这些搜索关键字中，搜索出来的负面信息基本没有了，全都是正面信息。从整体上看，网站访问量方面，是呈上升趋势，优化方面做的也可以说是非常到位的。</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 客户端咨询情况：客户端咨询量和留患者信息比率对比去年一整年的数量没有大变化，虽然今年半年五月份访问量下降一半，但是基本没影响到咨询量。半年统计乐语接待咨询患者6418位，留电话2378个，比率占37%。上半年的住院患者逐渐增多，沈院长一直在客服解答患者问题，六月份又调过来一名医生，现在专门负责客服咨询的团队由医生带领，一共有四个人。</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 上半年电视媒体投放的节目也比较多，效果也比较好，除了每月固定的各地卫视的节目播出外，还有其他的中央数字台，新闻，广告等等。另外报纸专版的宣传回复量也比较大，比较广泛，有些活动都是通过报纸来宣传。</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 所长会诊及客服部介绍患者住院情况：半年统计所长共在北京医院安排的大小会诊共有8天，客服介绍住院患者也是越来越多，其中重复住院的患者能占到35%，半年住院总数199人，相比之前有很大的提升，但如果想保持还是需要客服团队整体水平的提升和专家医生方面的配合。</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 网络和客服的其他相关工作：网络方面，主要体现的是及时性，更新所长会诊信息，更新媒体节目的播出日期，更新网上登记的抗癌明星信息，更新治疗效果好的病例信息，更新各地有变更的门诊信息，更新集团的各项大型活动信息，更新企业邮箱，发布站内信息等等</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;客服方面，做好登记联系方式的患者的跟进回访工作，发短信息通知所长会诊信息及集团活动信息，回访电话包括客服登记的患者电话和门诊登记的患者咨询电话，现在客服的数据已经精细统计到每个人的信息，包括在线时长，有效工作时间，个人留患者信息，个人的回访数据以及个人的介绍入院患者统计。</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 其他方面，北京医院总部有一部400免费电话可以拨打的客户咨询电话010-67856661（400-750-1333语音提示2）所以网络客服部的工作人员随时都准备客户咨询电话解答相关问题。现在400免费电话平均每天至少15个电话以上，有的时候更多。我院网站跟39健康网有合作，39健康网里面有论坛，网络客服部负责监管网络广告的发布排期，负责39网站的论坛回帖，现在每天在网站的有效回帖量在30以上，半年统计至少回帖的数量在6000条以上（其中也包括工作人员自行在全网搜索的其他论坛的回帖网上有的患者咨询需要振国医院的相关书籍资料，网络客服部负责给患者登记邮寄工作，半年统计邮寄书籍资料共114套。&nbsp;除了部门的分内工作，还有就是配合医院举办的各项活动，帮助医院这边搜集整理保存一些照片资料，协助部长、院长完成一些力所能及的其他工作。</div>
+        <div>&nbsp;</div>
+        <div>部门工作职责分工：</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 李春雨：网站更新新闻，媒体节目播出，所长会诊行程发布，负面信息搜索，网上登记患者邮寄书籍资料，企业内部邮箱管理，全国各地门诊电子邮件发送当地患者信息，活动摄像、照相储备图片资料，协助部长完成网络需要的相关工作。</div>
+        <div>刘宇宸：活动摄像、照相贮备视频资料，影像视频技术处理，网站协助搜索负面信息，额外的还有帮助干细胞研究中心取血等工作。</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 谭丽华：电脑硬件技术处理，集团内部、外部视频会技术支持，批量发送短信通知各项活动等信息以及所长需要发送的一些信息，网站论坛的回帖工作。</div>
+        <div>傅一元、陈颍、张海燕、范晓亮四人主要全职负责网上患者咨询，备份好个人的数据信息，打患者回访电话以及所长会诊的同时协助门诊回访。</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 沈丽华院长：客服咨询患者重要医疗问题解答（一般平时都是在外地会诊）</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 网络客服部全部工作人员随时准备接听400免费电话的客户咨询，随时参与协助部门的排班制度。</div>
+        <div>部门工作人员积极配合院长、部长临时安排的其他分内、分外工作，尤其在集团举办活动期间，协助其他部门完成力所能及的工作。</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 总结：整个办公室一共有8台用于工作的电脑，加上沈丽华院长，目前一共位8人，每个人都各自独立负责一些工作。今年上半年客服部工作的工作人员流动性比较大，基本上每个月都有调动，这种情况可以说在某些程度上不利于患者咨询这一块，但是出于整体考虑，也没有太大的不合适之处。</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前一共有4人专职负责网站患者咨询，应该说工作量很大，人员方面根据部门的工作时间和值班制度来看，已经处于饱和状态，针对目前网站的情况，4个人可以保证质量完成工作。接到患者信息后，专家处理这方面，医院是全力给予支持，目前沈丽华院长只有有时间就在客服坐班，现在又从一线抽调一名专职医学的医生范晓亮，及时完成回访是没有问题的，主要就是培养医生的市场意识，这方面目前看来还有待提高。整个部门无论从工作还是其他方面肯定还有很多不到位的地方，我个人总结的某些地方有可能不是很细致，希望领导多指正，部门工作人员一定积极向上，保质保量完成任务。</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 网络客服部&nbsp;&nbsp;</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;李春雨</div>
+    </div><script type="text/javascript" src="key.js"></script></td>
+                </tr>
+                <tr>
+                    <td height="55">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </body>
+</html>

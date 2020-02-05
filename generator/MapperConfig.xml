@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE configuration   
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"   
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">  
+<configuration>  
+
+	 <environments default="development">  
+        <environment id="development">  
+            <transactionManager type="JDBC" />  
+            <dataSource type="POOLED">  
+                <property name="driver" value="oracle.jdbc.driver.OracleDriver" />  
+                <property name="url" value="jdbc:oracle:thin:@localhost:1521:orcl11g" />  
+                <property name="username" value="bucgdxdbadmin" />  
+                <property name="password" value="qazwsxokm" />  
+            </dataSource>  
+        </environment>  
+    </environments>  
+    <mappers>  
+        <mapper resource="com/bizwink/persistence/ArticleClass.xml" />
+        <!--mapper resource="com/bizwink/persistence/LogBad.xml" />
+        <mapper resource="com/bizwink/persistence/LogBadname.xml" />
+        <mapper resource="com/bizwink/persistence/LogBot.xml" />
+        <mapper resource="com/bizwink/persistence/LogBotKeyword.xml" />
+        <mapper resource="com/bizwink/persistence/LogBotname.xml" />
+        <mapper resource="com/bizwink/persistence/LogBrowser.xml" />
+	    <mapper resource="com/bizwink/persistence/LogBrowsername.xml" />
+        <mapper resource="com/bizwink/persistence/LogColumn.xml" />
+        <mapper resource="com/bizwink/persistence/LogCookieinfo.xml" />
+        <mapper resource="com/bizwink/persistence/LogDetail.xml" />
+	    <mapper resource="com/bizwink/persistence/LogDomaininfo.xml" />
+        <mapper resource="com/bizwink/persistence/LogHostinfo.xml" />
+        <mapper resource="com/bizwink/persistence/LogIP.xml" />
+        <mapper resource="com/bizwink/persistence/LogOS.xml" />
+        <mapper resource="com/bizwink/persistence/LogOSName.xml" />
+        <mapper resource="com/bizwink/persistence/LogRefer.xml" />
+        <mapper resource="com/bizwink/persistence/LogStatisticInHour.xml" />
+        <mapper resource="com/bizwink/persistence/LogSummary.xml" />
+        <mapper resource="com/bizwink/persistence/LogUniqueipinfo.xml" />
+        <mapper resource="com/bizwink/persistence/LogUniqueipinfoUrl.xml" />
+        <mapper resource="com/bizwink/persistence/LogUserSession.xml" />
+        <mapper resource="com/bizwink/persistence/LogUserSessionUrl.xml" /-->
+	</mappers>  
+	
+</configuration>

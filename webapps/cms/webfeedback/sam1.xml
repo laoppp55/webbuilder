@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="gb2312"?>
+<fields>
+   <field>
+      <name exist="1">userid</name>
+      <type>text</type>
+      <size>15</size>
+      <values><value></value></values>
+   </field>
+   <field>
+      <name>passwd</name>
+      <type>password</type>
+      <size>15</size>
+      <values><value></value></values>
+   </field>
+   <field>
+      <name>repasswd</name>
+      <type>password</type>
+      <size>15</size>
+      <values><value></value></values>
+   </field>
+   <field>
+      <name check="email" exist="1">email</name>
+      <type>text</type>
+      <size>15</size>
+      <values><value></value></values>
+   </field>
+   <field>
+      <name check="phone">phone</name>
+      <type>text</type>
+      <size>15</size>
+      <values><value></value></values>
+   </field>   
+   <field>
+      <name Statistics=1>sex</name>
+      <type>radio</type>
+      <size>1</size>
+      <values>
+         <value>男</value>
+         <value>女</value>
+      </values>
+   </field>
+   <field>
+      <name Statistics=1>address</name>
+      <type>select</type>
+      <size>15</size>
+      <values>
+         <value>北京</value>
+         <value>天津</value>
+         <value>上海</value>
+         <value>广州</value>
+         <value>重庆</value>
+      </values>
+   </field>
+</fields>

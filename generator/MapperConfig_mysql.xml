@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE configuration   
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"   
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">  
+<configuration>  
+
+	 <environments default="development">  
+        <environment id="development">  
+            <transactionManager type="JDBC" />  
+            <dataSource type="POOLED">  
+                <property name="driver" value="com.mysql.jdbc.Driver" />  
+                <property name="url" value="jdbc:mysql://116.90.87.233:3306/junk" />  
+                <property name="username" value="junkdbadmin" />  
+                <property name="password" value="Yjcsxdl223401" />  
+            </dataSource>  
+        </environment>  
+    </environments>  
+    <mappers>  
+        <mapper resource="com/bizwink/junk/persistence/worequest.xml" />
+        <mapper resource="com/bizwink/junk/persistence/worequmate.xml" />
+        <mapper resource="com/bizwink/junk/persistence/woprojectwz.xml" />
+        <mapper resource="com/bizwink/junk/persistence/woprojectbuyer.xml" />
+        <mapper resource="com/bizwink/junk/persistence/woprojectgroup.xml" />
+	</mappers>  
+	
+</configuration>

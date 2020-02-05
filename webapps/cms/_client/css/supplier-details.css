@@ -1,0 +1,89 @@
+.center{
+    width: 1200px;
+    background-color: #fff;
+    color: #666;;
+}
+.center-title{
+    font-size: 12px;
+    color: #666;
+    padding: 20px 0 17px 15px;
+}
+.center-title a{
+    color: #999;
+    margin-right: 20px;
+}
+.company-title{
+    width: 1198px;
+    height: 180px;
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    padding-top: 18px;
+    padding-left: 18px;
+}
+.title-img{
+    width: 198px;
+    height: 158px;
+    border: 1px solid #eaeaea;
+    margin-right: 25px;
+}
+.title-img img{width:198px; height:auto;}
+
+.title-info{
+    
+}
+.title-info dt{
+    line-height: 30px;
+    font-size: 18px;
+    color: #0083cd;
+    margin-bottom: 8px;
+    font-family: "Microsoft YaHei";
+}
+.title-info dd{
+    line-height: 24px;
+    font-size: 12px;
+    color: #999;
+}
+.title-info dd a{
+    color: #0083cd;
+}
+.company-img{
+    width: 1200px;
+    /* height: 228px; */
+    border-bottom: 1px solid #dcdcdc;
+    padding-top: 21px;
+    float: left;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+
+.company-img li{
+    width: 198px;
+    height: 200px;
+    border: 1px solid #eaeaea;
+    margin:0 20px;
+    float: left;
+}
+.company-data{
+    width: 1080px;
+    padding:30px 65px 30px 55px;
+    font-size: 12px;
+    color: #999;
+    line-height: 24px;
+}
+.company-data p{
+    text-indent: 2em;
+}
+.introduce,.business{
+    margin-bottom: 25px;
+}
+
+.see-more{
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: 14px;
+    text-indent: 0;
+}
+.see-more a{
+	color:#ef7800
+	}

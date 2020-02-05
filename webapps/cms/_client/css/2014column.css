@@ -1,0 +1,32 @@
+@import url("2014main.css");
+.banner { width:960px; margin:15px 0;}
+.left { width:242px; padding-right:18px; float:left;}
+.column { border:1px solid #e9e9e9; width:240px; float:left;}
+.column_tit { width:240px; height:40px; text-align:center; line-height:40px; background:#f6f6f6; font-size:16px; color:#525252;}
+.column_list { background:#fafafa; width:240px; float:left;}
+.column_list ul { float:left;}
+.column_list ul li { height:40px; line-height:40px; width:240px; font-size:14px; border-top:1px solid #e9e9e9; float:left; text-align:center; color:#525252;}
+.column_list ul li a { color:#525252;}
+.right { width:698px; float:left; border:1px solid #e9e9e9; background:#fafafa;}
+.right_tit {border-bottom:1px solid #e9e9e9; height:40px; line-height:40px; background:url(/images/2014icon2.gif) 20px 15px no-repeat; padding-left:30px; padding-right:20px; color:#525252; text-align:right;}
+.right_tit a { color:#525252;}
+.right_tit h1 { font-size:16px; height:40px; line-height:40px; font-weight:normal; color:#525252; float:left;}
+.right_con { padding:10px 20px; float:left;}
+.right_con p {padding: 10px 0; color:#525252; line-height:22px;}
+.main_title { width:658px; line-height:22px; text-align:center; font-size:16px; }
+.nn_1{ color:#4a86c2;}
+
+.content_top{ margin-top:10px; padding-bottom:15px; float:left; border-bottom:1px dashed #cccccc; display:block; width:658px;}
+.nar_1{  float:left; width:180px; }
+.nar_1 img { padding:1px; border:1px solid #bababa; width:157px; height:105px;}
+.nar_2{ float:left;width:478px;  }
+p.nar_3 {  font-size:14px; background:url(/images/2014icon3.gif) left 10px no-repeat; padding:0 0 0 15px; float:left; display:block; width:463px;}
+.nar_4{ text-align:left; font-size:12px; line-height:22px; float:left; display:block; width:478px;}
+.nar_4 a {color:#3E4F97}
+
+.news { float:left; width:658px;}
+.news ul li { border-bottom:1px dashed #cccccc; line-height:43px; height:43px; background:url(/images/2014icon3.gif) left 18px no-repeat; padding-left:15px; width:643px; text-align:right; color:#404040;}
+.news ul li a { display:block; float:left; color:#404040; margin-right:10px;}
+
+.page { width:618px; text-align:center; padding:20px; float:left; color:#404040;}
+.page a { color:#404040;}

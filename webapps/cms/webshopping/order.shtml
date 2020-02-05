@@ -1,0 +1,17 @@
+<html>
+<head></head>
+<body>
+<center>
+    <script type="text/javascript">
+        String.prototype.getQueryString = function(name)
+        {
+            var reg = new RegExp("(^|&|\\?)"+ name +"=([^&]*)(&|$)"), r;
+            if ( r=this.match(reg) ) return unescape(r[2]); return null;
+        }
+        var httpUrl = document.URL;
+        var userName_f1 = httpUrl.getQueryString("orderid");
+        document.write(userName_f1);
+    </script>
+</center>
+</body>
+</html>

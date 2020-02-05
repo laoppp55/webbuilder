@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="xfire">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/xfire/xfire-aegis.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/xfire/jaxen-1.1-beta-5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/xfire/jdom-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/xfire/xfire-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/xfire/wsdl4j-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/xfire/stax-api-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/optional/xfire/stax-1.1.2-dev.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

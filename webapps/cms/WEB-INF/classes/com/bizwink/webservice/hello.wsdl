@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://webservice.bizwink.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://webservice.bizwink.com" xmlns:intf="http://webservice.bizwink.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://webservice.bizwink.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="name" type="xsd:string"/>
+   <element name="hellowordReturn" type="xsd:string"/>
+   <element name="a" type="xsd:float"/>
+   <element name="b" type="xsd:float"/>
+   <element name="addReturn" type="xsd:float"/>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="hellowordResponse">
+
+      <wsdl:part element="impl:hellowordReturn" name="hellowordReturn"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="addResponse">
+
+      <wsdl:part element="impl:addReturn" name="addReturn"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="hellowordRequest">
+
+      <wsdl:part element="impl:name" name="name"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="addRequest">
+
+      <wsdl:part element="impl:a" name="a"/>
+
+      <wsdl:part element="impl:b" name="b"/>
+
+   </wsdl:message>
+
+   <wsdl:portType name="hello">
+
+      <wsdl:operation name="helloword" parameterOrder="name">
+
+         <wsdl:input message="impl:hellowordRequest" name="hellowordRequest"/>
+
+         <wsdl:output message="impl:hellowordResponse" name="hellowordResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="add" parameterOrder="a b">
+
+         <wsdl:input message="impl:addRequest" name="addRequest"/>
+
+         <wsdl:output message="impl:addResponse" name="addResponse"/>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="helloSoapBinding" type="impl:hello">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="helloword">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="hellowordRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="hellowordResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="add">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="addRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="addResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="helloService">
+
+      <wsdl:port binding="impl:helloSoapBinding" name="hello">
+
+         <wsdlsoap:address location="http://localhost:8080/services/com/bizwink/webservice/hello"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

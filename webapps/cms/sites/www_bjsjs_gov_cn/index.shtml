@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta content="width=1200" name="viewport">
+	<title>北京石景山</title>
+	<meta content="北京石景山" name="SiteName" /><meta content="www.bjsjs.gov.cn" name="SiteDomain" /><meta content="1101070001" name="SiteIDCode" /><meta content="www.bjsjs.gov.cn" name="ColumnName" /><meta content="北京石景山官网首页" name="ColumnType" />
+	<link href="/css/css_2019.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="/js/jquery.min.js"></script><script type="text/javascript" src="/js/style.js"></script><script language="javascript" src="/js/jquery.js"></script><script type="text/ecmascript" src="/images/data:,_data_uri_useable=1" urite-agent="1"></script>
+	<link href="/css/index2019.css" rel="stylesheet" type="text/css" />
+	<link href="/css/common_2019.css" rel="stylesheet" type="text/css" />
+	<link href="/css/spring_2020.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="/js/spring_js.js"></script>
+</head>
+<body>
+<div class="top"><!--#include virtual="/inc/search2019.shtml"--></div>
+
+<div class="menu"><!--#include virtual="/inc/menu2019.shtml"--></div>
+
+<div class="news">
+<div class="first_news"><ul class="full_ul">
+<li><a href="/sjsdt/20200130/14613133.shtml" target="_blank">区委书记常卫“四不两直”检查疫情防控工作和市场供应</a></li>
+</ul><ul class="full_ul">
+<li><a href="/sjsdt/20200130/14613113.shtml" target="_blank">我区召开新型冠状病毒感染肺炎疫情社区防控工作部署会</a></li>
+</ul></div>
+
+<div class="banner-bews" id="banner-bews">
+<div class="banner-bd"><ul>
+<li><a href=/sjsdt/20200130/14613133.shtml  target="_blank"><img alt="" src="/sjsdt/images/pic1k054022.jpg" /> <span class="slider-title">区委书记常卫“四不两直”检查疫情防控工作和市场供应</span> </a></li><li><a href=/sjsdt/20200112/14605433.shtml  target="_blank"><img alt="" src="/sjsdt/images/picit8qh8ie.png" /> <span class="slider-title">2019-2020年度中国滑冰协会俱乐部滑冰公开赛（北京站）在启迪冰雪体育中心开赛</span> </a></li><li><a href=/sjsdt/20200111/14605373.shtml  target="_blank"><img alt="" src="/sjsdt/images/picx8b47m65.png" /> <span class="slider-title">石景山区召开“不忘初心、牢记使命” 主题教育总结大会</span> </a></li><li><a href=/sjsdt/20200109/14604493.shtml  target="_blank"><img alt="" src="/sjsdt/images/pic26b167rm.png" /> <span class="slider-title">李新高票当选石景山区人民政府区长</span> </a></li>
+</ul></div>
+<a class="prev" href="javascript:void(0)"><!--left--></a><a class="next" href="javascript:void(0)"><!--right--></a> <script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script><script type="text/javascript" src="/js/jquery.SuperSlide.2.1.1.js"></script> <script>
+                        // banner
+                        $(".banner-b").slide({
+                            mainCell: ".bd ul",
+                            autoPlay: true,
+                            delayTime: 2500,
+                            interTime: 5000,
+                            easing: "swing",
+                            trigger: "click"
+                        });
+                        $(".Scroll-top").slide({
+                            titCell: ".news-c ul",
+                            mainCell: ".news-list ul",
+                            autoPage: true,
+                            effect: "top",
+                            autoPlay: true,
+                            vis: 1
+                        });
+                        // 图片带文字滚动
+                        $(".banner-bews").slide({mainCell: ".banner-bd ul", autoPlay: true});
+                    </script></div>
+
+<div class="new_notice">
+<div class="new_n_title">
+<ul>
+	<li class="act" id="ld_tab01" onmouseover="Hovertab('1','2','ld_','');"><a href="/sjsdt/">石景山动态</a></li>
+	<li id="ld_tab02" onmouseover="Hovertab('2','2','ld_','');"><a href="/tzgg/">通知通告</a></li>
+	<!--li id="ld_tab03" onmouseover="Hovertab('3','4','ld_','');"><a href="/tzgg/bzf/">保障房</a></li--><!--li id="ld_tab04" onmouseover="Hovertab('4','4','ld_','');"><a href="/tzgg/zp/">招聘</a></li-->
+</ul>
+</div>
+
+<div class="new_n_list" id="ld_div01" style="display: block;"><ul>
+<li><a href=/sjsdt/20200130/14613233.shtml target="_blank">测试新版的信息录入和主站同步等功能</a></li><li><a href=/sjsdt/20200130/14613133.shtml target="_blank">区委书记常卫“四不两直”检查疫情防控工作和市场供应</a></li><li><a href=/sjsdt/20200130/14613113.shtml target="_blank">我区召开新型冠状病毒感染肺炎疫情社区防控工作部署会</a></li><li><a href=/sjsdt/20200129/14612993.shtml target="_blank">各大商超加大货源储备 石景山区市场供应稳定</a></li><li><a href=/sjsdt/20200129/14612973.shtml target="_blank">大年初四，小编直击石景山公共交通运行保障</a></li><li><a href=/sjsdt/20200129/14612953.shtml target="_blank">万众一心 抗击疫情 致全区各基层党组织和广大共产党员的倡议书</a></li><li><a href=/sjsdt/20200129/14612933.shtml target="_blank">石景山区应对新型冠状病毒感染肺炎疫情工作领导小组召开第五次会议</a></li><li><a href=/sjsdt/20200124/14612573.shtml target="_blank">石景山区成立新型冠状病毒感染的肺炎疫情防控工作领导小组 全面统筹协调防控工作</a></li>
+</ul><a class="more" href="/sjsdt/">更多&gt;&gt;</a></div>
+
+<div class="new_n_list" id="ld_div02" style="display: none;"><ul>
+<li><a href=/tzgg/20200130/14613153.shtml target="_blank">2020年国家医师资格考试报名现场审核确认通知</a></li><li><a href=/tzgg/20200130/14613152.shtml target="_blank">关于领取2019年医师资格证书的通知</a></li><li><a href=/tzgg/20200121/14611232.shtml target="_blank">北京市石景山区2020年度考试录用公务员资格复审公告</a></li><li><a href=/tzgg/20200121/14611212.shtml target="_blank">关于兑现《石景山区关于促进中关村石景山园高端产业集聚发展的办法》（试行）政策的通知</a></li><li><a href=/tzgg/20200120/14610552.shtml target="_blank">石景山区粮油市场信息周报（2020.01.13-2020.01.17）</a></li><li><a href=/tzgg/20200117/14608872.shtml target="_blank">石景山区粮油市场信息周报（2020.01.06-2020.01.10）</a></li><li><a href=/tzgg/20200107/14603712.shtml target="_blank">关于2019年石景山区幼儿园办园质量督导评估拟认定结果的公示</a></li><li><a href=/tzgg/20200107/14602826.shtml target="_blank">北京市石景山区卫生健康委员会关于印发《2020年度烟花爆竹禁放看护工作方案》的通知</a></li>
+</ul><a class="more" href="/tzgg/">更多&gt;&gt;</a></div>
+<!--div class="new_n_list" id="ld_div03" style="display: none;"><ul>
+<li><a href=/zwgk/zfbz/20191119/13614098.shtml target="_blank">石景山区2019年公共租赁住房专项配租公告</a></li><li><a href=/zwgk/zfbz/20191119/13610319.shtml target="_blank">石景山区2019年第十批1041户市场租房补贴发放公示名单</a></li><li><a href=/zwgk/zfbz/20191106/13516826.shtml target="_blank">石景山区古城南街东侧1612-819、1612-820地块（瑞锦苑)共有产权住房项目资格审核结果查询、复核公告</a></li><li><a href=/zwgk/zfbz/20191017/13380278.shtml target="_blank">石景山区2019年第9批1026户市场租房补贴发放情况公示</a></li><li><a href=/zwgk/zfbz/20191014/13353118.shtml target="_blank">关于对石景山区2019年第七批34户申请市场租房补贴家庭情况进行公示的公告</a></li><li><a href=/zwgk/zfbz/20191014/13353104.shtml target="_blank">关于对石景山区2019年第七批109户申请保障性住房家庭情况进行公示的公告</a></li><li><a href=/zwgk/zfbz/20191008/13320188.shtml target="_blank">石景山区古城南街东侧1612-819、1612-820地块（瑞锦苑）共有产权住房项目开始申购登记公告</a></li><li><a href=/zwgk/zfbz/20190919/13238619.shtml target="_blank">石景山区2019年第八批1019户市场租房补贴发放情况公示</a></li><li><a href=/zwgk/zfbz/20190819/13175859.shtml target="_blank">石景山区2019年第六批73户保障性住房公示名单</a></li>
+</ul><a class="more" href="/tzgg/bzf/">更多>></a></div--><!--div class="new_n_list" id="ld_div04" style="display: none;"><ul>
+<li><a href=/tzgg/zp/20191230/14558092.shtml target="_blank">石景山区委党校2019年拟引进事业人员公示</a></li><li><a href=/tzgg/zp/20191016/13370973.shtml target="_blank">石景山区2019年拟引进非北京生源毕业生名单公示（第四批）</a></li><li><a href=/zwgk/gkzp/20190923/13244678.shtml target="_blank">石景山区2019年拟引进非北京生源毕业生名单公示（第三批）</a></li><li><a href=/tzgg/zp/20190910/13209758.shtml target="_blank">石景山区关于开展2020年毕业生需求统计工作的通知</a></li><li><a href=/tzgg/zp/20190903/13206799.shtml target="_blank">石景山区教育系统2019年 拟引进非北京生源毕业生名单的公示 （第二批）</a></li><li><a href=/tzgg/zp/20190903/13206798.shtml target="_blank">石景山区教育系统事业单位2019年第二次公开招聘工作人员 拟录用人员公示</a></li><li><a href=/tzgg/zp/20190807/13153258.shtml target="_blank">石景山区2019年拟引进非北京生源毕业生名单公示（第一批）</a></li><li><a href=/tzgg/zp/20190807/13152221.shtml target="_blank">石景山区教育系统事业单位2019年第二次公开招聘面试及综合成绩</a></li><li><a href=/tzgg/zp/20190801/13136517.shtml target="_blank">石景山区教育系统事业单位2019年第二次公开招聘工作人员笔试成绩及面试安排</a></li>
+</ul><a class="more" href="/tzgg/zp/">更多>></a></div--></div>
+</div>
+
+<div class="main_box">
+<div class="main" style="position: inherit;">
+<div class="file">
+<ul>
+	<li><a class="icon_1" href="http://www.gov.cn/pushinfo/v150203/index.htm" target="_blank">国务院信息</a></li>
+	<li><a class="icon_2" href="http://www.gov.cn/zhengce/index.htm" target="_blank">国务院文件</a></li>
+	<li><a class="icon_3" href="http://www.beijing.gov.cn/zhengce/" target="_blank">市政府文件</a></li>
+</ul>
+</div>
+
+<div class="icon">
+<ul>
+	<li><a class="icon_1" href="/zwgk/ldbz/quwei/"><img src="/images/icon_201988_4.jpg" /></a> <a class="title" href="/zwgk/ldbz/quwei/">领导班子</a></li>
+	<li><a class="icon_1" href="/zwgk/zzjg/"><img src="/images/icon_201988_5.jpg" /></a> <a class="title" href="/zwgk/zzjg/">机构职能</a></li>
+	<li><a class="icon_1" href="/zwgk/zcwj/qzfwj/"><img src="/images/icon_201988_6.jpg" /></a> <a class="title" href="/zwgk/zcwj/qzfwj/">政策文件</a></li>
+	<li><a class="icon_1" href="/zwgk/zcjd/"><img src="/images/icon_201988_7.jpg" /></a> <a class="title" href="/zwgk/zcjd/">政策解读</a></li>
+	<li><a class="icon_1" href="/zwgk/zfbg/"><img src="/images/icon_201988_8.jpg" /></a> <a class="title" href="/zwgk/zfbg/">政府报告</a></li>
+	<li><a class="icon_1" href="/zwgk/jhgh/"><img src="/images/icon_201988_9.jpg" /></a> <a class="title" href="/zwgk/jhgh/">规划计划</a></li>
+</ul>
+</div>
+
+<div class="focus">
+<div class="title"><span class="act" id="zdly_tab01" onmouseover="Hovertab_nolist('1','2','zdly_','');"><a href="/zwgk/list.shtml" target="_blank">重点领域</a></span> <span id="zdly_tab02" onmouseover="Hovertab_nolist('2','2','zdly_','');"><a href="/zwgk/infos/gkzn/gk2020.shtml" target="_blank">政府信息公开</a></span></div>
+
+<div class="focus_list">
+<ul>
+	<li class="red">政府采购</li>
+	<!--<li class="red"><a href="http://www.bjsjs.gov.cn/zfcg/" target="_blank">政府采购</a></li>-->
+	<li class="red"><a href="/zwgk/zfbz/">住房保障</a></li>
+	<li class="red"><a href="/zwgk/tdsy/">土地使用</a></li>
+	<li class="red"><a href="/zwgk/cxjs/">城市建设</a></li>
+	<li class="red"><a href="/zwgk/sjgk/">审计公开</a></li>
+	<li class="blue"><a href="/zwgk/cszl/">城市治理</a></li>
+	<li class="blue"><a href="/zwgk/gysy/">公益事业</a></li>
+	<li class="blue"><a href="/zwgk/jy/">教育</a></li>
+	<li class="blue"><a href="/zwgk/jhgh/">规划计划</a></li>
+	<li class="blue"><a href="/zwgk/ylws/">医疗卫生</a></li>
+	<li class="green"><a href="/zwgk/shbz/">社会保障</a></li>
+	<li class="green"><a href="/zwgk/jycy/">就业创业</a></li>
+	<li class="green"><a href="/zwgk/fpxz/">扶贫协作</a></li>
+	<li class="green"><a href="/zwgk/yjgl/">应急管理</a></li>
+	<li class="green"><a href="/zwgk/qlzr/">权力清单/责任清单</a></li>
+</ul>
+</div>
+</div>
+
+<div class="mid_pic">
+<ul>
+	<li><a href="/tjysjkf/" target="_blank"><img height="113" src="/images/20191120112015.png" width="375" /></a></li>
+	<li><a href="/zwgk/qlzr/" target="_blank"><img height="113" src="/images/img_201988_5.jpg" width="375" /></a></li>
+	<li><a href="/yshj/" target="_blank"><img height="113" src="/images/img_201988_6.jpg" width="375" /></a></li>
+</ul>
+</div>
+
+<div class="inquire">
+<div class="inquire_tilte"><span>调查征集</span><a href="/zmhd/dczj/">更多&gt;&gt;</a></div>
+
+<div class="inquire_txt"><ul>
+<li>	<div class="list"><a class="list_1" href="/zmhd/dczj/20191115/13631371.shtml"><span>[调查问卷]</span> 石景山区低碳生活调查问卷</a><script>var html="/zmhd/dczj/dczjjg/20191114/13579978.shtml"; if(html!="") document.write('<a class="list_2" href="/zmhd/dczj/dczjjg/20191114/13579978.shtml">结果公示</a>');</script></div><script>var html="/zmhd/dczj/dczjjg/20191114/13579978.shtml"; if(html!=""){ document.write('<div class="flag_grey">已结束</div>');}else{document.write('<div class="flag_blue">进行中</div>');}</script>	</li><li>	<div class="list"><a class="list_1" href="/zmhd/dczj/20191115/13631360.shtml"><span>[调查问卷]</span> 石景山区关于电动车充电安全防范意识问卷调查</a><script>var html="/zmhd/dczj/dczjjg/20191114/13580079.shtml"; if(html!="") document.write('<a class="list_2" href="/zmhd/dczj/dczjjg/20191114/13580079.shtml">结果公示</a>');</script></div><script>var html="/zmhd/dczj/dczjjg/20191114/13580079.shtml"; if(html!=""){ document.write('<div class="flag_grey">已结束</div>');}else{document.write('<div class="flag_blue">进行中</div>');}</script>	</li>
+</ul></div>
+</div>
+
+<div class="inquire_right"><a href="/sitesearch/zmhd/fwpj.jsp" style="margin-top: 3px; margin-bottom: 12px;" target="_blank">服务评价</a> <a href="/zmhd/fwpj/" target="_blank">评价结果公示</a></div>
+
+<div class="tjmessage">
+<div class="title"><span>统计信息</span><a href="/zwgk/tjxx/">更多&gt;&gt;</a></div>
+
+<div class="list"><ul>
+<li><a href=/zwgk/tjxx/20200123/14612192.shtml target="_blank">2019年1-12月全区主要经济数据发布</a><span>2020-01-23</span></li><li><a href=/zwgk/tjxx/20200123/14612177.shtml target="_blank">2019年石景山区居民人均消费支出情况</a><span>2020-01-23</span></li><li><a href=/zwgk/tjxx/20200123/14612176.shtml target="_blank">2019年石景山区居民人均可支配收入情况</a><span>2020-01-23</span></li><li><a href=/zwgk/tjxx/20200123/14612175.shtml target="_blank">2019年石景山区全社会建安投资圆满收官</a><span>2020-01-23</span></li><li><a href=/zwgk/tjxx/20200123/14612174.shtml target="_blank">2019年石景山区建筑业总产值增速城六区稳居第二位</a><span>2020-01-23</span></li><li><a href=/zwgk/tjxx/20200123/14612173.shtml target="_blank">2019年石景山区社会消费品零售额超额完成任务</a><span>2020-01-23</span></li>
+</ul></div>
+</div>
+
+<div class="gov_intro">
+<ul>
+	<li class="gov_intro_1"><a href="http://sjswd.bjsjs.gov.cn/xinxiang/" target="_blank">我要写信</a></li>
+	<li class="gov_intro_2"><a href="http://sjswd.bjsjs.gov.cn/xinxiang/search.html" target="_blank">结果查询</a></li>
+	<li class="gov_intro_3"><a href="/zmhd/bmdh/" target="_blank">服务热线</a></li>
+	<li class="gov_intro_4"><a href="/zmhd/xzts/" target="_blank">行政投诉</a></li>
+	<li class="gov_intro_5"><a href="/zmhd/jjxf/" target="_blank">纪检信访</a></li>
+	<li class="gov_intro_6"><a href="/zmhd/cjwt/" target="_blank">常见问题</a></li>
+	<li class="gov_intro_7"><a href="/zmhd/myzj/" target="_blank">民意征集</a></li>
+	<li class="gov_intro_8"><a href="http://sjswd.bjsjs.gov.cn/xinxiang/" target="_blank">来信选登</a></li>
+	<li class="gov_intro_9"><a href="/zxds/zxft/" target="_blank">在线访谈</a></li>
+	<li class="gov_intro_10"><a href="/zmhd/xfxz/" target="_blank">信访须知</a></li>
+	<li class="gov_intro_11"><a href="http://www.beijing.gov.cn/hudong/rexian/" target="_blank">政风行风</a></li>
+</ul>
+</div>
+
+<div class="per_service">
+<div class="title"><span>个人服务</span> <a href="http://banshi.beijing.gov.cn/pubtask/grfw.html?locationCode=110107000000" target="_blank">更多&gt;</a></div>
+
+<div class="per_list">
+<ul>
+	<li class="per_list_1"><a class="per_icon" href="http://banshi.beijing.gov.cn/pubtask/grfw.html?locationCode=110107000000&amp;typeKey=005" target="_blank"><img src="/images/icon_201988_21.jpg" /></a><a class="per_title" href="http://banshi.beijing.gov.cn/pubtask/grfw.html?locationCode=110107000000&amp;typeKey=005" target="_blank">生育收养</a></li>
+	<li class="per_list_2"><a class="per_icon" href="http://banshi.beijing.gov.cn/pubtask/grfw.html?locationCode=110107000000&amp;typeKey=030" target="_blank"><img src="/images/icon_201988_22.jpg" /></a><a class="per_title" href="http://banshi.beijing.gov.cn/pubtask/grfw.html?locationCode=110107000000&amp;typeKey=030" target="_blank">就业创业</a></li>
+	<li class="per_list_3"><a class="per_icon" href="http://banshi.beijing.gov.cn/pubtask/grfw.html?locationCode=110107000000&amp;typeKey=010" target="_blank"><img src="/images/icon_201988_23.jpg" /></a><a class="per_title" href="http://banshi.beijing.gov.cn/pubtask/grfw.html?locationCode=110107000000&amp;typeKey=010" target="_blank">户籍办理</a></li>
+	<li class="per_list_4"><a class="per_icon" href="http://banshi.beijing.gov.cn/pubtask/grfw.html?locationCode=110107000000&amp;typeKey=020" target="_blank"><img src="/images/icon_201988_24.jpg" /></a><a class="per_title" href="http://banshi.beijing.gov.cn/pubtask/grfw.html?locationCode=110107000000&amp;typeKey=020" target="_blank">教育科研</a></li>
+	<li class="per_list_5"><a class="per_icon" href="http://banshi.beijing.gov.cn/pubtask/grfw.html?locationCode=110107000000&amp;typeKey=075" target="_blank"><img src="/images/icon_201988_25.jpg" /></a><a class="per_title" href="http://banshi.beijing.gov.cn/pubtask/grfw.html?locationCode=110107000000&amp;typeKey=075" target="_blank">住房保障</a></li>
+	<li class="per_list_6"><a class="per_icon" href="http://banshi.beijing.gov.cn/pubtask/grfw.html?locationCode=110107000000&amp;typeKey=050" target="_blank"><img src="/images/icon_201988_26.jpg" /></a><a class="per_title" href="http://banshi.beijing.gov.cn/pubtask/grfw.html?locationCode=110107000000&amp;typeKey=050" target="_blank">职业资格</a></li>
+	<li class="per_list_7"><a class="per_icon" href="http://banshi.beijing.gov.cn/pubtask/grfw.html?locationCode=110107000000&amp;typeKey=090" target="_blank"><img src="/images/icon_201988_27.jpg" /></a><a class="per_title" href="http://banshi.beijing.gov.cn/pubtask/grfw.html?locationCode=110107000000&amp;typeKey=090" target="_blank">证件办理</a></li>
+	<li><a class="per_icon" href="http://banshi.beijing.gov.cn/pubtask/grfw.html?locationCode=110107000000&amp;typeKey=085" target="_blank"><img src="/images/icon_201988_28.jpg" /></a><a class="per_title" href="http://banshi.beijing.gov.cn/pubtask/grfw.html?locationCode=110107000000&amp;typeKey=085" target="_blank">社会保障</a></li>
+</ul>
+</div>
+</div>
+
+<div class="com_service">
+<div class="title"><span>法人服务</span> <a href="http://banshi.beijing.gov.cn/pubtask/frfw.html?locationCode=110107000000" target="blank">更多&gt;</a></div>
+
+<div class="com_list">
+<ul>
+	<li class="com_list_1"><a class="com_icon" href="http://banshi.beijing.gov.cn/pubtask/frfw.html?locationCode=110107000000&amp;typeKey=005" target="_blank"><img src="/images/icon_201988_29.jpg" /></a><a class="com_title" href="http://banshi.beijing.gov.cn/pubtask/frfw.html?locationCode=110107000000&amp;typeKey=005" target="_blank">设立变更</a></li>
+	<li class="com_list_2"><a class="com_icon" href="http://banshi.beijing.gov.cn/pubtask/frfw.html?locationCode=110107000000&amp;typeKey=090" target="_blank"><img src="/images/icon_201988_30.jpg" /></a><a class="com_title" href="http://banshi.beijing.gov.cn/pubtask/frfw.html?locationCode=110107000000&amp;typeKey=090" target="_blank">交通运输</a></li>
+	<li class="com_list_3"><a class="com_icon" href="http://banshi.beijing.gov.cn/pubtask/frfw.html?locationCode=110107000000&amp;typeKey=015" target="_blank"><img src="/images/icon_201988_31.jpg" /></a><a class="com_title" href="http://banshi.beijing.gov.cn/pubtask/frfw.html?locationCode=110107000000&amp;typeKey=015" target="_blank">资质认证</a></li>
+	<li class="com_list_4"><a class="com_icon" href="http://banshi.beijing.gov.cn/pubtask/frfw.html?locationCode=110107000000&amp;typeKey=020" target="_blank"><img src="/images/icon_201988_32.jpg" /></a><a class="com_title" href="http://banshi.beijing.gov.cn/pubtask/frfw.html?locationCode=110107000000&amp;typeKey=020" target="_blank">年检年审</a></li>
+	<li class="com_list_5"><a class="com_icon" href="http://banshi.beijing.gov.cn/pubtask/frfw.html?locationCode=110107000000&amp;typeKey=025" target="_blank"><img src="/images/icon_201988_33.jpg" /></a><a class="com_title" href="http://banshi.beijing.gov.cn/pubtask/frfw.html?locationCode=110107000000&amp;typeKey=025" target="_blank">税收财务</a></li>
+	<li class="com_list_6"><a class="com_icon" href="http://banshi.beijing.gov.cn/pubtask/frfw.html?locationCode=110107000000&amp;typeKey=040" target="_blank"><img src="/images/icon_201988_34.jpg" /></a><a class="com_title" href="http://banshi.beijing.gov.cn/pubtask/frfw.html?locationCode=110107000000&amp;typeKey=040" target="_blank">投资审批</a></li>
+	<li class="com_list_7"><a class="com_icon" href="http://banshi.beijing.gov.cn/pubtask/frfw.html?locationCode=110107000000&amp;typeKey=045" target="_blank"><img src="/images/icon_201988_35.jpg" /></a><a class="com_title" href="http://banshi.beijing.gov.cn/pubtask/frfw.html?locationCode=110107000000&amp;typeKey=045" target="_blank">融资信贷</a></li>
+	<li><a class="com_icon" href="http://banshi.beijing.gov.cn/pubtask/frfw.html?locationCode=110107000000&amp;typeKey=050" target="_blank"><img src="/images/icon_201988_36.jpg" /></a><a class="com_title" href="http://banshi.beijing.gov.cn/pubtask/frfw.html?locationCode=110107000000&amp;typeKey=050" target="_blank">抵押质押</a></li>
+</ul>
+</div>
+</div>
+
+<div class="zhuant">
+<div class="tilte"><span>业务系统</span><a href="/zwgk/xtqd/">更多&gt;&gt;</a></div>
+</div>
+
+<div class="mid_pic">
+<ul>
+	<li><a href="/zwgk/zt/zxfwpt/" target="_blank"><img height="113" src="/images/img_20191126_1.jpg" width="375" /></a></li>
+	<li><a href="http://jt.bjsjs.gov.cn/admin/login.jsp" target="_blank"><img height="113" src="/images/img_20191126_2.jpg" width="375" /></a></li>
+	<li><a href="http://wsxf.xfb.beijing.gov.cn/" target="_blank"><img height="113" src="/images/img_20191126_3.jpg" width="375" /></a></li>
+</ul>
+</div>
+
+<div class="zhuant">
+<div class="tilte"><span>专题专栏</span><a href="/zwgk/zt/">更多&gt;&gt;</a></div>
+
+<div class="gczs-piclist">
+<div align="center" id="demo" style="width: 1150px; height: 80px; overflow: hidden; float: left;">
+<div style="width: 13676px;"><ul id="demo1" style="float: left">
+<li><a href=/sjsdt/20191115/13586278.shtml target="_blank"><img height="79" src="/piao/images/picwu0oj15d.jpg" width="241" /></a></li><li><a href=/zwgk/zt/gygg/ target="_blank"><img height="79" src="/piao/images/pic4pgop1o0.jpg" width="241" /></a></li><li><a href=/zwgk/msfw/20190103/12856158.shtml target="_blank"><img height="79" src="/piao/images/pic8ljw61ju.jpg" width="241" /></a></li><li><a href=/sjsdt/20190109/12857179.shtml target="_blank"><img height="79" src="/piao/images/picw1s5qxh7.jpg" width="241" /></a></li><li><a href=http://sjszx.bjsjs.gov.cn/tzgg/20191031/13479198.shtml target="_blank"><img height="79" src="/piao/images/picf516ur7s.jpg" width="241" /></a></li><li><a href=http://jtw.beijing.gov.cn/bmfw/tcjfcx/index.html target="_blank"><img height="79" src="/piao/images/picms3si1x0.png" width="241" /></a></li><li><a href=http://www.bjsjs.gov.cn/es/es/DoublePublicity/findDepartList.do# target="_blank"><img height="79" src="/zwgk/zt/images/pic4ww65bus.jpg" width="241" /></a></li><li><a href=/zwgk/zt/jqqyfd/ target="_blank"><img height="79" src="/zwgk/zt/images/picjfbl0b4r.jpg" width="241" /></a></li><li><a href=/zwgk/zt/sjsjy/ target="_blank"><img height="79" src="/zwgk/zt/images/img_20191126_4.jpg" width="241" /></a></li><li><a href=/zwgk/tjxx/index.shtml target="_blank"><img height="79" src="/zwgk/zt/images/pic80qwpsw2.jpg" width="241" /></a></li><li><a href=/zwgk/zt/shce/ target="_blank"><img height="79" src="/zwgk/zt/images/pic53j6k080.jpg" width="241" /></a></li><li><a href=/zwgk/zt/bjqmy/ target="_blank"><img height="79" src="/zwgk/zt/images/pic1h31d44v.jpg" width="241" /></a></li><li><a href=/zwgk/zt/zfwzgzndbb/ target="_blank"><img height="79" src="/zwgk/zt/images/pic6c4mhb65.jpg" width="241" /></a></li>
+</ul><ul id="demo2" style="float: left;"><!--repeat-->
+</ul>
+</div>
+</div>
+</div>
+<script language="javascript" type="text/javascript">
+		  <!--
+		  var demo = document.getElementById("demo");
+		  var demo1 = document.getElementById("demo1");
+		  var demo2 = document.getElementById("demo2");
+		  var speed=30;    //滚动速度值，值越大速度越慢
+		  var nnn=200/demo1.offsetWidth;
+		  for(i=0;i<nnn;i++){demo1.innerHTML+= demo1.innerHTML}
+		  demo2.innerHTML = demo1.innerHTML    //克隆demo2为demo1
+		  function Marquee(){
+			  if(demo2.offsetLeft-demo.scrollLeft<=0)    //当滚动至demo1与demo2交界时
+				  demo.scrollLeft-=demo1.offsetWidth    //demo跳到最顶端
+			  else{
+				  demo.scrollLeft++     //如果是横向的 将 所有的 height top 改成 width left 
+			  }
+		  }
+		  var MyMar = setInterval(Marquee,speed);        //设置定时器
+		  demo.onmouseover = function(){clearInterval(MyMar)}    //鼠标经过时清除定时器达到滚动停止的目的
+		  demo.onmouseout = function(){MyMar = setInterval(Marquee,speed)}    //鼠标移开时重设定时器
+		  -->
+		</script></div>
+</div><!--#include virtual="/inc/tail2019.shtml"--></div>
+<!--<div class="shadowCon">&nbsp;</div>
+
+<div class="popup-container">
+<div class="popup-content">
+<div class="content"><img src="/images/2020-1-20pic.jpg" /></div>
+</div>
+
+<div class="btn-close"><a href="#">关闭</a><span>&times;</span></div>
+</div>--></body>
+</html>

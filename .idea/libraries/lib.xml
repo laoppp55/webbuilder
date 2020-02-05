@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/document/mupload/src/main/resources/lib/plugin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/mupload/src/main/resources/lib/TableLayout-bin-jdk1.5-2007-04-21.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

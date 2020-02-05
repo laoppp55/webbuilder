@@ -1,0 +1,137 @@
+
+<script language="JavaScript" type="text/JavaScript">
+    <!--
+
+    function addMyFavorite()
+    {
+        if (document.all)
+        {
+            window.external.addFavorite('http://www.cbcsd.org.cn','中国可持续发展工商理事会（CBCSD）');
+        }
+        else if (window.sidebar)
+        {
+            window.sidebar.addPanel('中国可持续发展工商理事会（CBCSD）', 'http://www.cbcsd.org.cn', "");
+        }
+    }
+
+    function setHomepage()
+    {
+        if (document.all) {
+            document.body.style.behavior='url(#default#homepage)';
+            document.body.setHomePage('http://www.cbcsd.org.cn');
+        } else if (window.sidebar) {
+            if(window.netscape) {
+                try
+                {
+                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                }
+                catch (e)
+                {
+                    alert( "该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true" );
+                }
+            }
+            var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);
+            prefs.setCharPref('browser.startup.homepage','http://www.cbcsd.org.cn');
+        }
+    }
+    //-->
+</script>
+<script language="javascript">
+    var req;
+    function getXMLHTTPObj()
+    {
+        var C = null;
+        try{
+            C = new ActiveXObject("Msxml2.XMLHTTP");
+        } catch(e) {
+            try {
+                C = new ActiveXObject("Microsoft.XMLHTTP");
+            } catch(sc) {
+                C = null;
+            }
+        }
+
+        if( !C && typeof XMLHttpRequest != "undefined" )
+        {
+            C = new XMLHttpRequest();
+        }
+
+        return C;
+    }
+
+    function onReadyStateChange(){
+        var ready=req.readyState;
+        var data=null;
+        if (ready ==4) {
+            data = req.responseText;
+            if (data.indexOf("nologin") == -1) {
+                document.getElementById("biz_user_login").style.display="block";
+                document.getElementById("biz_user_login").innerHTML = data;
+                document.getElementById("biz_user_login_form").style.display="none";
+            }
+        }
+    }
+
+    function checklogin(markid) {
+        req = getXMLHTTPObj();
+        if (req) {
+            req.onreadystatechange=onReadyStateChange;
+            req.open("POST", "/_commons/checkloginwzg.jsp?markid="+markid);
+            req.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+            req.send(null);
+        }
+    }
+</script>
+
+<div class="head">
+    <div class="headin">
+        <div class="login">
+            <div id="biz_user_login" style="display: none">欢迎用户：某某某某某某某某 <a href="#">退出</a></div>
+            <div id="biz_user_login_form">
+                <script language="javascript">checklogin(39);</script>
+                <form id="form1" action="/_prog/login.jsp" method="post" name="form1">
+                    <label class="left1">用户名： <input class="user" id="userid" name="userid" type="text" /> </label><label class="left2">密码：<input class="password" id="pwdid" type="password" name="passwd" /> </label><label><input type="hidden" name="doLogin" value="true" /><input type="hidden" name="siteid" value="39" /><input class="img_button" id="button" type="image" src="/images/login.jpg" name="button" /> </label>
+                </form>
+            </div>
+        </div>
+        <div class="reg_img"><a href="/_prog/register.jsp"><img alt="" src="/images/reg.jpg" boeder="0" /></a></div>
+        <div class="search">
+            <div class="hui">
+                <div class="huiin"><a href="#">English</a> | <a onclick="javascript:setHomepage()" href="#">设为首页</a> | <a onclick="javascript:addMyFavorite()" href="#">加入收藏</a></div>
+            </div>
+            <div class="searchin">
+                <form id="form2" action="/_prog/search.jsp" method="post" name="form2">
+                    <label class="search"><input id="searchid" name="searchcontent" type="text" /> </label><label><input id="button2" type="image" src="/images/search_go.jpg" name="button2" value="提交" /></label>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="menu">
+    <div class="subnav">
+        <ul class="subnav_ul">
+            <li class="nav_li1"><a class="sy_a" href="/"><!--首页-->&nbsp;</a></li>
+            <li class="nav_li2"><a class="gy_a" href="/gycbcsd/"><!--关于-->&nbsp;</a></li>
+            <li class="nav_li3"><a class="ls_a" href="/lshhy/"><!--理事-->&nbsp;</a></li>
+            <li class="nav_li4"><a class="xm_a"><!--项目-->&nbsp;</a>
+                <div class="subnav_down">
+                    <dl class="subnav_down_dl">
+                        <dd><span><A HREF=/xmhhd/shehui/index.shtml>企业社会责任项目</A></span> </dd><dd><span><A HREF=/xmhhd/shui/index.shtml>水的可持续发展项目</A></span> </dd><dd><span><A HREF=/xmhhd/shengtai/index.shtml>生态文明和城镇化项目</A></span> </dd><dd><span><A HREF=/xmhhd/baogao/index.shtml>可持续发展报告编制项目</A></span> </dd><dd><span><A HREF=/xmhhd/nengyuan/index.shtml>能源与气候变化项目</A></span> </dd><dd><span><A HREF=/xmhhd/HSE/index.shtml>安全生产项目(HSE)</A></span> </dd></dl>
+                </div>
+            </li>
+            <li class="nav_li5"><a class="hy_a" href="/hyzq/"><!--会员-->&nbsp;</a></li>
+            <li class="nav_li6"><a class="sj_a"><!--数据-->&nbsp;</a>
+                <div class="subnav_down">
+                    <dl class="subnav_down_dl">
+                        <dd><span><A HREF=/sjk/nengyuan/index.shtml>能源与温室气体数据库</A></span> </dd><dd><span><A HREF=/sjk/qushi/index.shtml>CBCSD月度资讯和历届可持续发展新趋势会</A></span> </dd><dd><span><A HREF=/sjk/HSE/index.shtml>健康安全和环境数据库</A></span> </dd><dd><span><A HREF=/sjk/baogao/index.shtml>可持续发展报告数据库</A></span> </dd><dd><span><A HREF=/sjk/shui/index.shtml>水数据库</A></span> </dd></dl>
+                </div>
+            </li>
+            <li class="nav_li7"><a class="xw_a" href="/xws/"><!--新闻-->&nbsp;</a>
+                <div class="subnav_down">
+                    <dl class="subnav_down_dl">
+                        <dd><span><A HREF=/xws/dt/index.shtml>CBCSD动态</A></span> </dd><dd><span><A HREF=/xws/xw/index.shtml>新闻</A></span> </dd><dd><span><A HREF=/xws/hydt/index.shtml>CBCSD会员动态</A></span> </dd><dd><span><A HREF=/xws/xmdt/index.shtml>CBCSD项目动态</A></span> </dd><dd><span><A HREF=/xws/sptp/index.shtml>CBCSD视频及图片</A></span> </dd></dl>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

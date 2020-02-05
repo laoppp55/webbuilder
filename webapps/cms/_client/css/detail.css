@@ -1,0 +1,134 @@
+/* ==========================================================================
+   Override
+   ========================================================================== */
+
+body {
+  background-color: rgb(85, 134, 193);
+  background-image: url("/images/background_detail.png");
+}
+
+div.banner {
+  height: 236px;
+}
+
+div.container {
+  margin-bottom: 20px;
+}
+
+/* ==========================================================================
+   Detail page
+   ========================================================================== */
+
+div.banner div.box {
+  width: 245px;
+  float: left;
+}
+
+div.banner div.image {
+  width: 755px;
+  float: right;
+}
+
+div.content {
+  min-height: 264px;
+  height: auto;
+  overflow: auto; 
+  zoom: 1;
+  background-color: #e5e6e6;
+}
+
+div.content div.sidebar {
+  width: 245px;
+}
+
+ul.sidebar {
+  padding: 0;
+  margin-right: 40px;
+  margin-top: 36px;
+}
+
+ul.sidebar li {
+  margin: 8px 0;
+  list-style-type: none;
+}
+
+ul.sidebar li a {
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 58px;
+  padding-right: 8px;
+  font-family: "Myriad Pro", Arial;
+  font-size: 14px;
+  color: #3e3a39;
+  line-height: 128%;
+  /*height: 16px;*/
+  padding-top: 2px;
+}
+
+ul.sidebar li a.active {
+  background-color: #3e3a39;
+  color: #f6ab00;
+}
+
+ul.sidebar li a.inactive {
+}
+
+div.content div.main {
+  width: 675px;
+  margin-right: 80px;
+  margin-bottom: 96px;
+  line-height: 128%;
+  text-align:justify;
+  text-justify:inter-ideograph;
+}
+
+div.content div.main div.text h1 {
+  margin: 0px 0 20px;
+  font-family: "Myriad Pro", Arial;
+  font-weight: lighter;
+  font-size: 26px;
+  line-height: 128%;
+}
+
+div.content div.main div.text p {
+  margin: 0;  
+  font-family: "Myriad Pro", Arial;
+  font-size: 14px;
+  color: #3e3a39;
+}
+
+div.content div.main div.text p a{
+  text-decoration:underline;
+  color: #3e3a39;
+}
+
+div.content div.main div.text div.img-box img {
+  margin: 10px 0;
+}
+
+div.content div.main div.text div.img-box {
+  width: 675px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+  /* hack IE */
+  *display: block;
+  *font-size: 175px;
+  *font-family: Arial;
+}
+
+div.content div.main div.text div.align-left {
+  text-align: left;
+}
+
+div.content div.main div.text div.align-right {
+  text-align: right;
+}
+
+div.content div.main div.nav {
+  margin: 36px 0;
+  font-family: "Myriad Pro", Arial;
+  font-size: 14px;
+  color: #3e3a39;
+}

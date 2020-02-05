@@ -1,0 +1,140 @@
+<html>
+<head>
+<TITLE>JUpload Applet - multiple http file html upload replacement in java</TITLE>
+<meta name="Author" content="Mike Haller">
+<meta name="Publisher" content="Haller Systemservice">
+<meta name="Copyright" content="Mike Haller">
+<meta name="Keywords" content="jupload, multiple, java, upload, http, html, applet, embed, object, input, type, file, submit, add, remove, queue, rfc 1867, application/x-www-form-urlencoded, POST METHOD, swing, awt, j2se, transfer, files, requests, webserver, apache, asp, jsp, php4, php5, php, multipart, content-disposition, form-data, boundary, attachment, mime headers, transmission, enctype, remote data, browser, internet explorer, mozilla, opera, fileuploader, batch upload, file selection dialog">
+<meta name="Description" content="JUpload is a java applet for uploading multiple files to the webserver using RFC1867 post method. It features a status display showing current transfer rate.">
+<meta name="Page-topic" content="HTTP Upload with post method using java applet">
+<meta name="Audience" content="Fortgeschrittene">
+<meta name="Content-language" content="EN">
+<meta name="Page-type" content="Software-Download">
+<meta name="Robots" content="INDEX,FOLLOW">
+
+<style type="text/css">
+<!--
+   * {
+    font-size:12px;
+    font-family:Sans-Serif;
+   }
+
+   body {
+    background-color:#e0e0ff;
+   }
+   
+   h1 {
+    font-size:130%;
+   }
+   
+   h2 {
+    font-size:120%;
+   }
+ 
+   h3 {
+    font-size:110%;
+   }
+
+   table {
+    border-style:solid;
+    border-width:1px;
+   }
+
+   th {
+    color:white;
+    background-color:black;
+   }
+
+   td {
+    color:black;
+    background-color:#c0c0c0;
+   }
+
+   h1.navigation,h2.navigation,h3.navigation  {
+    color:white;
+    background-color:black;
+   }   
+
+   a.navigation {
+    font-size:110%;
+   }
+
+   .navigation {
+    font-size:110%;
+    margin:0px;
+    padding:2px;
+    border:0px;
+   }
+
+   #navigation {
+    position:absolute;
+    padding:4px;
+    border-width:1px;
+    background-color:orange;
+    border-color:black;
+    border-style:solid;
+    border-top:0px;
+   }
+
+   #inhalt {
+    margin-left:200px;
+    padding:20px;
+   }
+   
+   #logo {
+    padding:8px;
+    font-size:180%;
+    color:gray;
+    border-width:1px;
+    border-color:black;
+    border-style:solid;
+   }
+
+  //-->
+  </style>
+</head>
+
+<body bgcolor="#e0e0ff">
+
+<div id="logo">
+ <h2>JUpload Applet .::. (Multiple file upload)</h2>
+</div>
+
+
+<div id="inhalt">
+
+<h2>Upload successfull!</h2>
+<p>
+Your upload was successfull and this html page (completeURL-document) can be
+used to inform the end-user that his files are now stored on the webserver or
+in the database. 
+</p>
+
+<hr>
+<p align="center">
+ <applet 
+  code="com/bizwink/mupload/startup.class"
+  archive="mupload.jar"
+  width="450"
+  height="200"
+  alt="JUpload java applet for uploading multiple files at once with http post method">
+ <param name="progressbar" value="true">
+ <param name="boxmessage" value="Loading JUpload Applet ...">
+ <param name="boxbgcolor" value="#e0e0ff">
+     <param name="actionURL" value="http://test.coosite.com:8088/webbuilder/upload/JUpload.jsp?test1=test2&amp;test3=test4">
+  <param name="backgroundColor" value="#e0e0ff">
+ <param name="authentificate" value="false">
+ <param name="labelAdd" value="Add">
+ <param name="labelRemove" value="Remove">
+ <param name="labelUpload" value="Upload">
+     <param name="completeURL" value="http://test.coosite.com:8088/webbuilder/upload/JUploadComplete.html">
+ Your browser does not support applets. Or you have disabled applet in your options.
+ To use this applet, please install the newest version of Sun's java. You can get it from <a href="http://www.java.com/">java.com</a>
+ </applet>
+</p>
+<hr>
+</div>
+
+
+</body>
+</html>

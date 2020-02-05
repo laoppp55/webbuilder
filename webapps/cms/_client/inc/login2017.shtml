@@ -1,0 +1,14 @@
+
+        <div class="advert-content">
+        <div class="login-title">用户登录</div>
+        <!--用户名登录-->
+        <div class="login-name">
+        <div class="login-center">
+        <div class="login-input"><span class="name-ico"><!--用户名--></span><input class="login-ico-focused" placeholder="请输入用户名" type="text" /> <span class="error">用户名无效</span></div>
+        <div class="login-input"><span class="lock-ico"><!--密码--></span><input class="login-ico-focused" type="password" placeholder="请输入密码" /> <span class="error">密码有误</span></div>
+        <div class="login-btn"></div>
+        <div class="login-links"><a class="forget-pwd" href="#">忘记密码？ </a><a class="reg-link" href="#">免费注册</a></div>
+        </div>
+        </div>
+        </div>
+    

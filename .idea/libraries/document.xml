@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="document">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/document/mupload-1[1].2-source.zip!/" />
+      <root url="jar://$PROJECT_DIR$/document/JQuery zTree v3.5.12.zip!/" />
+      <root url="jar://$PROJECT_DIR$/document/mupload-example-1[1].2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/document/jsTree.v.0.9.8.zip!/" />
+      <root url="jar://$PROJECT_DIR$/document/mjc-mupload-1[1].1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/document/mjc-mupload-example-1[1].1.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

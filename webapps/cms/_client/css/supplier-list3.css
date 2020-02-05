@@ -1,0 +1,213 @@
+.center{
+    width: 1200px;
+    color: #666;;
+    position: relative;
+    overflow: hidden;
+}
+/*左侧供应商查询列表样式*/
+.supplier-left{
+    width: 860px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+    min-height: 850px;
+}
+.location{
+    position: relative;
+    line-height: 22px;
+    font-size: 14px;
+    padding-left: 30px;
+}
+.location ul{
+    position: relative;
+    left: 85px;
+    top: -22px;
+    font-size: 12px;
+    width: 640px;
+    overflow: hidden;
+}
+.location ul li{
+    /*width: 48px;
+    text-align: left;*/
+    cursor: pointer;
+    width:70px;
+    height: 22px;
+    line-height: 22px;
+    float: left;
+    position:relative;
+}
+.location ul li span{
+    position:absolute;
+    top:0;
+    left:0;
+    padding:0 10px;
+}
+.loc-select{
+    background-color: #0083cd;
+    color: #fff;
+}
+.more,.retract{
+    width: 52px;
+    height: 23px;
+    line-height: 23px;
+    border: 1px solid #cdcdcd;
+    font-size: 12px;
+    font-family: SimSun;
+    color: #666666;
+    padding-left: 16px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+.more .retract-text,.more .arrow_up{
+    display: none;
+}
+.retract .more-text,.retract .more-text{
+    display: none;
+}
+.registered-capital{
+    position: relative;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-bottom: 16px;
+    border-bottom: 1px dashed #d2d2d2;
+}
+.registered-capital ul{
+    position: absolute;
+    left: 100px;
+    top: 0;
+    font-size: 12px;
+}
+.registered-capital ul li{
+    height: 22px;
+    line-height: 22px;
+    float: left;
+    margin-right: 14px;
+}
+.registered-capital ul li input{
+    margin-right: 8px;
+    vertical-align: sub;
+}
+.search-box2{
+    width: 860px;
+    height: 65px;
+    border-bottom: 1px dashed #d2d2d2;
+    position: relative;
+}
+.search-input2{
+    width: 198px;
+    height: 28px;
+    border: 1px solid #cdcdcd;
+    position: absolute;
+    top: 19px;
+    right: 20px;
+}
+.search-box2 input{
+    width: 163px;
+    height: 28px;
+    line-height: 28px;
+    border: 0 none;
+    outline: none;
+    padding-left: 10px;
+}
+.search-img2{
+    position: absolute;
+    right: 6px;
+    top: 6px;
+}
+.search-img2 img{
+    width: 16px;
+    height: 16px;
+}
+
+.supplier-li{
+    height: 115px;
+    padding-top: 22px;
+    padding-left: 30px;
+    padding-bottom: 23px;
+    border-bottom: 1px dashed #d2d2d2;
+	overflow:hidden;
+}
+.li-left{
+    float: left;
+    border: 1px solid #eee;
+    height: 108px;
+}
+.li-left img {
+	width: 145px;
+}
+.li-right{
+    padding-top: 10px;
+    padding-left: 18px;
+    float: left;
+    position: relative;
+}
+.right-title{
+    margin-bottom: 30px;
+}
+.right-title a{
+    font-size: 14px;
+    font-family: SimSun;
+    color: #0083cd;
+}
+.right-content,.li-right p{
+    font-size: 12px;
+    color: #999;
+    line-height: 24px;
+    width: 650px;
+}
+/*右侧供应商推荐广告位*/
+.supplier-right{
+    width: 280px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    float: right;
+    background-color: #fff;
+}
+.title {
+    height: 46px;
+    line-height: 46px;
+    font-family: 微软雅黑;
+    font-size: 18px;
+    color: #666;
+    background: url("/images/bg_titleofsubpage.png")
+}
+.title img {
+    margin: 0 11px 0 24px;
+    vertical-align: middle;
+}
+.recommend-img li{
+    margin:10px 15px 5px;
+}
+.recommend-list{
+    padding:0 15px;
+}
+.list-big{
+    height: auto;
+    border-bottom: 1px solid #eaeaea;
+    overflow: hidden;
+}
+.lists-small{
+    height: 30px;
+    line-height: 30px;
+    margin: 12px 0 12px;  /
+padding-left:20px;
+    font-size: 14px;
+    font-family: SimSun;
+    color: #999999;
+}
+.arrow_img{
+    width: 13px;
+    height: 13px;
+    vertical-align: text-top;
+    margin-right: 13px;
+}
+.list-select{
+    background-color: #e3f0f8;
+}

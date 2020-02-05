@@ -1,0 +1,8 @@
+body   {margin: 0; border: 0;}
+td     {font-size: 9pt}
+input  {font-family: Arial, 宋体; font-size: 12px;}
+.cur   {font-family: Arial, 宋体; font-size: 12px; color: #ff0000}
+.itm   {font-family: Arial, 宋体; font-size: 12px}
+.line  {font-family: Arial, 宋体; font-size: 12px; line-height:1.4; color: blue}
+.sline {font-family: Arial, 宋体; font-size: 12px; line-height:1.4; color: red; font-weight: bold}
+.tine  {font-family: 宋体; font-size: 12px; line-height:1.4}

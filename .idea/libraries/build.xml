@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="build">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/build/mckoidb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/build/log4j-1.2.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/build/clover.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/build/xmlunit1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/build/junit-3.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/build/jta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/document/osworkflow-2.8.0/lib/build/simple-jndi.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

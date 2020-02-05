@@ -1,0 +1,55 @@
+
+        <div id="navbox">
+        <ul id="nav">
+            <li><strong><span class="vv"><a href="/">网站首页</a></span></strong></li>
+            <li><strong><span class="vv"><a href="/case/">经典案例</a></span></strong>
+            <div class="kind_menu" style="display: none; height: 168px; overflow: hidden"><a href="/case/20150122/192827.shtml">中国石化</a><a href="/case/20150122/192825.shtml">中国化工</a><a href="/case/20150122/192826.shtml">中国节能</a><a href="/case/20150122/192828.shtml">中化泉州</a><a href="/case/20150122/192829.shtml">伊泰集团</a><a href="/case/20150122/192830.shtml">中国船舶</a></div>
+            <!-- jdal end  --></li>
+            <li><strong><span class="vv"><a href="/product/ecai/index.shtml">产品服务</a></span></strong>
+            <div class="kind_menu" style="display: none"><a href="/product/ecai/">长城e采平台</a> <a href="/product/consult/">采购管理咨询</a></div>
+            <!-- cpfw end  --></li>
+            <li><strong><span class="vv"><a href="/purchase/">采购管理</a></span></strong>
+            <div class="kind_menu" style="display: none"><a href="/purchase/knowledge/">采购管理知识</a> <a href="/purchase/supplier/">供应商介绍</a></div>
+            <!-- cggl end  --></li>
+            <li><strong><span class="vv"><a>用户登录</a></span></strong>
+            <div class="kind_menu" style="display: none; height: 84px; overflow: hidden"><a target="_blank" href="http://ec.egreatwall.com/pc/main.html">长城e采</a> <a target="_blank" href="http://ec.sinopec.com">中国石化</a> <a target="_blank" href="http://chemchina.egreatwall.com">中国化工</a></div>
+            <!-- yhdl end  --></li>
+            <li><strong><span class="vv"><a href="/about/introduction/">关于我们</a></span></strong>
+            <div class="kind_menu" style="display: none"><a href="/about/introduction/">企业简介</a> <a href="/about/achievement/">资质荣誉</a> <a href="/about/news/">长城速报</a> <a href="/about/offers/">诚聘英才</a> <a href="/about/law/">法律声明</a> <a href="/about/about/">联系我们</a></div>
+            <!-- gywm end  --></li>
+        </ul>
+        <SCRIPT type=text/javascript>
+	//导航js开始
+    var site_url = window.location.href.toLowerCase();
+    switch (true) {
+        default :
+            $("#nav li").attr("class","");
+            //$("#nav li").eq(0).attr("class","nav_lishw");
+            //$(".nav_lishw .vv a").attr("class","sele");
+            $(".kind_menu").hide();
+    }
+    $("#nav li").hover(
+            function(){
+                clearTimeout(setTimeout("0")-1);
+                $("#nav .kind_menu").hide();
+                $("#nav li .vv .sele").attr("class","shutAhover");
+                $(this).attr("id","nav_hover")
+                $("#nav_hover .vv a").attr("class","sele");
+                $("#nav_hover .kind_menu").show();
+            },
+            function(){
+
+                if($(this).attr("class") != "nav_hover"){
+                    $("#nav_hover .vv .sele").attr("class","");
+                    $("#nav_hover .kind_menu").hide();
+                }
+                $(this).attr("id","")
+                $("#nav li .vv .shutAhover").attr("class","sele");
+                setTimeout(function(){
+                    $(".nav_hover .kind_menu").hide();
+                    $(".nav_hover .vv a").removeClass("class","sele");
+                },50);
+            }
+    );
+	</SCRIPT></div>
+    

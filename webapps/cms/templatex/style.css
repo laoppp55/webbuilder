@@ -1,0 +1,67 @@
+body {
+	font-family: "Verdana","Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	line-height: 140%;
+
+} 
+a {
+	FONT-FAMILY: "ËÎÌו";
+	TEXT-DECORATION: none;
+	line-height: 145%;
+: 140%;
+}
+td {
+	FONT-SIZE: 9pt; 
+	COLOR: #000000; 
+	FONT-FAMILY: "ËÎÌו", "Verdana"; 
+	TEXT-DECORATION: none
+	line-height: 140%;
+}
+INPUT,select,textarea,option{
+        FONT-FAMILY:  "ËÎÌו", "Verdana", "Arial", "Helvetica", "sans-serif";
+	FONT-SIZE: 9pt;
+}
+
+a:link,a:visited {
+	color: #000099;
+	text-decoration: none;
+
+}
+a:hover {
+	color: #FF3300;
+	text-decoration: underline;
+}
+.copyright {font-family:tahoma;font-size: 12px;}
+
+
+.turnred a:hover{
+color:red
+}
+
+.dropcontent{
+display:block;
+}
+
+.tabstyle{
+cursor: pointer;
+cursor: hand;
+width:250px;
+font: bold 14px Arial;
+background-color: lightyellow;
+border-top: 1px solid gray;
+border-right: 2px outset white;
+border-left: 2px solid gray;
+border-bottom: 2px solid gray;
+}
+
+.tabstyleb{
+cursor: pointer;
+cursor: hand;
+width:250px;
+font: bold 14px Arial;
+background-color: yellow;
+border-top: 1px solid gray;
+border-right: 2px outset white;
+border-left: 2px solid gray;
+border-bottom: 2px solid gray;
+}

@@ -1,0 +1,165 @@
+.content {
+    background-color: #fff;
+}
+
+.title {
+    width: 1200px;
+    height: 46px;
+    line-height: 46px;
+    font-family: 微软雅黑;
+    font-size: 18px;
+    color: #666;
+    background: url("../images/bg_titleofsubpage.png");
+}
+
+.title img {
+    margin: 0 11px 0 24px;
+    vertical-align: middle;
+}
+
+.company-list li {
+    overflow: hidden;
+    padding: 25px 30px 25px 5px;
+    border-bottom: 1px dashed #d2d2d2;
+    margin: 0 15px 0 20px;
+}
+
+.company-list li:last-child {
+    border: 0 none !important;
+}
+
+.company-img {
+    width: 298px;
+    height: 158px;
+    border: 1px solid #eaeaea;
+}
+
+.company-message {
+    width: 785px;
+    position: relative;
+}
+
+.company-message h4 {
+    font-size: 18px;
+    font-family: 微软雅黑;
+    color: #444;
+}
+
+.company-message p {
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: #666;
+    line-height: 24px;
+    text-indent: 2em;
+    margin: 20px 0;
+}
+
+.purchase {
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: #666;
+}
+
+.purchase img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.order {
+    display: inline-block;
+    width: 180px;
+}
+
+.more a {
+    display: block;
+    width: 115px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #fff;
+    background-color: #0083cd;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.platform-function {
+    margin-top: -1px;
+    border-top: 1px solid #eee;
+}
+
+.fn-list {
+    overflow: hidden;
+}
+
+.fn-list li {
+    float: left;
+    width: 200px;
+    height: 248px;
+    text-align: center;
+    font-size: 12px;
+    font-family: SimSun;
+    color: #444344;
+    line-height: 18px;
+}
+
+.fn-list li img {
+    margin: 26px 0 20px;
+}
+
+.text-title {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.platform-value{
+    border-top: 1px solid #eee;
+}
+.val-list {
+    overflow: hidden;
+}
+
+.val-list li {
+    float: left;
+    width: 400px;
+    height: 112px;
+    padding: 0 110px 0 85px;
+    font-size: 12px;
+    font-family: SimSun;
+    color: #444344;
+    line-height: 18px;
+    padding: 36px 115px 0 85px;
+}
+
+.val-message {
+    width: 280px;
+}
+
+.toenter-box {
+    width: 1165px;
+    height: 127px;
+    text-align: center;
+    margin-left: 20px;
+    border-top: 1px dashed #d2d2d2;
+}
+
+.toenter {
+    display: inline-block;
+    width: 115px;
+    height: 36px;
+    line-height: 36px;
+    background-color: #ef7800;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #fff;
+    margin: 25px 0 22px;
+}
+
+.toenter-box p {
+    font-size: 14px;
+    font-family: SimSun;
+    color: #444344;
+}

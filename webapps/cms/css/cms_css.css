@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, div, span, ul, li, ol, dl, dt, dd, em, i, h1, h2, h3, h4, h5, h6, p, input, a, img, button {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 0;
+	font-weight:normal;
+    font-family: "Microsoft Yahei";
+	font-size:12px;	
+	}
+.location{ width:100%; float:left; padding-top:10px;}
+.location_1{ width:20%; float:left;}
+.location_2{ width:20%; float:left;}
+
+.button_top{float:right;}
+.button_top ul li{ float:right; padding-left:5px;}
+.button_bg_1{ background:url(../images/bg_mad_1.jpg) no-repeat; width:49px; height:27px; cursor:pointer;}
+.button_bg_2{ background:url(../images/bg_mad_2.jpg) no-repeat; width:104px; height:27px; cursor:pointer;}
+.button_bg_3{ background:url(../images/bg_mad_3.jpg) no-repeat; width:79px; height:27px; cursor:pointer;}
+
+.tab_list tr td{ padding:10px 3px; line-height:22px;}
+.tab_list tr td a{ color:#0762af;}
+.tab_list tr:hover{ background-color:#f4f4f4;}
+
+.txt_1{ width:20px; height:15px; border:1px solid #cccccc; text-align:center; margin:0px 5px;}
+.btn_go{ width:40px; height:27px; border:1px solid #cccccc; background-color:#FFF; cursor:pointer; color:#085799; font-size:16px;}
+
+.sear_txt_1{ width:100px; height:25px; background-color:#FFF; border:1px solid #cccccc; font-family: "Microsoft Yahei"}
+.datetime_txt_1{ width:120px; height:25px; background-color:#FFF; border:1px solid #cccccc; font-family: "Microsoft Yahei"}
+.sear_btn{ width:68px; height:25px; background-color:#0762af; color:#FFF; font-family: "Microsoft Yahei"}
+
+.sear_gj{ color:#0762af;}
+
+.page {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-size: 0;
+    background-color:#FFF;
+}
+.page a{ text-decoration:none;}
+.page a,
+.page span {
+    display: inline-block;
+    font-size: 10px;
+    color: #000;
+    margin: 0 2px;
+    border: 1px solid #999999;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+}
+
+.page span.cur {
+    background-color: #075d98;
+    border-color: #075d98;
+    color: #fff;
+}
+.page span.txtl{border: 1px solid #fff; padding:0 0 0 10px;font-size: 12px;}
+.page span.txtr{border: 1px solid #fff; padding:0 10px 0 0;}
+.page span.cur,
+.page a:hover {
+    background-color: #075d98;
+    border-color: #075d98;
+    color: #fff;
+    text-decoration: none;
+}
+
+.page span.select-pager {
+    border: 1px solid #fff;
+    padding:0;
+}
+
+.page select {
+    border: 1px solid #999999;
+    margin: 0 4px;
+    outline: none;
+    padding: 5px 10px;
+}
+
+/****** new add *****/
+.new_page{ width:100%; float:left; background-color:#eeeeee;}
+.page_input{ border-top:1px solid #CCC; float:left; width:100%; padding:20px;box-sizing:border-box;}
+.page_input ul li{ float:left; padding-right:25px; height:35px; padding-bottom:15px;}
+.page_input ul li span { font-size:20px; color:#d11d1c; line-height:28px;}
+.new_page_input_1{ width:287px; height:26px; background-color:#FFF; border:1px solid #999999;}
+.s_font{ font-family:"SimSun"; font-size:18px; font-weight:bold;}
+
+.login{ width:980px; margin: 179px auto 0px auto; overflow:hidden; height:489px;}
+.login_left{ width:373px; float:left;}
+.login_right{ width:607px; float:left; background-color:#f6f6f6; height:489px;}
+
+.login_tilte{ width:607px; float:left; font-size:30px; color:#0762af; text-align:center; padding-top:50px;}
+
+.tips{ width:577px; float:left; padding-left:130px; color:#F00; padding-top:10px; padding-bottom:20px; height:20px;}
+
+.login_list{ width:607px; float:left; padding-bottom:25px;}
+.login_list .txt{ width:120px; float:left; padding-right:10px; text-align:right; font-size:18px; color:#373435; line-height:47px;}
+.login_list .input{ width:467px; float:left;}
+.login_list .input input{ width:402px; background-color:#FFF; border:none; height:47px; line-height:47px; font-size:18px;  font-family: "Microsoft Yahei"}
+
+.login_yzm{ width:607px; float:left; padding-bottom:25px;}
+.login_yzm .txt{ width:120px; float:left; padding-right:10px; text-align:right; font-size:18px; color:#373435; line-height:47px;}
+.login_yzm .input{ width:135px; float:left;}
+.login_yzm .input input{ width:130px; background-color:#FFF; border:none; height:47px; line-height:47px; font-size:18px;  font-family: "Microsoft Yahei"}
+.login_yzm span{ display:block; float:left; padding-left:10px;}
+.login_yzm span a{ font-size:16px; color:#0762af; line-height:47px;}
+
+.button{ width:577px; padding-left:130px;}
+.button input{ width:402px; float:left; height:47px; background-color:#0763b0; border:none; cursor:pointer; border-radius:3px; color:#FFF; font-size:18px;}

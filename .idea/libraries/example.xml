@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="example">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/webapps/cms/sites/_commons/播放器src/example/example.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

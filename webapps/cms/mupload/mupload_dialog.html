@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title>mupload文件上传</title>
+	<script language="javascript" src="./mjc-mupload.js"></script>
+</head>
+<body>
+<center>
+<br/>
+<script>
+	// 建立MUpload对象
+	var upload = new MUpload();
+	
+	// 运行控件，设置参数
+	upload.run({
+		limitTypes : {'图片文件(*.bmp,*.jpg)' : 'bmp,jpg'}, // 只允许上传bmp和jpg格式的图片
+		onComplete : 'uploadComplete',
+		onFailed : 'uploadFailed',
+		httpURL : '/mupload.do'
+	});
+	
+	// 文件上传成功后的回调方法
+	function uploadComplete(localFile, fileSize, serverFilePath)
+	{
+		alert('[文件上传成功]本地上传的文件路径为：' + localFile + '\n'
+			+ '上传的文件大小为：' + fileSize + '\n'
+			+ '服务器上文件的路径为：' + serverFilePath);
+		window.returnValue = {
+			'localFile' : localFile, 
+			'fileSize' : fileSize,
+			'serverFilePath' : serverFilePath,
+			'success' : true
+		};
+		window.close();
+	}
+	
+	// 文件上传失败的回调方法
+	function uploadFailed(localFile, fileSize, msg)
+	{
+		alert('[文件上传失败]本地上传的文件路径为：' + localFile + '\n'
+			+ '上传的文件大小为：' + fileSize + '\n失败原因：' + msg);
+		window.returnValue = {
+			'localFile' : localFile, 
+			'fileSize' : fileSize,
+			'success' : false,
+			'message' : msg
+		};
+		window.close();
+	}
+	
+	// 获取当前的文件上传状态
+	function getUploadStatus()
+	{
+		var status = upload.status();
+		alert('状态代码为：' + status.status + '\n状态信息：' + status.message);
+	}
+</script>
+</center>
+<br/>
+<input type="button" value="查看状态" onclick="getUploadStatus();" />
+</body>
+</html>

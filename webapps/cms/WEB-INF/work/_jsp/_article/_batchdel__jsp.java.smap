@@ -1,0 +1,12 @@
+SMAP
+_batchdel__jsp.java
+JSP
+*S JSP
+*F
++ 1 batchDel.jsp
+article/batchDel.jsp
+*L
+1#1:65
+13#1,26:66
+38#1:92
+*E

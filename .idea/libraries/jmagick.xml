@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jmagick">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/document/other/jmagick.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

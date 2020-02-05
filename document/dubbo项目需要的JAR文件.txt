@@ -1,0 +1,7 @@
+dubbo-2.5.4-SNAPSHOT.jar
+javassist-3.18.2-GA.jar
+netty-3.6.5.Final.jar
+zkclient-0.2.jar
+zookeeper-3.4.6.jar
+commons-logging-1.0.4.jar
+log4j-1.2.17.jar

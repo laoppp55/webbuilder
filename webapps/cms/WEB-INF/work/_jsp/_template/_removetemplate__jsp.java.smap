@@ -1,0 +1,12 @@
+SMAP
+_removetemplate__jsp.java
+JSP
+*S JSP
+*F
++ 1 removetemplate.jsp
+template/removetemplate.jsp
+*L
+3#1:58
+5#1,31:59
+35#1,2:90
+*E

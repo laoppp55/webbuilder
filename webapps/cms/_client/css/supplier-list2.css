@@ -1,0 +1,108 @@
+.center {
+	OVERFLOW: hidden; WIDTH: 1200px; POSITION: relative; COLOR: #666
+}
+.supplier-left {
+	OVERFLOW: hidden; WIDTH: 860px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 20px; MIN-HEIGHT: 850px; PADDING-RIGHT: 20px; BACKGROUND-COLOR: #fff
+}
+.location {
+	FONT-SIZE: 14px; POSITION: relative; PADDING-LEFT: 30px; LINE-HEIGHT: 22px
+}
+.location UL {
+	OVERFLOW: hidden; FONT-SIZE: 12px; WIDTH: 640px; POSITION: relative; LEFT: 85px; TOP: -22px
+}
+.location UL LI {
+	CURSOR: pointer; HEIGHT: 22px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 8px; LINE-HEIGHT: 22px; PADDING-RIGHT: 8px; MARGIN-RIGHT: 14px
+}
+.more {
+	FONT-SIZE: 12px; BORDER-TOP: #cdcdcd 1px solid; HEIGHT: 23px; FONT-FAMILY: SimSun; BORDER-RIGHT: #cdcdcd 1px solid; WIDTH: 52px; RIGHT: 20px; BORDER-BOTTOM: #cdcdcd 1px solid; POSITION: absolute; COLOR: #666666; PADDING-LEFT: 16px; BORDER-LEFT: #cdcdcd 1px solid; LINE-HEIGHT: 23px; TOP: 0px
+}
+.retract {
+	FONT-SIZE: 12px; BORDER-TOP: #cdcdcd 1px solid; HEIGHT: 23px; FONT-FAMILY: SimSun; BORDER-RIGHT: #cdcdcd 1px solid; WIDTH: 52px; RIGHT: 20px; BORDER-BOTTOM: #cdcdcd 1px solid; POSITION: absolute; COLOR: #666666; PADDING-LEFT: 16px; BORDER-LEFT: #cdcdcd 1px solid; LINE-HEIGHT: 23px; TOP: 0px
+}
+.more .retract-text {
+	DISPLAY: none
+}
+.more .arrow_up {
+	DISPLAY: none
+}
+.retract .more-text {
+	DISPLAY: none
+}
+.retract .more-text {
+	DISPLAY: none
+}
+.registered-capital {
+	FONT-SIZE: 14px; HEIGHT: 22px; BORDER-BOTTOM: #d2d2d2 1px dashed; POSITION: relative; PADDING-BOTTOM: 16px; PADDING-LEFT: 30px; LINE-HEIGHT: 22px
+}
+.registered-capital UL {
+	FONT-SIZE: 12px; POSITION: absolute; LEFT: 100px; TOP: 0px
+}
+.registered-capital UL LI {
+	HEIGHT: 22px; FLOAT: left; LINE-HEIGHT: 22px; MARGIN-RIGHT: 14px
+}
+.registered-capital UL LI INPUT {
+	VERTICAL-ALIGN: sub; MARGIN-RIGHT: 8px
+}
+.search-box2 {
+	HEIGHT: 65px; WIDTH: 860px; BORDER-BOTTOM: #d2d2d2 1px dashed; POSITION: relative
+}
+.search-input2 {
+	BORDER-TOP: #cdcdcd 1px solid; HEIGHT: 28px; BORDER-RIGHT: #cdcdcd 1px solid; WIDTH: 198px; RIGHT: 20px; BORDER-BOTTOM: #cdcdcd 1px solid; POSITION: absolute; BORDER-LEFT: #cdcdcd 1px solid; TOP: 19px
+}
+.search-box2 INPUT {
+	BORDER-TOP: 0px; HEIGHT: 28px; BORDER-RIGHT: 0px; WIDTH: 163px; BORDER-BOTTOM: 0px; OUTLINE-STYLE: none; PADDING-LEFT: 10px; BORDER-LEFT: 0px; LINE-HEIGHT: 28px
+}
+.search-img2 {
+	RIGHT: 6px; POSITION: absolute; TOP: 6px
+}
+.search-img2 IMG {
+	HEIGHT: 16px; WIDTH: 16px
+}
+.supplier-li {
+	HEIGHT: 115px; BORDER-BOTTOM: #d2d2d2 1px dashed; PADDING-BOTTOM: 23px; PADDING-TOP: 22px; PADDING-LEFT: 30px
+}
+.li-left {
+	BORDER-TOP: #eee 1px solid; HEIGHT: 108px; BORDER-RIGHT: #eee 1px solid; BORDER-BOTTOM: #eee 1px solid; FLOAT: left; BORDER-LEFT: #eee 1px solid
+}
+.li-right {
+	POSITION: relative; FLOAT: left; PADDING-TOP: 10px; PADDING-LEFT: 18px
+}
+.right-title {
+	MARGIN-BOTTOM: 30px
+}
+.right-title A {
+	FONT-SIZE: 14px; FONT-FAMILY: SimSun; COLOR: #0083cd
+}
+.right-content {
+	FONT-SIZE: 12px; WIDTH: 650px; COLOR: #999; LINE-HEIGHT: 24px
+}
+.li-right P {
+	FONT-SIZE: 12px; WIDTH: 650px; COLOR: #999; LINE-HEIGHT: 24px
+}
+.supplier-right {
+	BORDER-RIGHT: #e5e5e5 1px solid; WIDTH: 280px; RIGHT: 0px; POSITION: absolute; FLOAT: right; BORDER-LEFT: #e5e5e5 1px solid; TOP: 0px; BOTTOM: 0px; BACKGROUND-COLOR: #fff
+}
+.title {
+	FONT-SIZE: 18px; HEIGHT: 46px; FONT-FAMILY: Î¢ÈíÑÅºÚ; BACKGROUND: url(../../images/icons/bg_titleofsubpage.png); COLOR: #666; LINE-HEIGHT: 46px
+}
+.title IMG {
+	VERTICAL-ALIGN: middle; MARGIN: 0px 11px 0px 24px
+}
+.recommend-img LI {
+	MARGIN: 10px 15px 5px
+}
+.recommend-list {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px
+}
+.list-big {
+	OVERFLOW: hidden; HEIGHT: auto; BORDER-BOTTOM: #eaeaea 1px solid
+}
+.lists-small {
+	FONT-SIZE: 14px; HEIGHT: 30px; FONT-FAMILY: SimSun; COLOR: #999999; PADDING-LEFT: 20px; MARGIN: 12px 0px; LINE-HEIGHT: 30px
+}
+.arrow_img {
+	HEIGHT: 13px; WIDTH: 13px; VERTICAL-ALIGN: text-top; MARGIN-RIGHT: 13px
+}
+.list-select {
+	BACKGROUND-COLOR: #e3f0f8
+}

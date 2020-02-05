@@ -1,0 +1,16 @@
+body { margin:0; padding:0; font-size:16px; line-height:30px; color:#000;  font-family:"Microsoft YaHei";}
+ol,ul,dl,dt,dd,li,p,form,label,input { margin:0;padding:0; list-style-type:none; }
+h1,h2,h3,h4{ padding:0px; margin:0px; line-height:100%;}
+div,ul {display:block;}
+ul { float:left;}
+a img,img{border:0;}
+a{ text-decoration:none; color:#288bc4; font-size:14px;}
+.clear { clear:both;}
+input{ font-family:"Microsoft YaHei";}
+
+
+.btn_1{ background:url(../images/2018-2pic.jpg) no-repeat; width:170px; height:50px; border:0px; cursor:pointer; font-size:18px; color:#FFF;  font-family:"Microsoft YaHei";}
+.red{ color:#ff0000;}
+.btn_2{ background:url(../images/2018-2pic.jpg) no-repeat; width:170px; height:50px; border:0px; cursor:pointer; font-size:18px; color:#FFF;  font-family:"Microsoft YaHei";}
+.btn_3{ background:url(../images/2018-2pic.jpg) no-repeat; width:170px; height:50px; border:0px; cursor:pointer; font-size:18px; color:#FFF;  font-family:"Microsoft YaHei";}
+

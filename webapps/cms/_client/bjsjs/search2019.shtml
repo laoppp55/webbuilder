@@ -1,0 +1,47 @@
+
+<div class="top">
+<div class="top_grey">
+<div class="top_grey_in"><!--div class="top_grey_left">欢迎光临石景山</div-->
+<div style="float:right;width:100px;"><a href="/znwd/" style="padding-left:15px;" target="_blank">智能问答</a></div>
+
+<div class="top_grey_right" id="userInfos"><a href="https://bjt.beijing.gov.cn/renzheng/open/login/goUserLogin?client_id=100100000197&amp;redirect_uri=http://www.bjsjs.gov.cn/_prog/callback.jsp&amp;response_type=code&amp;scope=user_info&amp;state=1
+">登录个人用户中心</a></div>
+<script type="text/javascript" src="/js/users.js"></script><script type="text/javascript">
+$(function(){
+            doLogin();
+        });
+</script></div>
+</div>
+
+<div class="top_in">
+<div class="logo"><img height="76" src="/images/logo201988.png" width="279" /></div>
+
+<div class="search-right">
+<div class="search">
+<div class="search_t"><script type="text/javascript"  src="/js/jquery.cookie.js"></script><script type="text/javascript"  src="/js/common.js"></script><script type="text/javascript"  src="/js/searchbox.js" ></script>
+<form action="/sitesearch/sitesearch" id="form1" method="post" name="form1"><input class="txt" id="qt" name="qt" onblur="if (value ==''){value='请输入搜索关键字'}" onclick="if(this.value=='请输入搜索关键字')this.value=''" type="text" value="请输入搜索关键字" /> <input id="pagesize" type="hidden" value="20" /><input class="cmd1" id="searchBtn" name="searchBtn" onclick="go()" type="button" value="搜索" />
+<div class="searchul" id="ulSearchList">&nbsp;</div>
+</form>
+</div>
+</div>
+<script type="text/javascript">
+
+    search('qt', 'ulSearchList', 'searchBtn');
+
+    // 搜索调用
+    function go() {
+        var qt = $("#qt").val();
+        if (qt == null || qt === ""  ) {
+            alert("请输入搜索条件");
+            return;
+        }
+        var url ="/sitesearch/sitesearch?qt="+qt;
+        
+        window.open(url, "_self");
+    }
+</script>
+
+<div class="sdzc"><a href="http://www.beijing.gov.cn" target="_blank"><img height="75" src="/images/sdzc_201988-1.png" width="75" /></a></div>
+</div>
+</div>
+</div>

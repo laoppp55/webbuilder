@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="gb2312"?>
+<sites>
+   <info>
+      <site>www.edarong.com</site>
+	  <cmsroot>/data/coosite/webbuilder</cmsroot>
+      <columns>
+	    <column>
+           <sourceurl>http://www.sinopecnews.com.cn/wz/node_10995.htm</sourceurl>
+		   <columnid>49505</columnid>
+		   <columnname>物供动态</columnname>
+		</column>
+		<column>
+           <sourceurl>http://www.sinopecnews.com.cn/wz/node_10989.htm</sourceurl>
+		   <columnid>49260</columnid>
+		   <columnname>供求信息</columnname>
+		</column>
+		<column>
+           <sourceurl>http://www.sinopecnews.com.cn/wz/node_10981.htm</sourceurl>
+		   <columnid>49261</columnid>
+		   <columnname>招标信息</columnname>
+        </column>
+        <column>
+           <sourceurl>http://www.sinopecnews.com.cn/wz/node_11003.htm</sourceurl>
+                   <columnid>49504</columnid>
+                   <columnname>产经新闻</columnname>
+                </column>
+     </columns>
+   </info>
+</sites>

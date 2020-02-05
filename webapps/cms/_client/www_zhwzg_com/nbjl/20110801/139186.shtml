@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head xmlns="">
+        <title>北京医院2011年上半年出院情况统计 > 振国内部交流</title>
+        <meta content="text/html; charset=gb2312" http-equiv="Content-Type" /><style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family:"新宋体";
+	font-size:14px;
+	line-height:25px;
+	background-color: #FFFFFF;
+}
+--></style>
+    <meta name="description" content="项目
+                    出院人数
+                    住院天数
+                    诊疗费用
+                    药品费用
+                    住院费用
+                
+                
+                    合计
+                    人均
+                    合计
+                    人均
+                    人均每日
+                    合计
+                    人均
+                    人均每日
+                    比例
+                    合计
+                    人均
+                    人均每日
+                
+                
+                    病区3
+                    233
+                    5707
+                    24
+                    2123314.">
+<script src="/_sys_js/commentarticle.js" type="text/javascript"></script>
+<script language="javascript">
+var objXml = new ActiveXObject("Microsoft.XMLHTTP");
+objXml.open("POST", "/_commons/checkArticle.jsp?userflag=1&userlevel=1", false);
+objXml.Send();
+var retstr = objXml.responseText;
+if (retstr != null && retstr.length > 0 && retstr.indexOf("nologin") > -1) {    alert("请先登录！");
+    window.location="/www_zhwzg_com/_prog/login.jsp";
+    }
+if (retstr != null && retstr.length > 0 && retstr.indexOf("nolevel") > -1) {
+   alert("只有一定级别的用户才能浏览！");
+    window.close();    }
+</script>
+</head>
+    <body xmlns="">
+        <div align="center">
+        <table cellspacing="0" cellpadding="0" width="1000" border="0">
+            <tbody>
+                <tr>
+                    <td valign="bottom" align="center" height="60" style="font-weight: bold; font-size: 28px; line-height: 30px">振国内部交流</td>
+                </tr>
+                <tr>
+                    <td valign="middle" align="center" height="75"><strong>北京医院2011年上半年出院情况统计</strong><br />
+                    <span style="font-size: 12px; color: #333333">2011-08-01 17:26:00</span></td>
+                </tr>
+                <tr>
+                    <td valign="top" align="left"><div id=biz_cms_content>
+        <p>
+        <table cellspacing="0" cellpadding="0" width="1184" border="0" x:str="" style="width: 890pt; border-collapse: collapse">
+            <colgroup><col width="64" style="width: 48pt; mso-width-source: userset; mso-width-alt: 2048" /><col width="65" style="width: 49pt; mso-width-source: userset; mso-width-alt: 2080" /><col width="72" style="width: 54pt" /><col width="48" style="width: 36pt; mso-width-source: userset; mso-width-alt: 1536" /><col width="110" style="width: 83pt; mso-width-source: userset; mso-width-alt: 3520" /><col width="86" style="width: 65pt; mso-width-source: userset; mso-width-alt: 2752" /><col width="99" style="width: 74pt; mso-width-source: userset; mso-width-alt: 3168" /><col width="113" style="width: 85pt; mso-width-source: userset; mso-width-alt: 3616" /><col width="97" style="width: 73pt; mso-width-source: userset; mso-width-alt: 3104" /><col width="84" style="width: 63pt; mso-width-source: userset; mso-width-alt: 2688" /><col width="72" style="width: 54pt" /><col width="109" style="width: 82pt; mso-width-source: userset; mso-width-alt: 3488" /><col width="85" style="width: 64pt; mso-width-source: userset; mso-width-alt: 2720" /><col width="80" style="width: 60pt; mso-width-source: userset; mso-width-alt: 2560" /></colgroup>
+            <tbody>
+                <tr height="19" style="height: 14.25pt">
+                    <td class="xl25" width="64" height="38" rowspan="2" style="border-right: windowtext 0.5pt solid; border-top: windowtext 0.5pt solid; border-left: windowtext 0.5pt solid; width: 48pt; border-bottom: windowtext 0.5pt solid; height: 28.5pt; background-color: transparent"><font face="宋体" size="2"><strong>项目</strong></font></td>
+                    <td class="xl25" width="65" rowspan="2" style="border-right: windowtext 0.5pt solid; border-top: windowtext 0.5pt solid; border-left: windowtext 0.5pt solid; width: 49pt; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体" size="2"><strong>出院人数</strong></font></td>
+                    <td class="xl25" width="120" colspan="2" style="border-right: windowtext 0.5pt solid; border-top: windowtext 0.5pt solid; border-left: windowtext; width: 90pt; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体" size="2"><strong>住院天数</strong></font></td>
+                    <td class="xl25" width="295" colspan="3" style="border-right: windowtext 0.5pt solid; border-top: windowtext 0.5pt solid; border-left: windowtext; width: 222pt; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体" size="2"><strong>诊疗费用</strong></font></td>
+                    <td class="xl25" width="366" colspan="4" style="border-right: windowtext 0.5pt solid; border-top: windowtext 0.5pt solid; border-left: windowtext; width: 275pt; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体" size="2"><strong>药品费用</strong></font></td>
+                    <td class="xl25" width="274" colspan="3" style="border-right: windowtext 0.5pt solid; border-top: windowtext 0.5pt solid; border-left: windowtext; width: 206pt; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体" size="2"><strong>住院费用</strong></font></td>
+                </tr>
+                <tr height="19" style="height: 14.25pt">
+                    <td class="xl25" height="19" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; height: 14.25pt; background-color: transparent"><font face="宋体" size="2"><strong>合计</strong></font></td>
+                    <td class="xl25" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体" size="2"><strong>人均</strong></font></td>
+                    <td class="xl25" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体" size="2"><strong>合计</strong></font></td>
+                    <td class="xl25" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体" size="2"><strong>人均</strong></font></td>
+                    <td class="xl25" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体" size="2"><strong>人均每日</strong></font></td>
+                    <td class="xl25" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体" size="2"><strong>合计</strong></font></td>
+                    <td class="xl25" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体" size="2"><strong>人均</strong></font></td>
+                    <td class="xl25" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体" size="2"><strong>人均每日</strong></font></td>
+                    <td class="xl25" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体" size="2"><strong>比例</strong></font></td>
+                    <td class="xl25" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体" size="2"><strong>合计</strong></font></td>
+                    <td class="xl25" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体" size="2"><strong>人均</strong></font></td>
+                    <td class="xl25" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><strong><font face="宋体" size="2">人均每日</font></strong></td>
+                </tr>
+                <tr height="19" style="height: 14.25pt">
+                    <td class="xl24" height="19" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext 0.5pt solid; border-bottom: windowtext 0.5pt solid; height: 14.25pt; background-color: transparent"><font face="宋体">病区3</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">233</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">5707</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">24</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">2123314.82</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">9112.94</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">372.05</font></td>
+                    <td class="xl24" align="right" x:num="5782084.1900000004" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">5782084.19</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">24815.81</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">1013.16</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">73.14</font></td>
+                    <td class="xl24" align="right" x:num="7905399.0099999998" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">7905399.01</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">33928.75</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">1385.21</font></td>
+                </tr>
+                <tr height="19" style="height: 14.25pt">
+                    <td class="xl24" height="19" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext 0.5pt solid; border-bottom: windowtext 0.5pt solid; height: 14.25pt; background-color: transparent"><font face="宋体">病区4</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">273</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">5895</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">21</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">3290350.9</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">12052.57</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">558.16</font></td>
+                    <td class="xl24" align="right" x:num="7333001.1799999997" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">7333001.18</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">26860.81</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">1243.94</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">69.03</font></td>
+                    <td class="xl24" align="right" x:num="10623352.08" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">10623352.08</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">38913.38</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">1802.1</font></td>
+                </tr>
+                <tr height="19" style="height: 14.25pt">
+                    <td class="xl24" height="19" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext 0.5pt solid; border-bottom: windowtext 0.5pt solid; height: 14.25pt; background-color: transparent"><font face="宋体">病区5</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">234</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">6688</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">28</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">2303442.7</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">9843.77</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">344.41</font></td>
+                    <td class="xl24" align="right" x:num="7864036.0999999996" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">7864036.1</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">33606.99</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">1175.84</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">77.34</font></td>
+                    <td class="xl24" align="right" x:num="10167478.800000001" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">10167478.8</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">43450.76</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">1520.26</font></td>
+                </tr>
+                <tr height="19" style="height: 14.25pt">
+                    <td class="xl24" height="19" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext 0.5pt solid; border-bottom: windowtext 0.5pt solid; height: 14.25pt; background-color: transparent"><font face="宋体">病区6</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">45</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">1156</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">25</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">1283551.45</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">28523.37</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">1110.34</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">1324897.44</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">29442.17</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">1146.11</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">50.79</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">2608448.89</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">57965.53</font></td>
+                    <td class="xl24" align="right" x:num="" style="border-right: windowtext 0.5pt solid; border-top: windowtext; border-left: windowtext; border-bottom: windowtext 0.5pt solid; background-color: transparent"><font face="宋体">2256.44</font></td>
+                </tr>
+            </tbody>
+        </table>
+        </p>
+    </div><script type="text/javascript" src="key.js"></script></td>
+                </tr>
+                <tr>
+                    <td height="55">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </body>
+</html>

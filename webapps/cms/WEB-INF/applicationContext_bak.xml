@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright 2010 The myBatis Team
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="
+     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+     http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+     http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+     http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+    <!-- enable autowire -->
+    <context:annotation-config />
+
+    <!-- in-memory database and a datasource -->
+    <bean id="myDataSource" class="com.jolbox.bonecp.BoneCPDataSource" destroy-method="close">
+        <property name="driverClass" value="oracle.jdbc.driver.OracleDriver" />
+        <property name="jdbcUrl" value="jdbc:oracle:thin:@116.90.87.164:1521:orcl10g" />
+        <property name="username" value="bjsjsdbadmin"/>
+        <property name="password" value="qazwsxokm"/>
+        <property name="IdleConnectionTestPeriodInMinutes" value="60"/>
+        <property name="idleMaxAgeInMinutes" value="240"/>
+        <property name="maxConnectionsPerPartition" value="30"/>
+        <property name="minConnectionsPerPartition" value="10"/>
+        <property name="partitionCount" value="3"/>
+        <property name="acquireIncrement" value="5"/>
+        <property name="statementsCacheSize" value="100"/>
+        <property name="releaseHelperThreads" value="3"/>
+        <property name="logStatementsEnabled"  value="true"/>
+    </bean>
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="myDataSource" />
+        <property name="typeAliasesPackage" value="com.bizwink.po" />
+        <!-- <property name="configLocation" value=""/> -->
+        <!--
+          该属性用来指定MyBatis的XML配置文件路径,跟Spring整合时，编写MyBatis映射文件的目的无非是配置一下typeAlias、setting之类的
+          元素。不用在其中指定数据源，或者事务处理方式。就算配置了也会被忽略。因为这些都是使用Spring中的配置
+          。当然如果你不打算添加typeAlias 之类的设置的话，你连MyBatis的配置文件都不用写，更不用配置这个属性了
+          -->
+
+        <!--<property name="mapperLocations" value="src/UserMapper.xml"/>-->
+        <!-- 该配置文件用来指定Mapper映射文件的位置 ，如果映射文件与相应的接口同名，且在同一路径下，那么可以不配置该选项-->
+    </bean>
+    <!-- transaction manager, use JtaTransactionManager for global tx -->
+
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="myDataSource" />
+    </bean>
+
+    <!-- enable transaction demarcation with annotations -->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+	<!--
+        注册Mapper方式一 <bean id="userMapper"
+        class="org.mybatis.spring.mapper.MapperFactoryBean"> <property
+        name="mapperInterface"
+        value="org.hyn.maper.UserMapper"/> <property
+        name="sqlSessionFactory" ref="sqlSessionFactory"/> </bean>
+    -->
+    <!-- 注册Mapper方式二：也可不指定特定mapper，而使用自动扫描包的方式来注册各种Mapper ，配置如下：-->
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+      <property name="basePackage" value="com.bizwink.persistence" />
+      <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
+	
+	
+	<bean id="btobDataSource" class="com.jolbox.bonecp.BoneCPDataSource" destroy-method="close">
+        <property name="driverClass" value="oracle.jdbc.driver.OracleDriver" />
+        <property name="jdbcUrl" value="jdbc:oracle:thin:@localhost:1521:orcl11g" />
+        <property name="username" value="btobdbadmin"/>
+        <property name="password" value="qazwsxokm"/>
+        <property name="IdleConnectionTestPeriodInMinutes" value="60"/>
+        <property name="idleMaxAgeInMinutes" value="240"/>
+        <property name="maxConnectionsPerPartition" value="30"/>
+        <property name="minConnectionsPerPartition" value="10"/>
+        <property name="partitionCount" value="3"/>
+        <property name="acquireIncrement" value="5"/>
+        <property name="statementsCacheSize" value="100"/>
+        <property name="releaseHelperThreads" value="3"/>
+        <property name="logStatementsEnabled"  value="true"/>
+    </bean>
+
+	<bean id="btobSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="btobDataSource" />
+        <property name="typeAliasesPackage" value="com.bizwink.btob.system.po" />
+        <!-- <property name="configLocation" value=""/> -->
+        <!--
+          该属性用来指定MyBatis的XML配置文件路径,跟Spring整合时，编写MyBatis映射文件的目的无非是配置一下typeAlias、setting之类的
+          元素。不用在其中指定数据源，或者事务处理方式。就算配置了也会被忽略。因为这些都是使用Spring中的配置
+          。当然如果你不打算添加typeAlias 之类的设置的话，你连MyBatis的配置文件都不用写，更不用配置这个属性了
+          -->
+
+        <!--property name="mapperLocations" value="classpath*:com/bizwink/persistence/*.xml"/-->
+        <!-- 该配置文件用来指定Mapper映射文件的位置 ，如果映射文件与相应的接口同名，且在同一路径下，那么可以不配置该选项-->
+    </bean>
+
+    <!-- transaction manager, use JtaTransactionManager for global tx -->
+    <bean id="btobTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="btobDataSource" />
+    </bean>
+
+	<!--tx:annotation-driven /-->
+    <tx:annotation-driven transaction-manager="btobTransactionManager" />
+
+	<!-- 注册Mapper方式二：也可不指定特定mapper，而使用自动扫描包的方式来注册各种Mapper ，配置如下：-->	
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+      <property name="basePackage" value="com.bizwink.btob.system.persistence" />
+      <property name="sqlSessionFactoryBeanName" value="btobSessionFactory"/>
+    </bean>
+
+
+	<bean id="suppDataSource" class="com.jolbox.bonecp.BoneCPDataSource" destroy-method="close">
+        <property name="driverClass" value="oracle.jdbc.driver.OracleDriver" />
+        <property name="jdbcUrl" value="jdbc:oracle:thin:@localhost:1521:orcl11g" />
+        <property name="username" value="suppdbadmin"/>
+        <property name="password" value="qazwsxokm"/>
+        <property name="IdleConnectionTestPeriodInMinutes" value="60"/>
+        <property name="idleMaxAgeInMinutes" value="240"/>
+        <property name="maxConnectionsPerPartition" value="30"/>
+        <property name="minConnectionsPerPartition" value="10"/>
+        <property name="partitionCount" value="3"/>
+        <property name="acquireIncrement" value="5"/>
+        <property name="statementsCacheSize" value="100"/>
+        <property name="releaseHelperThreads" value="3"/>
+        <property name="logStatementsEnabled"  value="true"/>
+    </bean>
+
+	<bean id="suppSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="suppDataSource" />
+        <property name="typeAliasesPackage" value="com.bizwink.btob.suppliers.po" />
+    </bean>
+
+	<!-- 注册Mapper方式二：也可不指定特定mapper，而使用自动扫描包的方式来注册各种Mapper ，配置如下：-->	
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+      <property name="basePackage" value="com.bizwink.btob.suppliers.persistence" />
+      <property name="sqlSessionFactoryBeanName" value="suppSessionFactory"/>
+    </bean>
+
+	<!-- transaction manager, use JtaTransactionManager for global tx -->
+    <bean id="suppTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="suppDataSource" />
+    </bean>
+
+	<!--tx:annotation-driven /-->
+    <tx:annotation-driven transaction-manager="suppTransactionManager" />
+
+
+	<bean id="prodDataSource" class="com.jolbox.bonecp.BoneCPDataSource" destroy-method="close">
+        <property name="driverClass" value="oracle.jdbc.driver.OracleDriver" />
+        <property name="jdbcUrl" value="jdbc:oracle:thin:@localhost:1521:orcl11g" />
+        <property name="username" value="proddbadmin"/>
+        <property name="password" value="qazwsxokm"/>
+        <property name="IdleConnectionTestPeriodInMinutes" value="60"/>
+        <property name="idleMaxAgeInMinutes" value="240"/>
+        <property name="maxConnectionsPerPartition" value="30"/>
+        <property name="minConnectionsPerPartition" value="10"/>
+        <property name="partitionCount" value="3"/>
+        <property name="acquireIncrement" value="5"/>
+        <property name="statementsCacheSize" value="100"/>
+        <property name="releaseHelperThreads" value="3"/>
+        <property name="logStatementsEnabled"  value="true"/>
+    </bean>
+
+	<bean id="prodSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="prodDataSource" />
+        <property name="typeAliasesPackage" value="com.bizwink.btob.products.po" />
+    </bean>
+
+	<!-- 注册Mapper方式二：也可不指定特定mapper，而使用自动扫描包的方式来注册各种Mapper ，配置如下：-->	
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+      <property name="basePackage" value="com.bizwink.btob.products.persistence" />
+      <property name="sqlSessionFactoryBeanName" value="prodSessionFactory"/>
+    </bean>
+
+    <!-- transaction manager, use JtaTransactionManager for global tx -->
+    <bean id="prodTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="prodDataSource" />
+    </bean>
+
+	<!--tx:annotation-driven /-->
+    <tx:annotation-driven transaction-manager="prodTransactionManager" />
+	
+	<!-- enable component scanning (beware that this does not enable mapper scanning!) -->
+    <context:component-scan base-package="com.bizwink.service,com.bizwink.btob.products.prodservice" />
+
+	<!--修改用户登陆状态定时任务,默认用户30分钟之内没有操作，认为用户离线 -->
+    <bean id="UserStatusJob" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="updateLoginUserStatus" />
+        <property name="targetMethod">
+            <value>work</value>
+        </property>
+        <property name="concurrent" value="false" />
+		<property name="arguments" value="5"/>
+    </bean>
+
+	<!-- 任务调度计时器，进行定时设置。CronTriggerBean能进行非常精确的定时设置 -->
+    <bean id="UserLoginStatus" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean" >
+        <property name="jobDetail" ref="UserStatusJob" />
+        <!-- cron表达式 -->
+        <property name="cronExpression">
+            <!--   0 0 */2 * * ? 每两小时、整点触发 -->
+            <!--   0 0/2 * * * ? 每两分钟  -->
+            <!--   0/5 * * * * ? 每五秒钟  -->
+            <!--   0 15 10 * * ? 每天Y分X点触发  -->
+            <value>0 0/30 * * * ?</value>
+        </property>
+    </bean>
+    
+	    <!--     修改用户登陆状态定时任务 -->
+    <bean id="JobPublish" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="jobPublishService" />
+        <property name="targetMethod">
+            <value>doPublish</value>
+        </property>
+        <property name="concurrent" value="false" />
+		<property name="arguments" value="/data/coosite/webbuilder/"/>
+    </bean>
+
+	<!-- 任务调度计时器，进行定时设置。CronTriggerBean能进行非常精确的定时设置 -->
+    <bean id="PublishServer" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean" >
+        <property name="jobDetail" ref="JobPublish" />
+        <!-- cron表达式 -->
+        <property name="cronExpression">
+            <!--   0 0 */2 * * ? 每两小时、整点触发 -->
+            <!--   0 0/2 * * * ? 每两分钟  -->
+            <!--   0/5 * * * * ? 每五秒钟  -->
+            <!--   0 15 10 * * ? 每天Y分X点触发  -->
+            <value>0 0/5 * * * ?</value>
+        </property>
+    </bean>
+
+
+	<!-- 调度任务触发器，启动定时任务-->
+    <bean autowire="no" class="org.springframework.scheduling.quartz.SchedulerFactoryBean" destroy-method="stop">
+        <property name="triggers">
+            <list>
+                <!--ref bean="UserLoginStatus" /-->
+				<ref bean="PublishServer" />
+            </list>
+        </property>
+    </bean>
+</beans>

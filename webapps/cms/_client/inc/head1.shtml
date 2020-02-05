@@ -1,0 +1,14 @@
+
+        <div class="head">
+        <div class="logo"><img alt="" width="220" height="59" src="/images/2014logo.png" /></div>
+        <div class="search_box">
+        <div class="search">
+        <form method="post" action="http://www.egreatwall.com/_prog/search.jsp" target="_blank" name="searchForm">
+            <label><input class="txt_box" onblur="if (value ==''){value='À—À˜'}" onclick="if(this.value=='À—À˜')this.value=''" name="searchcontent" value="À—À˜" type="text" /> </label><label><input src="/images/search_go.jpg" type="image" name="Submit" value="Ã·Ωª" /> </label>
+        </form>
+        </div>
+        <div class="weibo"><a target="_blank" href="http://weibo.com/egreatwall/">∑√Œ Œ¢≤©</a>|<a target="_blank" href="/en/">”¢Œƒ∞Ê</a></div>
+        </div>
+        <div class="clear"></div>
+        </div>
+    

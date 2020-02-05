@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--资源文件  -->
+<properties resource="db.properties"/>
+
+<settings>
+<!--开启延时加载  -->
+<setting name="lazyLoadingEnabled" value="true"/>
+<!--关闭立即加载  -->
+<setting name="aggressiveLazyLoading" value="false"/>
+<!--开启二级缓存  -->
+<setting name="cacheEnabled" value="true" />
+</settings>
+<!-- 别名  -->
+<typeAliases>
+<!-- <typeAlias type="com.pb.mybatis.po.User" alias="User"/> -->
+<package name="com.bizwink.po"/>
+</typeAliases>
+<!--配置  -->
+
+<environments default="development">
+<environment id="development">
+    <!--事务  -->
+    <transactionManager type="JDBC"/>
+    <!--数据源  -->
+    <dataSource type="POOLED">
+    <property name="driver" value="${driverClass}"/>
+    <property name="url" value="${jdbcUrl}"/>
+    <property name="username" value="${user}"/>
+    <property name="password" value="${password}"/>
+    </dataSource>
+</environment>
+</environments>
+<mappers>
+    <package name="com.bizwink.persistence"/>
+</mappers>
+</configuration>

@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+<SCRIPT>
+var NowFrame = 1;
+var MaxFrame = 4;
+var bStart = 0;
+function fnToggle() {
+    var next = NowFrame + 1;
+
+    if(next == MaxFrame+1)
+    {
+        NowFrame = MaxFrame;
+        next = 1;
+    }
+
+    if(bStart == 0)
+    {
+        bStart = 1;
+
+        setTimeout('fnToggle()', 3500);
+
+        return;
+    }
+    else
+    {
+        oTransContainer.filters[0].Apply();
+
+        document.images['oDIV'+next].style.display = "";
+        document.images['oDIV'+NowFrame].style.display = "none";
+
+        oTransContainer.filters[0].Play(duration=2);
+
+        if(NowFrame == MaxFrame)
+            NowFrame = 1;
+        else
+            NowFrame++;
+    }    setTimeout('fnToggle()', 3500);
+}
+
+fnToggle();
+</SCRIPT>
+<div align="center">
+<DIV id=oTransContainer style="FILTER: progid:DXImageTransform.Microsoft.Wipe(GradientSize=1.0,wipeStyle=0, motion='forward'); WIDTH: 500px; HEIGHT: 352px">
+<A href="/default.asp" target=_blank><IMG id=oDIV1 style="BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid" src="http://auto.avl.com.cn/zhiyou/shiche/200706/W020070615557868938294.jpg" border=0 ></A>
+<A href="/default.asp" target=_blank><IMG id=oDIV2 style="BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; DISPLAY: none;  BORDER-BOTTOM: black 1px solid" src=http://auto.china.com/zh_cn/mill/fordmazda/car/11063656/20080528/images/14872345_2008052808574665624300.jpg border=0></A>
+<A href="/default.asp" target=_blank><IMG id=oDIV3 style="BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; DISPLAY: none;  BORDER-BOTTOM: black 1px solid" src="http://auto.ce.cn/main/csjj/dghq/200805/09/W020080509288485297496.jpg" border=0 ></A>
+<A href="/default.asp" target=_blank><IMG id=oDIV4 style="BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; DISPLAY: none;  BORDER-BOTTOM: black 1px solid" src=http://images.jrj.com.cn/2008/09/20080911133326332.jpg border=0></A>
+</DIV></div>
+
+
+</body>
+</html>

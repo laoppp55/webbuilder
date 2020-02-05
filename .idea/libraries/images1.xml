@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="images1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/webapps/cms/chinabuy/images/images.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,12 @@
+/**
+ * Created by IntelliJ IDEA.
+ * User: Administrator
+ * Date: 2010-3-14
+ * Time: 14:09:42
+ * To change this template use File | Settings | File Templates.
+ */
+public class HelloWordJWS {
+    public String test() {
+        return "hello word";
+    }
+}

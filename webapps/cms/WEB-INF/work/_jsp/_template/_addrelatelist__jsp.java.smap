@@ -1,0 +1,13 @@
+SMAP
+_addrelatelist__jsp.java
+JSP
+*S JSP
+*F
++ 1 addRelateList.jsp
+template/addRelateList.jsp
+*L
+4#1,12:56
+15#1:68
+27#1:69,4
+29#1:73
+*E

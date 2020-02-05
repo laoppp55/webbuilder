@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="dbdrivers">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/webapps/cms/WEB-INF/dbdrivers/ojdbc6_11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webapps/cms/WEB-INF/dbdrivers/classes12_10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webapps/cms/WEB-INF/dbdrivers/classes12_9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

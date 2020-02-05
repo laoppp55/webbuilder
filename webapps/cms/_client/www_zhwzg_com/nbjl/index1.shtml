@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head xmlns="">
+        <title>振国内部交流</title>
+        <meta content="text/html; charset=gb2312" http-equiv="Content-Type" /><style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family:"新宋体";
+	font-size:14px;
+	background-color: #FFFFFF;
+}
+ul li{float:left; line-height:32px;}
+ul .lititle{ width:500px; list-style-type:square;}
+ul .litime{ width:200px; text-align:right; list-style-type:none;} 
+a:link{ text-decoration:none; color:#000000;}
+a:hover{ text-decoration:none; color:#000000;}
+a:visited{ text-decoration:none; color:#000000;}
+a:active{ text-decoration:none; color:#000000;}
+a.item01:link{ text-decoration:none; color:#000000;}
+a.item01:hover{ text-decoration:underline; color:#000000;}
+a.item01:visited{ text-decoration:none; color:#000000;}
+a.item01:active{ text-decoration:none; color:#000000;}
+--></style>
+<script src="/_sys_js/commentarticle.js" type="text/javascript"></script>
+<script language="javascript">
+var objXml = new ActiveXObject("Microsoft.XMLHTTP");
+objXml.open("POST", "/_commons/checkArticle.jsp?userflag=1&userlevel=1", false);
+objXml.Send();
+var retstr = objXml.responseText;
+if (retstr != null && retstr.length > 0 && retstr.indexOf("nologin") > -1) {    alert("请先登录！");
+    window.location="/www_zhwzg_com/_prog/login.jsp";
+    }
+if (retstr != null && retstr.length > 0 && retstr.indexOf("nolevel") > -1) {
+   alert("只有一定级别的用户才能浏览！");
+    window.close();    }
+</script>
+
+    </head>
+    <body xmlns="">
+        <div align="center">
+        <table cellspacing="0" cellpadding="0" width="750" border="0">
+            <tbody>
+                <tr>
+                    <td valign="bottom" align="center" height="60" style="font-weight: bold; font-size: 28px; line-height: 30px">振国内部交流</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td valign="middle" align="left"><ul>
+<li class="lititle"><a href=/nbjl/20110801/139169.shtml target=_blank>四川销售处2011年上半年工作总结</a></li>
+<li class="litime">2011-08-01 17:11:00</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139168.shtml target=_blank>杭州销售处2011年上半年工作总结</a></li>
+<li class="litime">2011-08-01 17:10:49</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139167.shtml target=_blank>江苏服务处2011年上半年工作总结</a></li>
+<li class="litime">2011-08-01 17:10:01</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139166.shtml target=_blank>2011年珠海区上半年工作总结</a></li>
+<li class="litime">2011-08-01 17:07:42</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139165.shtml target=_blank>2011年天津上半年工作总结</a></li>
+<li class="litime">2011-08-01 17:06:46</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139164.shtml target=_blank>2011年1-6月新疆办事处销售工作总结</a></li>
+<li class="litime">2011-08-01 17:06:01</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139163.shtml target=_blank>2011年南宁销售处上半年工作总结</a></li>
+<li class="litime">2011-08-01 17:05:42</li>
+
+
+<li class="lititle"><a href=/nbjl/20110801/139162.shtml target=_blank>吉林省2011年上半年工作情况</a></li>
+<li class="litime">2011-08-01 17:04:36</li>
+
+</ul></td>
+                </tr>
+                <tr>
+                    <td valign="middle" align="center" height="55"><a class="item01" href=/nbjl/index.shtml>首页</a> | <A class="item01" href=/nbjl/index.shtml>上一页</A> | <A class="item01" href=/nbjl/index1.shtml>下一页</A> | <A class="item01" href=/nbjl/index1.shtml>尾页</A> 共2页</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </body>
+</html>

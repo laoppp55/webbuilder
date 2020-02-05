@@ -1,0 +1,3505 @@
+<?xml version="1.0" encoding="gbk"?>
+<!--?xml:stylesheet type="text/css" href="css.css"?-->
+<!--?xml-stylesheet type="text/xsl" href="postcode.xsl"?-->
+<!--
+-->
+<root name="中国">
+	<province name="北京" postcode="beijing" index="1" id="1">
+		<city name="北京" postcode="100000" index="1">
+		    <area name="怀柔区" postcode="101400" index="1"/>
+			<area name="东城区" postcode="102300" index="2"/>
+			<area name="西城区" postcode="102300" index="3"/>
+			<area name="崇文区" postcode="102300" index="4"/>
+			<area name="宣武区" postcode="102300" index="5"/>
+			<area name="朝阳区" postcode="102300" index="6"/>
+			<area name="丰台区" postcode="102300" index="7"/>
+			<area name="海淀区" postcode="102300" index="8"/>
+			<area name="石景山区" postcode="102300" index="9"/>
+			<area name="门头沟区" postcode="102300" index="10"/>
+			<area name="房山区" postcode="102400" index="11"/>
+			<area name="顺义区" postcode="101300" index="12"/>
+			<area name="通州区" postcode="101100" index="13"/>
+			<area name="昌平区" postcode="102200" index="14"/>
+			<area name="大兴区" postcode="102600" index="15"/>		
+			<area name="平谷区" postcode="101200" index="16"/>
+			<area name="密云县" postcode="101500" index="17"/>
+			<area name="延庆县" postcode="102100" index="18"/>
+			<area name="其他" postcode="101400" index="19"/>
+		</city>
+	</province>
+	<province name="上海" postcode="shanghai" index="2">
+		<city name="上海" postcode="200000" index="2">
+			<area name="黄浦区" postcode="201100" index="20"/>
+			<area name="卢湾区" postcode="201100" index="21"/>
+			<area name="徐汇区" postcode="201100" index="22"/>
+			<area name="长宁区" postcode="201100" index="23"/>
+			<area name="静安区" postcode="201100" index="24"/>
+			<area name="普陀区" postcode="201100" index="25"/>
+			<area name="闸北区" postcode="201100" index="26"/>
+			<area name="虹口区" postcode="201100" index="27"/>
+			<area name="杨浦区" postcode="201100" index="28"/>
+			<area name="闵行区" postcode="201100" index="29"/>
+			<area name="宝山区" postcode="201100" index="30"/>
+			<area name="嘉定区" postcode="201100" index="31"/>
+			<area name="浦东新区" postcode="200120" index="32"/>
+			<area name="金山区" postcode="201500" index="33"/>
+			<area name="松江区" postcode="201600" index="34"/>
+			<area name="青浦区" postcode="201700" index="35"/>
+			<area name="南汇区" postcode="201300" index="36"/>
+			<area name="奉贤区" postcode="201400" index="37"/>	
+			<area name="川沙区" postcode="201700" index="38"/>	
+			<area name="崇明县" postcode="202150" index="39"/>
+			<area name="其他区" postcode="201700" index="40"/>
+		</city>
+	</province>
+	<province name="江苏" postcode="nanjing" index="3">
+		<city name="南京" postcode="210000" index="3">
+			<area name="玄武区" postcode="210000" index="41"/>
+			<area name="白下区" postcode="210000" index="42"/>
+			<area name="秦淮区" postcode="210000" index="43"/>
+			<area name="建邺区" postcode="210000" index="44"/>
+			<area name="鼓楼区" postcode="210000" index="45"/>
+			<area name="下关区" postcode="210000" index="46"/>
+			<area name="浦口区" postcode="210000" index="47"/>
+			<area name="栖霞区" postcode="210000" index="48"/>
+			<area name="雨花台区" postcode="210000" index="49"/>
+			<area name="江宁区" postcode="211100" index="50"/>
+			<area name="六合区" postcode="211500" index="51"/>
+			<area name="溧水县" postcode="211200" index="52"/>
+			<area name="高淳县" postcode="211300" index="53"/>		
+			<area name="其他" postcode="211800" index="54"/>
+		</city>
+		<city name="徐州" postcode="221000" index="4">
+			<area name="鼓楼区" postcode="221000" index="55"/>
+			<area name="云龙区" postcode="221000" index="56"/>
+			<area name="九里区" postcode="221000" index="57"/>
+			<area name="贾汪区" postcode="221000" index="58"/>
+			<area name="全山区" postcode="221000" index="59"/>
+			<area name="邳州市" postcode="221300" index="60"/>
+			<area name="新沂市" postcode="221400" index="61"/>
+			<area name="铜山县" postcode="221112" index="62"/>
+			<area name="睢宁县" postcode="221200" index="63"/>
+			<area name="沛县" postcode="221600" index="64"/>
+			<area name="丰县" postcode="221700" index="65"/>
+			<area name="其他" postcode="221000" index="66"/>
+		</city>
+		<city name="连云港" postcode="222000" index="5">
+			<area name="连云区" postcode="222000" index="67"/>
+			<area name="新浦区" postcode="222000" index="68"/>
+			<area name="海州区" postcode="222100" index="69"/>
+			<area name="灌云县" postcode="222200" index="70"/>
+			<area name="灌南县" postcode="222500" index="71"/>
+			<area name="东海县" postcode="222300" index="72"/>
+			<area name="赣榆县" postcode="222300" index="73"/>
+		</city>
+		<city name="淮安" postcode="223000" index="6">
+			<area name="淮安市" postcode="" index="42"/>
+			<area name="清河区" postcode="223000" index="74"/>
+			<area name="楚州区" postcode="223200" index="75"/>
+			<area name="淮阴区" postcode="223300" index="76"/>
+			<area name="清浦区" postcode="222300" index="77"/>
+			<area name="涟水县" postcode="223400" index="78"/>
+			<area name="洪泽县" postcode="223100" index="79"/>
+			<area name="金湖县" postcode="211600" index="80"/>
+			<area name="盱眙县" postcode="211700" index="81"/>
+			<area name="其他" postcode="222300" index="82"/>
+		</city>
+		<city name="宿迁" postcode="223800" index="7">
+			<area name="宿城区" postcode="" index="83"/>
+			<area name="宿豫区" postcode="223801" index="84"/>
+			<area name="沭阳县" postcode="223600" index="85"/>
+			<area name="泗阳县" postcode="223700" index="86"/>
+			<area name="泗洪县" postcode="223900" index="87"/>
+			<area name="其他" postcode="222300" index="88"/>
+		</city>
+		<city name="盐城" postcode="224000" index="8">
+			<area name="亭湖区" postcode="224000" index="89"/>
+			<area name="盐都区" postcode="224022" index="90"/>
+			<area name="东台市" postcode="224200" index="91"/>
+			<area name="大丰市" postcode="224100" index="92"/>
+			<area name="建湖县" postcode="224700" index="93"/>
+			<area name="响水县" postcode="224600" index="94"/>
+			<area name="射阳县" postcode="224300" index="95"/>
+			<area name="阜宁县" postcode="224400" index="96"/>
+			<area name="滨海县" postcode="224500" index="97"/>
+			<area name="其他" postcode="224022" index="98"/>
+		</city>
+		<city name="扬州" postcode="225000" index="9">
+			<area name="邗江区" postcode="225100" index="99"/>
+			<area name="广陵区" postcode="225000" index="100"/>
+			<area name="维扬区" postcode="225100" index="101"/>
+			<area name="高邮市" postcode="225600" index="102"/>
+			<area name="江都市" postcode="225200" index="103"/>
+			<area name="仪征市" postcode="211400" index="104"/>
+			<area name="宝应县" postcode="225800" index="105"/>
+			<area name="经济开发区" postcode="225100" index="106"/>
+			<area name="其他" postcode="225100" index="107"/>
+		</city>
+		<city name="泰州" postcode="225300" index="10">
+			<area name="海陵区" postcode="225300" index="108"/>
+			<area name="高港区" postcode="225100" index="109"/>
+			<area name="泰兴市" postcode="225400" index="110"/>
+			<area name="姜堰市" postcode="225500" index="111"/>
+			<area name="靖江市" postcode="214500" index="112"/>
+			<area name="兴化市" postcode="225700" index="113"/>
+			<area name="其他" postcode="225100" index="114"/>
+		</city>
+		<city name="南通" postcode="226000" index="11">
+			<area name="崇川区" postcode="226000" index="115"/>
+			<area name="港闸区" postcode="225100" index="116"/>
+			<area name="如皋市" postcode="226500" index="117"/>
+			<area name="通州市" postcode="226300" index="118"/>
+			<area name="海门市" postcode="226100" index="119"/>
+			<area name="启东市" postcode="226200" index="120"/>
+			<area name="海安县" postcode="226600" index="121"/>
+			<area name="如东县" postcode="226400" index="122"/>
+			<area name="其他" postcode="225100" index="123"/>
+		</city>
+		<city name="镇江" postcode="212000" index="12">
+			<area name="京口区" postcode="212000" index="124"/>
+			<area name="润州区" postcode="225100" index="125"/>
+			<area name="丹徒区" postcode="212100" index="126"/>
+			<area name="扬中市" postcode="212200" index="127"/>
+			<area name="丹阳市" postcode="212300" index="128"/>
+			<area name="句容市" postcode="212400" index="129"/>
+			<area name="其他" postcode="212100" index="130"/>
+			
+		</city>
+		<city name="常州" postcode="213000" index="13">
+			<area name="天宁区" postcode="213000" index="131"/>
+			<area name="钟楼区" postcode="212100" index="132"/>
+			<area name="戚墅堰区" postcode="212100" index="133"/>
+			<area name="新北区" postcode="212100" index="134"/>
+			<area name="武进区" postcode="213100" index="135"/>
+			<area name="金坛市" postcode="213200" index="136"/>
+			<area name="溧阳市" postcode="213300" index="137"/>
+			<area name="其他" postcode="212100" index="138"/>
+		</city>
+		<city name="无锡" postcode="214000" index="14">
+			<area name="崇安区" postcode="214000" index="139"/>
+			<area name="南长区" postcode="212100" index="140"/>
+			<area name="北塘区" postcode="212100" index="141"/>
+			<area name="锡山区" postcode="212100" index="142"/>
+			<area name="惠山区" postcode="212100" index="143"/>
+			<area name="滨湖区" postcode="212100" index="144"/>
+			<area name="宜兴市" postcode="214200" index="145"/>
+			<area name="江阴市" postcode="214400" index="146"/>
+			<area name="新区" postcode="212100" index="147"/>
+			<area name="其他" postcode="212100" index="148"/>
+		</city>
+		<city name="苏州" postcode="215000" index="15">
+			<area name="沧浪区" postcode="215000" index="149"/>
+			<area name="平江区" postcode="212100" index="150"/>
+			<area name="金阊区" postcode="212100" index="151"/>
+			<area name="虎丘区" postcode="212100" index="152"/>
+			<area name="吴中区" postcode="212100" index="153"/>
+			<area name="相城区" postcode="212100" index="154"/>
+			<area name="吴江市" postcode="215200" index="155"/>
+			<area name="昆山市" postcode="215300" index="156"/>
+			<area name="太仓市" postcode="215400" index="157"/>
+			<area name="常熟市" postcode="215500" index="158"/>
+			<area name="张家港市" postcode="215600" index="159"/>
+			<area name="新区" postcode="212100" index="160"/>
+			<area name="园区" postcode="212100" index="161"/>
+			<area name="其他" postcode="212100" index="162"/>
+		</city>
+	</province>
+	<province name="湖南" postcode="hunan" index="4">
+		<city name="长沙" postcode="410000" index="16">
+			<area name="芙蓉区" postcode="410000" index="163"/>
+			<area name="天心区" postcode="212100" index="164"/>
+			<area name="岳麓区" postcode="212100" index="165"/>
+			<area name="开福区" postcode="212100" index="166"/>
+			<area name="雨花区" postcode="212100" index="167"/>
+			<area name="浏阳市" postcode="410300" index="168"/>
+			<area name="长沙县" postcode="410100" index="169"/>
+			<area name="望城县" postcode="410200" index="170"/>
+			<area name="宁乡县" postcode="410600" index="171"/>
+			<area name="其他" postcode="212100" index="172"/>
+		</city>
+		<city name="株洲" postcode="412000" index="17">
+			<area name="荷塘区" postcode="412000" index="172"/>
+			<area name="芦淞区" postcode="212100" index="173"/>
+			<area name="石峰区" postcode="212100" index="174"/>
+			<area name="天元区" postcode="212100" index="175"/>
+			<area name="醴陵市" postcode="412200" index="176"/>
+			<area name="株洲县" postcode="412100" index="177"/>
+			<area name="攸县" postcode="412300" index="178"/>
+			<area name="茶陵县" postcode="412400" index="179"/>
+			<area name="炎陵县" postcode="412500" index="180"/>
+			<area name="其他" postcode="212100" index="181"/>
+		</city>
+		<city name="湘潭" postcode="411100" index="18">
+			<area name="雨湖区" postcode="411100" index="182"/>
+			<area name="岳塘区" postcode="212100" index="183"/>
+			<area name="韶山市" postcode="411300" index="184"/>
+			<area name="湘乡市" postcode="411400" index="185"/>
+			<area name="湘潭县" postcode="411200" index="186"/>
+			<area name="其他" postcode="212100" index="187"/>
+		</city>
+		<city name="衡阳" postcode="421000" index="19">
+			<area name="珠晖区" postcode="421000" index="188"/>
+			<area name="雁峰区" postcode="212100" index="189"/>
+			<area name="石鼓区" postcode="212100" index="190"/>
+			<area name="蒸湘区" postcode="212100" index="191"/>
+			<area name="南岳区" postcode="212100" index="192"/>
+			<area name="耒阳市" postcode="421800" index="193"/>
+			<area name="常宁市" postcode="421500" index="194"/>
+			<area name="衡阳县" postcode="421200" index="195"/>
+			<area name="衡东县" postcode="421400" index="196"/>
+			<area name="衡南县" postcode="421100" index="197"/>
+			<area name="衡山县" postcode="421300" index="198"/>
+			<area name="祁东县" postcode="421600" index="199"/>
+			<area name="其他" postcode="421900" index="200"/>
+		</city>
+		<city name="邵阳" postcode="422000" index="20">
+			<area name="双清区" postcode="422000" index="201"/>
+			<area name="大祥区" postcode="212100" index="202"/>
+			<area name="北塔区" postcode="212100" index="203"/>
+			<area name="武冈市" postcode="422400" index="204"/>
+			<area name="邵东县" postcode="422800" index="205"/>
+			<area name="洞口县" postcode="422300" index="206"/>
+			<area name="新邵县" postcode="422900" index="207"/>
+			<area name="绥宁县" postcode="422600" index="208"/>
+			<area name="新宁县" postcode="422700" index="209"/>
+			<area name="邵阳县" postcode="422100" index="210"/>
+			<area name="隆回县" postcode="422200" index="211"/>
+			<area name="城步苗族自治县" postcode="422500" index="212"/>
+			<area name="其他" postcode="212100" index="213"/>
+		</city>
+		<city name="岳阳" postcode="414000" index="21">
+			<area name="岳阳楼区" postcode="414000" index="214"/>
+			<area name="云溪区" postcode="212100" index="215"/>
+			<area name="君山区" postcode="212100" index="216"/>
+			<area name="临湘市" postcode="414300" index="217"/>
+			<area name="汨罗市" postcode="414400" index="218"/>
+			<area name="岳阳县" postcode="414100" index="219"/>
+			<area name="湘阴县" postcode="414600" index="220"/>
+			<area name="华容县" postcode="414200" index="221"/>
+			<area name="平江县" postcode="410400" index="222"/>
+			<area name="其他" postcode="212100" index="223"/>
+		</city>
+		<city name="常德" postcode="415000" index="22">
+			<area name="武陵区" postcode="415000" index="224"/>
+			<area name="鼎城区" postcode="415100" index="225"/>
+			<area name="津市市" postcode="415400" index="226"/>
+			<area name="澧县" postcode="415500" index="227"/>
+			<area name="临澧县" postcode="415200" index="228"/>
+			<area name="桃源县" postcode="415700" index="229"/>
+			<area name="汉寿县" postcode="415900" index="230"/>
+			<area name="石门县" postcode="415300" index="231"/>
+			<area name="安乡县" postcode="415600" index="232"/>
+			<area name="其他" postcode="212100" index="233"/>
+		</city>
+		<city name="张家界" postcode="427000" index="23">
+			<area name="武陵源区" postcode="427000" index="234"/>
+			<area name="永定区" postcode="212100" index="235"/>
+			<area name="慈利县" postcode="427200" index="236"/>
+			<area name="桑植县" postcode="427100" index="237"/>
+			<area name="其他" postcode="212100" index="238"/>
+		</city>
+		<city name="郴州" postcode="423000" index="24">
+			<area name="北湖区" postcode="423000" index="239"/>
+			<area name="苏仙区" postcode="212100" index="240"/>
+			<area name="资兴市" postcode="423400" index="241"/>
+			<area name="宜章县" postcode="424200" index="242"/>
+			<area name="安仁县" postcode="423600" index="243"/>
+			<area name="汝城县" postcode="424100" index="244"/>
+			<area name="嘉禾县" postcode="424500" index="245"/>
+			<area name="临武县" postcode="424300" index="246"/>
+			<area name="桂东县" postcode="423500" index="247"/>
+			<area name="永兴县" postcode="423300" index="248"/>
+			<area name="桂阳县" postcode="424400" index="249"/>
+			<area name="其他" postcode="212100" index="250"/>
+		</city>
+		<city name="益阳" postcode="413000" index="25">
+			<area name="资阳区" postcode="413000" index="251"/>
+			<area name="赫山区" postcode="212100" index="252"/>
+			<area name="沅江市" postcode="413100" index="253"/>
+			<area name="南县" postcode="413200" index="254"/>
+			<area name="桃江县" postcode="413400" index="255"/>
+			<area name="安化县" postcode="413500" index="256"/>
+			<area name="其他" postcode="212100" index="257"/>
+		</city>
+		<city name="永州" postcode="425000" index="26">
+			<area name="冷水滩区" postcode="425000" index="258"/>
+			<area name="零陵区" postcode="425100" index="259"/>
+			<area name="祁阳县" postcode="426100" index="260"/>
+			<area name="双牌县" postcode="425200" index="261"/>
+			<area name="道县" postcode="425300" index="262"/>
+			<area name="江永县" postcode="425400" index="263"/>
+			<area name="江华瑶族自治县" postcode="425500" index="264"/>
+			<area name="宁远县" postcode="425600" index="265"/>
+			<area name="新田县" postcode="425700" index="266"/>
+			<area name="蓝山县" postcode="425800" index="267"/>
+			<area name="东安县" postcode="425900" index="268"/>
+			<area name="其他" postcode="212100" index="269"/>
+		</city>
+		<city name="怀化" postcode="418000" index="27">
+			<area name="鹤城区" postcode="418000" index="270"/>
+			<area name="洪江市" postcode="418200" index="271"/>
+			<area name="中方县" postcode="212100" index="272"/>
+			<area name="会同县" postcode="418300" index="273"/>
+			<area name="沅陵县" postcode="419600" index="274"/>
+			<area name="溆浦县" postcode="419300" index="275"/>
+			<area name="辰溪县" postcode="419500" index="276"/>
+			<area name="靖州苗族侗族自治县" postcode="418400" index="277"/>
+			<area name="通道侗族自治县" postcode="418500" index="278"/>
+			<area name="芷江侗族自治县" postcode="419100" index="279"/>
+			<area name="新晃侗族自治县" postcode="419200" index="280"/>
+			<area name="麻阳苗族自治县" postcode="419400" index="281"/>
+			<area name="其他" postcode="212100" index="282"/>
+		</city>
+		<city name="娄底" postcode="417000" index="28">
+			<area name="娄星区" postcode="417000" index="283"/>
+			<area name="冷水江市" postcode="417500" index="284"/>
+			<area name="涟源市" postcode="417100" index="285"/>
+			<area name="新化县" postcode="417600" index="286"/>
+			<area name="双峰县" postcode="417700" index="287"/>
+			<area name="其他" postcode="212100" index="288"/>
+		</city>
+		<city name="湘西土家族苗族自治州" postcode="416000" index="29">
+			<area name="吉首市" postcode="" index="289"/>
+			<area name="古丈县" postcode="" index="290"/>
+			<area name="龙山县" postcode="" index="291"/>
+			<area name="永顺县" postcode="" index="292"/>
+			<area name="泸溪县" postcode="" index="293"/>
+			<area name="凤凰县" postcode="" index="294"/>
+			<area name="花垣县" postcode="" index="295"/>
+			<area name="保靖县" postcode="" index="296"/>
+			<area name="其他" postcode="212100" index="297"/>
+		</city>
+	</province>
+	<province name="湖北" postcode="hubei" index="5">
+		<city name="武汉" postcode="430000" index="30">
+			<area name="江岸区" postcode="430000" index="298"/>
+			<area name="江汉区" postcode="212100" index="299"/>
+			<area name="硚口区" postcode="212100" index="300"/>
+			<area name="汉阳区" postcode="212100" index="301"/>
+			<area name="武昌区" postcode="212100" index="302"/>
+			<area name="青山区" postcode="212100" index="303"/>
+			<area name="洪山区" postcode="212100" index="304"/>
+			<area name="东西湖区" postcode="212100" index="305"/>
+			<area name="汉南区" postcode="212100" index="306"/>
+			<area name="蔡甸区" postcode="430100" index="307"/>
+			<area name="江夏区" postcode="430200" index="308"/>
+			<area name="新洲区" postcode="431400" index="309"/>
+			<area name="黄陂区" postcode="430300" index="310"/>
+			<area name="其他" postcode="430100" index="311"/>
+		</city>
+		<city name="黄石" postcode="435000" index="31">
+			<area name="西塞山区" postcode="435000" index="312"/>
+			<area name="黄石港区" postcode="435002" index="313"/>
+			<area name="下陆区" postcode="435004" index="314"/>
+			<area name="铁山区" postcode="435006" index="315"/>
+			<area name="大冶市" postcode="435100" index="316"/>
+			<area name="阳新县" postcode="435200" index="317"/>
+			<area name="其他" postcode="430100" index="318"/>
+		</city>
+		<city name="襄樊" postcode="441000" index="32">
+			<area name="襄城区" postcode="441000" index="319"/>
+			<area name="樊城区" postcode="441100" index="320"/>
+			<area name="襄阳区" postcode="441100" index="321"/>
+			<area name="老河口市" postcode="441800" index="322"/>
+			<area name="枣阳市" postcode="441200" index="323"/>
+			<area name="宜城市" postcode="441400" index="324"/>
+			<area name="南漳县" postcode="441500" index="325"/>
+			<area name="保康县" postcode="441600" index="326"/>
+			<area name="谷城县" postcode="441700" index="327"/>
+			<area name="其他" postcode="441100" index="328"/>
+		</city>
+		<city name="十堰" postcode="442000" index="33">
+			<area name="茅箭区" postcode="442000" index="329"/>
+			<area name="张湾区" postcode="441100" index="330"/>
+			<area name="丹江口市" postcode="441900" index="331"/>
+			<area name="房县" postcode="442100" index="332"/>
+			<area name="竹山县" postcode="442200" index="333"/>
+			<area name="竹溪县" postcode="442300" index="334"/>
+			<area name="郧县" postcode="442500" index="335"/>
+			<area name="郧西县" postcode="442600" index="336"/>
+			<area name="其他" postcode="441100" index="337"/>
+		</city>
+		<city name="荆州" postcode="434000" index="34">
+			<area name="沙市区" postcode="434000" index="338"/>
+			<area name="荆州区" postcode="441100" index="339"/>
+			<area name="洪湖市" postcode="433200" index="340"/>
+			<area name="石首市" postcode="434400" index="341"/>
+			<area name="松滋市" postcode="434200" index="342"/>
+			<area name="江陵县" postcode="434100" index="343"/>
+			<area name="监利县" postcode="433300" index="344"/>
+			<area name="公安县" postcode="434300" index="345"/>
+			<area name="其他" postcode="443100" index="346"/>
+		</city>
+		<city name="宜昌" postcode="443000" index="35">
+			<area name="西陵区" postcode="443000" index="347"/>
+			<area name="五家岗区" postcode="443100" index="348"/>
+			<area name="点军区" postcode="443100" index="349"/>
+			<area name="夷陵区" postcode="443100" index="350"/>
+			<area name="猇亭区" postcode="443100" index="351"/>
+			<area name="开发区" postcode="443100" index="352"/>
+			<area name="葛洲坝区" postcode="443100" index="353"/>
+			<area name="宜都市" postcode="443300" index="354"/>
+			<area name="当阳市" postcode="444100" index="355"/>
+			<area name="枝江市" postcode="443200" index="356"/>
+			<area name="秭归县" postcode="443600" index="357"/>
+			<area name="兴山县" postcode="443700" index="358"/>
+			<area name="远安县" postcode="444200" index="359"/>
+			<area name="五峰土家族自治县" postcode="443400" index="360"/>
+			<area name="长阳土家族自治县" postcode="443500" index="361"/>
+			<area name="其他" postcode="443100" index="362"/>
+		</city>
+		<city name="荆门" postcode="448000" index="36">
+			<area name="东宝区" postcode="448000" index="363"/>
+			<area name="掇刀区" postcode="448200" index="364"/>
+			<area name="钟祥市" postcode="431900" index="365"/>
+			<area name="沙洋县" postcode="448200" index="366"/>
+			<area name="京山县" postcode="431800" index="367"/>
+			<area name="其他" postcode="448200" index="368"/>
+		</city>
+		<city name="孝感" postcode="432000" index="37">
+			<area name="孝南区" postcode="432000" index="369"/>
+			<area name="应城市" postcode="432400" index="370"/>
+			<area name="安陆市" postcode="432600" index="371"/>
+			<area name="汉川市" postcode="431600" index="372"/>
+			<area name="云梦县" postcode="432500" index="373"/>
+			<area name="太悟县" postcode="432800" index="374"/>
+			<area name="孝昌县" postcode="432900" index="375"/>
+			<area name="其他" postcode="448200" index="376"/>
+		</city>
+		<city name="黄冈" postcode="438000" index="38">
+			<area name="黄州区" postcode="438000" index="377"/>
+			<area name="麻城市" postcode="438300" index="378"/>
+			<area name="武穴市" postcode="435400" index="379"/>
+			<area name="红安县" postcode="431500" index="380"/>
+			<area name="罗田县" postcode="438600" index="381"/>
+			<area name="浠水县" postcode="438200" index="382"/>
+			<area name="蕲春县" postcode="436300" index="383"/>
+			<area name="黄梅县" postcode="435500" index="384"/>
+			<area name="英山县" postcode="438700" index="385"/>
+			<area name="团风县" postcode="438000" index="386"/>			
+			<area name="其他" postcode="441300" index="387"/>
+		</city>
+		<city name="咸宁" postcode="437100" index="39">
+			<area name="温泉城区" postcode="437100" index="388"/>
+			<area name="咸安区" postcode="437000" index="389"/>
+			<area name="赤壁市" postcode="437300" index="390"/>
+			<area name="嘉鱼县" postcode="437200" index="391"/>
+			<area name="通山县" postcode="437600" index="392"/>
+			<area name="崇阳县" postcode="437500" index="393"/>
+			<area name="通城县" postcode="437400" index="394"/>
+			<area name="其他" postcode="435400" index="395"/>
+		</city>
+		<city name="恩施土家族苗族" postcode="445000" index="40">
+			<area name="恩施市" postcode="" index="396"/>
+			<area name="利川市" postcode="" index="397"/>
+			<area name="建始县" postcode="" index="398"/>
+			<area name="来风县" postcode="" index="399"/>
+			<area name="巴东县" postcode="" index="400"/>
+			<area name="鹤峰县" postcode="" index="411"/>
+			<area name="宣恩县" postcode="" index="412"/>
+			<area name="咸丰县" postcode="" index="413"/>
+		</city>
+		<city name="鄂州" postcode="436000" index="41">
+			<area name="梁子湖区" postcode="436000" index="414"/>
+			<area name="华容区" postcode="436000" index="415"/>
+			<area name="鄂城区" postcode="436000" index="416"/>
+			<area name="其他" postcode="436000" index="417"/>
+		</city>
+		<city name="随州" postcode="" index="42">
+			<area name="曾都区" postcode="436000" index="418"></area>
+			<area name="广水市" postcode="436000" index="419"></area>
+			<area name="其他" postcode="436000" index="420"></area>
+		</city>
+		<city name="仙桃" postcode="" index="43">
+			<area name="全部" postcode="436000" index="421"></area>
+		</city>
+		<city name="潜江" postcode="" index="44">
+			<area name="全部" postcode="436000" index="422"></area>
+		</city>
+		<city name="天门" postcode="" index="45">
+			<area name="全部" postcode="436000" index="423"></area>
+		</city>
+		<city name="神农架林区" postcode="" index="46">
+			<area name="全部" postcode="436000" index="424"></area>
+		</city>
+	</province>
+	<province name="广东" postcode="guangdong" index="6">
+		<city name="广州" postcode="510000" index="47">
+			<area name="荔湾区" postcode="510000" index="425"/>
+			<area name="越秀区" postcode="510000" index="426"/>
+			<area name="海珠区" postcode="510000" index="427"/>
+			<area name="天河区" postcode="510000" index="428"/>
+			<area name="白云区" postcode="510000" index="429"/>
+			<area name="黄浦区" postcode="510000" index="430"/>
+			<area name="花都区" postcode="510800" index="431"/>
+			<area name="番禺区" postcode="511400" index="432"/>
+			<area name="南沙区" postcode="510000" index="433"/>
+			<area name="萝岗区" postcode="510000" index="434"/>
+			<area name="东山区" postcode="510000" index="435"/>
+			<area name="从化市" postcode="510900" index="436"/>
+			<area name="增城市" postcode="511300" index="437"/>
+			<area name="其他" postcode="510000" index="438"/>
+		</city>
+		<city name="深圳" postcode="518000" index="48">
+			<area name="罗湖区" postcode="518000" index="439"/>
+			<area name="福田区" postcode="510000" index="440"/>
+			<area name="南山区" postcode="510000" index="441"/>
+			<area name="宝安区" postcode="510000" index="442"/>
+			<area name="龙岗区" postcode="510000" index="443"/>
+			<area name="盐田区" postcode="510000" index="444"/>
+			<area name="其他" postcode="510000" index="445"/>
+		</city>
+		<city name="珠海" postcode="519000" index="49">
+			<area name="香洲区" postcode="519000" index="446"/>
+			<area name="斗门区" postcode="510000" index="447"/>
+			<area name="金湾区" postcode="510000" index="448"/>
+			<area name="金唐区" postcode="510000" index="449"/>
+			<area name="南湾区" postcode="510000" index="450"/>
+			<area name="其他" postcode="510000" index="451"/>
+		</city>
+		<city name="汕头" postcode="515000" index="50">
+			<area name="龙湖区" postcode="515000" index="452"/>
+			<area name="金平区" postcode="510000" index="453"/>
+			<area name="濠江区" postcode="510000" index="454"/>
+			<area name="潮南区" postcode="510000" index="455"/>
+			<area name="澄海区" postcode="515800" index="456"/>
+			<area name="潮阳区" postcode="515100" index="457"/>
+			<area name="南澳县" postcode="515900" index="458"/>
+			<area name="其他" postcode="510000" index="459"/>
+		</city>
+		<city name="韶关" postcode="512000" index="51">
+			<area name="武江区" postcode="512000" index="460"/>
+			<area name="浈江区" postcode="510000" index="461"/>
+			<area name="曲江区" postcode="512100" index="462"/>
+			<area name="南雄市" postcode="512400" index="463"/>
+			<area name="乐昌市" postcode="512200" index="464"/>
+			<area name="仁化县" postcode="512300" index="465"/>
+			<area name="始兴县" postcode="512500" index="466"/>
+			<area name="翁源县" postcode="512600" index="467"/>	
+			<area name="新丰县" postcode="511100" index="468"/>
+			<area name="乳源瑶族自治县" postcode="512700" index="469"/>
+			<area name="其他" postcode="512100" index="470"/>
+		</city>
+		<city name="河源" postcode="517000" index="52">
+			<area name="源城区" postcode="517000" index="470"/>
+			<area name="和平县" postcode="517200" index="471"/>
+			<area name="龙川县" postcode="517300" index="472"/>
+			<area name="紫金县" postcode="517400" index="473"/>
+			<area name="连平县" postcode="517100" index="474"/>
+			<area name="东源县" postcode="517500" index="475"/>
+			<area name="其他" postcode="512100" index="476"/>
+		</city>
+		<city name="梅州" postcode="514000" index="53">
+			<area name="梅江区" postcode="514000" index="477"/>
+			<area name="兴宁市" postcode="514500" index="478"/>
+			<area name="梅县" postcode="514700" index="479"/>
+			<area name="蕉岭县" postcode="514100" index="480"/>
+			<area name="大埔县" postcode="514200" index="481"/>
+			<area name="丰顺县" postcode="514300" index="482"/>
+			<area name="五华县" postcode="514400" index="483"/>
+			<area name="平远县" postcode="514600" index="484"/>
+			<area name="其他" postcode="512100" index="485"/>
+		</city>
+		<city name="惠州" postcode="516000" index="54">
+			<area name="惠城区" postcode="516000" index="486"/>
+			<area name="惠阳区" postcode="516200" index="487"/>
+			<area name="惠东县" postcode="516300" index="488"/>
+			<area name="博罗县" postcode="516100" index="489"/>
+			<area name="龙门县" postcode="516800" index="490"/>
+			<area name="其他" postcode="512100" index="491"/>
+		</city>
+		<city name="汕尾" postcode="516600" index="55">
+			<area name="汕尾市" postcode="516600" index="492"/>
+			<area name="陆丰市" postcode="516500" index="493"/>
+			<area name="海丰县" postcode="516400" index="494"/>
+			<area name="陆河县" postcode="516700" index="495"/>
+			<area name="其他" postcode="512100" index="496"/>
+		</city>
+		<city name="东莞" postcode="523000" index="56">
+			<area name="全部" postcode="523000" index="497"/>
+		</city>
+		<city name="中山" postcode="528400" index="57">
+			<area name="中山市" postcode="528400" index="498"/>
+		</city>
+		<city name="江门" postcode="529000" index="58">
+			<area name="蓬江区" postcode="529000" index="499"/>
+			<area name="江海区" postcode="512100" index="500"/>
+			<area name="新会区" postcode="529100" index="501"/>
+			<area name="台山市" postcode="529200" index="502"/>			
+			<area name="开平市" postcode="529300" index="503"/>
+			<area name="鹤山市" postcode="529700" index="504"/>
+			<area name="恩平市" postcode="529400" index="505"/>
+			<area name="其他" postcode="529100" index="506"/>
+		</city>
+		<city name="佛山" postcode="528000" index="59">
+			<area name="禅城区" postcode="528000" index="507"/>
+			<area name="三水区" postcode="528100" index="508"/>
+			<area name="南海区" postcode="528200" index="509"/>
+			<area name="顺德区" postcode="528300" index="510"/>
+			<area name="高明区" postcode="528500" index="511"/>
+			<area name="其他" postcode="529100" index="512"/>
+		</city>
+		<city name="阳江" postcode="529500" index="60">
+			<area name="江城区" postcode="529500" index="513"/>
+			<area name="阳春市" postcode="529600" index="514"/>
+			<area name="阳西县" postcode="529800" index="515"/>
+			<area name="阳东县" postcode="529931" index="516"/>
+			<area name="其他" postcode="529100" index="517"/>
+		</city>
+		<city name="湛江" postcode="524000" index="61">
+			<area name="赤坎区" postcode="524000" index="518"/>
+			<area name="霞山区" postcode="529100" index="519"/>
+			<area name="坡头区" postcode="529100" index="520"/>
+			<area name="麻章区" postcode="529100" index="521"/>
+			<area name="廉江市" postcode="524400" index="522"/>
+			<area name="雷州市" postcode="524200" index="523"/>
+			<area name="吴川市" postcode="524500" index="524"/>
+			<area name="遂溪县" postcode="524300" index="525"/>
+			<area name="徐闻县" postcode="524100" index="526"/>
+			<area name="其他" postcode="529100" index="527"/>
+		</city>
+		<city name="茂名" postcode="525000" index="62">
+			<area name="茂南区" postcode="525000" index="528"/>
+			<area name="茂港区" postcode="529100" index="529"/>
+			<area name="化州市" postcode="525100" index="530"/>
+			<area name="高州市" postcode="525200" index="531"/>
+			<area name="信宜市" postcode="525300" index="532"/>
+			<area name="电白县" postcode="525400" index="533"/>
+			<area name="其他" postcode="529100" index="534"/>
+		</city>
+		<city name="肇庆" postcode="526000" index="63">
+			<area name="端州区" postcode="526000" index="535"/>
+			<area name="鼎湖区" postcode="529100" index="536"/>
+			<area name="高要市" postcode="526100" index="537"/>
+			<area name="四会市" postcode="526200" index="538"/>
+			<area name="广宁县" postcode="526300" index="539"/>
+			<area name="德庆县" postcode="526600" index="540"/>
+			<area name="怀集县" postcode="526400" index="541"/>
+			<area name="封开县" postcode="526500" index="542"/>
+			<area name="其他" postcode="529100" index="543"/>
+		</city>
+		<city name="云浮" postcode="527300" index="64">
+			<area name="云城区" postcode="527300" index="544"/>
+			<area name="罗定市" postcode="527200" index="545"/>
+			<area name="云安县" postcode="527500" index="546"/>
+			<area name="新兴县" postcode="527400" index="547"/>
+			<area name="郁南县" postcode="527100" index="548"/>
+			<area name="其他" postcode="529100" index="549"/>
+		</city>
+		<city name="清远" postcode="511500" index="65">
+			<area name="清城区" postcode="511500" index="550"/>
+			<area name="英德市" postcode="513000" index="551"/>
+			<area name="连州市" postcode="513400" index="552"/>
+			<area name="佛冈县" postcode="511600" index="553"/>
+			<area name="阳山县" postcode="513100" index="554"/>
+			<area name="清新县" postcode="511800" index="555"/>
+			<area name="连山壮族瑶族自治县" postcode="513200" index="556"/>
+			<area name="连南瑶族自治县" postcode="513300" index="557"/>
+			<area name="其他" postcode="529100" index="558"/>
+		</city>
+		<city name="潮州" postcode="521000" index="66">
+			<area name="湘桥区" postcode="521000" index="559"/>
+			<area name="枫溪区" postcode="529100" index="560"/>
+			<area name="潮安县" postcode="515600" index="561"/>
+			<area name="饶平县" postcode="515700" index="562"/>
+			<area name="其他" postcode="529100" index="563"/>
+		</city>
+		<city name="揭阳" postcode="522000" index="67">
+			<area name="榕城区" postcode="522000" index="564"/>
+			<area name="东山区" postcode="529100" index="565"/>
+			<area name="普宁市" postcode="515300" index="567"/>
+			<area name="揭东县" postcode="515500" index="568"/>
+			<area name="揭西县" postcode="515400" index="569"/>
+			<area name="惠来县" postcode="515200" index="570"/>
+			<area name="其他" postcode="529100" index="571"/>
+		</city>
+	</province>
+	<province name="福建" postcode="" index="7">
+		<city name="福州市" postcode="350000" index="68">
+			<area name="鼓楼区" postcode="350000" index="572"/>
+			<area name="台江区" postcode="529100" index="573"/>
+			<area name="仓山区" postcode="529100" index="574"/>
+			<area name="马尾区" postcode="529100" index="575"/>
+			<area name="晋安区" postcode="529100" index="576"/>
+			<area name="长乐市" postcode="350200" index="577"/>
+			<area name="福清市" postcode="350300" index="588"/>
+			<area name="闽侯县" postcode="350100" index="589"/>
+			<area name="平潭县" postcode="350400" index="590"/>
+			<area name="连江县" postcode="350500" index="591"/>
+			<area name="罗源县" postcode="350600" index="592"/>
+			<area name="永泰县" postcode="350700" index="593"/>
+			<area name="闽清县" postcode="350800" index="594"/>
+			<area name="其他" postcode="529100" index="595"/>
+		</city>
+		<city name="厦门市" postcode="361000" index="69">
+			<area name="思明区" postcode="361000" index="596"/>
+			<area name="海沧区" postcode="361000" index="597"/>
+			<area name="湖里区" postcode="361000" index="598"/>
+			<area name="集美区" postcode="361000" index="599"/>
+			<area name="同安区" postcode="361000" index="600"/>
+			<area name="翔安区" postcode="361000" index="601"/>
+			<area name="其他" postcode="361000" index="602"/>
+		</city>
+		<city name="三明市" postcode="365000" index="70">
+			<area name="梅列区" postcode="365000" index="603"/>
+			<area name="三元区" postcode="361000" index="604"/>
+			<area name="永安市" postcode="366000" index="605"/>
+			<area name="明溪县" postcode="365200" index="606"/>
+			<area name="将乐县" postcode="353300" index="607"/>
+			<area name="大田县" postcode="366100" index="608"/>
+			<area name="宁化县" postcode="365400" index="609"/>
+			<area name="建宁县" postcode="354500" index="610"/>
+			<area name="沙县" postcode="365500" index="611"/>
+			<area name="尤溪县" postcode="365100" index="612"/>
+			<area name="清流县" postcode="365300" index="613"/>
+			<area name="泰宁县" postcode="354400" index="614"/>
+			<area name="其他" postcode="361000" index="615"/>
+		</city>
+		<city name="莆田市" postcode="351100" index="71">
+			<area name="城厢区" postcode="351100" index="616"/>
+			<area name="涵江区" postcode="361000" index="617"/>
+			<area name="历城区" postcode="361000" index="618"/>
+			<area name="秀屿区" postcode="361000" index="619"/>
+			<area name="仙游县" postcode="351200" index="620"/>
+			<area name="其他" postcode="361000" index="621"/>
+		</city>
+		<city name="泉州市" postcode="362000" index="72">
+			<area name="鲤城区" postcode="362000" index="622"/>
+			<area name="丰泽区" postcode="361000" index="623"/>
+			<area name="泉港区" postcode="361000" index="624"/>
+			<area name="洛江区" postcode="361000" index="625"/>
+			<area name="石狮市" postcode="362700" index="626"/>
+			<area name="晋江市" postcode="362200" index="627"/>
+			<area name="南安市" postcode="362300" index="628"/>
+			<area name="惠安县" postcode="362100" index="629"/>
+			<area name="安溪县" postcode="362400" index="630"/>
+			<area name="德化县" postcode="362500" index="631"/>
+			<area name="永春县" postcode="362600" index="632"/>
+			<area name="金门县" postcode="361000" index="633"/>
+			<area name="其他" postcode="361000" index="634"/>
+		</city>
+		<city name="漳州市" postcode="363000" index="73">
+			<area name="芗城区" postcode="363000" index="635"/>
+			<area name="龙文区" postcode="361000" index="636"/>
+			<area name="龙海市" postcode="363100" index="637"/>
+			<area name="平和县" postcode="363700" index="638"/>
+			<area name="南靖县" postcode="363600" index="639"/>
+			<area name="诏安县" postcode="363500" index="640"/>
+			<area name="漳浦县" postcode="363200" index="641"/>
+			<area name="华安县" postcode="363800" index="642"/>
+			<area name="云霄县" postcode="363300" index="643"/>
+			<area name="东山县" postcode="363400" index="644"/>
+			<area name="长泰县" postcode="363900" index="645"/>
+			<area name="其他" postcode="361000" index="646"/>
+		</city>
+		<city name="南平市" postcode="353000" index="74">
+			<area name="延平区" postcode="353000" index="647"/>
+			<area name="建瓯市" postcode="353100" index="648"/>
+			<area name="邵武市" postcode="354000" index="649"/>
+			<area name="武夷山市" postcode="354300" index="650"/>
+			<area name="建阳市" postcode="354200" index="651"/>
+			<area name="松溪县" postcode="353500" index="652"/>
+			<area name="顺昌县" postcode="353200" index="653"/>
+			<area name="浦城县" postcode="353400" index="654"/>
+			<area name="政和县" postcode="353600" index="655"/>
+			<area name="光泽县" postcode="361000" index="656"/>
+			<area name="其他" postcode="361000" index="657"/>
+		</city>
+		<city name="龙岩市" postcode="364000" index="75">
+			<area name="新罗区" postcode="364000" index="658"/>
+			<area name="漳平市" postcode="364400" index="659"/>
+			<area name="长汀县" postcode="366300" index="660"/>
+			<area name="武平县" postcode="364300" index="661"/>
+			<area name="永定县" postcode="364100" index="662"/>
+			<area name="上杭县" postcode="364200" index="663"/>
+			<area name="连城县" postcode="366200" index="664"/>
+			<area name="其他" postcode="361000" index="665"/>
+		</city>
+		<city name="宁德市" postcode="352100" index="76">
+			<area name="蕉城区" postcode="352100" index="666"/>
+			<area name="福安市" postcode="355000" index="667"/>
+			<area name="福鼎市" postcode="355200" index="668"/>
+			<area name="寿宁县" postcode="355500" index="669"/>
+			<area name="霞浦县" postcode="355100" index="670"/>
+			<area name="柘荣县" postcode="355300" index="671"/>
+			<area name="屏南县" postcode="352300" index="672"/>
+			<area name="古田县" postcode="352200" index="673"/>
+			<area name="周宁县" postcode="355400" index="674"/>
+			<area name="其他" postcode="361000" index="675"/>
+		</city>
+	</province>
+	<province name="辽宁" postcode="liaoning" index="8">
+		<city name="沈阳" postcode="110000" index="77">
+			<area name="皇姑区" postcode="110031" index="676"/>
+			<area name="铁西区" postcode="110023" index="677"/>
+			<area name="大东区" postcode="110044" index="678"/>
+			<area name="沈河区" postcode="110013" index="679"/>
+			<area name="和平区" postcode="110002" index="680"/>
+			<area name="东陵区" postcode="110015" index="681"/>
+			<area name="于洪区" postcode="110024" index="682"/>
+			<area name="苏家屯区" postcode="110102" index="683"/>
+			<area name="新城子区" postcode="110121" index="684"/>
+			<area name="沈北新区" postcode="110121" index="685"/>
+			<area name="张士开发区" postcode="110121" index="686"/>
+			<area name="新民县" postcode="110300" index="687"/>
+			<area name="法库县" postcode="110400" index="688"/>
+			<area name="辽中县" postcode="110200" index="689"/>
+			<area name="康平县" postcode="110500" index="690"/>
+			<area name="其他" postcode="110121" index="691"/>
+		</city>
+		<city name="大连" postcode="116000" index="78">
+			<area name="中山区" postcode="116000" index="692"/>
+			<area name="西岗区" postcode="110121" index="693"/>
+			<area name="沙河口区" postcode="110121" index="694"/>
+			<area name="甘井子区" postcode="110121" index="695"/>
+			<area name="旅顺口区" postcode="110121" index="696"/>
+			<area name="金州区" postcode="110121" index="697"/>
+			<area name="开发区" postcode="110121" index="698"/>
+			<area name="岭前区" postcode="110121" index="699"/>
+			<area name="普兰店市" postcode="116200" index="700"/>
+			<area name="瓦房店市" postcode="116300" index="701"/>
+			<area name="庄河市" postcode="116400" index="702"/>
+			<area name="长海县" postcode="116500" index="703"/>
+			<area name="其他" postcode="110121" index="704"/>
+		</city>
+		<city name="鞍山" postcode="114000" index="79">
+			<area name="铁东区" postcode="114000" index="705"/>
+			<area name="铁西区" postcode="110121" index="706"/>
+			<area name="立山区" postcode="110121" index="707"/>
+			<area name="千山区" postcode="110121" index="708"/>
+			<area name="高新区" postcode="110121" index="709"/>
+			<area name="台安县" postcode="114100" index="710"/>
+			<area name="海城市" postcode="114200" index="711"/>
+			<area name="岫岩满族自治县" postcode="114300" index="712"/>
+			<area name="其他" postcode="110121" index="713"/>
+		</city>
+		<city name="抚顺" postcode="113000" index="80">
+			<area name="新抚区" postcode="113000" index="714"/>
+			<area name="东洲区" postcode="110121" index="715"/>
+			<area name="望花区" postcode="110121" index="716"/>
+			<area name="顺城区" postcode="110121" index="717"/>
+			<area name="抚顺县" postcode="113100" index="718"/>
+			<area name="新宾满族自治县" postcode="113200" index="719"/>
+			<area name="清原满族自治县" postcode="113300" index="720"/>
+			<area name="其他" postcode="110121" index="721"/>
+		</city>
+		<city name="本溪" postcode="117000" index="81">
+			<area name="平山区" postcode="117000" index="722"/>
+			<area name="溪湖区" postcode="110121" index="723"/>
+			<area name="明山区" postcode="110121" index="724"/>
+			<area name="南芬区" postcode="110121" index="725"/>
+			<area name="本溪满族自治县" postcode="117100" index="726"/>
+			<area name="桓仁满族自治县" postcode="117200" index="727"/>
+			<area name="其他" postcode="110121" index="728"/>
+		</city>
+		<city name="丹东" postcode="118000" index="82">
+			<area name="元宝区" postcode="118000" index="729"/>
+			<area name="振兴区" postcode="110121" index="730"/>
+			<area name="振安区" postcode="110121" index="731"/>
+			<area name="东港市" postcode="118300" index="732"/>
+			<area name="凤城市" postcode="118100" index="733"/>
+			<area name="宽甸满族自治县" postcode="118200" index="734"/>
+			<area name="其他" postcode="110121" index="735"/>
+		</city>
+		<city name="锦州" postcode="121000" index="83">
+			<area name="古塔区" postcode="121000" index="736"/>
+			<area name="凌河区" postcode="110121" index="737"/>
+			<area name="太和区" postcode="110121" index="738"/>
+			<area name="义县" postcode="121100" index="739"/>
+			<area name="凌海市" postcode="121200" index="740"/>
+			<area name="北宁市" postcode="121300" index="741"/>
+			<area name="黑山县" postcode="121400" index="742"/>
+			<area name="其他" postcode="110121" index="743"/>
+		</city>
+		<city name="葫芦岛" postcode="125000" index="84">
+			<area name="连山区" postcode="125000" index="744"/>
+			<area name="龙岗区" postcode="110121" index="745"/>
+			<area name="南票区" postcode="110121" index="746"/>
+			<area name="兴城市" postcode="125100" index="747"/>
+			<area name="绥中县" postcode="125200" index="748"/>
+			<area name="建昌县" postcode="125300" index="749"/>
+			<area name="其他" postcode="110121" index="780"/>
+		</city>
+		<city name="营口" postcode="115000" index="85">
+			<area name="站前区" postcode="115000" index="781"/>
+			<area name="西市区" postcode="110121" index="782"/>
+			<area name="老边区" postcode="110121" index="783"/>
+			<area name="鲅鱼圈区" postcode="110121" index="784"/>
+			<area name="大石桥市" postcode="115100" index="785"/>
+			<area name="盖州市" postcode="115200" index="786"/>
+			<area name="其他" postcode="110121" index="787"/>
+		</city>
+		<city name="盘锦" postcode="124000" index="86">
+			<area name="双台子区" postcode="124000" index="789"/>
+			<area name="兴隆台区" postcode="124100" index="790"/>
+			<area name="大洼县" postcode="124000" index="791"/>
+			<area name="盘山县" postcode="110121" index="792"/>
+			<area name="其他" postcode="110121" index="793"/>
+		</city>
+		<city name="阜新" postcode="123000" index="87">
+			<area name="海州区" postcode="123000" index="794"/>
+			<area name="新邱区" postcode="110121" index="795"/>
+			<area name="太平区" postcode="110121" index="796"/>
+			<area name="清河门区" postcode="110121" index="797"/>
+			<area name="细河区" postcode="110121" index="798"/>
+			<area name="阜新蒙古族自治县" postcode="123100" index="799"/>
+			<area name="彰武县" postcode="123200" index="800"/>
+			<area name="其他" postcode="110121" index="801"/>
+		</city>
+		<city name="辽阳" postcode="111000" index="88">
+			<area name="白塔区" postcode="111000" index="802"/>
+			<area name="文圣区" postcode="110121" index="803"/>
+			<area name="宏伟区" postcode="110121" index="804"/>
+			<area name="弓长岭区" postcode="110121" index="805"/>
+			<area name="太子河区" postcode="110121" index="806"/>
+			<area name="灯塔市" postcode="111300" index="807"/>
+			<area name="辽阳县" postcode="111200" index="808"/>
+			<area name="其他" postcode="110121" index="809"/>
+		</city>
+		<city name="铁岭" postcode="112000" index="89">
+			<area name="银州区" postcode="112000" index="810"/>
+			<area name="清河区" postcode="110121" index="812"/>
+			<area name="调兵山市" postcode="112700" index="813"/>
+			<area name="开原市" postcode="112300" index="814"/>
+			<area name="西丰县" postcode="112400" index="815"/>
+			<area name="昌图县" postcode="112500" index="816"/>
+			<area name="铁岭县" postcode="112600" index="817"/>
+			<area name="其他" postcode="110121" index="818"/>
+		</city>
+		<city name="朝阳" postcode="122000" index="90">
+			<area name="双塔区" postcode="122000" index="819"/>
+			<area name="龙城区" postcode="110121" index="820"/>
+			<area name="凌源市" postcode="122500" index="821"/>
+			<area name="北票市" postcode="122100" index="822"/>
+			<area name="朝阳县" postcode="122000" index="823"/>
+			<area name="喀喇沁左翼蒙古族自治县" postcode="122300" index="824"/>
+			<area name="建平县" postcode="122400" index="825"/>
+			<area name="其他" postcode="110121" index="826"/>
+		</city>
+	</province>
+	<province name="黑龙江" postcode="" index="9">
+		<city name="哈尔滨" postcode="150000" index="91">
+			<area name="南岗区" postcode="150000" index="827"/>
+			<area name="道里区" postcode="110121" index="828"/>
+			<area name="道外区" postcode="110121" index="829"/>
+			<area name="香坊区" postcode="110121" index="830"/>
+			<area name="动力区" postcode="110121" index="831"/>
+			<area name="平房区" postcode="110121" index="832"/>
+			<area name="松北区" postcode="110121" index="833"/>
+			<area name="呼兰区" postcode="110121" index="834"/>
+			<area name="阿城市" postcode="150300" index="835"/>
+			<area name="尚志市" postcode="150600" index="836"/>
+			<area name="双城市" postcode="150100" index="837"/>
+			<area name="五常市" postcode="150200" index="838"/>
+			<area name="方正县" postcode="150800" index="839"/>
+			<area name="宾县" postcode="150400" index="840"/>
+			<area name="依兰县" postcode="154800" index="841"/>
+			<area name="巴彦县" postcode="151800" index="842"/>
+			<area name="通河县" postcode="150900" index="843"/>
+			<area name="木兰县" postcode="151900" index="844"/>
+			<area name="延寿县" postcode="150700" index="845"/>
+			<area name="其他" postcode="110121" index="846"/>
+		</city>
+		<city name="齐齐哈尔" postcode="161000" index="92">
+			<area name="龙沙区" postcode="161000" index="847"/>
+			<area name="建华区" postcode="110121" index="848"/>
+			<area name="铁锋区" postcode="110121" index="849"/>
+			<area name="昂昂溪区" postcode="161031" index="850"/>
+			<area name="富拉尔基区" postcode="161041" index="851"/>
+			<area name="碾子山区" postcode="161046" index="852"/>
+			<area name="梅里斯区" postcode="161021" index="853"/>
+			<area name="讷河市" postcode="161300" index="854"/>
+			<area name="富裕县" postcode="161200" index="855"/>
+			<area name="拜泉县" postcode="164700" index="856"/>
+			<area name="甘南县" postcode="162100" index="857"/>
+			<area name="依安县" postcode="161500" index="858"/>
+			<area name="克山县" postcode="161600" index="859"/>
+			<area name="龙江县" postcode="161100" index="860"/>
+			<area name="克东县" postcode="164800" index="861"/>
+			<area name="泰来县" postcode="162400" index="862"/>
+			<area name="其他" postcode="161021" index="863"/>
+		</city>
+		<city name="鹤岗" postcode="154100" index="93">
+			<area name="向阳区" postcode="154100" index="864"/>
+			<area name="工农区" postcode="161021" index="865"/>
+			<area name="南山区" postcode="161021" index="866"/>
+			<area name="兴安区" postcode="154200" index="867"/>
+			<area name="东山区" postcode="161021" index="868"/>
+			<area name="兴山区" postcode="161021" index="869"/>
+			<area name="绥滨县" postcode="156200" index="870"/>
+			<area name="萝北县" postcode="161021" index="871"/>
+			<area name="其他" postcode="161021" index="872"/>
+		</city>
+		<city name="双鸭山" postcode="155100" index="94">
+			<area name="尖山区" postcode="155100" index="873"/>
+			<area name="岭东区" postcode="161021" index="874"/>
+			<area name="四方台区" postcode="161021" index="875"/>
+			<area name="宝山区" postcode="161021" index="876"/>
+			<area name="集贤县" postcode="155900" index="877"/>
+			<area name="宝清县" postcode="155600" index="878"/>
+			<area name="友谊县" postcode="155800" index="879"/>
+			<area name="饶河县" postcode="155700" index="880"/>
+			<area name="其他" postcode="161021" index="881"/>
+		</city>
+		<city name="鸡西" postcode="158100" index="95">
+			<area name="鸡冠区" postcode="158100" index="888"/>
+			<area name="恒山区" postcode="161021" index="889"/>
+			<area name="滴道区" postcode="161021" index="890"/>
+			<area name="梨树区" postcode="161021" index="891"/>
+			<area name="城子河区" postcode="161021" index="892"/>
+			<area name="麻山区" postcode="161021" index="893"/>
+			<area name="密山市" postcode="158300" index="894"/>
+			<area name="虎林市" postcode="158400" index="895"/>
+			<area name="鸡东县" postcode="158200" index="896"/>
+			<area name="其他" postcode="161021" index="897"/>
+		</city>
+		<city name="大庆" postcode="163000" index="96">
+			<area name="大庆市" postcode="163000" index="898"/>
+			<area name="萨尔图区" postcode="163311" index="899"/>
+			<area name="龙凤区" postcode="163711" index="900"/>
+			<area name="让胡路区" postcode="163453" index="901"/>
+			<area name="红岗区" postcode="163512" index="902"/>
+			<area name="大同区" postcode="163814" index="903"/>
+			<area name="林甸县" postcode="166300" index="904"/>
+			<area name="肇州县" postcode="166400" index="905"/>
+			<area name="肇源县" postcode="166500" index="906"/>
+			<area name="杜尔伯特蒙古族自治县" postcode="166200" index="907"/>
+			<area name="其他" postcode="161021" index="908"/>
+		</city>
+		<city name="伊春" postcode="153000" index="97">
+			<area name="伊春区" postcode="153000" index="909"/>
+			<area name="南岔区" postcode="161021" index="910"/>
+			<area name="友好区" postcode="161021" index="911"/>
+			<area name="西林区" postcode="161021" index="912"/>
+			<area name="翠峦区" postcode="161021" index="913"/>
+			<area name="新青区" postcode="161021" index="914"/>
+			<area name="美溪区" postcode="161021" index="915"/>
+			<area name="金山屯区" postcode="161021" index="916"/>
+			<area name="五营区" postcode="161021" index="917"/>
+			<area name="乌马河区" postcode="161021" index="918"/>
+			<area name="汤旺河区" postcode="161021" index="919"/>
+			<area name="带岭区" postcode="161021" index="920"/>
+			<area name="乌伊岭区" postcode="161021" index="921"/>
+			<area name="红星区" postcode="161021" index="922"/>
+			<area name="上甘岭区" postcode="161021" index="923"/>
+			<area name="铁力市" postcode="152500" index="924"/>
+			<area name="嘉荫县" postcode="153200" index="925"/>
+			<area name="其他" postcode="161021" index="926"/>
+		</city>
+		<city name="牡丹江" postcode="157000" index="98">
+			<area name="东安区" postcode="157000" index="927"/>
+			<area name="阳明区" postcode="161021" index="928"/>
+			<area name="爱民区" postcode="161021" index="929"/>
+			<area name="西安区" postcode="161021" index="930"/>
+			<area name="海林市" postcode="157100" index="931"/>
+			<area name="绥芬河市" postcode="157300" index="932"/>
+			<area name="宁安市" postcode="157400" index="933"/>
+			<area name="穆棱市" postcode="157500" index="934"/>
+			<area name="林口县" postcode="157600" index="935"/>
+			<area name="东宁县" postcode="157200" index="936"/>
+			<area name="其他" postcode="161021" index="937"/>
+		</city>
+		<city name="佳木斯" postcode="154000" index="99">
+			<area name="永红区" postcode="154000" index="938"/>
+			<area name="向阳区" postcode="161021" index="939"/>
+			<area name="前进区" postcode="161021" index="940"/>
+			<area name="东风区" postcode="161021" index="941"/>
+			<area name="郊区" postcode="161021" index="942"/>
+			<area name="同江市" postcode="156400" index="943"/>
+			<area name="富锦市" postcode="156100" index="944"/>
+			<area name="桦川县" postcode="154300" index="945"/>
+			<area name="抚远县" postcode="156500" index="946"/>
+			<area name="桦南县" postcode="154400" index="947"/>
+			<area name="汤原县" postcode="154700" index="948"/>
+			<area name="其他" postcode="161021" index="949"/>
+		</city>
+		<city name="七台河" postcode="154600" index="100">
+			<area name="新兴区" postcode="154600" index="950"/>
+			<area name="桃山区" postcode="161021" index="951"/>
+			<area name="茄子河区" postcode="161021" index="952"/>
+			<area name="勃利县" postcode="154500" index="953"/>
+			<area name="其他" postcode="161021" index="954"/>
+		</city>
+		<city name="黑河" postcode="164300" index="101">
+			<area name="爱辉区" postcode="164300" index="955"/>
+			<area name="北安市" postcode="164000" index="956"/>
+			<area name="五大连池市" postcode="164100" index="957"/>
+			<area name="逊克县" postcode="164400" index="958"/>
+			<area name="嫩江县" postcode="161400" index="959"/>
+			<area name="孙吴县" postcode="164200" index="960"/>
+			<area name="其他" postcode="161021" index="961"/>
+		</city>
+		<city name="绥化" postcode="152000" index="102">
+			<area name="北林区" postcode="152000" index="962"/>
+			<area name="安达市" postcode="151400" index="963"/>
+			<area name="肇东市" postcode="151100" index="964"/>
+			<area name="海伦市" postcode="152300" index="965"/>
+			<area name="绥棱县" postcode="152200" index="966"/>
+			<area name="兰西县" postcode="151500" index="967"/>
+			<area name="明水县" postcode="151700" index="968"/>
+			<area name="青冈县" postcode="151600" index="969"/>
+			<area name="庆安县" postcode="152400" index="970"/>
+			<area name="望奎县" postcode="152100" index="971"/>
+			<area name="其他" postcode="161021" index="972"/>
+		</city>
+		<city name="大兴安岭" postcode="165000" index="103">
+			<area name="加格达奇" postcode="165000" index="973"/>
+			<area name="呼玛县" postcode="165100" index="974"/>
+			<area name="塔河县" postcode="165200" index="975"/>
+			<area name="漠河县" postcode="165300" index="976"/>
+			<area name="其他" postcode="156300" index="977"/>
+		</city>
+	</province>
+	<province name="山西" postcode="shan_xi" index="10">
+		<city name="太原" postcode="030000" index="104">
+			<area name="小店区" postcode="030000" index="978"/>
+			<area name="迎泽区" postcode="030000" index="979"/>
+			<area name="杏花岭区" postcode="030000" index="980"/>
+			<area name="尖草坪区" postcode="030000" index="981"/>
+			<area name="万柏林区" postcode="030000" index="982"/>
+			<area name="晋源区" postcode="030000" index="983"/>
+			<area name="阳曲县" postcode="030100" index="984"/>
+			<area name="古交市" postcode="030200" index="985"/>
+			<area name="娄烦县" postcode="030300" index="986"/>
+			<area name="清徐县" postcode="030400" index="987"/>
+			<area name="其他" postcode="030000" index="988"/>
+		</city>
+		<city name="大同" postcode="037000" index="105">
+			<area name="城区" postcode="037000" index="989"/>
+			<area name="矿区" postcode="030000" index="990"/>
+			<area name="南郊区" postcode="030000" index="991"/>
+			<area name="欣荣区" postcode="030000" index="992"/>
+			<area name="大同县" postcode="037300" index="993"/>
+			<area name="天镇县" postcode="038200" index="994"/>
+			<area name="灵丘县" postcode="034400" index="995"/>
+			<area name="阳高县" postcode="038100" index="996"/>
+			<area name="左云县" postcode="037100" index="997"/>
+			<area name="浑源县" postcode="037400" index="998"/>
+			<area name="广灵县" postcode="037500" index="999"/>
+			<area name="其他" postcode="030000" index="1000"/>
+		</city>
+		<city name="阳泉" postcode="045000" index="106">
+			<area name="城区" postcode="045000" index="1001"/>
+			<area name="矿区" postcode="030000" index="1002"/>
+			<area name="郊区" postcode="030000" index="1003"/>
+			<area name="盂县" postcode="045100" index="1004"/>
+			<area name="平定县" postcode="045200" index="1005"/>
+			<area name="其他" postcode="030000" index="1006"/>
+		</city>
+		<city name="长治" postcode="046000" index="107">
+			<area name="城区" postcode="046000" index="1007"/>
+			<area name="郊区" postcode="030000" index="1008"/>
+			<area name="高新区" postcode="030000" index="1009"/>
+			<area name="潞城市" postcode="047500" index="1010"/>
+			<area name="长治县" postcode="047100" index="1011"/>
+			<area name="长子县" postcode="046600" index="1012"/>
+			<area name="平顺县" postcode="047400" index="1013"/>
+			<area name="襄垣县" postcode="046200" index="1014"/>
+			<area name="沁源县" postcode="046500" index="1015"/>
+			<area name="屯留县" postcode="046100" index="1016"/>
+			<area name="黎城县" postcode="047600" index="1017"/>
+			<area name="武乡县" postcode="046300" index="1018"/>
+			<area name="沁县" postcode="046400" index="1019"/>
+			<area name="壶关县" postcode="047300" index="1020"/>
+			<area name="其他" postcode="030000" index="1021"/>
+		</city>
+		<city name="晋城" postcode="048000" index="108">
+			<area name="晋城市" postcode="048000" index="1022"/>
+			<area name="高平市" postcode="048400" index="1023"/>
+			<area name="阳城县" postcode="048100" index="1024"/>
+			<area name="沁水县" postcode="048200" index="1025"/>
+			<area name="陵川县" postcode="048300" index="1026"/>
+			<area name="泽州县" postcode="030000" index="1027"/>
+			<area name="其他" postcode="030000" index="1028"/>
+		</city>
+		<city name="朔州" postcode="036000" index="109">
+			<area name="朔城区" postcode="036000" index="1029"/>
+			<area name="平鲁区" postcode="036000" index="1030"/>
+			<area name="山阴县" postcode="036900" index="1031"/>
+			<area name="右玉县" postcode="037200" index="1032"/>
+			<area name="应县" postcode="037600" index="1033"/>
+			<area name="怀仁县" postcode="038300" index="1034"/>
+			<area name="其他" postcode="036000" index="1035"/>
+		</city>
+		<city name="忻州" postcode="034000" index="110">
+			<area name="忻府区" postcode="034000" index="1036"/>
+			<area name="原平市" postcode="034100" index="1037"/>
+			<area name="代县" postcode="034200" index="1038"/>
+			<area name="神池县" postcode="036100" index="1039"/>
+			<area name="五寨县" postcode="036100" index="1040"/>
+			<area name="五台县" postcode="035500" index="1041"/>
+			<area name="偏关县" postcode="036400" index="1042"/>
+			<area name="宁武县" postcode="036700" index="1043"/>
+			<area name="静乐县" postcode="035100" index="1044"/>
+			<area name="繁峙县" postcode="034300" index="1045"/>
+			<area name="河曲县" postcode="036500" index="1046"/>
+			<area name="保德县" postcode="036600" index="1047"/>
+			<area name="定襄县" postcode="035400" index="1048"/>
+			<area name="岢岚县" postcode="036300" index="1049"/>
+			<area name="其他" postcode="036000" index="1050"/>
+		</city>
+		<city name="晋中" postcode="030600" index="111">
+			<area name="榆次区" postcode="030600" index="1051"/>
+			<area name="介休市" postcode="032000" index="1052"/>
+			<area name="昔阳县" postcode="045300" index="1053"/>
+			<area name="灵石县" postcode="031300" index="1054"/>
+			<area name="祁县" postcode="030900" index="1055"/>
+			<area name="左权县" postcode="032600" index="1056"/>
+			<area name="寿阳县" postcode="045400" index="1057"/>
+			<area name="太谷县" postcode="030800" index="1058"/>
+			<area name="和顺县" postcode="032700" index="1059"/>
+			<area name="平遥县" postcode="031100" index="1060"/>
+			<area name="榆社县" postcode="031800" index="1061"/>
+			<area name="其他" postcode="036000" index="1062"/>
+		</city>
+		<city name="吕梁" postcode="033000" index="112">
+			<area name="离石区" postcode="033000" index="1063"/>
+			<area name="孝义市" postcode="032208" index="1064"/>
+			<area name="汾阳市" postcode="032200" index="1065"/>
+			<area name="文水县" postcode="032100" index="1066"/>
+			<area name="中阳县" postcode="033400" index="1067"/>
+			<area name="兴县" postcode="033601" index="1068"/>
+			<area name="临县" postcode="033200" index="1069"/>
+			<area name="方山县" postcode="033100" index="1070"/>
+			<area name="柳林县" postcode="033300" index="1071"/>
+			<area name="岚县" postcode="033500" index="1072"/>
+			<area name="交口县" postcode="032400" index="1073"/>
+			<area name="交城县" postcode="030500" index="1074"/>
+			<area name="石楼县" postcode="032500" index="1075"/>
+			<area name="其他" postcode="036000" index="1076"/>
+		</city>
+		<city name="临汾" postcode="041000" index="113">
+			<area name="尧都区" postcode="041000" index="1077"/>
+			<area name="侯马市" postcode="043000" index="1078"/>
+			<area name="霍州市" postcode="031400" index="1079"/>
+			<area name="汾西县" postcode="031500" index="1080"/>
+			<area name="吉县" postcode="042200" index="1081"/>
+			<area name="安泽县" postcode="042500" index="1082"/>
+			<area name="大宁县" postcode="042300" index="1083"/>
+			<area name="浮山县" postcode="042600" index="1084"/>
+			<area name="古县" postcode="042400" index="1085"/>
+			<area name="隰县" postcode="041300" index="1086"/>
+			<area name="襄汾县" postcode="041500" index="1087"/>
+			<area name="翼城县" postcode="043500" index="1088"/>
+			<area name="永和县" postcode="041400" index="1098"/>
+			<area name="乡宁县" postcode="042100" index="1099"/>
+			<area name="曲沃县" postcode="043400" index="1100"/>
+			<area name="洪洞县" postcode="041600" index="1101"/>
+			<area name="蒲县" postcode="041200" index="1102"/>
+			<area name="其他" postcode="036000" index="1103"/>
+		</city>
+		<city name="运城" postcode="044000" index="114">
+			<area name="盐湖区" postcode="044000" index="1103"/>
+			<area name="河津市" postcode="043300" index="1104"/>
+			<area name="永济市" postcode="044500" index="1105"/>
+			<area name="闻喜县" postcode="043800" index="1106"/>
+			<area name="新绛县" postcode="043100" index="1107"/>
+			<area name="平陆县" postcode="044300" index="1108"/>
+			<area name="恒曲县" postcode="043700" index="1109"/>
+			<area name="绛县" postcode="043600" index="1110"/>
+			<area name="稷山县" postcode="043200" index="1111"/>
+			<area name="芮城县" postcode="044600" index="1112"/>
+			<area name="夏县" postcode="044400" index="1113"/>
+			<area name="临猗县" postcode="044100" index="1114"/>
+			<area name="万荣县" postcode="044200" index="1115"/>
+			<area name="其他" postcode="036000" index="1116"/>
+		</city>
+	</province>
+	<province name="海南" postcode="" index="11">
+		<city name="海口市" postcode="570000" index="115">
+			<area name="秀英区" postcode="570000" index="1117"/>
+			<area name="龙华区" postcode="036000" index="1118"/>
+			<area name="琼山区" postcode="036000" index="1119"/>
+			<area name="美兰区" postcode="036000" index="1120"/>
+			<area name="五指山市" postcode="572200" index="1120"/>
+			<area name="琼海市" postcode="571400" index="1121"/>
+			<area name="儋州市" postcode="571700" index="1122"/>
+			<area name="琼山市" postcode="571100" index="1123"/>
+			<area name="文昌市" postcode="571300" index="1124"/>
+			<area name="万宁市" postcode="571500" index="1125"/>
+			<area name="东方市" postcode="572600" index="1126"/>
+			<area name="澄麦县" postcode="571900" index="1127"/>
+			<area name="安定县" postcode="571200" index="1128"/>
+			<area name="屯昌县" postcode="571600" index="1129"/>
+			<area name="临高县" postcode="571800" index="1130"/>
+			<area name="保亭黎族苗族自治县" postcode="572300" index="1131"/>
+			<area name="陵水黎族自治县" postcode="572400" index="1132"/>
+			<area name="乐东黎族自治县" postcode="572500" index="1133"/>
+			<area name="昌江黎族自治县" postcode="572700" index="1134"/>
+			<area name="白沙黎族自治县" postcode="572800" index="1135"/>
+			<area name="琼中黎族苗族自治县" postcode="572900" index="1136"/>
+			<area name="西、南、中沙群岛" postcode="573100" index="1137"/>
+			<area name="洋浦经济开发区" postcode="578000" index="1138"/>
+			<area name="其他" postcode="036000" index="1139"/>
+		</city>
+		<city name="三亚市" postcode="572000" index="116">
+			<area name="三亚市" postcode="572000" index="1139"/>
+			<area name="其他" postcode="036000" index="1140"/>
+		</city>
+	</province>
+	<province name="天津" postcode="tianjin" index="12">
+		<city name="天津" postcode="300000" index="117">
+			<area name="和平区" postcode="300000" index="1141"/>
+			<area name="河东区" postcode="301500" index="1142"/>
+			<area name="河西区" postcode="301500" index="1143"/>
+			<area name="南开区" postcode="301500" index="1144"/>
+			<area name="河北区" postcode="301500" index="1145"/>
+			<area name="红桥区" postcode="301500" index="1146"/>
+			<area name="塘沽区" postcode="300450" index="1146"/>
+			<area name="汉沽区" postcode="300480" index="1148"/>
+			<area name="大港区" postcode="300270" index="1149"/>
+			<area name="东丽区" postcode="300300" index="1150"/>
+			<area name="西青区" postcode="300380" index="1151"/>
+			<area name="津南区" postcode="300350" index="1152"/>
+			<area name="北辰区" postcode="300400" index="1153"/>
+			<area name="武清区" postcode="301700" index="1154"/>
+			<area name="宝坻区" postcode="301800" index="1155"/>
+			
+			<area name="静海县" postcode="301600" index="1156"/>
+			<area name="宁河县" postcode="301500" index="1157"/>
+			<area name="蓟县" postcode="301900" index="1158"/>
+			<area name="其他" postcode="300350" index="1159"/>
+		</city>
+	</province>
+	<province name="重庆" postcode="chongqing" index="13">
+		<city name="重庆" postcode="400000" index="118">
+			<area name="重庆市" postcode="400000" index="756"/>
+			<area name="南岸区" postcode="400060" index="757"/>
+			<area name="北碚区" postcode="400700" index="758"/>
+			<area name="江北区" postcode="400021" index="759"/>
+			<area name="渝北区" postcode="401120" index="760"/>
+			<area name="沙坪坝区" postcode="400020" index="761"/>
+			<area name="九龙坡区" postcode="400039" index="762"/>
+			<area name="万盛区" postcode="400800" index="763"/>
+			<area name="巴南区" postcode="401320" index="764"/>
+			<area name="渝中区" postcode="400012" index="765"/>
+			<area name="大渡口区" postcode="400084" index="766"/>
+			<area name="双桥区" postcode="400900" index="767"/>
+			<area name="万州区" postcode="404000" index="768"/>
+			<area name="涪陵区" postcode="408000" index="769"/>
+			<area name="永川市" postcode="402160" index="770"/>
+			<area name="合川市" postcode="401520" index="771"/>
+			<area name="江津市" postcode="402260" index="772"/>
+			<area name="南川市" postcode="408400" index="773"/>
+			<area name="长寿市" postcode="401220" index="774"/>
+			<area name="綦江县" postcode="401420" index="775"/>
+			<area name="潼南县" postcode="402660" index="776"/>
+			<area name="荣昌县" postcode="402460" index="777"/>
+			<area name="壁山县" postcode="402760" index="778"/>
+			<area name="大足县" postcode="402360" index="779"/>
+			<area name="铜梁县" postcode="402560" index="780"/>
+			<area name="梁平县" postcode="405200" index="781"/>
+			<area name="城口县" postcode="405900" index="782"/>
+			<area name="垫江县" postcode="408300" index="783"/>
+			<area name="武隆县" postcode="408500" index="784"/>
+			<area name="丰都县" postcode="408200" index="785"/>
+			<area name="奉节县" postcode="404600" index="786"/>
+			<area name="开县" postcode="405400" index="787"/>
+			<area name="云阳县" postcode="404500" index="788"/>
+			<area name="忠县" postcode="404300" index="789"/>
+			<area name="巫溪县" postcode="405800" index="790"/>
+			<area name="巫山县" postcode="404700" index="791"/>
+			<area name="石柱土家族自治县" postcode="409100" index="792"/>
+			<area name="彭水苗族土家族自治县" postcode="409600" index="793"/>
+			<area name="黔江土家族苗族自治县" postcode="409000" index="794"/>
+			<area name="酉阳土家族苗族自治县" postcode="409800" index="795"/>
+			<area name="秀山土家族苗族自治县" postcode="409900" index="796"/>
+		</city>
+	</province>
+	<province name="内蒙古" postcode="" index="14">
+		<city name="呼和浩特市" postcode="010000" index="114">
+			<area name="呼和浩特市" postcode="010000" index="797"/>
+			<area name="土默特左旗" postcode="010100" index="798"/>
+			<area name="托克托县" postcode="010200" index="799"/>
+			<area name="和林格尔县" postcode="011500" index="800"/>
+			<area name="清水河县" postcode="011600" index="801"/>
+			<area name="武川县" postcode="011700" index="802"/>
+		</city>
+		<city name="包头市" postcode="014000" index="115">
+			<area name="包头市" postcode="014000" index="803"/>
+			<area name="土默特右旗" postcode="014100" index="804"/>
+			<area name="固阳县" postcode="014200" index="805"/>
+			<area name="达尔罕茂明安联合旗" postcode="014500" index="806"/>
+		</city>
+		<city name="乌海市" postcode="016000" index="116">
+			<area name="乌海市" postcode="016000" index="807"/>
+		</city>
+		<city name="赤峰市" postcode="024000" index="117">
+			<area name="赤峰市" postcode="024000" index="808"/>
+			<area name="宁城县" postcode="024200" index="809"/>
+			<area name="敖汉旗" postcode="024300" index="810"/>
+			<area name="喀喇沁旗" postcode="024400" index="811"/>
+			<area name="翁牛特旗" postcode="024500" index="812"/>
+			<area name="巴林右旗" postcode="025150" index="813"/>
+			<area name="林西县" postcode="025250" index="814"/>
+			<area name="克什克腾旗" postcode="025350" index="815"/>
+			<area name="巴林左旗" postcode="025450" index="816"/>
+			<area name="阿鲁科尔沁旗" postcode="025550" index="817"/>
+		</city>
+		<city name="乌兰察布盟" postcode="012000" index="118">
+			<area name="集宁市" postcode="012000" index="818"/>
+			<area name="丰镇市" postcode="012100" index="819"/>
+			<area name="兴和县" postcode="013650" index="820"/>
+			<area name="卓资县" postcode="012300" index="821"/>
+			<area name="商都县" postcode="013400" index="822"/>
+			<area name="凉城县" postcode="013750" index="823"/>
+			<area name="化德县" postcode="013350" index="824"/>
+			<area name="察哈尔右翼前旗" postcode="012200" index="825"/>
+			<area name="察哈尔右翼中旗" postcode="013550" index="826"/>
+			<area name="察哈尔右翼后旗" postcode="012400" index="827"/>
+			<area name="四子王旗" postcode="011800" index="828"/>
+		</city>
+		<city name="锡林郭勒盟" postcode="026000" index="119">
+			<area name="锡林浩特市" postcode="026000" index="829"/>
+			<area name="二连浩特市" postcode="011100" index="830"/>
+			<area name="多伦县" postcode="027300" index="831"/>
+			<area name="阿巴嘎旗" postcode="011400" index="832"/>
+			<area name="西乌珠穆沁旗" postcode="026200" index="833"/>
+			<area name="东乌珠穆沁旗" postcode="026300" index="834"/>
+			<area name="苏尼特左旗" postcode="011300" index="835"/>
+			<area name="苏尼特右旗" postcode="011200" index="836"/>
+			<area name="太仆寺旗" postcode="027000" index="837"/>
+			<area name="正镶白旗" postcode="013800" index="838"/>
+			<area name="正蓝旗" postcode="027200" index="839"/>
+			<area name="镶黄旗" postcode="013250" index="840"/>
+		</city>
+		<city name="呼伦贝尔市" postcode="021000" index="120">
+			<area name="海拉尔市" postcode="021000" index="841"/>
+			<area name="满州里市" postcode="021400" index="842"/>
+			<area name="牙可石市" postcode="022150" index="843"/>
+			<area name="扎兰屯市呼伦贝尔" postcode="" index="844"/>
+			<area name="根河市" postcode="022350" index="845"/>
+			<area name="额尔古纳市" postcode="022250" index="846"/>
+			<area name="陈巴尔虎旗" postcode="021500" index="847"/>
+			<area name="阿荣旗呼伦贝尔" postcode="" index="848"/>
+			<area name="新巴尔虎左旗" postcode="021200" index="849"/>
+			<area name="新巴尔虎右旗" postcode="021300" index="850"/>
+			<area name="鄂伦春自治旗" postcode="" index="851"/>
+			<area name="莫力达瓦达斡尔族自治旗" postcode="" index="852"/>
+			<area name="鄂温克族自治旗" postcode="021100" index="853"/>
+		</city>
+		<city name="哲学木盟" postcode="028000" index="121">
+			<area name="通辽市" postcode="028000" index="854"/>
+			<area name="霍林郭勒市" postcode="029200" index="855"/>
+			<area name="开鲁县" postcode="028400" index="856"/>
+			<area name="科尔沁左翼中旗" postcode="029300" index="857"/>
+			<area name="科尔沁左翼后旗" postcode="028100" index="858"/>
+			<area name="库伦旗" postcode="028200" index="859"/>
+			<area name="奈曼旗" postcode="028300" index="860"/>
+			<area name="扎鲁特旗" postcode="029100" index="861"/>
+		</city>
+		<city name="鄂尔多斯市" postcode="017000" index="122">
+			<area name="东胜区" postcode="017000" index="862"/>
+			<area name="准格尔旗" postcode="017100" index="863"/>
+			<area name="沙坎堵经济技术开发区" postcode="010400" index="864"/>
+			<area name="伊金霍洛旗" postcode="017200" index="865"/>
+			<area name="乌审旗" postcode="017300" index="866"/>
+			<area name="杭锦旗" postcode="017400" index="867"/>
+			<area name="鄂托克旗" postcode="016100" index="868"/>
+			<area name="鄂托克前旗" postcode="016200" index="869"/>
+			<area name="达拉特旗" postcode="014300" index="870"/>
+		</city>
+		<city name="巴彦淖尔盟" postcode="015000" index="123">
+			<area name="临河市" postcode="015000" index="871"/>
+			<area name="五原县" postcode="015100" index="872"/>
+			<area name="磴口县" postcode="015200" index="873"/>
+			<area name="杭锦后旗" postcode="015400" index="874"/>
+			<area name="乌拉特中旗" postcode="015300" index="875"/>
+			<area name="乌拉特前旗" postcode="015400" index="876"/>
+			<area name="乌拉特后旗" postcode="015500" index="877"/>
+		</city>
+		<city name="阿拉善盟" postcode="737300" index="124">
+			<area name="阿拉善右旗" postcode="737300" index="878"/>
+			<area name="阿拉善左旗" postcode="750300" index="879"/>
+			<area name="额济纳旗" postcode="735400" index="880"/>
+		</city>
+		<city name="兴安" postcode="137400" index="125">
+			<area name="兴安盟" postcode="" index="881"/>
+			<area name="乌兰浩特市" postcode="137400" index="882"/>
+			<area name="阿尔山市" postcode="137800" index="883"/>
+			<area name="突泉县" postcode="137500" index="884"/>
+			<area name="扎赉特旗" postcode="137600" index="885"/>
+			<area name="科尔沁右翼前旗" postcode="137400" index="886"/>
+			<area name="科尔沁右翼中旗" postcode="029400" index="887"/>
+		</city>
+	</province>
+	<province name="河北" postcode="hebei" index="15">
+		<city name="石家庄市" postcode="050000" index="126">
+			<area name="石家庄市" postcode="050000" index="888"/>
+			<area name="辛集市" postcode="052360" index="889"/>
+			<area name="藁城市" postcode="052160" index="890"/>
+			<area name="晋州市" postcode="052260" index="891"/>
+			<area name="新乐市" postcode="050700" index="892"/>
+			<area name="鹿泉市" postcode="050200" index="893"/>
+			<area name="平山县" postcode="050400" index="894"/>
+			<area name="井陉县" postcode="050300" index="895"/>
+			<area name="栾城县" postcode="051430" index="896"/>
+			<area name="正定县" postcode="050800" index="897"/>
+			<area name="行唐县" postcode="050600" index="898"/>
+			<area name="灵寿县" postcode="050500" index="899"/>
+			<area name="高邑县" postcode="051330" index="900"/>
+			<area name="赵县" postcode="051530" index="901"/>
+			<area name="赞皇县" postcode="051230" index="902"/>
+			<area name="深泽县" postcode="052560" index="903"/>
+			<area name="无极县" postcode="052460" index="904"/>
+			<area name="元氏县" postcode="051130" index="905"/>
+			<area name="矿区" postcode="050100" index="906"/>
+		</city>
+		<city name="邯郸" postcode="056000" index="127">
+			<area name="邯郸市" postcode="056000" index="907"/>
+			<area name="武安市" postcode="056300" index="908"/>
+			<area name="邯郸县" postcode="056105" index="909"/>
+			<area name="永年县" postcode="057150" index="910"/>
+			<area name="曲周县" postcode="057250" index="911"/>
+			<area name="馆陶县" postcode="057750" index="912"/>
+			<area name="魏县" postcode="056800" index="913"/>
+			<area name="成安县" postcode="056700" index="914"/>
+			<area name="大名县" postcode="056900" index="915"/>
+			<area name="涉县" postcode="056400" index="916"/>
+			<area name="鸡泽县" postcode="057350" index="917"/>
+			<area name="邱县" postcode="057450" index="918"/>
+			<area name="广平县" postcode="057650" index="919"/>
+			<area name="肥乡县" postcode="057550" index="920"/>
+			<area name="临漳县" postcode="056600" index="921"/>
+			<area name="磁县" postcode="056500" index="922"/>
+		</city>
+		<city name="邢台" postcode="054000" index="128">
+			<area name="邢台市（县）" postcode="054000" index="923"/>
+			<area name="南宫市" postcode="055750" index="924"/>
+			<area name="沙河市" postcode="054100" index="925"/>
+			<area name="邢台县" postcode="054001" index="926"/>
+			<area name="柏乡县" postcode="055450" index="927"/>
+			<area name="任县" postcode="055150" index="928"/>
+			<area name="清河县" postcode="054800" index="929"/>
+			<area name="宁晋县" postcode="055550" index="930"/>
+			<area name="威县" postcode="054700" index="931"/>
+			<area name="隆尧县" postcode="055350" index="932"/>
+			<area name="临城县" postcode="054300" index="933"/>
+			<area name="广宗县" postcode="054600" index="934"/>
+			<area name="临西县" postcode="054900" index="935"/>
+			<area name="内邱县" postcode="054200" index="936"/>
+			<area name="平乡县" postcode="054500" index="937"/>
+			<area name="巨鹿县" postcode="055250" index="938"/>
+			<area name="新河县" postcode="055650" index="939"/>
+			<area name="南和县" postcode="054400" index="940"/>
+		</city>
+		<city name="保定" postcode="071000" index="129">
+			<area name="保定市" postcode="071000" index="941"/>
+			<area name="涿州市" postcode="072750" index="942"/>
+			<area name="定州市" postcode="073000" index="943"/>
+			<area name="安国市" postcode="071200" index="944"/>
+			<area name="高碑店市" postcode="074000" index="945"/>
+			<area name="满城县" postcode="072150" index="946"/>
+			<area name="清苑县" postcode="071100" index="947"/>
+			<area name="涞水县" postcode="074100" index="948"/>
+			<area name="阜平县" postcode="073200" index="949"/>
+			<area name="徐水县" postcode="072550" index="950"/>
+			<area name="定兴县" postcode="072650" index="951"/>
+			<area name="唐县" postcode="072350" index="952"/>
+			<area name="高阳县" postcode="071500" index="953"/>
+			<area name="容城县" postcode="071700" index="954"/>
+			<area name="涞源县" postcode="074300" index="955"/>
+			<area name="望都县" postcode="072450" index="956"/>
+			<area name="安新县" postcode="071600" index="957"/>
+			<area name="易县" postcode="074200" index="958"/>
+			<area name="曲阳县" postcode="073100" index="959"/>
+			<area name="蠡县" postcode="071400" index="960"/>
+			<area name="顺平县" postcode="072250" index="961"/>
+			<area name="博野县" postcode="071300" index="962"/>
+			<area name="雄县" postcode="071800" index="963"/>
+		</city>
+		<city name="张家口" postcode="075000" index="130">
+			<area name="张家口市" postcode="075000" index="964"/>
+			<area name="宣化县（区）" postcode="075100" index="965"/>
+			<area name="康保县" postcode="076650" index="966"/>
+			<area name="张北县" postcode="076450" index="967"/>
+			<area name="阳原县" postcode="075800" index="968"/>
+			<area name="赤城县" postcode="075500" index="969"/>
+			<area name="沽源县" postcode="076550" index="970"/>
+			<area name="怀安县" postcode="076150" index="971"/>
+			<area name="怀来县" postcode="075400" index="972"/>
+			<area name="崇礼县" postcode="076350" index="973"/>
+			<area name="尚义县" postcode="076750" index="974"/>
+			<area name="蔚县" postcode="075700" index="975"/>
+			<area name="涿鹿县" postcode="075600" index="976"/>
+			<area name="万全县" postcode="076250" index="977"/>
+		</city>
+		<city name="承德" postcode="067000" index="131">
+			<area name="承德市" postcode="067000" index="978"/>
+			<area name="承德县" postcode="067400" index="979"/>
+			<area name="兴隆县" postcode="067300" index="980"/>
+			<area name="平泉县" postcode="067500" index="981"/>
+			<area name="滦平县" postcode="068250" index="982"/>
+			<area name="隆化县" postcode="068150" index="983"/>
+			<area name="丰宁满族自治县" postcode="068350" index="984"/>
+			<area name="围场满族蒙古族自治县" postcode="068450" index="985"/>
+			<area name="宽城满族自治县" postcode="067600" index="986"/>
+		</city>
+		<city name="唐山" postcode="063000" index="132">
+			<area name="唐山市" postcode="063000" index="987"/>
+			<area name="遵化市" postcode="064200" index="988"/>
+			<area name="丰南市" postcode="063300" index="989"/>
+			<area name="迁安市" postcode="064400" index="990"/>
+			<area name="迁西县" postcode="064300" index="991"/>
+			<area name="滦南县" postcode="063500" index="992"/>
+			<area name="丰润县" postcode="064000" index="993"/>
+			<area name="玉田县" postcode="064100" index="994"/>
+			<area name="唐海县" postcode="063200" index="995"/>
+			<area name="乐亭县" postcode="063600" index="996"/>
+			<area name="滦县" postcode="063700" index="997"/>
+		</city>
+		<city name="秦皇岛" postcode="066000" index="133">
+			<area name="秦皇岛市" postcode="066000" index="998"/>
+			<area name="抚宁县" postcode="066300" index="999"/>
+			<area name="卢龙县" postcode="066400" index="1000"/>
+			<area name="青龙满族自治县" postcode="066500" index="1001"/>
+			<area name="昌黎县" postcode="066600" index="1002"/>
+		</city>
+		<city name="沧州" postcode="061000" index="134">
+			<area name="沧州市" postcode="061000" index="1003"/>
+			<area name="沧县" postcode="061035" index="1004"/>
+			<area name="泊头市" postcode="062150" index="1005"/>
+			<area name="任丘市" postcode="062550" index="1006"/>
+			<area name="河间市" postcode="062450" index="1007"/>
+			<area name="献县" postcode="062250" index="1008"/>
+			<area name="肃宁县" postcode="062350" index="1009"/>
+			<area name="青县" postcode="062650" index="1010"/>
+			<area name="东光县" postcode="061600" index="1011"/>
+			<area name="吴桥县" postcode="061800" index="1012"/>
+			<area name="南皮县" postcode="061500" index="1013"/>
+			<area name="盐山县" postcode="061300" index="1014"/>
+			<area name="海兴县" postcode="061200" index="1015"/>
+			<area name="孟村回族自治县" postcode="061400" index="1016"/>
+			<area name="黄骅县" postcode="061100" index="1017"/>
+		</city>
+		<city name="廊坊" postcode="065000" index="135">
+			<area name="廊坊市" postcode="065000" index="1018"/>
+			<area name="霸州市" postcode="065700" index="1019"/>
+			<area name="三河市" postcode="065200" index="1020"/>
+			<area name="固安县" postcode="065500" index="1021"/>
+			<area name="永清县" postcode="065600" index="1022"/>
+			<area name="香河县" postcode="065400" index="1023"/>
+			<area name="大城县" postcode="065900" index="1024"/>
+			<area name="文安县" postcode="065800" index="1025"/>
+			<area name="大厂回族自治县" postcode="065300" index="1026"/>
+		</city>
+		<city name="衡水" postcode="053000" index="136">
+			<area name="衡水市" postcode="053000" index="1027"/>
+			<area name="冀州市" postcode="053200" index="1028"/>
+			<area name="深州市" postcode="053800" index="1029"/>
+			<area name="饶阳县" postcode="053900" index="1030"/>
+			<area name="枣强县" postcode="053100" index="1031"/>
+			<area name="故城县衡水253800" postcode="" index="1032"/>
+			<area name="阜城县" postcode="053700" index="1033"/>
+			<area name="安平县" postcode="053600" index="1034"/>
+			<area name="武邑县" postcode="053400" index="1035"/>
+			<area name="景县" postcode="053500" index="1036"/>
+			<area name="武强县" postcode="053300" index="1037"/>
+		</city>
+	</province>
+	<province name="吉林" postcode="jilin" index="16">
+		<city name="长春" postcode="130000" index="137">
+			<area name="长春市" postcode="130000" index="1038"/>
+			<area name="榆树市" postcode="130400" index="1039"/>
+			<area name="九台市" postcode="130500" index="1040"/>
+			<area name="农安县" postcode="130200" index="1041"/>
+		</city>
+		<city name="吉林" postcode="132000" index="138">
+			<area name="吉林市" postcode="132000" index="1042"/>
+			<area name="舒兰市" postcode="132600" index="1043"/>
+			<area name="桦甸市" postcode="132400" index="1044"/>
+			<area name="蛟河市" postcode="132500" index="1045"/>
+			<area name="磐石市" postcode="132300" index="1046"/>
+			<area name="永吉县" postcode="132100" index="1047"/>
+		</city>
+		<city name="四平" postcode="136000" index="139">
+			<area name="四平市" postcode="136000" index="1048"/>
+			<area name="公主岭市" postcode="136100" index="1049"/>
+			<area name="双辽市" postcode="136400" index="1050"/>
+			<area name="梨树县" postcode="136500" index="1051"/>
+			<area name="伊通满族自治县" postcode="130700" index="1052"/>
+		</city>
+		<city name="通化" postcode="134000" index="140">
+			<area name="通化市" postcode="134000" index="1053"/>
+			<area name="梅河口市" postcode="135000" index="1054"/>
+			<area name="集安市" postcode="134200" index="1055"/>
+			<area name="通化县" postcode="134100" index="1056"/>
+			<area name="辉南县" postcode="135100" index="1057"/>
+			<area name="柳河县" postcode="135300" index="1058"/>
+		</city>
+		<city name="白山" postcode="134300" index="141">
+			<area name="白山市" postcode="134300" index="1059"/>
+			<area name="临江市" postcode="134600" index="1060"/>
+			<area name="靖宇县" postcode="135200" index="1061"/>
+			<area name="抚松县" postcode="134500" index="1062"/>
+			<area name="长白朝鲜族自治县" postcode="134400" index="1063"/>
+			<area name="江源县" postcode="134700" index="1064"/>
+		</city>
+		<city name="松源" postcode="138000" index="142">
+			<area name="松源市" postcode="138000" index="1065"/>
+			<area name="乾安县" postcode="131400" index="1066"/>
+			<area name="长岭县" postcode="131500" index="1067"/>
+			<area name="扶余县" postcode="131200" index="1068"/>
+			<area name="前郭尔罗斯蒙古族自治县" postcode="131100" index="1069"/>
+		</city>
+		<city name="白城" postcode="137000" index="143">
+			<area name="白城市" postcode="137000" index="1070"/>
+			<area name="大安市" postcode="131300" index="1071"/>
+			<area name="洮南市" postcode="137100" index="1072"/>
+			<area name="通榆县" postcode="137200" index="1073"/>
+			<area name="镇赉县" postcode="137300" index="1074"/>
+		</city>
+		<city name="延边朝鲜族" postcode="133000" index="144">
+			<area name="延吉市" postcode="133000" index="1075"/>
+			<area name="图们市" postcode="133100" index="1076"/>
+			<area name="敦化市" postcode="133700" index="1077"/>
+			<area name="龙井市" postcode="133400" index="1078"/>
+			<area name="珲春市" postcode="133300" index="1079"/>
+			<area name="和龙市" postcode="133500" index="1080"/>
+			<area name="汪清县" postcode="133200" index="1081"/>
+			<area name="安图县" postcode="133600" index="1082"/>
+		</city>
+	</province>
+	<province name="安徽" postcode="anhui" index="17">
+		<city name="合肥" postcode="230000" index="145">
+			<area name="合肥市" postcode="230000" index="1083"/>
+			<area name="长丰县" postcode="231100" index="1084"/>
+			<area name="肥西县" postcode="231200" index="1085"/>
+			<area name="肥东县" postcode="231600" index="1086"/>
+		</city>
+		<city name="淮南" postcode="232000" index="146">
+			<area name="淮南市" postcode="232000" index="1087"/>
+			<area name="凤台县" postcode="232100" index="1088"/>
+		</city>
+		<city name="淮北" postcode="235000" index="147">
+			<area name="淮北市" postcode="235000" index="1089"/>
+			<area name="濉溪县" postcode="235100" index="1090"/>
+		</city>
+		<city name="芜湖" postcode="241000" index="148">
+			<area name="芜湖市" postcode="241000" index="1091"/>
+			<area name="芜湖县" postcode="241100" index="1092"/>
+			<area name="繁昌县" postcode="241200" index="1093"/>
+			<area name="南陵县" postcode="242400" index="1094"/>
+		</city>
+		<city name="蚌埠" postcode="233000" index="149">
+			<area name="蚌埠市" postcode="233000" index="1095"/>
+			<area name="怀远县" postcode="233400" index="1096"/>
+			<area name="固镇县" postcode="233200" index="1097"/>
+			<area name="五河县" postcode="233300" index="1098"/>
+		</city>
+		<city name="马鞍山" postcode="243000" index="150">
+			<area name="马鞍山市" postcode="243000" index="1099"/>
+			<area name="当涂县" postcode="243100" index="1100"/>
+		</city>
+		<city name="安庆" postcode="246000" index="151">
+			<area name="安庆市" postcode="246000" index="1101"/>
+			<area name="桐城市" postcode="231400" index="1102"/>
+			<area name="宿松县" postcode="246500" index="1103"/>
+			<area name="枞阳县" postcode="246700" index="1104"/>
+			<area name="太湖县" postcode="246400" index="1105"/>
+			<area name="怀宁县" postcode="246100" index="1106"/>
+			<area name="岳西县" postcode="246600" index="1107"/>
+			<area name="望江县" postcode="246200" index="1108"/>
+			<area name="潜山县" postcode="246300" index="1109"/>
+		</city>
+		<city name="黄山" postcode="245000" index="152">
+			<area name="黄山市" postcode="245000" index="1110"/>
+			<area name="休宁县" postcode="245400" index="1111"/>
+			<area name="歙县" postcode="245200" index="1112"/>
+			<area name="黟县" postcode="245500" index="1113"/>
+			<area name="祁门县" postcode="245600" index="1114"/>
+		</city>
+		<city name="滁州" postcode="239000" index="153">
+			<area name="滁州市" postcode="239000" index="1115"/>
+			<area name="天长市" postcode="239300" index="1116"/>
+			<area name="明光市" postcode="239400" index="1117"/>
+			<area name="全椒县" postcode="239500" index="1118"/>
+			<area name="来安县" postcode="239200" index="1119"/>
+			<area name="定远县" postcode="233200" index="1120"/>
+			<area name="风阳县" postcode="233100" index="1121"/>
+		</city>
+		<city name="阜阳" postcode="236000" index="154">
+			<area name="阜阳市" postcode="236000" index="1122"/>
+			<area name="界首市" postcode="236500" index="1123"/>
+			<area name="太和县" postcode="236600" index="1124"/>
+			<area name="阜南县" postcode="236300" index="1125"/>
+			<area name="颖上县" postcode="236200" index="1126"/>
+			<area name="临泉县" postcode="236400" index="1127"/>
+		</city>
+		<city name="亳州" postcode="236800" index="155">
+			<area name="亳州市" postcode="236800" index="1128"/>
+			<area name="利辛县" postcode="236700" index="1129"/>
+			<area name="蒙城县" postcode="233500" index="1130"/>
+			<area name="涡阳县" postcode="233600" index="1131"/>
+		</city>
+		<city name="宿州" postcode="234000" index="156">
+			<area name="宿州市" postcode="234000" index="1132"/>
+			<area name="灵璧县" postcode="234200" index="1133"/>
+			<area name="泗县" postcode="234300" index="1134"/>
+			<area name="萧县" postcode="235200" index="1135"/>
+			<area name="砀山县" postcode="235300" index="1136"/>
+		</city>
+		<city name="巢湖" postcode="238000" index="157">
+			<area name="巢湖市" postcode="238000" index="1137"/>
+			<area name="含山县" postcode="238100" index="1138"/>
+			<area name="和县" postcode="238200" index="1139"/>
+			<area name="无为县" postcode="238300" index="1140"/>
+			<area name="庐江县" postcode="231500" index="1141"/>
+		</city>
+		<city name="宜城" postcode="242000" index="158">
+			<area name="宜城市" postcode="242000" index="1142"/>
+			<area name="宁国市" postcode="242300" index="1143"/>
+			<area name="广德县" postcode="242200" index="1144"/>
+			<area name="郎溪县" postcode="242100" index="1145"/>
+			<area name="泾县" postcode="242500" index="1146"/>
+			<area name="旌德县" postcode="242600" index="1147"/>
+			<area name="绩溪县" postcode="245300" index="1148"/>
+		</city>
+		<city name="池州" postcode="247000" index="159">
+			<area name="池州市" postcode="247000" index="1149"/>
+			<area name="东至县" postcode="247200" index="1150"/>
+			<area name="石台县" postcode="245100" index="1151"/>
+			<area name="青阳县" postcode="242800" index="1152"/>
+		</city>
+		<city name="六安" postcode="237000" index="160">
+			<area name="六安市" postcode="237000" index="1153"/>
+			<area name="寿县" postcode="232200" index="1154"/>
+			<area name="霍山县" postcode="237200" index="1155"/>
+			<area name="金寨县" postcode="237300" index="1156"/>
+			<area name="霍邱县" postcode="237400" index="1157"/>
+			<area name="舒城县" postcode="231300" index="1158"/>
+		</city>
+	</province>
+	<province name="山东" postcode="shandong" index="18">
+		<city name="济南" postcode="250000" index="161">
+			<area name="济南市" postcode="250000" index="1159"/>
+			<area name="章丘市" postcode="250200" index="1160"/>
+			<area name="长清县" postcode="250300" index="1161"/>
+			<area name="平阴县" postcode="250400" index="1162"/>
+			<area name="济阳县" postcode="251400" index="1163"/>
+			<area name="商河县" postcode="251600" index="1164"/>
+		</city>
+		<city name="青岛" postcode="266000" index="162">
+			<area name="青岛市" postcode="266000" index="1165"/>
+			<area name="经济技术开发区" postcode="266500" index="1166"/>
+			<area name="李沧区" postcode="266100" index="1167"/>
+			<area name="胶州市" postcode="266300" index="1168"/>
+			<area name="胶南市" postcode="266400" index="1169"/>
+			<area name="平度市" postcode="266700" index="1170"/>
+			<area name="即墨市" postcode="266200" index="1171"/>
+			<area name="莱西市" postcode="266600" index="1172"/>
+		</city>
+		<city name="淄博" postcode="255000" index="163">
+			<area name="淄博市" postcode="255000" index="1173"/>
+			<area name="桓台县" postcode="256400" index="1174"/>
+			<area name="高青县" postcode="256300" index="1175"/>
+			<area name="沂源县" postcode="256100" index="1176"/>
+		</city>
+		<city name="枣庄" postcode="277100" index="164">
+			<area name="枣庄市" postcode="277100" index="1177"/>
+			<area name="滕州市" postcode="277500" index="1178"/>
+		</city>
+		<city name="东营" postcode="257000" index="165">
+			<area name="东营市" postcode="257000" index="1179"/>
+			<area name="河口区" postcode="257200" index="1180"/>
+			<area name="广饶县" postcode="257300" index="1181"/>
+			<area name="利津县" postcode="257400" index="1182"/>
+			<area name="垦利县" postcode="257500" index="1183"/>
+		</city>
+		<city name="潍坊" postcode="261000" index="166">
+			<area name="潍坊市" postcode="261000" index="1184"/>
+			<area name="青州市" postcode="262500" index="1185"/>
+			<area name="诸城市" postcode="262200" index="1186"/>
+			<area name="寿光市" postcode="262700" index="1187"/>
+			<area name="安丘市" postcode="262100" index="1188"/>
+			<area name="高密市" postcode="261500" index="1189"/>
+			<area name="昌邑市" postcode="261300" index="1190"/>
+			<area name="昌乐县" postcode="262400" index="1191"/>
+			<area name="临朐县" postcode="262600" index="1192"/>
+		</city>
+		<city name="烟台" postcode="264000" index="167">
+			<area name="烟台市" postcode="264000" index="1193"/>
+			<area name="龙口市" postcode="265700" index="1194"/>
+			<area name="莱阳市" postcode="265200" index="1195"/>
+			<area name="莱州市" postcode="261400" index="1196"/>
+			<area name="招远市" postcode="265400" index="1197"/>
+			<area name="蓬莱市" postcode="265600" index="1198"/>
+			<area name="栖霞市" postcode="265300" index="1199"/>
+			<area name="海阳市" postcode="265100" index="1200"/>
+			<area name="长岛县" postcode="265800" index="1201"/>
+		</city>
+		<city name="威海" postcode="264200" index="168">
+			<area name="威海市" postcode="264200" index="1202"/>
+			<area name="乳山市" postcode="264500" index="1203"/>
+			<area name="文登市" postcode="264400" index="1204"/>
+			<area name="荣成市" postcode="264300" index="1205"/>
+		</city>
+		<city name="莱芜" postcode="271100" index="169">
+			<area name="莱芜市" postcode="271100" index="1206"/>
+		</city>
+		<city name="德州" postcode="253000" index="170">
+			<area name="德州市" postcode="253000" index="1207"/>
+			<area name="乐陵市" postcode="253600" index="1208"/>
+			<area name="禹城市" postcode="251200" index="1209"/>
+			<area name="陵县" postcode="253500" index="1210"/>
+			<area name="宁津县" postcode="253400" index="1211"/>
+			<area name="齐河县" postcode="251100" index="1212"/>
+			<area name="武城县" postcode="253300" index="1213"/>
+			<area name="庆云县" postcode="253700" index="1214"/>
+			<area name="平原县" postcode="253121" index="1215"/>
+			<area name="夏津县" postcode="253200" index="1216"/>
+			<area name="临邑县" postcode="251500" index="1217"/>
+		</city>
+		<city name="临沂" postcode="276000" index="171">
+			<area name="临沂市" postcode="276000" index="1218"/>
+			<area name="沂南县" postcode="276300" index="1219"/>
+			<area name="郯城县" postcode="276100" index="1220"/>
+			<area name="沂水县" postcode="276400" index="1221"/>
+			<area name="苍山县" postcode="277700" index="1222"/>
+			<area name="费县" postcode="273400" index="1223"/>
+			<area name="平邑县" postcode="273300" index="1224"/>
+			<area name="莒南县" postcode="276600" index="1225"/>
+			<area name="蒙阴县" postcode="276200" index="1226"/>
+			<area name="临沭县" postcode="276700" index="1227"/>
+		</city>
+		<city name="聊城" postcode="252000" index="172">
+			<area name="聊城市" postcode="252000" index="1228"/>
+			<area name="临清市" postcode="252600" index="1229"/>
+			<area name="高唐县" postcode="252800" index="1230"/>
+			<area name="阳谷县" postcode="252300" index="1231"/>
+			<area name="荏平县" postcode="252100" index="1232"/>
+			<area name="莘县" postcode="252400" index="1233"/>
+			<area name="东阿县" postcode="252200" index="1234"/>
+			<area name="冠县" postcode="252500" index="1235"/>
+		</city>
+		<city name="滨州" postcode="256600" index="173">
+			<area name="滨州市" postcode="256600" index="1236"/>
+			<area name="滨城区" postcode="256600" index="1237"/>
+			<area name="邹平县" postcode="256200" index="1238"/>
+			<area name="沾化县" postcode="256800" index="1239"/>
+			<area name="惠民县" postcode="257100" index="1240"/>
+			<area name="博兴县" postcode="256500" index="1241"/>
+			<area name="阳信县" postcode="251800" index="1242"/>
+			<area name="五棣县" postcode="251900" index="1243"/>
+		</city>
+		<city name="荷泽" postcode="274000" index="174">
+			<area name="荷泽市" postcode="274000" index="1244"/>
+			<area name="鄄城县" postcode="274600" index="1245"/>
+			<area name="单县" postcode="274300" index="1246"/>
+			<area name="郓城县" postcode="274700" index="1247"/>
+			<area name="曹县" postcode="274400" index="1248"/>
+			<area name="定陶县" postcode="274100" index="1249"/>
+			<area name="巨野县" postcode="274900" index="1250"/>
+			<area name="成武县" postcode="274200" index="1251"/>
+			<area name="东明县" postcode="274500" index="1252"/>
+		</city>
+	</province>
+	<province name="浙江" postcode="zhejiang" index="19">
+		<city name="杭州" postcode="310000" index="175">
+			<area name="杭州市" postcode="310000" index="1253"/>
+			<area name="余杭区" postcode="311100" index="1254"/>
+			<area name="萧山区" postcode="311200" index="1255"/>
+			<area name="临安市" postcode="311300" index="1256"/>
+			<area name="富阳市" postcode="311400" index="1257"/>
+			<area name="桐庐县" postcode="311500" index="1258"/>
+			<area name="建德市" postcode="311600" index="1259"/>
+			<area name="淳安县" postcode="311700" index="1260"/>
+			<area name="临安县" postcode="311300" index="1261"/>
+		</city>
+		<city name="宁波" postcode="315000" index="176">
+			<area name="宁波市" postcode="315000" index="1262"/>
+			<area name="鄞州区" postcode="315100" index="1263"/>
+			<area name="慈溪市" postcode="315300" index="1264"/>
+			<area name="余姚市" postcode="315400" index="1265"/>
+			<area name="奉化市" postcode="315500" index="1266"/>
+			<area name="宁海县" postcode="315600" index="1267"/>
+			<area name="象山县" postcode="315700" index="1268"/>
+		</city>
+		<city name="温州" postcode="325000" index="177">
+			<area name="温州市" postcode="325000" index="1269"/>
+			<area name="瑞安市" postcode="325200" index="1270"/>
+			<area name="乐清市" postcode="325600" index="1271"/>
+			<area name="永嘉县" postcode="325100" index="1272"/>
+			<area name="文成县" postcode="325300" index="1273"/>
+			<area name="平阳县" postcode="325400" index="1274"/>
+			<area name="泰顺县" postcode="325500" index="1275"/>
+			<area name="洞头县" postcode="325700" index="1276"/>
+			<area name="苍南县" postcode="325800" index="1277"/>
+		</city>
+		<city name="嘉兴" postcode="314000" index="178">
+			<area name="嘉兴市" postcode="314000" index="1278"/>
+			<area name="海宁市" postcode="314400" index="1279"/>
+			<area name="平湖市" postcode="314200" index="1280"/>
+			<area name="桐乡市" postcode="314500" index="1281"/>
+			<area name="嘉善县" postcode="314100" index="1282"/>
+			<area name="海盐县" postcode="314300" index="1283"/>
+		</city>
+		<city name="湖州" postcode="313000" index="179">
+			<area name="湖州市" postcode="313000" index="1284"/>
+			<area name="长兴县" postcode="313100" index="1285"/>
+			<area name="德清县" postcode="313200" index="1286"/>
+			<area name="安吉县" postcode="313300" index="1287"/>
+		</city>
+		<city name="绍兴" postcode="312000" index="180">
+			<area name="绍兴市" postcode="312000" index="1288"/>
+			<area name="绍兴县" postcode="312000" index="1289"/>
+			<area name="诸暨市" postcode="311800" index="1290"/>
+			<area name="上虞市" postcode="312300" index="1291"/>
+			<area name="嵊州市" postcode="312400" index="1292"/>
+			<area name="新昌县" postcode="312500" index="1293"/>
+		</city>
+		<city name="金华" postcode="321000" index="181">
+			<area name="金华市" postcode="321000" index="1294"/>
+			<area name="金东区" postcode="321002" index="1295"/>
+			<area name="婺城区" postcode="321051" index="1296"/>
+			<area name="兰溪市" postcode="321100" index="1297"/>
+			<area name="义乌市" postcode="322000" index="1298"/>
+			<area name="东阳市" postcode="322100" index="1299"/>
+			<area name="永康市" postcode="321300" index="1300"/>
+			<area name="武义县" postcode="321200" index="1301"/>
+			<area name="浦江县" postcode="322200" index="1302"/>
+			<area name="磐安县" postcode="322300" index="1303"/>
+		</city>
+		<city name="衢州" postcode="324000" index="182">
+			<area name="衢州市" postcode="324000" index="1304"/>
+			<area name="衢江区" postcode="324000" index="1305"/>
+			<area name="江山市" postcode="324100" index="1306"/>
+			<area name="常山县" postcode="324200" index="1307"/>
+			<area name="开化县" postcode="324300" index="1308"/>
+			<area name="龙游县" postcode="324400" index="1309"/>
+		</city>
+		<city name="丽水" postcode="323000" index="183">
+			<area name="丽水市" postcode="323000" index="1310"/>
+			<area name="龙泉市" postcode="323700" index="1311"/>
+			<area name="缙运县" postcode="321400" index="1312"/>
+			<area name="遂昌县" postcode="323300" index="1313"/>
+			<area name="松阳县" postcode="323400" index="1314"/>
+			<area name="景宁畲族自治县" postcode="323500" index="1315"/>
+			<area name="云和县" postcode="323600" index="1316"/>
+			<area name="庆元县" postcode="323800" index="1317"/>
+			<area name="青田县" postcode="323900" index="1318"/>
+		</city>
+		<city name="台州" postcode="318000" index="184">
+			<area name="台州市" postcode="318000" index="1319"/>
+			<area name="临海市" postcode="317000" index="1320"/>
+			<area name="温岭市" postcode="317500" index="1321"/>
+			<area name="玉环县" postcode="317600" index="1322"/>
+			<area name="三门县" postcode="317100" index="1323"/>
+			<area name="天台县" postcode="317200" index="1324"/>
+			<area name="仙居县" postcode="317300" index="1325"/>
+		</city>
+		<city name="舟山" postcode="316000" index="185">
+			<area name="舟山市" postcode="316000" index="1326"/>
+			<area name="普陀区" postcode="316100" index="1327"/>
+			<area name="岱山县" postcode="316200" index="1328"/>
+			<area name="嵊泗县" postcode="202400" index="1329"/>
+		</city>
+	</province>
+	<province name="江西" postcode="nanchang" index="20">
+		<city name="南昌" postcode="330000" index="186">
+			<area name="南昌市" postcode="330000" index="1330"/>
+			<area name="新建县" postcode="330100" index="1331"/>
+			<area name="南昌县" postcode="330200" index="1332"/>
+			<area name="进贤县" postcode="331700" index="1333"/>
+			<area name="安义县" postcode="330500" index="1334"/>
+		</city>
+		<city name="景德镇" postcode="333000" index="187">
+			<area name="景德镇市" postcode="333000" index="1335"/>
+			<area name="乐平市" postcode="333300" index="1336"/>
+			<area name="浮梁县" postcode="333400" index="1337"/>
+		</city>
+		<city name="萍乡" postcode="337000" index="188">
+			<area name="萍乡市" postcode="337000" index="1338"/>
+			<area name="湘东区" postcode="337032" index="1339"/>
+			<area name="莲花县" postcode="337100" index="1340"/>
+			<area name="上栗县" postcode="337009" index="1341"/>
+			<area name="芦溪县" postcode="337200" index="1342"/>
+		</city>
+		<city name="新余" postcode="338000" index="189">
+			<area name="新余市" postcode="338000" index="1343"/>
+			<area name="分宜县" postcode="336600" index="1344"/>
+		</city>
+		<city name="九江" postcode="332000" index="190">
+			<area name="九江市" postcode="332000" index="1345"/>
+			<area name="九江县" postcode="332100" index="1346"/>
+			<area name="瑞昌市" postcode="332200" index="1347"/>
+			<area name="星子县" postcode="332800" index="1348"/>
+			<area name="武宁县" postcode="332300" index="1349"/>
+			<area name="彭泽县" postcode="332700" index="1350"/>
+			<area name="永修县" postcode="330300" index="1351"/>
+			<area name="修水县" postcode="332400" index="1352"/>
+			<area name="湖口县" postcode="332500" index="1353"/>
+			<area name="德安县" postcode="330400" index="1354"/>
+			<area name="都昌县" postcode="332600" index="1355"/>
+		</city>
+		<city name="鹰潭" postcode="335000" index="191">
+			<area name="鹰潭市" postcode="335000" index="1356"/>
+			<area name="余江县" postcode="335200" index="1357"/>
+			<area name="贵溪市" postcode="335400" index="1358"/>
+		</city>
+		<city name="上饶" postcode="334000" index="192">
+			<area name="上饶市" postcode="334000" index="1359"/>
+			<area name="上饶县" postcode="334100" index="1360"/>
+			<area name="德兴市" postcode="334200" index="1361"/>
+			<area name="广丰县" postcode="334600" index="1362"/>
+			<area name="波阳县" postcode="333100" index="1363"/>
+			<area name="婺源县" postcode="333200" index="1364"/>
+			<area name="余干县" postcode="335100" index="1365"/>
+			<area name="横峰县" postcode="334300" index="1366"/>
+			<area name="弋阳县" postcode="334400" index="1367"/>
+			<area name="铅山县" postcode="334500" index="1368"/>
+			<area name="玉山县" postcode="334700" index="1369"/>
+			<area name="万年县" postcode="335500" index="1370"/>
+		</city>
+		<city name="宜春" postcode="336000" index="193">
+			<area name="宜春市" postcode="336000" index="1371"/>
+			<area name="丰城市" postcode="331100" index="1372"/>
+			<area name="樟树市" postcode="331200" index="1373"/>
+			<area name="高安市" postcode="330800" index="1374"/>
+			<area name="铜鼓县" postcode="336200" index="1375"/>
+			<area name="靖安县" postcode="330600" index="1376"/>
+			<area name="宜丰县" postcode="336300" index="1377"/>
+			<area name="奉新县" postcode="330700" index="1378"/>
+			<area name="万载县" postcode="336100" index="1379"/>
+			<area name="上高县" postcode="336400" index="1380"/>
+		</city>
+		<city name="抚州" postcode="344000" index="194">
+			<area name="抚州市" postcode="344000" index="1381"/>
+			<area name="临川区" postcode="344100" index="1382"/>
+			<area name="南丰县" postcode="344500" index="1383"/>
+			<area name="乐安县" postcode="344300" index="1384"/>
+			<area name="金溪县" postcode="344800" index="1385"/>
+			<area name="南城县" postcode="344700" index="1386"/>
+			<area name="东乡县" postcode="331800" index="1387"/>
+			<area name="资溪县" postcode="335300" index="1388"/>
+			<area name="宜黄县" postcode="344400" index="1389"/>
+			<area name="崇仁县" postcode="344200" index="1390"/>
+			<area name="黎川县" postcode="344600" index="1391"/>
+			<area name="广昌县" postcode="344900" index="1392"/>
+		</city>
+		<city name="吉安" postcode="343000" index="195">
+			<area name="吉安市" postcode="343000" index="1393"/>
+			<area name="井冈山市" postcode="343600" index="1394"/>
+			<area name="吉安县" postcode="343100" index="1395"/>
+			<area name="永丰县" postcode="331500" index="1396"/>
+			<area name="永新县" postcode="343400" index="1397"/>
+			<area name="新干县" postcode="331300" index="1398"/>
+			<area name="泰和县" postcode="343700" index="1399"/>
+			<area name="峡江县" postcode="331400" index="1400"/>
+			<area name="遂川县" postcode="343900" index="1401"/>
+			<area name="安福县" postcode="343200" index="1402"/>
+			<area name="吉水县" postcode="331600" index="1403"/>
+			<area name="万安县" postcode="343800" index="1404"/>
+		</city>
+		<city name="赣州" postcode="341000" index="196">
+			<area name="赣州市" postcode="341000" index="1405"/>
+			<area name="南康市" postcode="341400" index="1406"/>
+			<area name="瑞金市" postcode="342500" index="1407"/>
+			<area name="石城县" postcode="342700" index="1408"/>
+			<area name="安远县" postcode="342100" index="1409"/>
+			<area name="赣县" postcode="341100" index="1410"/>
+			<area name="宁都县" postcode="342800" index="1411"/>
+			<area name="寻乌县" postcode="342200" index="1412"/>
+			<area name="兴国县" postcode="342400" index="1413"/>
+			<area name="定南县" postcode="341900" index="1414"/>
+			<area name="上犹县" postcode="341200" index="1415"/>
+			<area name="于都县" postcode="342300" index="1416"/>
+			<area name="龙南县" postcode="341700" index="1417"/>
+			<area name="崇义县" postcode="341300" index="1418"/>
+			<area name="大余县" postcode="341500" index="1419"/>
+			<area name="信丰县" postcode="341600" index="1420"/>
+			<area name="全南县" postcode="341800" index="1421"/>
+			<area name="会昌县" postcode="342600" index="1422"/>
+		</city>
+	</province>
+	<province name="河南" postcode="henan" index="21">
+		<city name="郑州" postcode="450000" index="197">
+			<area name="郑州市" postcode="450000" index="1423"/>
+			<area name="巩义市" postcode="451200" index="1424"/>
+			<area name="新郑市" postcode="451150" index="1425"/>
+			<area name="新密市" postcode="452300" index="1426"/>
+			<area name="登封市" postcode="452470" index="1427"/>
+			<area name="荥阳市" postcode="450100" index="1428"/>
+			<area name="中牟县" postcode="451450" index="1429"/>
+		</city>
+		<city name="开封" postcode="475000" index="198">
+			<area name="开封市" postcode="475000" index="1430"/>
+			<area name="开封县" postcode="475100" index="1431"/>
+			<area name="杞县" postcode="475200" index="1432"/>
+			<area name="兰考县" postcode="475300" index="1433"/>
+			<area name="太康县" postcode="475400" index="1434"/>
+			<area name="尉氏县" postcode="475500" index="1435"/>
+		</city>
+		<city name="洛阳" postcode="471000" index="199">
+			<area name="洛阳市" postcode="471000" index="1436"/>
+			<area name="偃师市" postcode="471900" index="1437"/>
+			<area name="孟津县" postcode="471100" index="1438"/>
+			<area name="汝阳县" postcode="471200" index="1439"/>
+			<area name="伊川县" postcode="471300" index="1440"/>
+			<area name="洛宁县" postcode="471700" index="1441"/>
+			<area name="嵩县" postcode="471400" index="1442"/>
+			<area name="宜阳县" postcode="471600" index="1443"/>
+			<area name="栾川县" postcode="471500" index="1444"/>
+			<area name="新安县" postcode="471800" index="1445"/>
+		</city>
+		<city name="平顶山" postcode="467000" index="200">
+			<area name="平顶山市" postcode="467000" index="1446"/>
+			<area name="汝州市" postcode="467500" index="1447"/>
+			<area name="舜钢市" postcode="462500" index="1448"/>
+			<area name="郏县" postcode="467100" index="1449"/>
+			<area name="叶县" postcode="467200" index="1450"/>
+			<area name="鲁山县" postcode="467300" index="1451"/>
+			<area name="宝丰县" postcode="467400" index="1452"/>
+		</city>
+		<city name="焦作" postcode="454000" index="201">
+			<area name="焦作市" postcode="454000" index="1453"/>
+			<area name="沁阳市" postcode="454550" index="1454"/>
+			<area name="孟州市" postcode="454750" index="1455"/>
+			<area name="修武县" postcode="454350" index="1456"/>
+			<area name="温县" postcode="454850" index="1457"/>
+			<area name="武陟县" postcode="454950" index="1458"/>
+			<area name="博爱县" postcode="454450" index="1459"/>
+		</city>
+		<city name="鹤壁" postcode="458000" index="202">
+			<area name="鹤壁市" postcode="458000" index="1460"/>
+			<area name="浚县" postcode="456250" index="1461"/>
+			<area name="淇县" postcode="456750" index="1462"/>
+		</city>
+		<city name="新乡" postcode="453000" index="203">
+			<area name="新乡市" postcode="453000" index="1463"/>
+			<area name="卫辉市" postcode="453100" index="1464"/>
+			<area name="辉县市" postcode="453600" index="1465"/>
+			<area name="新乡县" postcode="453700" index="1466"/>
+			<area name="获嘉县" postcode="453800" index="1467"/>
+			<area name="原阳县" postcode="453500" index="1468"/>
+			<area name="长垣县" postcode="453400" index="1469"/>
+			<area name="延津县" postcode="453200" index="1470"/>
+			<area name="封丘县" postcode="453300" index="1471"/>
+		</city>
+		<city name="安阳" postcode="455000" index="204">
+			<area name="安阳市" postcode="455000" index="1472"/>
+			<area name="林州市" postcode="456500" index="1473"/>
+			<area name="安阳县" postcode="455100" index="1474"/>
+			<area name="滑县" postcode="456400" index="1475"/>
+			<area name="汤阴县" postcode="456150" index="1476"/>
+			<area name="内黄县" postcode="456300" index="1477"/>
+		</city>
+		<city name="濮阳" postcode="457000" index="205">
+			<area name="濮阳市" postcode="457000" index="1478"/>
+			<area name="濮阳县" postcode="457100" index="1479"/>
+			<area name="南乐县" postcode="457400" index="1480"/>
+			<area name="台前县" postcode="457600" index="1481"/>
+			<area name="清丰县" postcode="457300" index="1482"/>
+			<area name="范县" postcode="457500" index="1483"/>
+		</city>
+		<city name="许昌" postcode="461000" index="206">
+			<area name="许昌市" postcode="461000" index="1484"/>
+			<area name="禹州市" postcode="461670" index="1485"/>
+			<area name="长葛市" postcode="461500" index="1486"/>
+			<area name="许昌县" postcode="461100" index="1487"/>
+			<area name="鄢陵县" postcode="461200" index="1488"/>
+			<area name="襄城县" postcode="461700" index="1489"/>
+		</city>
+		<city name="漯河" postcode="462000" index="207">
+			<area name="漯河市" postcode="462000" index="1490"/>
+			<area name="郾城县" postcode="462300" index="1491"/>
+			<area name="舞阳县" postcode="462400" index="1492"/>
+			<area name="临颍县" postcode="462600" index="1493"/>
+		</city>
+		<city name="三门峡" postcode="472000" index="208">
+			<area name="三门峡市" postcode="472000" index="1494"/>
+			<area name="义马市" postcode="472300" index="1495"/>
+			<area name="灵宝市" postcode="472500" index="1496"/>
+			<area name="陕县" postcode="472100" index="1497"/>
+			<area name="卢氏县" postcode="472200" index="1498"/>
+			<area name="渑池县" postcode="472400" index="1499"/>
+		</city>
+		<city name="南阳" postcode="473000" index="209">
+			<area name="南阳市" postcode="473000" index="1500"/>
+			<area name="邓州市" postcode="474150" index="1501"/>
+			<area name="桐柏县" postcode="474750" index="1502"/>
+			<area name="方城县" postcode="473200" index="1503"/>
+			<area name="淅川县" postcode="474450" index="1504"/>
+			<area name="镇平县" postcode="474250" index="1505"/>
+			<area name="唐河县" postcode="473400" index="1506"/>
+			<area name="南召县" postcode="474650" index="1507"/>
+			<area name="内乡县" postcode="474350" index="1508"/>
+			<area name="新野县" postcode="473500" index="1509"/>
+			<area name="社旗县" postcode="473300" index="1510"/>
+			<area name="西峡县" postcode="474550" index="1511"/>
+		</city>
+		<city name="商丘" postcode="476000" index="210">
+			<area name="商丘市" postcode="476000" index="1512"/>
+			<area name="永城市" postcode="476600" index="1513"/>
+			<area name="宁陵县" postcode="476700" index="1514"/>
+			<area name="虞城县" postcode="476300" index="1515"/>
+			<area name="民权县" postcode="476800" index="1516"/>
+			<area name="夏邑县" postcode="476400" index="1517"/>
+			<area name="柘城县" postcode="476200" index="1518"/>
+			<area name="睢县" postcode="476900" index="1519"/>
+			<area name="济源市" postcode="454650" index="1520"/>
+		</city>
+		<city name="周口" postcode="466000" index="211">
+			<area name="周口市" postcode="466000" index="1521"/>
+			<area name="项城市" postcode="466200" index="1522"/>
+			<area name="商水县" postcode="466100" index="1523"/>
+			<area name="淮阳县" postcode="466700" index="1524"/>
+			<area name="太康县" postcode="461400" index="1525"/>
+			<area name="鹿邑县" postcode="477200" index="1526"/>
+			<area name="西华县" postcode="466600" index="1527"/>
+			<area name="扶沟县" postcode="461300" index="1528"/>
+			<area name="沈丘县" postcode="466300" index="1529"/>
+			<area name="郸城县" postcode="477150" index="1530"/>
+		</city>
+		<city name="驻马店" postcode="463000" index="212">
+			<area name="驻马店市" postcode="463000" index="1531"/>
+			<area name="确山县" postcode="463200" index="1532"/>
+			<area name="新蔡县" postcode="463500" index="1533"/>
+			<area name="上蔡县" postcode="463800" index="1534"/>
+			<area name="泌阳县" postcode="463700" index="1535"/>
+			<area name="西平县" postcode="463900" index="1536"/>
+			<area name="遂平县" postcode="463100" index="1537"/>
+			<area name="汝南县" postcode="463300" index="1538"/>
+			<area name="平舆县" postcode="463400" index="1539"/>
+			<area name="正阳县" postcode="463600" index="1540"/>
+		</city>
+		<city name="信阳" postcode="464000" index="213">
+			<area name="信阳市" postcode="464000" index="1541"/>
+			<area name="信阳县" postcode="464100" index="1542"/>
+			<area name="潢川县" postcode="465150" index="1543"/>
+			<area name="淮滨县" postcode="464400" index="1544"/>
+			<area name="息县" postcode="464300" index="1545"/>
+			<area name="新县" postcode="465550" index="1546"/>
+			<area name="商城县" postcode="465350" index="1547"/>
+			<area name="固始县" postcode="465200" index="1548"/>
+			<area name="罗山县" postcode="464200" index="1549"/>
+			<area name="光山县" postcode="465450" index="1550"/>
+		</city>
+	</province>
+	<province name="广西" postcode="guangxi" index="22">
+		<city name="南宁" postcode="530000" index="214">
+			<area name="南宁市" postcode="530000" index="1551"/>
+			<area name="武鸣县" postcode="530100" index="1552"/>
+			<area name="邕宁县" postcode="530200" index="1553"/>
+		</city>
+		<city name="桂林" postcode="541000" index="215">
+			<area name="桂林市" postcode="541000" index="1554"/>
+			<area name="阳朔县" postcode="541900" index="1555"/>
+			<area name="临桂县" postcode="541100" index="1556"/>
+			<area name="灵川县" postcode="541200" index="1557"/>
+			<area name="全州县" postcode="541500" index="1558"/>
+			<area name="平乐县" postcode="542400" index="1559"/>
+			<area name="兴安县" postcode="541300" index="1560"/>
+			<area name="灌阳县" postcode="541600" index="1561"/>
+			<area name="荔浦县" postcode="546600" index="1562"/>
+			<area name="资源县" postcode="541400" index="1563"/>
+			<area name="永福县" postcode="541800" index="1564"/>
+			<area name="富川瑶族自治县" postcode="542700" index="1565"/>
+			<area name="龙胜各族自治县" postcode="541700" index="1566"/>
+		</city>
+		<city name="梧州" postcode="543000" index="216">
+			<area name="梧州市" postcode="543000" index="1567"/>
+			<area name="岑溪市" postcode="543200" index="1568"/>
+			<area name="苍梧县" postcode="543100" index="1569"/>
+			<area name="藤县" postcode="543300" index="1570"/>
+			<area name="蒙山县" postcode="546700" index="1571"/>
+		</city>
+		<city name="北海" postcode="536000" index="217">
+			<area name="北海市" postcode="536000" index="1572"/>
+			<area name="合浦县" postcode="536100" index="1573"/>
+		</city>
+		<city name="防城港" postcode="538000" index="218">
+			<area name="防城港市" postcode="538000" index="1574"/>
+			<area name="东兴市" postcode="538100" index="1575"/>
+			<area name="上思县" postcode="535500" index="1576"/>
+		</city>
+		<city name="钦州" postcode="535000" index="219">
+			<area name="钦州市" postcode="535000" index="1577"/>
+			<area name="浦北县" postcode="535300" index="1578"/>
+			<area name="灵山县" postcode="535400" index="1579"/>
+		</city>
+		<city name="贵港" postcode="537100" index="220">
+			<area name="贵港市" postcode="537100" index="1580"/>
+			<area name="桂平市" postcode="537200" index="1581"/>
+			<area name="平南市" postcode="537300" index="1582"/>
+		</city>
+		<city name="玉林" postcode="537000" index="221">
+			<area name="玉林市" postcode="537000" index="1583"/>
+			<area name="北流市" postcode="537400" index="1584"/>
+			<area name="容县" postcode="537500" index="1585"/>
+			<area name="博白县" postcode="537600" index="1586"/>
+			<area name="陆川县" postcode="537700" index="1587"/>
+			<area name="兴业县" postcode="537800" index="1588"/>
+		</city>
+		<city name="南宁" postcode="532600" index="222">
+			<area name="南宁市" postcode="530000" index="1589"/>
+			<area name="凭祥市" postcode="532600" index="1590"/>
+			<area name="马山县" postcode="530600" index="1591"/>
+			<area name="扶绥县" postcode="532100" index="1592"/>
+			<area name="崇左县" postcode="532200" index="1593"/>
+			<area name="大新县" postcode="532300" index="1594"/>
+			<area name="上林县" postcode="530500" index="1595"/>
+			<area name="天等县" postcode="532800" index="1596"/>
+			<area name="宾阳县" postcode="530400" index="1597"/>
+			<area name="宁明县" postcode="532500" index="1598"/>
+			<area name="隆安县" postcode="532700" index="1599"/>
+			<area name="横县" postcode="530300" index="1600"/>
+			<area name="龙州县" postcode="532400" index="1601"/>
+			<area name="都安瑶族自治县" postcode="530700" index="1602"/>
+			<area name="大化瑶族自治县" postcode="530800" index="1603"/>
+		</city>
+		<city name="柳州" postcode="545000" index="223">
+			<area name="柳州市" postcode="545000" index="1604"/>
+			<area name="柳江县" postcode="545100" index="1605"/>
+			<area name="柳城县" postcode="545200" index="1606"/>
+			<area name="合山市" postcode="546500" index="1607"/>
+			<area name="融安县" postcode="545400" index="1608"/>
+			<area name="鹿寨县" postcode="545600" index="1609"/>
+			<area name="象州县" postcode="545800" index="1610"/>
+			<area name="来宾县" postcode="546100" index="1611"/>
+			<area name="武宣县" postcode="545900" index="1612"/>
+			<area name="忻城县" postcode="546200" index="1613"/>
+			<area name="融水苗族自治县" postcode="545300" index="1614"/>
+			<area name="三江侗族自治县" postcode="545500" index="1615"/>
+			<area name="金秀瑶族自治县" postcode="545700" index="1616"/>
+			<area name="罗城仫佬自治县" postcode="546400" index="1617"/>
+		</city>
+		<city name="贺州" postcode="542800" index="224">
+			<area name="贺州市" postcode="542800" index="1618"/>
+			<area name="钟山县" postcode="542600" index="1619"/>
+			<area name="昭平县" postcode="546800" index="1620"/>
+			<area name="富川瑶族自治县" postcode="542700" index="1621"/>
+		</city>
+		<city name="百色" postcode="533000" index="225">
+			<area name="百色市" postcode="533000" index="1622"/>
+			<area name="凌云县" postcode="533100" index="1623"/>
+			<area name="平果县" postcode="531400" index="1624"/>
+			<area name="乐业县" postcode="533200" index="1625"/>
+			<area name="田林县" postcode="533300" index="1626"/>
+			<area name="西林县" postcode="533500" index="1627"/>
+			<area name="田阳县" postcode="533600" index="1628"/>
+			<area name="德保县" postcode="533700" index="1629"/>
+			<area name="靖西县" postcode="533800" index="1630"/>
+			<area name="田东县" postcode="531500" index="1631"/>
+			<area name="那坡县" postcode="533900" index="1632"/>
+			<area name="隆林各族自治县" postcode="533400" index="1633"/>
+		</city>
+		<city name="河池" postcode="547000" index="226">
+			<area name="河池市" postcode="547000" index="1634"/>
+			<area name="宜州市" postcode="546300" index="1635"/>
+			<area name="天峨县" postcode="547300" index="1636"/>
+			<area name="凤山县" postcode="547600" index="1637"/>
+			<area name="南丹县" postcode="547200" index="1638"/>
+			<area name="东兰县" postcode="547400" index="1639"/>
+			<area name="巴马瑶族自治县" postcode="547500" index="1640"/>
+			<area name="环江毛南族自治县" postcode="547100" index="1641"/>
+		</city>
+	</province>
+	<province name="贵州" postcode="" index="23">
+		<city name="贵阳" postcode="550000" index="227">
+			<area name="贵阳市" postcode="550000" index="1642"/>
+			<area name="清镇市" postcode="551400" index="1643"/>
+			<area name="开阳县" postcode="550300" index="1644"/>
+			<area name="修文县" postcode="550200" index="1645"/>
+			<area name="息峰县" postcode="551100" index="1646"/>
+		</city>
+		<city name="六盘水" postcode="553000" index="228">
+			<area name="六盘水市" postcode="553000" index="1647"/>
+			<area name="盘县特区" postcode="553500" index="1648"/>
+			<area name="六枝特区" postcode="553400" index="1649"/>
+			<area name="水城县" postcode="553600" index="1650"/>
+		</city>
+		<city name="遵义" postcode="563000" index="229">
+			<area name="遵义市" postcode="563000" index="1651"/>
+			<area name="赤水市" postcode="564700" index="1652"/>
+			<area name="仁怀市" postcode="564500" index="1653"/>
+			<area name="遵义县" postcode="563100" index="1654"/>
+			<area name="桐梓县" postcode="563200" index="1655"/>
+			<area name="绥阳县" postcode="563300" index="1656"/>
+			<area name="习水县" postcode="564600" index="1657"/>
+			<area name="凤冈县" postcode="564200" index="1658"/>
+			<area name="正安县" postcode="563400" index="1659"/>
+			<area name="湄潭县" postcode="564100" index="1660"/>
+			<area name="余庆县" postcode="564400" index="1661"/>
+			<area name="道真仡佬族苗族自治县" postcode="563500" index="1662"/>
+			<area name="务川仡佬族苗族自治县" postcode="564300" index="1663"/>
+		</city>
+		<city name="铜仁" postcode="554300" index="230">
+			<area name="铜仁市" postcode="554300" index="1664"/>
+			<area name="德江县" postcode="565200" index="1665"/>
+			<area name="江口县" postcode="554400" index="1666"/>
+			<area name="思南县" postcode="565100" index="1667"/>
+			<area name="万山特区" postcode="554200" index="1668"/>
+			<area name="石阡县" postcode="555100" index="1669"/>
+			<area name="玉屏侗族自治县" postcode="554000" index="1670"/>
+			<area name="松桃苗族自治县" postcode="554100" index="1671"/>
+			<area name="印江土家族苗族自治县" postcode="555200" index="1672"/>
+			<area name="沿河土家族自治县" postcode="565300" index="1673"/>
+		</city>
+		<city name="毕节" postcode="551700" index="231">
+			<area name="毕节市" postcode="551700" index="1674"/>
+			<area name="黔西县" postcode="551500" index="1675"/>
+			<area name="大方县" postcode="551600" index="1676"/>
+			<area name="织金县" postcode="552100" index="1677"/>
+			<area name="金沙县" postcode="551800" index="1678"/>
+			<area name="赫章县" postcode="553200" index="1679"/>
+			<area name="纳雍县" postcode="553300" index="1680"/>
+			<area name="威宁彝族回族苗族自治县" postcode="553100" index="1681"/>
+		</city>
+		<city name="安顺" postcode="561000" index="232">
+			<area name="安顺市" postcode="561000" index="1682"/>
+			<area name="普定县" postcode="562100" index="1683"/>
+			<area name="平坝县" postcode="561100" index="1684"/>
+			<area name="镇宁布依族苗族自治县" postcode="561200" index="1685"/>
+			<area name="关岭布依族苗族自治县" postcode="561300" index="1686"/>
+			<area name="紫云苗族依族自治县" postcode="550800" index="1687"/>
+		</city>
+		<city name="黔西南布依族苗族" postcode="562400" index="233">
+			<area name="兴义市" postcode="562400" index="1688"/>
+			<area name="望谟县" postcode="552300" index="1689"/>
+			<area name="兴仁县" postcode="562300" index="1690"/>
+			<area name="普安县" postcode="561500" index="1691"/>
+			<area name="册亨县" postcode="552200" index="1692"/>
+			<area name="晴隆县" postcode="561400" index="1693"/>
+			<area name="贞丰县" postcode="562200" index="1694"/>
+			<area name="安龙县" postcode="552400" index="1695"/>
+		</city>
+		<city name="黔东南苗族侗族" postcode="556000" index="234">
+			<area name="凯里市" postcode="556000" index="1696"/>
+			<area name="施秉县" postcode="556200" index="1697"/>
+			<area name="从江县" postcode="557400" index="1698"/>
+			<area name="锦屏县" postcode="556700" index="1699"/>
+			<area name="镇远县" postcode="557700" index="1700"/>
+			<area name="麻江县" postcode="557600" index="1701"/>
+			<area name="台江县" postcode="556300" index="1702"/>
+			<area name="天柱县" postcode="556600" index="1703"/>
+			<area name="黄平县" postcode="556100" index="1704"/>
+			<area name="榕江县" postcode="557200" index="1705"/>
+			<area name="剑河县" postcode="556400" index="1706"/>
+			<area name="三穗县" postcode="556500" index="1707"/>
+			<area name="雷山县" postcode="557100" index="1708"/>
+			<area name="黎平县" postcode="557300" index="1709"/>
+			<area name="岑巩县" postcode="557800" index="1710"/>
+			<area name="单寨县" postcode="557500" index="1711"/>
+		</city>
+		<city name="黔南布依族苗族" postcode="558000" index="235">
+			<area name="都匀市" postcode="558000" index="1712"/>
+			<area name="福泉市" postcode="550500" index="1713"/>
+			<area name="贵定县" postcode="551300" index="1714"/>
+			<area name="惠水县" postcode="550600" index="1715"/>
+			<area name="罗甸县" postcode="550100" index="1716"/>
+			<area name="瓮安县" postcode="550400" index="1717"/>
+			<area name="荔波县" postcode="558400" index="1718"/>
+			<area name="龙里县" postcode="551200" index="1719"/>
+			<area name="平塘县" postcode="558300" index="1720"/>
+			<area name="长顺县" postcode="550700" index="1721"/>
+			<area name="独山县" postcode="558200" index="1722"/>
+			<area name="三都水族自治县" postcode="558100" index="1723"/>
+		</city>
+	</province>
+	<province name="四川" postcode="" index="24">
+		<city name="成都" postcode="610000" index="236">
+			<area name="成都市" postcode="610000" index="1724"/>
+			<area name="龙泉驿区" postcode="610100" index="1725"/>
+			<area name="青白江区" postcode="610300" index="1726"/>
+			<area name="都江堰市" postcode="611830" index="1727"/>
+			<area name="彭州市" postcode="611930" index="1728"/>
+			<area name="邛崃市" postcode="611530" index="1729"/>
+			<area name="崇州市" postcode="611230" index="1730"/>
+			<area name="金堂县" postcode="610400" index="1731"/>
+			<area name="温江县" postcode="611130" index="1732"/>
+			<area name="陴县" postcode="611730" index="1733"/>
+			<area name="新津县" postcode="611430" index="1734"/>
+			<area name="双流县" postcode="610200" index="1735"/>
+			<area name="蒲江县" postcode="611630" index="1736"/>
+			<area name="大邑县" postcode="611330" index="1737"/>
+		</city>
+		<city name="自贡" postcode="643000" index="237">
+			<area name="自贡市" postcode="643000" index="1738"/>
+			<area name="荣县" postcode="643100" index="1739"/>
+			<area name="富顺县" postcode="643200" index="1740"/>
+		</city>
+		<city name="攀枝花" postcode="617000" index="238">
+			<area name="攀枝花市" postcode="617000" index="1741"/>
+			<area name="米易县" postcode="617200" index="1742"/>
+			<area name="盐边县" postcode="617100" index="1743"/>
+		</city>
+		<city name="泸州" postcode="646000" index="239">
+			<area name="泸州市" postcode="646000" index="1744"/>
+			<area name="泸县" postcode="646100" index="1745"/>
+			<area name="合江县" postcode="646200" index="1746"/>
+			<area name="叙永县" postcode="646400" index="1747"/>
+			<area name="古蔺县" postcode="646500" index="1748"/>
+		</city>
+		<city name="德阳" postcode="618000" index="240">
+			<area name="德阳市" postcode="618000" index="1749"/>
+			<area name="广汉市" postcode="618300" index="1750"/>
+			<area name="什邡县" postcode="618400" index="1751"/>
+			<area name="棉竹市" postcode="618200" index="1752"/>
+			<area name="罗江市" postcode="618500" index="1753"/>
+			<area name="中江市" postcode="618100" index="1754"/>
+		</city>
+		<city name="绵阳" postcode="621000" index="241">
+			<area name="绵阳市" postcode="621000" index="1755"/>
+			<area name="江油市" postcode="621700" index="1756"/>
+			<area name="盐亭县" postcode="621600" index="1757"/>
+			<area name="三台县" postcode="621100" index="1758"/>
+			<area name="平武县" postcode="621550" index="1759"/>
+			<area name="北川县" postcode="622750" index="1760"/>
+			<area name="安县" postcode="622650" index="1761"/>
+			<area name="梓潼县" postcode="622150" index="1762"/>
+		</city>
+		<city name="广元" postcode="628000" index="242">
+			<area name="广元市" postcode="628000" index="1763"/>
+			<area name="青川县" postcode="628100" index="1764"/>
+			<area name="旺苍县" postcode="628200" index="1765"/>
+			<area name="剑阁县" postcode="628300" index="1766"/>
+			<area name="苍溪县" postcode="628400" index="1767"/>
+		</city>
+		<city name="遂宁" postcode="629000" index="243">
+			<area name="遂宁市" postcode="629000" index="1768"/>
+			<area name="射洪县" postcode="629200" index="1769"/>
+			<area name="蓬溪县" postcode="629100" index="1770"/>
+			<area name="大英县" postcode="629300" index="1771"/>
+		</city>
+		<city name="内江市" postcode="641000" index="244">
+			<area name="内江市" postcode="641000" index="1772"/>
+			<area name="资中县" postcode="641200" index="1773"/>
+			<area name="隆昌县" postcode="642150" index="1774"/>
+			<area name="威远县" postcode="642450" index="1775"/>
+		</city>
+		<city name="乐山市" postcode="614000" index="245">
+			<area name="乐山市" postcode="614000" index="1776"/>
+			<area name="五通桥区" postcode="614800" index="1777"/>
+			<area name="沙湾区" postcode="614900" index="1778"/>
+			<area name="金口河区" postcode="614700" index="1779"/>
+			<area name="峨眉山市" postcode="614200" index="1780"/>
+			<area name="夹江县" postcode="614100" index="1781"/>
+			<area name="井研县" postcode="613100" index="1782"/>
+			<area name="犍为县" postcode="614400" index="1783"/>
+			<area name="沐川县" postcode="614500" index="1784"/>
+			<area name="峨边彝族自治县" postcode="614300" index="1785"/>
+			<area name="马边彝族自治县" postcode="614600" index="1786"/>
+		</city>
+		<city name="乐山市" postcode="614000" index="246">
+			<area name="宜宾市" postcode="644000" index="1787"/>
+			<area name="宜宾县" postcode="644600" index="1788"/>
+			<area name="南溪县" postcode="644100" index="1789"/>
+			<area name="江安县" postcode="644200" index="1790"/>
+			<area name="长宁县" postcode="644300" index="1791"/>
+			<area name="兴文县" postcode="644400" index="1792"/>
+			<area name="珙县" postcode="644500" index="1793"/>
+			<area name="高县" postcode="645150" index="1794"/>
+			<area name="筠连县" postcode="645250" index="1795"/>
+			<area name="屏山县" postcode="645350" index="1796"/>
+		</city>
+		<city name="广安市" postcode="638000" index="247">
+			<area name="广安市" postcode="638000" index="1797"/>
+			<area name="岳池县" postcode="638300" index="1798"/>
+			<area name="武胜县" postcode="638420" index="1799"/>
+			<area name="邻水县" postcode="638520" index="1800"/>
+			<area name="华蓥市" postcode="638650" index="1801"/>
+		</city>
+		<city name="南充市" postcode="637000" index="248">
+			<area name="南充市" postcode="637000" index="1802"/>
+			<area name="顺庆区" postcode="637500" index="1803"/>
+			<area name="高坪区" postcode="637100" index="1804"/>
+			<area name="嘉陵区" postcode="637900" index="1805"/>
+			<area name="南部县" postcode="637300" index="1806"/>
+			<area name="西充县" postcode="637200" index="1807"/>
+			<area name="仪陇县" postcode="637600" index="1808"/>
+			<area name="蓬安县" postcode="638250" index="1809"/>
+			<area name="阆中市" postcode="637400" index="1810"/>
+			<area name="营山县" postcode="638150" index="1811"/>
+		</city>
+		<city name="达州市" postcode="635000" index="249">
+			<area name="通川区" postcode="635000" index="1812"/>
+			<area name="达县" postcode="635006" index="1813"/>
+			<area name="大竹县" postcode="635100" index="1814"/>
+			<area name="渠县" postcode="635200" index="1815"/>
+			<area name="万源市" postcode="636350" index="1816"/>
+			<area name="宣汉县" postcode="636150" index="1817"/>
+			<area name="开江县" postcode="636250" index="1818"/>
+		</city>
+		<city name="巴中市" postcode="636000" index="250">
+			<area name="巴中市" postcode="636000" index="1819"/>
+			<area name="南江县" postcode="636600" index="1820"/>
+			<area name="平昌县" postcode="636400" index="1821"/>
+			<area name="通江县" postcode="636700" index="1822"/>
+		</city>
+		<city name="雅安" postcode="625000" index="251">
+			<area name="雅安市" postcode="625000" index="1823"/>
+			<area name="芦山县" postcode="625600" index="1824"/>
+			<area name="石棉县" postcode="625400" index="1825"/>
+			<area name="名山县" postcode="625100" index="1826"/>
+			<area name="天全县" postcode="625500" index="1827"/>
+			<area name="荥经县" postcode="625200" index="1828"/>
+			<area name="汉源县" postcode="625300" index="1829"/>
+			<area name="宝兴县" postcode="625700" index="1830"/>
+		</city>
+		<city name="眉山" postcode="620010" index="252">
+			<area name="眉山县" postcode="620010" index="1831"/>
+			<area name="任寿县" postcode="620500" index="1832"/>
+			<area name="彭山县" postcode="620860" index="1833"/>
+			<area name="洪雅县" postcode="620360" index="1834"/>
+			<area name="丹棱县" postcode="620200" index="1835"/>
+			<area name="青神县" postcode="620460" index="1836"/>
+		</city>
+		<city name="资阳" postcode="641300" index="253">
+			<area name="资阳市" postcode="641300" index="1837"/>
+			<area name="简阳市" postcode="641400" index="1838"/>
+			<area name="安岳县" postcode="642350" index="1839"/>
+			<area name="乐至县" postcode="641500" index="1840"/>
+		</city>
+		<city name="阿坝藏族自治区" postcode="624000" index="254">
+			<area name="马尔康县" postcode="624000" index="1841"/>
+			<area name="九塞沟县" postcode="623400" index="1842"/>
+			<area name="红原县" postcode="624400" index="1843"/>
+			<area name="汶川县" postcode="623000" index="1844"/>
+			<area name="阿坝县" postcode="624600" index="1845"/>
+			<area name="理县" postcode="632100" index="1846"/>
+			<area name="若尔盖县" postcode="624500" index="1847"/>
+			<area name="金川县" postcode="624100" index="1848"/>
+			<area name="小金县" postcode="624200" index="1849"/>
+			<area name="黑水县" postcode="623500" index="1850"/>
+			<area name="松潘县" postcode="623300" index="1851"/>
+			<area name="壤塘县" postcode="624300" index="1852"/>
+			<area name="茂县" postcode="623200" index="1853"/>
+		</city>
+		<city name="甘孜藏族" postcode="626000" index="255">
+			<area name="康定县" postcode="626000" index="1854"/>
+			<area name="泸定县" postcode="626100" index="1855"/>
+			<area name="九龙县" postcode="626200" index="1856"/>
+			<area name="丹巴县" postcode="626300" index="1857"/>
+			<area name="道孚县" postcode="626400" index="1858"/>
+			<area name="炉霍县" postcode="626500" index="1859"/>
+			<area name="色达县" postcode="626600" index="1860"/>
+			<area name="甘孜县" postcode="626700" index="1861"/>
+			<area name="新龙县" postcode="626800" index="1862"/>
+			<area name="白玉县" postcode="627150" index="1863"/>
+			<area name="德格县" postcode="627250" index="1864"/>
+			<area name="石渠县" postcode="627350" index="1865"/>
+			<area name="雅江县" postcode="627450" index="1866"/>
+			<area name="理塘县" postcode="627550" index="1867"/>
+			<area name="巴塘县" postcode="627650" index="1868"/>
+			<area name="稻城县" postcode="627750" index="1869"/>
+			<area name="乡城县" postcode="627850" index="1870"/>
+			<area name="得荣县" postcode="627950" index="1871"/>
+		</city>
+		<city name="凉山彝族" postcode="615000" index="256">
+			<area name="凉山州" postcode="615000" index="1872"/>
+			<area name="西昌市" postcode="615000" index="1873"/>
+			<area name="美姑县" postcode="616450" index="1874"/>
+			<area name="昭觉县" postcode="616150" index="1875"/>
+			<area name="会里县" postcode="615100" index="1876"/>
+			<area name="会东县" postcode="615200" index="1877"/>
+			<area name="普格县" postcode="615300" index="1878"/>
+			<area name="宁南县" postcode="615400" index="1879"/>
+			<area name="德昌县" postcode="615500" index="1880"/>
+			<area name="冕宁县" postcode="615600" index="1881"/>
+			<area name="盐源县" postcode="615700" index="1882"/>
+			<area name="金阳县" postcode="616250" index="1883"/>
+			<area name="布拖县" postcode="616350" index="1884"/>
+			<area name="雷波县" postcode="616550" index="1885"/>
+			<area name="越西县" postcode="616650" index="1886"/>
+			<area name="喜德县" postcode="616750" index="1887"/>
+			<area name="甘洛县" postcode="616850" index="1888"/>
+			<area name="木里藏族自治县" postcode="615800" index="1889"/>
+		</city>
+	</province>
+	<province name="云南" postcode="" index="25">
+		<city name="昆明" postcode="650000" index="257">
+			<area name="昆明市" postcode="650000" index="1890"/>
+			<area name="东川区" postcode="654100" index="1891"/>
+			<area name="安宁市" postcode="650300" index="1892"/>
+			<area name="富民县" postcode="650400" index="1893"/>
+			<area name="嵩明县" postcode="651700" index="1894"/>
+			<area name="呈贡县" postcode="650500" index="1895"/>
+			<area name="晋宁县" postcode="650600" index="1896"/>
+			<area name="宜良县" postcode="652100" index="1897"/>
+			<area name="禄劝彝族苗族自治县" postcode="651500" index="1898"/>
+			<area name="石林彝族自治县" postcode="652200" index="1899"/>
+			<area name="寻甸回族彝族自治县" postcode="655200" index="1900"/>
+		</city>
+		<city name="曲靖" postcode="655000" index="258">
+			<area name="曲靖市" postcode="655000" index="1901"/>
+			<area name="麒麟区" postcode="655000" index="1902"/>
+			<area name="马龙县" postcode="655100" index="1903"/>
+			<area name="宣威县" postcode="655400" index="1904"/>
+			<area name="富源县" postcode="655500" index="1905"/>
+			<area name="会泽县" postcode="654200" index="1906"/>
+			<area name="陆良县" postcode="655600" index="1907"/>
+			<area name="师宗县" postcode="655700" index="1908"/>
+			<area name="罗平县" postcode="655800" index="1909"/>
+			<area name="沾益县" postcode="655331" index="1910"/>
+		</city>
+		<city name="玉溪" postcode="653100" index="259">
+			<area name="玉溪市" postcode="653100" index="1911"/>
+			<area name="红塔区" postcode="653100" index="1912"/>
+			<area name="华宁县" postcode="652800" index="1913"/>
+			<area name="澄江县" postcode="652500" index="1914"/>
+			<area name="易门县" postcode="651100" index="1915"/>
+			<area name="通海县" postcode="652700" index="1916"/>
+			<area name="江川县" postcode="652600" index="1917"/>
+			<area name="元江哈尼族彝族傣族自治县" postcode="653300" index="1918"/>
+			<area name="新平彝族傣族自治县" postcode="653400" index="1919"/>
+			<area name="峨山彝族自治县" postcode="653200" index="1920"/>
+		</city>
+		<city name="昭通" postcode="657000" index="260">
+			<area name="昭通市" postcode="657000" index="1921"/>
+			<area name="邵阳区" postcode="657000" index="1922"/>
+			<area name="鲁甸县" postcode="657100" index="1923"/>
+			<area name="镇雄县" postcode="657200" index="1924"/>
+			<area name="永善县" postcode="657300" index="1925"/>
+			<area name="大关县" postcode="657400" index="1926"/>
+			<area name="盐津县" postcode="657500" index="1927"/>
+			<area name="彝良县" postcode="657600" index="1928"/>
+			<area name="绥江县" postcode="657700" index="1929"/>
+			<area name="水富县" postcode="657800" index="1930"/>
+			<area name="巧家县" postcode="654600" index="1931"/>
+			<area name="威信县" postcode="657900" index="1932"/>
+		</city>
+		<city name="普洱" postcode="665000" index="261">
+			<area name="普洱市" postcode="665000" index="1933"/>
+			<area name="思茅市" postcode="665000" index="1934"/>
+			<area name="普洱哈尼族彝族自治县" postcode="665100" index="1935"/>
+			<area name="景东彝族自治县" postcode="676200" index="1936"/>
+			<area name="镇源彝族哈尼族拉祜族自治县" postcode="666500" index="1937"/>
+			<area name="景谷傣族彝族自治县" postcode="666400" index="1938"/>
+			<area name="墨江哈尼族自治县" postcode="654800" index="1939"/>
+			<area name="澜沧拉祜族自治县" postcode="665600" index="1940"/>
+			<area name="西盟佤族自治县" postcode="665700" index="1941"/>
+			<area name="江城哈尼族彝族自治县" postcode="665900" index="1942"/>
+		</city>
+		<city name="临沧" postcode="677000" index="262">
+			<area name="临沧县" postcode="677000" index="1943"/>
+			<area name="镇康县" postcode="677700" index="1944"/>
+			<area name="凤庆县" postcode="675900" index="1945"/>
+			<area name="云县" postcode="675800" index="1946"/>
+			<area name="永德县" postcode="677600" index="1947"/>
+			<area name="双江拉祜族佤族布朗族傣族自治县" postcode="677300" index="1948"/>
+			<area name="沧源佤族自治县" postcode="677400" index="1949"/>
+			<area name="耿马傣族佤族自治县" postcode="677500" index="1950"/>
+		</city>
+		<city name="保山" postcode="678000" index="263">
+			<area name="隆阳区" postcode="678000" index="1951"/>
+			<area name="施甸县" postcode="678200" index="1952"/>
+			<area name="昌宁县" postcode="678100" index="1953"/>
+			<area name="龙陵县" postcode="678300" index="1954"/>
+			<area name="腾冲县" postcode="679100" index="1955"/>
+		</city>
+		<city name="丽江" postcode="674100" index="264">
+			<area name="丽江纳西族自治县" postcode="674100" index="1956"/>
+			<area name="华坪县" postcode="674800" index="1957"/>
+			<area name="永胜县" postcode="674200" index="1958"/>
+			<area name="宁蒗彝族自治县" postcode="674300" index="1959"/>
+		</city>
+		<city name="文山壮族苗族" postcode="663000" index="265">
+			<area name="文山县" postcode="663000" index="1960"/>
+			<area name="麻栗坡县" postcode="663600" index="1961"/>
+			<area name="砚山县" postcode="663100" index="1962"/>
+			<area name="广南县" postcode="663300" index="1963"/>
+			<area name="马关县" postcode="663700" index="1964"/>
+			<area name="富宁县" postcode="663400" index="1965"/>
+			<area name="西畴县" postcode="663500" index="1966"/>
+			<area name="丘北县" postcode="663200" index="1967"/>
+		</city>
+		<city name="红河哈尼彝族" postcode="661000" index="266">
+			<area name="个旧市" postcode="661000" index="1968"/>
+			<area name="开远市" postcode="661600" index="1969"/>
+			<area name="弥勒县" postcode="652300" index="1970"/>
+			<area name="红河县" postcode="654400" index="1971"/>
+			<area name="绿春县" postcode="662500" index="1972"/>
+			<area name="蒙自县" postcode="661100" index="1973"/>
+			<area name="泸西县" postcode="652400" index="1974"/>
+			<area name="建水县" postcode="654300" index="1975"/>
+			<area name="元阳县" postcode="662400" index="1976"/>
+			<area name="石屏县" postcode="662200" index="1977"/>
+			<area name="金平苗族瑶族傣族自治县" postcode="661500" index="1978"/>
+			<area name="屏边苗族自治县" postcode="661200" index="1979"/>
+			<area name="河口瑶族自治县" postcode="661300" index="1980"/>
+		</city>
+		<city name="西双版纳傣族" postcode="666100" index="267">
+			<area name="景洪县" postcode="666100" index="1981"/>
+			<area name="勐海县" postcode="666200" index="1982"/>
+			<area name="勐腊县" postcode="666300" index="1983"/>
+		</city>
+		<city name="楚雄彝族" postcode="675000" index="268">
+			<area name="楚雄市" postcode="675000" index="1984"/>
+			<area name="元谋县" postcode="651300" index="1985"/>
+			<area name="南华县" postcode="675200" index="1986"/>
+			<area name="牟定县" postcode="675500" index="1987"/>
+			<area name="武定县" postcode="651600" index="1988"/>
+			<area name="大姚县" postcode="675400" index="1989"/>
+			<area name="双柏县" postcode="675100" index="1990"/>
+			<area name="禄丰县" postcode="651200" index="1991"/>
+			<area name="永仁县" postcode="651400" index="1992"/>
+			<area name="姚安县" postcode="675300" index="1993"/>
+		</city>
+		<city name="大理白族" postcode="671000" index="269">
+			<area name="大理市" postcode="671000" index="1994"/>
+			<area name="剑川县" postcode="671300" index="1995"/>
+			<area name="弥渡县" postcode="675600" index="1996"/>
+			<area name="云龙县" postcode="672700" index="1997"/>
+			<area name="洱源县" postcode="671200" index="1998"/>
+			<area name="鹤庆县" postcode="671500" index="1999"/>
+			<area name="宾川县" postcode="671600" index="2000"/>
+			<area name="祥云县" postcode="672100" index="2001"/>
+			<area name="永平县" postcode="672600" index="2002"/>
+			<area name="巍山彝族回族自治县" postcode="672400" index="2003"/>
+			<area name="漾濞彝族自治县" postcode="672500" index="2004"/>
+			<area name="南涧彝族自治县" postcode="675700" index="2005"/>
+		</city>
+		<city name="德宏傣族景颇族" postcode="678400" index="270">
+			<area name="潞西县" postcode="678400" index="2006"/>
+			<area name="瑞丽市" postcode="678600" index="2007"/>
+			<area name="盈江县" postcode="679300" index="2008"/>
+			<area name="梁河县" postcode="679200" index="2009"/>
+			<area name="陇川县" postcode="678700" index="2010"/>
+		</city>
+		<city name="怒江傈僳族" postcode="673100" index="271">
+			<area name="泸水县" postcode="673100" index="2011"/>
+			<area name="福贡县" postcode="673400" index="2012"/>
+			<area name="兰坪白族普米族自治县" postcode="671400" index="2013"/>
+			<area name="贡山独龙族怒族自治县" postcode="673500" index="2014"/>
+		</city>
+		<city name="迪庆藏族" postcode="674400" index="272">
+			<area name="香格里拉县" postcode="674400" index="2015"/>
+			<area name="德钦县" postcode="674500" index="2016"/>
+			<area name="维西傈僳族自治县" postcode="674600" index="2017"/>
+		</city>
+	</province>
+	<province name="陕西" postcode="shanxi" index="26">
+		<city name="西安" postcode="710000" index="273">
+			<area name="西安市" postcode="710000" index="2018"/>
+			<area name="阎良区" postcode="710089" index="2019"/>
+			<area name="临潼区" postcode="710600" index="2020"/>
+			<area name="长安县" postcode="710100" index="2021"/>
+			<area name="高陵县" postcode="710200" index="2022"/>
+			<area name="蓝田县" postcode="710500" index="2023"/>
+			<area name="户县" postcode="710300" index="2024"/>
+			<area name="周至县" postcode="710400" index="2025"/>
+			<area name="杨陵区" postcode="712100" index="2026"/>
+		</city>
+		<city name="铜川" postcode="727000" index="274">
+			<area name="铜川市" postcode="727000" index="2027"/>
+			<area name="耀县" postcode="727100" index="2028"/>
+			<area name="宜君县" postcode="727200" index="2029"/>
+		</city>
+		<city name="宝鸡" postcode="721000" index="275">
+			<area name="宝鸡市" postcode="721000" index="2030"/>
+			<area name="宝鸡县" postcode="721300" index="2031"/>
+			<area name="岐山县" postcode="722400" index="2032"/>
+			<area name="凤翔县" postcode="721400" index="2033"/>
+			<area name="陇县" postcode="721200" index="2034"/>
+			<area name="太白县" postcode="721600" index="2035"/>
+			<area name="麟游县" postcode="721500" index="2036"/>
+			<area name="扶风县" postcode="722200" index="2037"/>
+			<area name="千阳县" postcode="721100" index="2038"/>
+			<area name="凤县" postcode="721700" index="2039"/>
+			<area name="眉县" postcode="722300" index="2040"/>
+		</city>
+		<city name="咸阳" postcode="712000" index="276">
+			<area name="咸阳市" postcode="712000" index="2041"/>
+			<area name="兴平市" postcode="713100" index="2042"/>
+			<area name="礼泉县" postcode="713200" index="2043"/>
+			<area name="泾阳县" postcode="713700" index="2044"/>
+			<area name="永寿县" postcode="713400" index="2045"/>
+			<area name="三原县" postcode="713800" index="2046"/>
+			<area name="彬县" postcode="713500" index="2047"/>
+			<area name="旬邑县" postcode="711300" index="2048"/>
+			<area name="长武县" postcode="713600" index="2049"/>
+			<area name="乾县" postcode="713300" index="2050"/>
+			<area name="武功县" postcode="712200" index="2051"/>
+			<area name="淳化县" postcode="711200" index="2052"/>
+		</city>
+		<city name="渭南" postcode="714000" index="277">
+			<area name="渭南市" postcode="714000" index="2053"/>
+			<area name="韩城市" postcode="715400" index="2054"/>
+			<area name="华阴市" postcode="714200" index="2055"/>
+			<area name="蒲城县" postcode="715500" index="2056"/>
+			<area name="华县" postcode="714100" index="2057"/>
+			<area name="潼关县" postcode="714300" index="2058"/>
+			<area name="大荔县" postcode="715100" index="2059"/>
+			<area name="澄城县" postcode="715200" index="2060"/>
+			<area name="合阳县" postcode="715300" index="2061"/>
+			<area name="白水县" postcode="715600" index="2062"/>
+			<area name="富平县" postcode="711700" index="2063"/>
+		</city>
+		<city name="延安" postcode="716000" index="278">
+			<area name="延安市" postcode="716000" index="2064"/>
+			<area name="安塞县" postcode="717400" index="2065"/>
+			<area name="洛川县" postcode="727400" index="2066"/>
+			<area name="子长县" postcode="717300" index="2067"/>
+			<area name="黄陵县" postcode="727300" index="2068"/>
+			<area name="延川县" postcode="717200" index="2069"/>
+			<area name="甘泉县" postcode="716100" index="2070"/>
+			<area name="宜川县" postcode="716200" index="2071"/>
+			<area name="延长县" postcode="717100" index="2072"/>
+			<area name="富县" postcode="727500" index="2073"/>
+			<area name="志丹县" postcode="717500" index="2074"/>
+			<area name="黄龙县" postcode="715700" index="2075"/>
+			<area name="吴旗县" postcode="717600" index="2076"/>
+		</city>
+		<city name="汉中" postcode="723000" index="279">
+			<area name="汉中市" postcode="723000" index="2077"/>
+			<area name="南郑县" postcode="723100" index="2078"/>
+			<area name="城固县" postcode="723200" index="2079"/>
+			<area name="洋县" postcode="723300" index="2080"/>
+			<area name="佛坪县" postcode="723400" index="2081"/>
+			<area name="西乡县" postcode="723500" index="2082"/>
+			<area name="镇巴县" postcode="723600" index="2083"/>
+			<area name="留坝县" postcode="724100" index="2084"/>
+			<area name="勉县" postcode="724200" index="2085"/>
+			<area name="略阳县" postcode="724300" index="2086"/>
+			<area name="宁强县" postcode="724400" index="2087"/>
+		</city>
+		<city name="榆林" postcode="719000" index="280">
+			<area name="榆林市" postcode="719000" index="2088"/>
+			<area name="清涧县" postcode="718300" index="2089"/>
+			<area name="绥德县" postcode="718000" index="2090"/>
+			<area name="横山县" postcode="719100" index="2091"/>
+			<area name="佳县" postcode="719200" index="2092"/>
+			<area name="神木县" postcode="719300" index="2093"/>
+			<area name="府谷县" postcode="719400" index="2094"/>
+			<area name="子洲县" postcode="718400" index="2095"/>
+			<area name="靖边县" postcode="718500" index="2096"/>
+			<area name="横山县" postcode="719100" index="2097"/>
+			<area name="米脂县" postcode="718100" index="2098"/>
+			<area name="吴堡县" postcode="718200" index="2099"/>
+			<area name="定边县" postcode="718600" index="2100"/>
+		</city>
+		<city name="商洛" postcode="726000" index="281">
+			<area name="商州市" postcode="726000" index="2101"/>
+			<area name="镇安县" postcode="711500" index="2102"/>
+			<area name="山阳县" postcode="726400" index="2103"/>
+			<area name="洛南县" postcode="726100" index="2104"/>
+			<area name="商南县" postcode="726300" index="2105"/>
+			<area name="丹凤县" postcode="726200" index="2106"/>
+			<area name="柞水县" postcode="711400" index="2107"/>
+		</city>
+		<city name="安康" postcode="725000" index="282">
+			<area name="安康市" postcode="725000" index="2108"/>
+			<area name="紫阳县" postcode="725300" index="2109"/>
+			<area name="岚皋县" postcode="725400" index="2110"/>
+			<area name="旬阳县" postcode="725700" index="2111"/>
+			<area name="镇坪县" postcode="725600" index="2112"/>
+			<area name="平利县" postcode="725500" index="2113"/>
+			<area name="宁陕县" postcode="711600" index="2114"/>
+			<area name="汉阴县" postcode="725100" index="2115"/>
+			<area name="石泉县" postcode="725200" index="2116"/>
+			<area name="白河县" postcode="725800" index="2117"/>
+		</city>
+	</province>
+	<province name="甘肃" postcode="gansu" index="27">
+		<city name="兰州" postcode="730000" index="283">
+			<area name="兰州市" postcode="730000" index="2118"/>
+			<area name="永登县" postcode="730300" index="2119"/>
+			<area name="榆中县" postcode="730100" index="2120"/>
+			<area name="皋兰县" postcode="730200" index="2121"/>
+			<area name="金昌市" postcode="737100" index="2122"/>
+			<area name="永昌县" postcode="737200" index="2123"/>
+		</city>
+		<city name="白银" postcode="730900" index="284">
+			<area name="白银区" postcode="730900" index="2124"/>
+			<area name="平川区" postcode="730910" index="2125"/>
+			<area name="靖远县" postcode="730600" index="2126"/>
+			<area name="景泰县" postcode="730400" index="2127"/>
+			<area name="会宁县" postcode="730700" index="2128"/>
+		</city>
+		<city name="天水" postcode="741000" index="285">
+			<area name="天水市" postcode="741000" index="2129"/>
+			<area name="泰城区" postcode="741000" index="2130"/>
+			<area name="北道区" postcode="741020" index="2131"/>
+			<area name="甘谷县" postcode="741200" index="2132"/>
+			<area name="武山县" postcode="741300" index="2133"/>
+			<area name="清水县" postcode="741400" index="2134"/>
+			<area name="秦安县" postcode="741600" index="2135"/>
+			<area name="嘉峪关市" postcode="735100" index="2136"/>
+		</city>
+		<city name="安西" postcode="743000" index="286">
+			<area name="安西县" postcode="743000" index="2137"/>
+			<area name="岷县" postcode="748400" index="2138"/>
+			<area name="渭源县" postcode="748200" index="2139"/>
+			<area name="陇西县" postcode="748100" index="2140"/>
+			<area name="通渭县" postcode="743300" index="2141"/>
+			<area name="漳县" postcode="748300" index="2142"/>
+			<area name="临洮县" postcode="730500" index="2143"/>
+		</city>
+		<city name="平凉" postcode="744000" index="287">
+			<area name="平凉市" postcode="744000" index="2144"/>
+			<area name="华亭县" postcode="744100" index="2145"/>
+			<area name="崇信县" postcode="744200" index="2146"/>
+			<area name="泾川县" postcode="744300" index="2147"/>
+			<area name="灵台县" postcode="744400" index="2148"/>
+			<area name="镇原县" postcode="744500" index="2149"/>
+			<area name="庄浪县" postcode="744600" index="2150"/>
+		</city>
+		<city name="庆阳地区" postcode="745000" index="288">
+			<area name="西峰市" postcode="745000" index="2151"/>
+			<area name="庆阳县" postcode="745100" index="2152"/>
+			<area name="镇源县" postcode="744500" index="2153"/>
+			<area name="合水县" postcode="745400" index="2154"/>
+			<area name="华池县" postcode="745600" index="2155"/>
+			<area name="环县" postcode="745700" index="2156"/>
+			<area name="宁县" postcode="745200" index="2157"/>
+			<area name="正宁县" postcode="745300" index="2158"/>
+		</city>
+		<city name="陇南地区" postcode="742500" index="289">
+			<area name="成县" postcode="742500" index="2159"/>
+			<area name="礼县" postcode="742200" index="2160"/>
+			<area name="康县" postcode="746500" index="2161"/>
+			<area name="武都县" postcode="746000" index="2162"/>
+			<area name="文县" postcode="746400" index="2163"/>
+			<area name="两当县" postcode="742400" index="2164"/>
+			<area name="徽县" postcode="742300" index="2165"/>
+			<area name="宕昌县" postcode="748500" index="2166"/>
+			<area name="西和县" postcode="742100" index="2167"/>
+		</city>
+		<city name="武威" postcode="733000" index="290">
+			<area name="武威市" postcode="733000" index="2168"/>
+			<area name="古浪县" postcode="733100" index="2169"/>
+			<area name="天祝藏族自治县" postcode="733200" index="2170"/>
+			<area name="民勤县" postcode="733300" index="2171"/>
+		</city>
+		<city name="张掖" postcode="734000" index="291">
+			<area name="张掖市" postcode="734000" index="2172"/>
+			<area name="山丹县" postcode="734100" index="2173"/>
+			<area name="临泽县" postcode="734200" index="2174"/>
+			<area name="高台县" postcode="734300" index="2175"/>
+			<area name="肃南裕固族自治县" postcode="734400" index="2176"/>
+			<area name="民乐县" postcode="734500" index="2177"/>
+		</city>
+		<city name="酒泉" postcode="735000" index="292">
+			<area name="酒泉市" postcode="735000" index="2178"/>
+			<area name="玉门市" postcode="735200" index="2179"/>
+			<area name="敦煌市" postcode="736200" index="2180"/>
+			<area name="金塔县" postcode="735300" index="2181"/>
+			<area name="安西县" postcode="736200" index="2182"/>
+			<area name="阿克塞哈萨克族自治县" postcode="736400" index="2183"/>
+			<area name="肃北蒙古族自治县" postcode="736300" index="2184"/>
+		</city>
+		<city name="甘南藏族" postcode="747000" index="293">
+			<area name="甘南藏族" postcode="747000" index="2185"/>
+			<area name="合作市" postcode="747000" index="2186"/>
+			<area name="夏河县" postcode="747100" index="2187"/>
+			<area name="碌曲县" postcode="747200" index="2188"/>
+			<area name="舟曲县" postcode="746300" index="2189"/>
+			<area name="玛曲县" postcode="747300" index="2190"/>
+			<area name="迭部县" postcode="747400" index="2191"/>
+			<area name="临潭县" postcode="747500" index="2192"/>
+			<area name="卓尼县" postcode="747600" index="2193"/>
+		</city>
+		<city name="临夏回族" postcode="731100" index="294">
+			<area name="临夏市" postcode="731100" index="2194"/>
+			<area name="临夏县" postcode="731800" index="2195"/>
+			<area name="康乐县" postcode="731500" index="2196"/>
+			<area name="永靖县" postcode="731600" index="2197"/>
+			<area name="和政县" postcode="731200" index="2198"/>
+			<area name="东乡族自治县" postcode="731400" index="2199"/>
+			<area name="积石山保安族东乡族撒拉族自治县" postcode="731700" index="2200"/>
+		</city>
+	</province>
+	<province name="宁夏" postcode="ningxia" index="28">
+		<city name="银川" postcode="750000" index="295">
+			<area name="银川市" postcode="750000" index="2201"/>
+			<area name="永宁县" postcode="750100" index="2202"/>
+			<area name="贺兰县" postcode="750200" index="2203"/>
+		</city>
+		<city name="石嘴山" postcode="753400" index="296">
+			<area name="平罗县" postcode="753400" index="2204"/>
+			<area name="陶乐县" postcode="753500" index="2205"/>
+			<area name="惠农县" postcode="753600" index="2206"/>
+		</city>
+		<city name="吴忠" postcode="751100" index="297">
+			<area name="吴忠市" postcode="751100" index="2207"/>
+			<area name="青铜峡市" postcode="751600" index="2208"/>
+			<area name="灵武市" postcode="751400" index="2209"/>
+			<area name="中宁县" postcode="751200" index="2210"/>
+			<area name="同心县" postcode="751300" index="2211"/>
+			<area name="盐池县" postcode="751500" index="2212"/>
+			<area name="红寺堡开发区" postcode="" index="2213"/>
+		</city>
+		<city name="固原" postcode="756000" index="298">
+			<area name="固原县" postcode="756000" index="2214"/>
+			<area name="海原县" postcode="756100" index="2215"/>
+			<area name="西吉县" postcode="756200" index="2216"/>
+			<area name="隆德县" postcode="756300" index="2217"/>
+			<area name="泾源县" postcode="756400" index="2218"/>
+			<area name="彭阳县" postcode="756500" index="2219"/>
+		</city>
+	</province>
+	<province name="青海" postcode="qinghai" index="29">
+		<city name="西宁" postcode="810000" index="299">
+			<area name="西宁市" postcode="810000" index="2220"/>
+			<area name="湟中县" postcode="811600" index="2221"/>
+			<area name="湟源县" postcode="812100" index="2222"/>
+			<area name="大通回族土族自治县" postcode="810100" index="2223"/>
+		</city>
+		<city name="海东地区" postcode="810600" index="300">
+			<area name="平安县" postcode="810600" index="2224"/>
+			<area name="乐都县" postcode="810700" index="2225"/>
+			<area name="民和回族土族自治县" postcode="810800" index="2226"/>
+			<area name="互助土族自治县" postcode="810500" index="2227"/>
+			<area name="化隆回族自治县" postcode="810900" index="2228"/>
+			<area name="循化撒拉族自治县" postcode="811100" index="2229"/>
+		</city>
+		<city name="海北藏族" postcode="812200" index="301">
+			<area name="海晏县" postcode="812200" index="2230"/>
+			<area name="祁连县" postcode="810400" index="2231"/>
+			<area name="刚察县" postcode="812300" index="2232"/>
+			<area name="门源回族自治县" postcode="810300" index="2233"/>
+		</city>
+		<city name="黄南藏族" postcode="811300" index="302">
+			<area name="尖扎县" postcode="811200" index="2234"/>
+			<area name="同仁县" postcode="811300" index="2235"/>
+			<area name="泽库县" postcode="811400" index="2236"/>
+			<area name="李家峡" postcode="811900" index="2237"/>
+			<area name="河南蒙古族自治县" postcode="811500" index="2238"/>
+		</city>
+		<city name="海南藏族" postcode="813000" index="303">
+			<area name="共和县" postcode="813000" index="2239"/>
+			<area name="贵南县" postcode="813100" index="2240"/>
+			<area name="同德县" postcode="813200" index="2241"/>
+			<area name="兴海县" postcode="813300" index="2242"/>
+			<area name="贵德县" postcode="811700" index="2243"/>
+			<area name="龙羊峡" postcode="811800" index="2244"/>
+		</city>
+		<city name="果洛藏族" postcode="814000" index="304">
+			<area name="玛沁县" postcode="814000" index="2245"/>
+			<area name="甘德县" postcode="814100" index="2246"/>
+			<area name="达日县" postcode="814200" index="2247"/>
+			<area name="班玛县" postcode="814300" index="2248"/>
+			<area name="久治县" postcode="624700" index="2249"/>
+			<area name="玛多县" postcode="813500" index="2250"/>
+		</city>
+		<city name="玉树藏族" postcode="815000" index="305">
+			<area name="玉树县" postcode="815000" index="2251"/>
+			<area name="称多县" postcode="815100" index="2252"/>
+			<area name="囊谦县" postcode="815200" index="2253"/>
+			<area name="杂多县" postcode="815300" index="2254"/>
+			<area name="治多县" postcode="815400" index="2255"/>
+			<area name="曲麻莱县" postcode="815500" index="2256"/>
+			<area name="格尔木市" postcode="816000" index="2257"/>
+		</city>
+		<city name="海西蒙古族藏族" postcode="817000" index="306">
+			<area name="德令哈市" postcode="817000" index="2258"/>
+			<area name="乌兰县" postcode="817100" index="2259"/>
+			<area name="天峻县" postcode="817200" index="2260"/>
+			<area name="都兰县" postcode="816100" index="2261"/>
+			<area name="大柴旦" postcode="816200" index="2262"/>
+			<area name="冷湖" postcode="816300" index="2263"/>
+			<area name="茫崖" postcode="816400" index="2264"/>
+		</city>
+	</province>
+	<province name="新疆" postcode="xinjiang" index="30">
+		<city name="乌鲁木齐" postcode="830000" index="307">
+			<area name="乌鲁木齐市" postcode="830000" index="2265"/>
+			<area name="克拉玛依市" postcode="834000" index="2266"/>
+			<area name="石河子市" postcode="832000" index="2267"/>
+		</city>
+		<city name="吐鲁番" postcode="838000" index="308">
+			<area name="吐鲁番市" postcode="838000" index="2268"/>
+			<area name="托克逊县" postcode="838100" index="2269"/>
+			<area name="鄯善县" postcode="838200" index="2270"/>
+		</city>
+		<city name="哈密" postcode="地区" index="309">
+			<area name="哈密市" postcode="839000" index="2271"/>
+			<area name="巴里坤哈萨克自治县" postcode="839200" index="2272"/>
+			<area name="伊吾县" postcode="839300" index="2273"/>
+		</city>
+		<city name="和田" postcode="848000" index="310">
+			<area name="和田市" postcode="848000" index="2274"/>
+			<area name="和田县" postcode="848000" index="2275"/>
+			<area name="墨玉县" postcode="848100" index="2276"/>
+			<area name="洛浦县" postcode="848200" index="2277"/>
+			<area name="策勒县" postcode="848300" index="2278"/>
+			<area name="于田县" postcode="848400" index="2279"/>
+			<area name="民丰县" postcode="848500" index="2280"/>
+			<area name="皮山县" postcode="845150" index="2281"/>
+		</city>
+		<city name="阿克苏" postcode="843000" index="311">
+			<area name="阿克苏市" postcode="843000" index="2282"/>
+			<area name="阿拉尔市" postcode="843300" index="2283"/>
+			<area name="温宿县" postcode="843100" index="2284"/>
+			<area name="沙雅县" postcode="842200" index="2285"/>
+			<area name="拜城县" postcode="842300" index="2286"/>
+			<area name="阿瓦提县" postcode="843200" index="2287"/>
+			<area name="库车县" postcode="842000" index="2288"/>
+			<area name="柯坪县" postcode="843600" index="2289"/>
+			<area name="新和县" postcode="842100" index="2290"/>
+			<area name="乌什县" postcode="843400" index="2291"/>
+		</city>
+		<city name="喀什" postcode="844000" index="312">
+			<area name="喀什市" postcode="844000" index="2292"/>
+			<area name="巴楚县" postcode="843800" index="2293"/>
+			<area name="泽普县" postcode="844800" index="2294"/>
+			<area name="伽师县" postcode="844300" index="2295"/>
+			<area name="叶城县" postcode="844900" index="2296"/>
+			<area name="岳普湖县" postcode="844400" index="2297"/>
+			<area name="疏附县" postcode="844100" index="2298"/>
+			<area name="疏勒县" postcode="844200" index="2299"/>
+			<area name="英吉沙县" postcode="844500" index="2300"/>
+			<area name="麦盖提县" postcode="844600" index="2301"/>
+			<area name="莎车县" postcode="844700" index="2302"/>
+			<area name="塔什库尔干塔吉克自治县" postcode="845250" index="2303"/>
+		</city>
+		<city name="克孜勒苏柯尔克孜自治区" postcode="845350" index="313">
+			<area name="阿图什市" postcode="845350" index="2304"/>
+			<area name="阿合奇县" postcode="843500" index="2305"/>
+			<area name="乌恰县" postcode="845450" index="2306"/>
+			<area name="阿克陶县" postcode="845550" index="2307"/>
+		</city>
+		<city name="巴音郭楞蒙古" postcode="841000" index="314">
+			<area name="库尔勒市" postcode="841000" index="2308"/>
+			<area name="尉犁县" postcode="841500" index="2309"/>
+			<area name="和静县" postcode="841300" index="2310"/>
+			<area name="博湖县" postcode="841400" index="2311"/>
+			<area name="和硕县" postcode="841200" index="2312"/>
+			<area name="轮台县" postcode="841600" index="2313"/>
+			<area name="若羌县" postcode="841800" index="2314"/>
+			<area name="且末县" postcode="841900" index="2315"/>
+			<area name="焉耆回族自治县" postcode="841100" index="2316"/>
+		</city>
+		<city name="昌吉回族" postcode="831100" index="315">
+			<area name="昌吉市" postcode="831100" index="2317"/>
+			<area name="阜康市" postcode="831500" index="2318"/>
+			<area name="米泉市" postcode="831400" index="2319"/>
+			<area name="奇台县" postcode="831800" index="2320"/>
+			<area name="玛纳斯县" postcode="832200" index="2321"/>
+			<area name="吉木萨尔县" postcode="831700" index="2322"/>
+			<area name="呼图壁县" postcode="831200" index="2323"/>
+			<area name="木垒哈萨克自治县" postcode="831900" index="2324"/>
+		</city>
+		<city name="博尔塔拉蒙古" postcode="833400" index="316">
+			<area name="博乐市" postcode="833400" index="2325"/>
+			<area name="精河县" postcode="833300" index="2326"/>
+			<area name="温泉县" postcode="833500" index="2327"/>
+		</city>
+		<city name="伊犁哈萨克" postcode="835000" index="317">
+			<area name="伊宁市" postcode="835000" index="2328"/>
+			<area name="伊宁县" postcode="835100" index="2329"/>
+			<area name="特克斯县" postcode="835500" index="2330"/>
+			<area name="尼勒克县" postcode="835700" index="2331"/>
+			<area name="昭苏县" postcode="835600" index="2332"/>
+			<area name="新源县" postcode="835800" index="2333"/>
+			<area name="霍城县" postcode="835200" index="2334"/>
+			<area name="察布查尔锡伯自治县" postcode="835300" index="2335"/>
+			<area name="巩留县" postcode="835400" index="2336"/>
+		</city>
+		<city name="塔城" postcode="834700" index="318">
+			<area name="塔城市" postcode="834700" index="2337"/>
+			<area name="乌苏市" postcode="833000" index="2338"/>
+			<area name="额敏县" postcode="834600" index="2339"/>
+			<area name="裕民县" postcode="834800" index="2340"/>
+			<area name="沙湾县" postcode="832100" index="2341"/>
+			<area name="托里县" postcode="834500" index="2342"/>
+			<area name="和布克赛尔蒙古自治县" postcode="834400" index="2343"/>
+		</city>
+		<city name="阿勒泰" postcode="836500" index="319">
+			<area name="阿勒泰市" postcode="836500" index="2344"/>
+			<area name="富蕴县" postcode="836100" index="2345"/>
+			<area name="青河县" postcode="836200" index="2346"/>
+			<area name="吉木乃县" postcode="836800" index="2347"/>
+			<area name="布尔津县" postcode="836600" index="2348"/>
+			<area name="福海县" postcode="836400" index="2349"/>
+			<area name="哈巴河县" postcode="836700" index="2350"/>
+		</city>
+		<city name="奎屯市" postcode="833200" index="320">
+			<area name="奎屯市" postcode="833200" index="2351"/>
+		</city>
+	</province>
+	<province name="西藏" postcode="" index="31">
+		<city name="拉萨市" postcode="850000" index="321">
+			<area name="拉萨市" postcode="850000" index="2352"/>
+			<area name="林周县" postcode="851600" index="2353"/>
+			<area name="达孜县" postcode="850100" index="2354"/>
+			<area name="尼木县" postcode="851300" index="2355"/>
+			<area name="当雄县" postcode="851500" index="2356"/>
+			<area name="曲水县" postcode="850600" index="2357"/>
+			<area name="墨竹工卡县" postcode="850200" index="2358"/>
+			<area name="堆龙德庆县" postcode="851400" index="2359"/>
+		</city>
+		<city name="那曲" postcode="852000" index="322">
+			<area name="那曲县" postcode="852000" index="2360"/>
+			<area name="嘉黎县" postcode="852400" index="2361"/>
+			<area name="申扎县" postcode="853100" index="2362"/>
+			<area name="巴青县" postcode="852100" index="2363"/>
+			<area name="聂荣县" postcode="853500" index="2364"/>
+			<area name="尼玛县" postcode="852600" index="2365"/>
+			<area name="索县" postcode="852200" index="2366"/>
+			<area name="比如县" postcode="852300" index="2367"/>
+			<area name="班戈县" postcode="852500" index="2368"/>
+			<area name="安多县" postcode="853400" index="2369"/>
+		</city>
+		<city name="昌都" postcode="854000" index="323">
+			<area name="昌都县" postcode="854000" index="2370"/>
+			<area name="芒康县" postcode="854500" index="2371"/>
+			<area name="贡觉县" postcode="854200" index="2372"/>
+			<area name="八宿县" postcode="854600" index="2373"/>
+			<area name="左贡县" postcode="854400" index="2374"/>
+			<area name="边坝县" postcode="855500" index="2375"/>
+			<area name="洛隆县" postcode="855400" index="2376"/>
+			<area name="江达县" postcode="854100" index="2377"/>
+			<area name="类乌齐县" postcode="855600" index="2378"/>
+			<area name="丁青县" postcode="855700" index="2379"/>
+			<area name="察雅县" postcode="854300" index="2380"/>
+		</city>
+		<city name="山南" postcode="856100" index="324">
+			<area name="乃东县" postcode="856100" index="2381"/>
+			<area name="琼结县" postcode="856800" index="2382"/>
+			<area name="措美县" postcode="856900" index="2383"/>
+			<area name="加查县" postcode="856400" index="2384"/>
+			<area name="贡嘎县" postcode="850700" index="2385"/>
+			<area name="洛扎县" postcode="851200" index="2386"/>
+			<area name="桑日县" postcode="856200" index="2387"/>
+			<area name="曲松县" postcode="856300" index="2388"/>
+			<area name="扎囊县" postcode="850800" index="2389"/>
+			<area name="错那县" postcode="856700" index="2390"/>
+			<area name="隆子县" postcode="856600" index="2391"/>
+			<area name="朗卡子县" postcode="851100" index="2392"/>
+		</city>
+		<city name="日喀则" postcode="857000" index="325">
+			<area name="日喀则市" postcode="857900" index="2393"/>
+			<area name="定结县" postcode="857900" index="2394"/>
+			<area name="萨迦县" postcode="857800" index="2395"/>
+			<area name="江孜县" postcode="857400" index="2396"/>
+			<area name="拉孜县" postcode="858100" index="2397"/>
+			<area name="定日县" postcode="858200" index="2398"/>
+			<area name="康马县" postcode="857500" index="2399"/>
+			<area name="聂拉木县" postcode="858300" index="2400"/>
+			<area name="日喀则市" postcode="857000" index="2401"/>
+			<area name="南木林县" postcode="857100" index="2402"/>
+			<area name="仁布县" postcode="857200" index="2403"/>
+			<area name="白朗县" postcode="857300" index="2404"/>
+			<area name="吉隆县" postcode="858700" index="2405"/>
+			<area name="亚东县" postcode="857600" index="2406"/>
+			<area name="谢通门县" postcode="858900" index="2407"/>
+			<area name="昂仁县" postcode="858500" index="2408"/>
+			<area name="岗巴县" postcode="857700" index="2409"/>
+			<area name="仲巴县" postcode="858800" index="2410"/>
+			<area name="萨嘎县" postcode="858600" index="2411"/>
+			<area name="仁布县" postcode="857200" index="2412"/>
+			<area name="白朗县" postcode="857300" index="2413"/>
+			<area name="南木林县" postcode="857100" index="2414"/>
+		</city>
+		<city name="阿里" postcode="859400" index="326">
+			<area name="噶尔县" postcode="859400" index="2415"/>
+			<area name="措勤县" postcode="859300" index="2416"/>
+			<area name="普兰县" postcode="859500" index="2417"/>
+			<area name="革吉县" postcode="859100" index="2418"/>
+			<area name="日土县" postcode="859700" index="2419"/>
+			<area name="改则县" postcode="859200" index="2420"/>
+			<area name="札达县" postcode="859600" index="2421"/>
+		</city>
+		<city name="林芝" postcode="860100" index="327">
+			<area name="林芝县" postcode="860100" index="2422"/>
+			<area name="波密县" postcode="860300" index="2423"/>
+			<area name="朗县" postcode="860400" index="2424"/>
+			<area name="米林县" postcode="860500" index="2425"/>
+			<area name="察隅县" postcode="860600" index="2426"/>
+			<area name="墨脱县" postcode="860700" index="2427"/>
+			<area name="工布江达县" postcode="860200" index="2428"/>
+		</city>
+	</province>
+</root>

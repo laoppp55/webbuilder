@@ -1,0 +1,109 @@
+.center{
+    width: 1180px;
+    height: 965px;
+    padding: 20px 0 20px 20px;
+    background-color: #fff;
+    color: #666;;
+}
+.location{
+    position: relative;
+    height: 22px;
+    line-height: 22px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.location ul{
+    position: absolute;
+    left: 85px;
+    top: 0;
+    font-size: 12px;
+}
+.location ul li{
+    cursor: pointer;
+    height: 22px;
+    line-height: 22px;
+    float: left;
+    padding:0 8px;
+    margin-right: 14px;
+}
+.loc-select{
+    background-color: #0083cd;
+    color: #fff;
+}
+.registered-capital{
+    position: relative;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    padding-left: 5px;
+    margin-bottom: 16px;
+}
+.registered-capital ul{
+    position: absolute;
+    left: 100px;
+    top: 0;
+    font-size: 12px;
+}
+.registered-capital ul li{
+    height: 22px;
+    line-height: 22px;
+    float: left;
+    margin-right: 14px;
+}
+.registered-capital ul li input{
+    margin-right: 8px;
+    vertical-align: sub;
+}
+.supplier-content{
+    width: 1180px;
+}
+.supplier-list{
+    width: 1180px;
+}
+.supplier-li{
+    float: left;
+    width: 378px;
+    height: 198px;
+    border: 1px solid #c9c9c9;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.li-left{
+    width: 136px;
+    height: 198px;
+    float: left;
+}
+.li-right{
+    width: 224px;
+    height: 183px;
+    background-color: #eee;
+    padding-top: 15px;
+    padding-left: 18px;
+    float: left;
+    position: relative;
+}
+.right-title{
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 18px;
+}
+.right-content,.li-right p{
+    font-size: 12px;
+    color: #999;
+    line-height: 24px;
+}
+.right-content{
+    width: 204px;
+    height: 96px;
+    overflow: hidden;
+}
+.see-more {
+    position: absolute;
+    bottom: 14px;
+    right: 6px;
+}
+.see-more a{
+    font-size: 12px;
+    color: #0083cd;
+}

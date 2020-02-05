@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+    http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+      http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- transaction manager, use JtaTransactionManager for global tx -->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="myDataSource" />
+    </bean>
+
+    <!-- enable component scanning (beware that this does not enable mapper scanning!) -->
+    <!--context:component-scan base-package="org.mybatis.jpetstore.service" /-->
+
+    <!-- enable autowire -->
+    <context:annotation-config />
+
+    <!-- enable transaction demarcation with annotations -->
+    <!--tx:annotation-driven /-->
+    <tx:annotation-driven transaction-manager="transactionManager" />
+
+    <!--context:property-placeholder location="classpath*:service_config.properties" ignore-unresolvable="true" /-->
+
+    <bean id="myDataSource" class="com.jolbox.bonecp.BoneCPDataSource" destroy-method="close">
+        <property name="driverClass" value="oracle.jdbc.driver.OracleDriver" />
+        <property name="jdbcUrl" value="jdbc:oracle:thin:@116.90.87.164:1521:orcl10g" />
+        <property name="username" value="coositedb"/>
+        <property name="password" value="coositedbpass2009"/>
+        <property name="IdleConnectionTestPeriodInMinutes" value="60"/>
+        <property name="idleMaxAgeInMinutes" value="240"/>
+        <property name="maxConnectionsPerPartition" value="30"/>
+        <property name="minConnectionsPerPartition" value="10"/>
+        <property name="partitionCount" value="3"/>
+        <property name="acquireIncrement" value="5"/>
+        <property name="statementsCacheSize" value="100"/>
+        <property name="releaseHelperThreads" value="3"/>
+        <property name="logStatementsEnabled"  value="true"/>
+    </bean>
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="myDataSource" />
+        <property name="typeAliasesPackage" value="com.bizwink.po,com.bizwink.bbs.domain" />
+        <!-- <property name="configLocation" value=""/> -->
+        <!--
+          该属性用来指定MyBatis的XML配置文件路径,跟Spring整合时，编写MyBatis映射文件的目的无非是配置一下typeAlias、setting之类的
+          元素。不用在其中指定数据源，或者事务处理方式。就算配置了也会被忽略。因为这些都是使用Spring中的配置
+          。当然如果你不打算添加typeAlias 之类的设置的话，你连MyBatis的配置文件都不用写，更不用配置这个属性了
+          -->
+
+        <!--property name="mapperLocations" value="classpath*:com/bizwink/persistence/*.xml"/-->
+        <!-- 该配置文件用来指定Mapper映射文件的位置 ，如果映射文件与相应的接口同名，且在同一路径下，那么可以不配置该选项-->
+    </bean>
+
+    <!-- 注册Mapper方式二：也可不指定特定mapper，而使用自动扫描包的方式来注册各种Mapper ，配置如下：-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer" p:basePackage="com.bizwink.persistence,com.bizwink.bbs.persistence"/>
+
+    <!-- enable component scanning (beware that this does not enable mapper scanning!) -->
+    <context:component-scan base-package="com.bizwink.service,com.bizwink.dubboservice.serviceimpl,com.bizwink.dubboservice.serviceimpl.UsersImpl,com.bizwink.bbs.service" />
+
+	<!-- 提供方应用信息，用于计算依赖关系 -->
+    <dubbo:application name = "com.bizwink.dobboservice" logger="log4j"/>
+
+    <!--zookeeper注册中心 -->
+    <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181" />
+
+    <!-- 用dubbo协议在20880端口暴露服务 -->
+    <dubbo:protocol name="dubbo" port="20880" />
+
+    <!-- 声明用户服务接口 -->
+    <dubbo:service interface="com.bizwink.dubboservice.service.Users.UsersService" ref="userProvideService"/>
+    <!-- 具体的实现bean -->
+    <bean id="userProvideService" class="com.bizwink.dubboservice.serviceimpl.UsersImpl.UsersServiceImpl" />
+
+    <!-- 声明区域信息服务接口 -->
+    <dubbo:service interface="com.bizwink.dubboservice.service.AreaService" ref="areaProvideService"/>
+    <!-- 具体的实现bean -->
+    <bean id="areaProvideService" class="com.bizwink.dubboservice.serviceimpl.AreaServiceImpl" />
+
+    <!-- 声明站点信息的服务接口 -->
+    <dubbo:service interface="com.bizwink.dubboservice.service.SiteinfoService" ref="siteinfoProvideService"/>
+    <bean id="siteinfoProvideService" class="com.bizwink.dubboservice.serviceimpl.SiteinfoServiceImpl" />
+
+    <!-- 声明站点主机信息的服务接口 -->
+    <dubbo:service interface="com.bizwink.dubboservice.service.SiteipinfoService" ref="siteipinfoProvideService"/>
+    <bean id="siteipinfoProvideService" class="com.bizwink.dubboservice.serviceimpl.SiteipinfoServiceImpl" />
+
+    <!-- 声明组织架构服务接口 -->
+    <dubbo:service interface="com.bizwink.dubboservice.service.OrganizationService" ref="orgProvideService"/>
+    <bean id="orgProvideService" class="com.bizwink.dubboservice.serviceimpl.OrganizationServiceImpl" />
+
+    <!-- 声明网站栏目的服务接口 -->
+    <dubbo:service interface="com.bizwink.dubboservice.service.ColumnService" ref="columnProvideService"/>
+    <bean id="columnProvideService" class="com.bizwink.dubboservice.serviceimpl.ColumnServiceImpl" />
+
+    <!-- 声明用户留言的服务接口 -->
+    <dubbo:service interface="com.bizwink.dubboservice.service.LeaveMessageService" ref="LeaveMessageService"/>
+    <bean id="LeaveMessageService" class="com.bizwink.dubboservice.serviceimpl.LeaveMessageServieImpl" />
+
+    <!-- 声明公司信息的服务接口 -->
+    <dubbo:service interface="com.bizwink.dubboservice.service.CompanyService" ref="CompanyService"/>
+    <bean id="CompanyService" class="com.bizwink.dubboservice.serviceimpl.CompanyServiceImpl" />
+
+    <!-- 声明模板信息的服务接口 -->
+    <dubbo:service interface="com.bizwink.dubboservice.service.TemplateService" ref="TemplateService"/>
+    <bean id="TemplateService" class="com.bizwink.dubboservice.serviceimpl.TemplateServiceImpl" />
+
+    <!-- 声明文章信息的服务接口 -->
+    <dubbo:service interface="com.bizwink.dubboservice.service.ArticleService" ref="ArticleService"/>
+    <bean id="ArticleService" class="com.bizwink.dubboservice.serviceimpl.ArticleServiceImpl" />
+
+    <!-- 声明大学库信息的服务接口 -->
+    <dubbo:service interface="com.bizwink.dubboservice.service.UniversityService" ref="UniversityService"/>
+    <bean id="UniversityService" class="com.bizwink.dubboservice.serviceimpl.UniversityServiceImpl" />
+
+	<!-- 声明订单管理的服务接口 -->
+    <dubbo:service interface="com.bizwink.dubboservice.service.OrderService" ref="OrderService"/>
+    <bean id="OrderService" class="com.bizwink.dubboservice.serviceimpl.OrderServiceImpl" />
+
+    <!-- 声明文章操作的日志服务接口 -->
+    <dubbo:service interface="com.bizwink.dubboservice.service.LogService" ref="LogService"/>
+    <bean id="LogService" class="com.bizwink.dubboservice.serviceimpl.LogServiceImpl" />
+
+    <!-- 声明文章信息发布的服务接口 -->
+    <dubbo:service interface="com.bizwink.dubboservice.service.PublishQueueService" ref="PublishQueueService"/>
+    <bean id="PublishQueueService" class="com.bizwink.dubboservice.serviceimpl.PublishQueueServiceImpl" />
+
+    <!-- 声明文章附属图片管理的服务接口 -->
+    <dubbo:service interface="com.bizwink.dubboservice.service.TurnpicService" ref="TurnpicService"/>
+    <bean id="TurnpicService" class="com.bizwink.dubboservice.serviceimpl.TurnpicServiceImpl" />
+
+    <!-- 声明地址管理的服务接口 -->
+    <dubbo:service interface="com.bizwink.dubboservice.service.AddressInfoService" ref="AddressInfoService"/>
+    <bean id="AddressInfoService" class="com.bizwink.dubboservice.serviceimpl.AddressInfoServiceImpl" />
+
+    <!-- 声明留言管理的服务接口 -->
+    <dubbo:service interface="com.bizwink.dubboservice.service.MessageService" ref="MessageService"/>
+    <bean id="MessageService" class="com.bizwink.dubboservice.serviceimpl.MessageServiceImpl" />
+</beans>
+

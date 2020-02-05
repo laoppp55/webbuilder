@@ -1,0 +1,66 @@
+.txt {
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    LINE-HEIGHT: 150%;
+    TEXT-DECORATION: none
+}
+
+.lanmutxt {
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    LINE-HEIGHT: 200%;
+    TEXT-DECORATION: none
+}
+
+.smaltxt {
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    LINE-HEIGHT: 120%;
+    TEXT-DECORATION: none
+}
+
+.til {
+    FONT-SIZE: 12px;
+    COLOR: #727272;
+    LINE-HEIGHT: 150%;
+    TEXT-DECORATION: none
+}
+
+.inputtxt {
+    BORDER-RIGHT: #727272 1px solid;
+    BORDER-TOP: #727272 1px solid;
+    BORDER-LEFT: #727272 1px solid;
+    WIDTH: 70px;
+    BORDER-BOTTOM: #727272 1px solid;
+    HEIGHT: 16px;
+    BACKGROUND-COLOR: #ffffff
+}
+
+A.txt:link {
+    FONT-SIZE: 12px;
+    COLOR: #000000;
+    LINE-HEIGHT: 150%;
+    TEXT-DECORATION: none
+}
+
+A.txt:hover {
+    FONT-SIZE: 12px;
+    COLOR: #0066cc;
+    LINE-HEIGHT: 150%;
+    TEXT-DECORATION: none
+}
+
+.red {
+    FONT-SIZE: 12px;
+    COLOR: #ff0000;
+    LINE-HEIGHT: 150%;
+    TEXT-DECORATION: none
+}
+
+.bigtxt {
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 13px;
+    COLOR: #ffffff;
+    FONT-FAMILY: "ºÚÌå";
+    TEXT-DECORATION: none
+}

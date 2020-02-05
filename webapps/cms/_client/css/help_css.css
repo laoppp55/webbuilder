@@ -1,0 +1,31 @@
+body{background-color: #dcdcdc; margin:0px; padding:0px; font-family:"Microsoft Yahei";}
+ul,li{ padding:0px; margin:0px;}
+li{ list-style:none;}
+a{ text-decoration:none;}
+
+.help_contrainer{ width:100%; margin:auto; overflow:hidden; background-color: #eee;}
+
+.help_box{ width:1200px; margin:auto; background:url(/images/help_bg_201746.jpg) repeat-y; overflow:hidden;}
+
+.help_left{ width:279px; float:left}
+
+.help_l_title{ width:251px; padding-left:28px; float:left; height:35px; line-height:35px; background:url(/images/icon_arrowfold.png) no-repeat 10px 10px;  background-color:#e3f0f8; color:#666;}
+
+.help_l_list{ width:277px; float:left; display:block; padding-top:15px;}
+.help_l_list li{ float:left; width:237px; padding:0px 10px 15px 30px ; background:url(/images/help_pot_201746.jpg) no-repeat 15px 4px;font-family: SimSun; font-size:14px;}
+.help_l_list li a{ color:#999;}
+
+.help_right{ width:900px; float:right; margin-left:20px;}
+
+.help_r_title{ height:46px; float:left; width:900px; background:url(/images/bg_titleofsubpage.png) repeat-x;}
+.help_r_t_name{ float:left; background:url(/images/icon_title.png) no-repeat 25px 12px; height:46px; font-size:18px; padding-left:60px; padding-top:8px; color:#666;}
+.back{ float:right; padding-right:30px; padding-top:10px;}
+.back a{ color:#999;}
+
+.help_r_box{ width:900px; float:left;}
+
+.help_r_b_title{ width:870px; float:left; border-bottom:1px dashed #d2d2d2;line-height: 36px; text-align:center; padding:10px 0px; margin-left:15px; font-weight:bold; color:#666;font-family: SimSun;}
+
+.help_r_txt{ width:870px; padding:10px 15px; line-height:36px; color:#666; font-family: SimSun; float:left; font-size:14px;}
+
+.help_r_txt p{ text-indent:2em;}

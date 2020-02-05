@@ -1,0 +1,94 @@
+@charset "utf-8";
+body {margin:0; padding:0; background:url(../images/body_bg.jpg) center top no-repeat; background-color:#e0e0e0; color:#333333; font-size:14px; font-family:"Microsoft YaHei"}
+ol,ul,dl,dt,dd,li,p,form,label,input { margin:0;padding:0; list-style-type:none; }
+h1,h2,h3,h4{ padding:0px; margin:0px; line-height:100%;}
+div,ul {display:block;}
+a img,img{border:0;}
+a{ text-decoration:none; color:#333333;}
+.clear { clear:both;}
+.main { width:1000px; margin:0 auto;}
+.top_box { width:1000px; padding-top:373px; text-align:right; height:31px; background:url(../images/top_bg.jpg) left top no-repeat;}
+.top_box img { padding-left:3px;}
+.menu { height:51px; line-height:51px; color:#fff; font-size:18px; width:1000px; overflow:hidden; background-color:#00539F;}
+.menu ul { width:1000px; overflow:hidden;}
+.menu ul li { width:270px; display:block; float:left; background:url(../images/menu_border.gif) top left no-repeat; padding-left:2px; text-align:center;}
+.menu ul li.home { width:184px; padding-left:0; background:none;}
+.menu ul li a { color:#FFF;}
+
+.box1 { width:970px; height:275px; padding:15px; background:#fff;}
+.foucs { width:550px; float:left; overflow:hidden; height:275px;}
+.jianjie { width:401px; float:left; height:275px; overflow:hidden; padding-left:15px;}
+.jianjie .title { width:371px; height:39px; line-height:39px; color:#FFF; font-size:16px; background:url(../images/title_bg1.jpg) top left no-repeat; padding-left:30px;}
+.jianjie .con_txt { width:371px; text-indent:2em; padding:15px; line-height:180%; color:#333;}
+.jianjie .con_list { width:401px; border-top:1px dashed #333;}
+.jianjie .con_list ul { padding:15px; width:371px;}
+.jianjie .con_list ul li { width:351px; padding-left:20px; line-height:180%; background:url(../images/icon1.gif) 3px center no-repeat;}
+.jianjie .more { width:100%; text-align:right; color:#237BDF;}
+.jianjie .more a { color:#237BDF;}
+
+.box2 { width:970px; padding:15px; background:#fff; margin-top:15px;}
+.box2 .title { width:940px; height:39px; line-height:39px; color:#FFF; font-size:16px; background:url(../images/title_bg2.jpg) top left no-repeat; padding-left:30px; text-align:left;}
+.box2 .title a{ padding-left:800px; color:#FFF; font-size:14px;}
+
+.peixun_neirong { background:url(../images/pxnr_bg.jpg) left top no-repeat; width:970px; height:240px; overflow:hidden;}
+.peixun_neirong ul { padding-top:19px; width:654px; float:left;}
+.peixun_neirong ul li { width:111px; height:57px; padding-left:107px; float:left; color:#FFF; line-height:57px; font-size:16px;}
+.peixun_neirong ul.con { width:654px; float:left; padding-top:0;}
+.peixun_neirong ul.con li { width:174px; margin-left:14px; padding:15px; color:#1352C5; line-height:150%; height:110px; font-size:14px;}
+
+.peixun_shijian { background:url(../images/sjdd_bg.jpg) left top no-repeat; width:970px; height:380px; margin-top:20px;}
+.peixun_shijian .tit { width:970px; text-align:center; height:40px; line-height:40px; color:#FFF; font-size:16px;}
+.peixun_shijian .con { width:970px; float:left;}
+.peixun_shijian ul { float:left; width:970px;}
+.peixun_shijian ul li { width:190px; padding-top:80px; float:left; background:url(../images/date_off_bg.jpg) center 50px no-repeat; height:76px; text-align:center; line-height:150%; color:#807F7F;}
+.peixun_shijian ul li.on {background:url(../images/date_on_bg.jpg) center 50px no-repeat; color:#333;}
+.peixun_shijian ul li p { padding:10px 0;}
+
+.connect {width:969px; height:240px;}
+.connect ul { float:left; padding:20px 0;}
+.connect ul li { width:286px; float:left; background:url(../images/lxwm_bg.jpg) left top no-repeat; margin:0 18px 0 19px; height:200px; overflow:hidden;}
+.connect ul li .tit { width:286px; text-align:center; padding-top:20px; line-height:47px; color:#FFF; font-size:16px;}
+.connect ul li .con { width:236px; padding:15px 25px; line-height:180%;}
+
+.pic_box { width:970px; height:375px;}
+#screenshots {width:970px;height:375px;position: relative;overflow:hidden;}
+#abstract {margin-top: 3px;}
+#screenshots .slides_container {overflow: hidden;/*margin-left: 75px;*/margin:0 auto;width: 970px;height:375px;}
+#screenshots .slide {width: 970px;}
+#screenshots .slide ul.slide_ul { width:930px; padding:20px; float:left;}
+#screenshots .slide ul.slide_ul li {float: left; padding: 7px 13px;text-align: center;}
+#screenshots .next, #screenshots .prev {position: absolute;top: 47%;width: 22px;height: 37px;display: block;z-index: 101;overflow: hidden;text-indent: 100px;}
+#screenshots .prev {background: url(../images/pre.png);left: 0px;}
+#screenshots .next {background: url(../images/next.png);right: 0px;}
+#screenshots .pagination {height: 14px;  float:left;padding:30px 0; position:relative;left:50%; }
+#screenshots .pagination li {position:relative;right:50%;padding: 0 7px;position: relative; float:left;}
+#screenshots .pagination li.current a {background: url(/images/point-b.gif) no-repeat;}
+#screenshots .pagination li a {display: block;width: 12px;height: 12px;background: url(/images/point-b.gif) no-repeat right 0;overflow: hidden;text-indent: -1544px;}
+
+.box3 { width:1000px; margin-top:30px;}
+.box3 .left { margin-right:36px;}
+.box_in { float:left; width:482px; height:234px; background:url(../images/gywm_bg.jpg) left top no-repeat; }
+.box_in .tit { height:41px; width:462px; padding-left:20px; line-height:41px; color:#FFF; font-size:16px; }
+.box_in .con { width:442px; padding:20px; height:153px; line-height:200%;}
+
+.footer{ background:url(http://www.egreatwall.com/2015conference/images/20150709_20.jpg) repeat-x; height:109px; padding-top:40px; width:1000px; text-align:center; font-size:14px; color:#000000; line-height:40px; float:left; margin-top:30px;}
+.footer a { padding:0 20px;}
+
+.rightP {width: 147px;height: 174px;position: fixed;top: 400px;left: 50%;margin-left: 500px;z-index: 999;}
+.rightP a { font-size:12px;}
+
+.box4 { width:950px; padding:25px; background:#fff; }
+.box4 .txt { width:950px; padding-top:10px; }
+.box4 .txt input { border:none; color:#666; font-size:14px; width:300px;}
+.box4 .txt table { background-color:#999;}
+.box4 .txt table tr td { background-color:#FFF; padding:5px 3px;}
+.box4 .txt table tr td input { border:none; color:#666; font-size:14px;}
+.box4 .txt table tr td input.name { width:80px;}
+.box4 .txt table tr td input.dept { width:140px;}
+.box4 .txt table tr td input.phone { width:110px;}
+.box4 .txt table tr td input.fax { width:130px;}
+.box4 .txt table tr td input.mail { width:215px;}
+.box4 .txt table tr td input.bnt { border:none; color:#666; font-size:14px; width:20px;}
+.box4 .submit { width:950px; text-align:center; padding-top:40px;}
+.box4 .submit_bnt { background-color:#00539F; width:155px; height:45px; color:#FFF; font-size:24px; border:none;}
+
