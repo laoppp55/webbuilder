@@ -1,0 +1,73 @@
+    <script language="javascript">
+        $(function(){
+            $.post("/_members/getSessionInfo.jsp",{},
+                    function(data) {
+                        if (data.indexOf("<uname>") > -1) {
+                            var sposi = data.indexOf("<uname>");
+                            var eposi = data.indexOf("</uname>");
+                            var ttbuf = data.substring(sposi+"<uname>".length,eposi);
+                            var posi = ttbuf.indexOf("-");
+							var username = ttbuf.substring(0,posi);
+							var usertype = ttbuf.substring(posi);
+                            $("#welcomeid").html(username + "，您好，欢迎来到周边旅游行网！");
+							//if (usertype == 0)
+							//{
+                               $("#funid").html("<a href=\"javascript:windowOpen('http://cityside.coosite.com/_membercerter/fdzx.jsp','_blank')\">用户中心</a> | <a href=\"javascript:logoff();\">退出</a>");
+							//} else {
+                            //   $("#funid").html("<a href=\"/_membercerter/grzx.jsp\">用户中心</a> | <a href=\"javascript:logoff();\">退出</a>");
+							//}
+                        }
+                    }
+            )
+        });
+
+        function logoff() {
+            $.post("/_members/logoff.jsp",{},
+                    function(data) {
+                        if (data.indexOf("<logoutflag>") > -1) {
+                            $("#welcomeid").html("您好，欢迎来到周边旅游行网！");
+                            $("#funid").html("<a href=\"/_members/zhuce.jsp\">注册</a> | <a href=\"/_members/login.jsp\">登录</a>");
+                        }
+                    }
+            )
+        }
+
+        function windowOpen(url,target){
+            var a = document.createElement("a");
+            a.setAttribute("href", url);
+            if(target == null){
+                target = '';
+            }
+
+            a.setAttribute("target", target);
+            document.body.appendChild(a);
+
+            if(a.click){
+                a.click();
+            }else{
+                try{
+                    var evt = document.createEvent('Event');
+                    a.initEvent('click', true, true);
+                    a.dispatchEvent(evt);
+                }catch(e){
+                    window.open(url);
+                }
+            }
+
+            document.body.removeChild(a);
+        }
+
+    </script>
+<div class="bg1_2016">
+	<div class="box_2016">
+    	<div class="sub_0_2016">
+        	<div class="dest-choose header-label" id="toppro" style="position:absolute;z-index: 9999;">
+            </div>
+        </div>
+
+    	<div id="welcomeid" class="sub_1_2016">您好，欢迎来到周边旅游行网！</div>
+        <div id="funid" class="sub_2_2016"><a href="/_members/zhuce.jsp">注册</a> | <a href="/_members/login.jsp">登录</a></div>
+    </div>
+</div>
+<!--  sub end  -->
+

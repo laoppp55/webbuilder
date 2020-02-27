@@ -1,0 +1,35 @@
+<div class="box">
+<div class="search_bg">
+  <div class="sub_search_2016">
+    <div class="ch_1_2016">
+        <input type="hidden" id="area" value="10">
+    	<div class="dest-choose_ch header-label_ch" id="city" style="position:absolute;z-index: 9999;">
+            <span class="default-dest_ch">请选择市区</span>
+        </div>
+    </div>
+    <div class="ch_1_2016">
+    	<div class="dest-choose_ch header-label_ch" id="tcity" style="position:absolute;z-index: 9999;">
+            <span class="default-dest_ch">请选择县</span>
+        </div>
+    </div>
+    <div class="ch_1_2016">
+    	<div class="dest-choose_ch header-label_ch" id="town" style="position:absolute;z-index: 9999;">
+           <span class="default-dest_ch">请选择乡</span>
+        </div>
+    </div>
+     <div class="ch_2_2016">
+         <input id="keyword" name="keyword" type="text" class="ch_2016_gjz" value="请输入查询关键字" onclick="if(this.value=='请输入查询关键字')this.value=''" onblur="if (value ==''){value='请输入查询关键字'}"  />
+     </div>
+     <div class="btn_3_2016"><input name="" type="button" class="bt_ssbtn" onclick="javascript:getList(1);"/></div>
+	</div>
+</div>
+<div class="sub_con">
+    <div class="sub_con_bt2">
+        <div class="bt_1"><span id="topTxt"></span><span id="typeTxt"></span></div>
+    </div>
+    <!--  bt_top end  -->
+    <div id="result"></div>
+    <div class="page" id="paging"></div>
+    <div class="clear"></div>
+</div>
+</div>

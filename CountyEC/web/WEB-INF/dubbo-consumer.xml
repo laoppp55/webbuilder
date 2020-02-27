@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://code.alibabatech.com/schema/dubbo
+       http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!-- transaction manager, use JtaTransactionManager for global tx -->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="myDataSource" />
+    </bean>
+
+    <!-- in-memory database and a datasource -->
+    <bean id="myDataSource" class="com.jolbox.bonecp.BoneCPDataSource" destroy-method="close">
+        <property name="driverClass" value="oracle.jdbc.driver.OracleDriver" />
+        <property name="jdbcUrl" value="jdbc:oracle:thin:@116.90.87.164:1521:orcl11g" />
+        <property name="username" value="coositedb"/>
+        <property name="password" value="coositedbpass2009"/>
+        <property name="IdleConnectionTestPeriodInMinutes" value="60"/>
+        <property name="idleMaxAgeInMinutes" value="240"/>
+        <property name="maxConnectionsPerPartition" value="30"/>
+        <property name="minConnectionsPerPartition" value="10"/>
+        <property name="partitionCount" value="3"/>
+        <property name="acquireIncrement" value="5"/>
+        <property name="statementsCacheSize" value="100"/>
+        <property name="releaseHelperThreads" value="3"/>
+        <property name="logStatementsEnabled"  value="true"/>
+    </bean>
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="myDataSource" />
+        <property name="typeAliasesPackage" value="com.bizwink.po" />
+        <!-- <property name="configLocation" value=""/> -->
+        <!--
+          该属性用来指定MyBatis的XML配置文件路径,跟Spring整合时，编写MyBatis映射文件的目的无非是配置一下typeAlias、setting之类的
+          元素。不用在其中指定数据源，或者事务处理方式。就算配置了也会被忽略。因为这些都是使用Spring中的配置
+          。当然如果你不打算添加typeAlias 之类的设置的话，你连MyBatis的配置文件都不用写，更不用配置这个属性了
+          -->
+
+        <!--<property name="mapperLocations" value="src/UserMapper.xml"/>-->
+        <!-- 该配置文件用来指定Mapper映射文件的位置 ，如果映射文件与相应的接口同名，且在同一路径下，那么可以不配置该选项-->
+    </bean>
+
+    <!-- 消费方应用名，用于计算依赖关系，不是匹配条件，不要与提供方一样 -->
+    <dubbo:application name="com.bizwink.dubboservice"/>
+
+    <!-- 使用zookeeper注册中心暴露服务地址 -->
+    <dubbo:registry protocol="zookeeper" address="192.168.1.53:2181"/>
+
+    <dubbo:reference id="AreaService" interface="com.bizwink.dubboservice.service.AreaService"/>
+
+    <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
+    <dubbo:reference id="UsersService" interface="com.bizwink.dubboservice.service.Users.UsersService"/>
+
+    <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
+    <dubbo:reference id="SiteinfoService" interface="com.bizwink.dubboservice.service.SiteinfoService"/>
+
+    <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
+    <dubbo:reference id="SiteipinfoService" interface="com.bizwink.dubboservice.service.SiteipinfoService"/>
+
+    <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
+    <dubbo:reference id="ColumnService" interface="com.bizwink.dubboservice.service.ColumnService"/>
+
+    <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
+    <dubbo:reference id="LeaveMessageService" interface="com.bizwink.dubboservice.service.LeaveMessageService"/>
+
+	    <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
+    <dubbo:reference id="CompanyService" interface="com.bizwink.dubboservice.service.CompanyService"/>
+
+    <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
+    <dubbo:reference id="TemplateService" interface="com.bizwink.dubboservice.service.TemplateService"/>
+
+    <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
+    <dubbo:reference id="ArticleService" interface="com.bizwink.dubboservice.service.ArticleService"/>
+</beans>

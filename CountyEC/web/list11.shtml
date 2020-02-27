@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>周边旅游行网</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="/css/search_20160219.css" rel="stylesheet" type="text/css" />
+    <link href="/css/top_2016.css" rel="stylesheet" type="text/css" />
+    <script src="/js/jquery-1.4.4.min.js" type="text/javascript"></script>
+    <script src="/js/json2.js" type="text/javascript"></script>
+    <script src="/js/json_parse.js" type="text/javascript"></script>
+    <script src="/js/List.js" type="text/javascript"></script>
+</head>
+
+<body>
+<!--#include virtual="/inc/top.shtml"-->
+<!--  sub end  -->
+<div class="box">
+    <div style=" width:1000px; height:30px;">&nbsp;</div>
+    <!--#include virtual="/inc/menu.shtml"-->
+</div>
+<!--  menu end  -->
+<div id="banner" class="sub_banner2">&nbsp;</div>
+<!--  banner end   -->
+
+<div class="box">
+    <div class="search_bg">
+        <div class="sub_search_2016">
+            <div class="ch_1_2016">
+                <input type="hidden" id="area" value="10">
+                <div class="dest-choose_ch header-label_ch" id="city" style="position:absolute;z-index: 9999;">
+                    <span class="default-dest_ch">请选择市区</span>
+                </div>
+            </div>
+            <div class="ch_1_2016">
+                <div class="dest-choose_ch header-label_ch" id="tcity" style="position:absolute;z-index: 9999;">
+                    <span class="default-dest_ch">请选择县</span>
+                </div>
+            </div>
+            <div class="ch_1_2016">
+                <div class="dest-choose_ch header-label_ch" id="town" style="position:absolute;z-index: 9999;">
+                    <span class="default-dest_ch">请选择乡</span>
+                </div>
+            </div>
+            <div class="ch_2_2016">
+                <input id="keyword" name="keyword" type="text" class="ch_2016_gjz" value="请输入查询关键字" onclick="if(this.value=='请输入查询关键字')this.value=''" onblur="if (value ==''){value='请输入查询关键字'}"  />
+            </div>
+            <div class="btn_3_2016"><input name="" type="button" class="bt_ssbtn" onclick="javascript:getList(1);"/></div>
+        </div>
+    </div>
+
+<div class="box">
+    <div class="country_left">
+        <div class="country_left_1"><img src="/images/country_38_2.jpg" /></div>
+        <div class="country_left_2">
+            <ul>
+                <li><a href="javascript:void(0)" class="add">最美乡村</a></li>
+                <li><a href="javascript:void(0)">古村风情</a></li>
+                <li><a href="javascript:void(0)">小城镇</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="country_right">
+        <div class="country_title">最美乡村</div>
+        <div class="country_lei" id="country_lei"></div>
+        <div class="country_list" id="result_mlxc"></div>
+        <div class="country_page" id="paging_mlxc"></div>
+    </div>
+</div>
+<div class="sub_con">
+    <div class="sub_con_bt2">
+        <div class="bt_1"><span id="topTxt"></span><span id="typeTxt"></span></div>
+    </div>
+    <!--  bt_top end  -->
+    <div id="result">jjjjjjjjjjjjjjjjj</div>
+    <div class="page" id="paging"></div>
+    <div class="clear"></div>
+</div>
+</body>
+</html>

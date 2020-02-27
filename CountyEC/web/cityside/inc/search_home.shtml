@@ -1,0 +1,14 @@
+<div class="sub_search_201602">
+    <div class="btn_1_201602">
+        <input type="hidden" id="area" value="10">
+        <div class="dest-choose_ch header-label_ch" id="city" style="position:absolute;z-index: 9999;">
+            <span class="default-dest_ch">请选择市区</span>
+        </div>
+    </div>
+    <div class="btn_2_201602">
+        <input id="keyword" name="keyword" type="text" class="bt_gjz02" value="请输入查询关键字" onclick="if(this.value=='请输入查询关键字')this.value=''" onblur="if (value ==''){value='请输入查询关键字'}"  />
+    </div>
+    <div class="btn_3_201602">
+        <input name="" type="button" class="bt_ssbtn02" onclick="javascript:getnjlList(1);"/>
+    </div>
+</div>

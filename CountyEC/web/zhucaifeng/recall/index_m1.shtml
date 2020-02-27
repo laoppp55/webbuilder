@@ -1,0 +1,51 @@
+<html dir="ltr">
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script>
+		$(function(){
+                          var height = $(window).height();
+                          //alert(height);
+                          var width = $(window).width();
+                          $(".m_big_pic img").attr("width",width );
+                          $(".m_con img").attr("width",width );
+
+			//滚动Banner图片的显示
+						                        });
+		</script>
+        <div class="m_top">
+        <div class="title">朱彩凤农家院<br  />
+        <span>联系电话：</span>13436619023</div>
+        </div>
+        <div class="m_menu"><a class="m_menu_1" href="#number1">农家乐介绍</a><a class="m_menu_2" href="#number2">房间房型</a><a class="m_menu_3" href="#number3">特色美食</a><a class="m_menu_4" href="#number4">特色活动</a><a class="m_menu_5" href="#number5">联系方式</a><a class="m_menu_6" href="#number6">注意事项</a><a class="m_menu_7" href="#number7">往客留影</a><a class="m_menu_8" href="#">留言板</a><a class="m_menu_9" href="#">视频</a></div>
+        <div class="m_big_pic"><img border="0" alt="" src="http://njy01.coosite.com/images/pichgi5q7dg.jpg" hspace="0"  /></div>
+        <div class="m_content">
+        <div class="m_title" id="number1">农家乐介绍</div>
+        <div class="m_con"><!--#include virtual="/infos/brief.shtml"--></div>
+        <div class="m_title" id="number2">房间房型</div>
+        <div class="m_con">
+</div>
+        <div class="m_title" id="number3">特色美食</div>
+        <div class="m_con">
+        <ul>
+</ul>
+            </div>
+            <div class="m_title" id="number4">特色活动</div>
+            <div class="m_con">
+            <ul>
+</ul>
+                </div>
+                <div class="m_title" id="number5">联系方式</div>
+                <div class="m_con"><!--#include virtual="/contact/contactus.shtml"--></div>
+                <div class="m_title" id="number6">注意事项</div>
+                <div class="m_con"><!--#include virtual="/attion/notes.shtml"--></div>
+                <div class="m_title" id="number7">往客留影</div>
+                <div class="m_con">
+                <ul>
+<li><a href="#"><img src="/recall/images/" /></a><a href="#">我的第三章照片</a></li><li><a href="#"><img src="/recall/images/" /></a><a href="#">我的第二张图片</a></li><li><a href="#"><img src="/recall/images/" /></a><a href="#">我的第一张图片</a></li>
+</ul>
+                    </div>
+                    </div>
+                </body>
+            </html>

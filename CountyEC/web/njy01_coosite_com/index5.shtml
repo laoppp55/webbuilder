@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head xmlns="">
+        <title></title>
+        <meta content="text/html; charset=gb2312" http-equiv="Content-Type" />
+        <link rel="stylesheet" type="text/css" href="/css/style05.css" /><style type="text/css">
+<!--
+.rightP {
+width: 241px;
+height: 79px;
+position: fixed;
+top: 200px;
+left: 50%;
+margin-left: 500px;
+z-index: 999;
+}
+.rightP .bg{ background:url(/images/fly_call.png) no-repeat; padding:50px 20px 0px 52px ; width:162px; height:225px; font-size:18px; line-height:28px; color:#d33c3c; font-weight:bold; text-align:center;}
+.rightm {
+width: 65px;
+height: 58px;
+position: fixed;
+bottom: 30px;
+left: 50%;
+margin-left: 500px;
+z-index: 999;
+}
+--></style>
+    </head>
+    <body xmlns="">
+        <div class="top1">
+        <div id="number11" class="top1_logo">
+        <div class="top1_02">
+        <div class="top1_02_1"></div>
+        <div class="top1_02_2">联系电话：</div>
+        </div>
+        </div>
+        </div>
+        <div class="top2">
+        <div class="top2_pic">
+        <div class="top2_banner"><a href="#number1">农家乐介绍</a> <a href="#number2">房间房型</a> <a href="#number3">特色美食</a> <a href="#number4">特色活动</a> <a href="#number5">联系方式</a> <a href="#number6">注意事项</a> <a href="#number7">往客留影</a> <a href="#">留言板</a> <a href="#">视频</a></div>
+        <div class="top2_00"><img border="0" hspace="0" alt="" src="/images/pic11jmy4pm.jpg" /></div>
+        </div>
+        </div>
+        <div class="content">
+        <div class="content_c">
+        <div id="number1" class="title">农家乐介绍:</div>
+        <div class="txt">
+        <p><!--#include virtual="/infos/brief.shtml"--></p>
+        </div>
+        <div id="number2" class="title">房间房型:</div>
+        <div class="txt">
+        <p align="center">
+<p align="center"><img alt="" width="479" height="320" src="/room/images/pic1j607c15.jpg" /></p><p align="center"><img alt="" width="479" height="320" src="/room/images/pic75l6mqcs.jpg" /></p><p align="center"><img alt="" width="479" height="320" src="/room/images/picgi28n7l4.jpg" /></p><p align="center"><img alt="" width="479" height="320" src="/room/images/picp6qf75ha.JPG" /></p>
+</p>
+        </div>
+        <div id="number3" class="title">特色美食:</div>
+        <div class="txt_con">
+        <ul>&nbsp;<!--#include virtual="/foods/tesems.shtml"--></ul>
+            </div>
+            <div id="number4" class="title">特色活动:</div>
+            <div class="txt_con">
+            <ul>&nbsp;<!--#include virtual="/activities/tesehd.shtml"--></ul>
+                </div>
+                <div id="number5" class="title">联系方式:</div>
+                <div class="txt">
+                <p><!--#include virtual="/contact/contactus.shtml"--></p>
+                </div>
+                <div id="number6" class="title">注意事项:</div>
+                <div class="txt">
+                <p><!--#include virtual="/attion/notes.shtml"--></p>
+                </div>
+                <div id="number7" class="title">过往客人的留影:</div>
+                <div class="txt_con">
+                <ul>
+<li><a href=/recall/20151219/211541.shtml><img src="/recall/images/pic88g7xo5b.jpg" /></a><a href=/recall/20151219/211541.shtml>我的第六张图片</a></li><li><a href=/recall/20151219/211540.shtml><img src="/recall/images/picm75rh6c4.jpg" /></a><a href=/recall/20151219/211540.shtml>我的第五张图片</a></li><li><a href=/recall/20151219/211539.shtml><img src="/recall/images/pice02134b2.jpg" /></a><a href=/recall/20151219/211539.shtml>我的第四章图片</a></li><li><a href=/recall/20151219/211538.shtml><img src="/recall/images/pic28nvrguf.jpg" /></a><a href=/recall/20151219/211538.shtml>我的第三章图片</a></li><li><a href=/recall/20151219/211537.shtml><img src="/recall/images/pico38ee0e4.jpg" /></a><a href=/recall/20151219/211537.shtml>我的第二章图片</a></li><li><a href=/recall/20151219/211536.shtml><img src="/recall/images/picf0nirc4q.jpg" /></a><a href=/recall/20151219/211536.shtml>我的第一张图片</a></li>
+</ul>
+                    </div>
+                    </div>
+                    <div id="divclose" class="rightP ie6fixedTL ie6fixedBR">
+                    <div class="bg">电话：QQ:</div>
+                    </div>
+                    <div id="divclose" class="rightm ie6fixedTL ie6fixedBR"><a href="#number11"><img alt="" src="/images/top.jpg" /></a></div>
+                    <p></p>
+                    </div>
+                </body>
+            </html>

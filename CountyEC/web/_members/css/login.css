@@ -1,0 +1,35 @@
+body{ background:url(../images/login_bg.jpg) top center no-repeat; margin:0 auto; padding:0px;font-family:"Microsoft YaHei"}
+ol,ul,dl,dt,dd,li,p,form,label,input { margin:0;padding:0; list-style-type:none; }
+h1,h2,h3,h4{ padding:0px; margin:0px; line-height:100%;}
+div,ul {display:block;}
+a img,img{border:0;}
+a{ text-decoration:none; color:#333333;}
+.clear { clear:both;}
+
+.box{ width:954px; margin:0 auto;}
+.top{ width:954px; margin-top:36px;}
+.logo{ width:325px; float:left; height:50px; text-align:left;}
+.menu{ width:430px; float:left; height:25px; padding-top:25px;}
+.menu a{ font-size:18px;color:#ffffff; margin-right:20px;}
+.menu a:link,.menu a:visited,.menu a:hover{ color:#ffffff;}
+.login{ width:190px; float:left; text-align:right; font-size:12px;font-family:"SimSun"; color:#ffffff;}
+.login a:link,.login a:visited,.login a:hover{ color:#ffffff;}
+.login_con{ width:954px;}
+.login_con_1{ width:510px; float:left; text-align:center;}
+.login_con_2{ width:394px; float:left; height:305px; border:1px solid #94d6fc; margin-left:15px;}
+.dl_1{ width:394px; height:46px; background-color:#f7f7f7; border-bottom:1px solid #f2f2f2;}
+.dl_1_1{ width:70px; float:left; height:46px; line-height:46px; font-size:18px; color:#5d5d5d; text-align:center;}
+.dl_1_2{ width:309px; padding-right:15px; text-align:right; float:left; height:46px; line-height:46px; font-size:12px; color:#666666;font-family:"SimSun";}
+.dl_1_2 span{ color:#2c98d6;}
+.dl_2{ width:394px; margin-top:15px;}
+.dl_2_1{ width:324px; float:left; height:40px; padding-top:6px;}
+.login_btn{ background:url(../images/20150527_78.jpg) no-repeat; width:309px; height:34px; line-height:34px; border:none;color:#cccccc;}
+.dl_2_2{ width:162px; float:left; text-align:right;  height:25px; line-height:25px; font-size:12px; color:#666666;}
+.dl_2_3{ width:220px; float:left; text-align:right;height:25px; line-height:25px; font-size:12px; color:#2c98d6;}
+/******  login end ******/
+
+.bg3{ width:100%; height:120px; border-top:1px solid #cccccc; background-color:#efefef; margin-top:25px;}
+.footer{ width:1000px; margin:0 auto;font-family:"Microsoft YaHei"}
+.footer_sub{ width:1000px; text-align:center; padding:25px 0px; font-size:14px; color:#333333;}
+.footer_sub a:link,.footer_sub a:visited,.footer_sub a:hover{ color:#333333;}
+.footer_p{width:1000px; text-align:center;font-size:14px; color:#333333;}

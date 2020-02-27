@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>周边旅游行网</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!--#include virtual="/inc/top.shtml"-->
+<!--  sub end  -->
+<div class="box">
+	<div style=" width:1000px; height:30px;">&nbsp;</div>
+        <!--#include virtual="/inc/menu.shtml"-->
+</div>
+<!--  menu end  -->
+<div class="sub_banner1">&nbsp;</div>
+<!--  banner end   -->
+<div class="box">
+<div class="search_bg">
+	<div class="sub_search">
+        <div class="btn_1"><input name="" type="button" value="北京" class="btn_city" /></div>
+        <div class="btn_2"><input name="" type="button" value="2015-05-25" class="btn_date" /></div>
+        <div class="btn_2"><input name="" type="button" value="2015-05-26" class="btn_date1" /></div>
+        <div class="btn_3"><input name="" type="text"  value="关键词" class="btn_wz"/></div>
+        <div class="btn_4"><input name="" type="button" value=""  class="btn_ss"/></div>
+    </div>
+</div>
+	<div class="sub_con">
+    	<div class="sub_con_bt1">
+        	<div class="bt_1">密云景区</div>
+            <div class="bt_2">更多农家乐：<a href="#">平谷</a><a href="#">怀柔</a><a href="#">大兴</a><a href="#">昌平</a><a href="#">房山</a></div>
+        </div>
+        <div class="czy_list">
+        	<!-- pic start  -->
+            <div class="czy_list_1">
+           	  <div class="jq_pic"><img src="images/20150527_22.jpg" /></div>
+              <div class="pic_bt"><a href="#">黑龙潭公园-密云黑龙潭景区</a></div>
+              <div class="pic_js">
+              	   <div class="pic_js_1"><a href="#">景点介绍：山峰环抱，山清水秀！峡谷幽深……</a></div>
+                   <div class="pic_js_2"><span>★★★★★</span> 50条评论</div>
+              </div>
+            </div>
+            <!-- pic end  -->
+            <div class="czy_list_1">
+           	  <div class="jq_pic"><img src="images/20150527_23.jpg" /></div>
+              <div class="pic_bt"><a href="#">密云水库</a></div>
+              <div class="pic_js">
+              	   <div class="pic_js_1"><a href="#">景点介绍：位于燕山群峰之中，横跨潮……</a></div>
+                   <div class="pic_js_2"><span>★★★★★</span> 50条评论</div>
+              </div>
+            </div>
+            <div class="czy_list_1">
+           	  <div class="jq_pic"><img src="images/20150527_24.jpg" /></div>
+              <div class="pic_bt"><a href="#">司马台长城</a></div>
+              <div class="pic_js">
+              	   <div class="pic_js_1"><a href="#">景点介绍：我国唯一保留明代原貌的古建筑……</a></div>
+                   <div class="pic_js_2"><span>★★★★★</span> 50条评论</div>
+              </div>
+            </div>
+            <div class="czy_list_1">
+           	  <div class="jq_pic"><img src="images/20150527_25.jpg" /></div>
+              <div class="pic_bt"><a href="#">东极仙谷自然风景区</a></div>
+              <div class="pic_js">
+              	   <div class="pic_js_1"><a href="#">景点介绍：山水相连，水天一色，山中有水……</a></div>
+                   <div class="pic_js_2"><span>★★★★★</span> 50条评论</div>
+              </div>
+            </div>
+            <div class="czy_list_1">
+           	  <div class="jq_pic"><img src="images/20150527_26.jpg" /></div>
+              <div class="pic_bt"><a href="#">张裕爱斐堡国际酒庄</a></div>
+              <div class="pic_js">
+              	   <div class="pic_js_1"><a href="#">景点介绍：由烟台张裕集团融合美国、意大……</a></div>
+                   <div class="pic_js_2"><span>★★★★★</span> 50条评论</div>
+              </div>
+            </div>
+            <div class="czy_list_1">
+           	  <div class="jq_pic"><img src="images/20150527_27.jpg" /></div>
+              <div class="pic_bt"><a href="#">紫海香堤香草乐园</a></div>
+              <div class="pic_js">
+              	   <div class="pic_js_1"><a href="#">景点介绍：紫海香堤香草庄园隶属于北京紫……</a></div>
+                   <div class="pic_js_2"><span>★★★★★</span> 50条评论</div>
+              </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="page"><a href="#">上一页</a><a href="#">1</a><a href="#">2</a><a style="color:#ff0000; background-color:#edefed;" href="#">3</a><a href="#">4</a>……　<a href="#">56</a><a href="#">下一页</a></div>
+    </div>
+</div>
+<!--  list end  -->
+<!-- fonnter  -->
+<div class="bg3">
+	<div class="footer">
+    	<div class="footer_sub"><a href="#">联系我们</a> | <a href="#">法律声明</a> | <a href="#">网站地图</a> | <a href="#">关于我们</a> | <a href="#">ICP备案信息</a></div>
+        <div class="footer_p">版权信息归周边游旅行网所有</div>
+    </div>
+</div>
+</body>
+</html>

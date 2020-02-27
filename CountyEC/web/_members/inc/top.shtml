@@ -1,0 +1,6 @@
+<div class="top">
+    <div class="logo"><img src="images/logo.png" /></div>
+    <div class="menu"><a href="/">首页</a><a href="/njl.shtml?type=njy">农家乐</a><a href="/mlxc.shtml?type=mlxc">美丽乡村</a><a href="/czy.shtml?type=czy">采摘园</a><a href="/list.shtml?type=jq">景点景区</a></div>
+    <div class="login"><a href="/_members/zhuce.jsp">注册</a> | <a href="/_members/login.jsp">登录</a></div>
+    <div class="clear"></div>
+</div>

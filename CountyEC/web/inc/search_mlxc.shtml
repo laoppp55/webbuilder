@@ -1,0 +1,18 @@
+<div class="box">
+    <div class="country_left">
+        <div class="country_left_1"><img src="/images/country_38_2.jpg" /></div>
+        <div class="country_left_2">
+            <ul>
+                <li><a href="javascript:void(0)" class="add">最美乡村</a></li>
+                <li><a href="javascript:void(0)">古村风情</a></li>
+                <li><a href="javascript:void(0)">小城镇</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="country_right">
+        <div class="country_title">最美乡村</div>
+        <div class="country_lei" id="country_lei"></div>
+        <div class="country_list" id="result_mlxc"></div>
+        <div class="country_page" id="paging_mlxc"></div>
+    </div>
+</div>

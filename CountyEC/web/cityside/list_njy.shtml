@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>周边旅游行网</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="/css/search_20160219.css" rel="stylesheet" type="text/css" />
+<link href="/css/top_2016.css" rel="stylesheet" type="text/css" />
+<script src="/js/jquery-1.4.4.min.js" type="text/javascript"></script>
+<script src="/js/Area.js" type="text/javascript"></script>
+</head>
+
+<body>
+<!--#include virtual="/inc/top.shtml"-->
+<!--  sub end  -->
+<div class="box">
+	<div style=" width:1000px; height:30px;">&nbsp;</div>
+    <!--#include virtual="/inc/menu.shtml"-->
+</div>
+<!--  menu end  -->
+<div class="sub_banner2">&nbsp;</div>
+<!--  banner end   -->
+<div class="box">
+    <!--#include virtual="/inc/search.shtml"-->
+    <div class="sub_con">
+    	<div class="sub_con_bt2">
+        	<div class="bt_1"><span id="topTxt"></span>农家院</div>
+            <!--div class="bt_2">更多农家乐：<a href="#">平谷</a><a href="#">怀柔</a><a href="#">大兴</a><a href="#">昌平</a><a href="#">房山</a></div-->
+        </div>
+        <!--  bt_top end  -->
+        <!--div class="xx_1">
+        	<div class="weizhi">位置</div>
+            <div class="buxian">不限</div>
+            <div class="chose_1"> 商圈</div>
+            <div class="chose_1"> 捷运</div>
+            <div class="chose_1"> 景点</div>
+            <div class="clear"></div>
+        </div>
+        <div class="xx_1">
+        	<div class="weizhi">价格</div>
+            <div class="buxian">不限</div>
+            <div class="chose_2">300元以下</div>
+            <div class="chose_2">300-500元</div>
+            <div class="chose_2">500-800元</div>
+            <div class="chose_2">800-1200元</div>
+            <div class="chose_2">1200元以上</div>
+            <div class="clear"></div>
+        </div>
+        <div class="xx_1">
+        	<div class="weizhi">房型</div>
+            <div class="buxian">不限</div>
+            <div class="chose_2">一人房</div>
+            <div class="chose_2">两人房</div>
+            <div class="chose_2">三人房</div>
+            <div class="chose_2">四人房</div>
+            <div class="chose_2">五人房</div>
+            <div class="chose_2">五人以上</div>
+            <div class="clear"></div>
+        </div>
+        <div class="xx_1" style="margin-bottom:20px;">
+        	<div class="weizhi">特色</div>
+            <div class="buxian">不限</div>
+            <div class="chose_2">有特色</div>
+            <div class="chose_2">早餐服务</div>
+            <div class="chose_2">接送服务</div>
+            <div class="chose_2">包车服务</div>
+            <div class="chose_2">特色服务</div>
+            <div class="clear"></div>
+        </div>
+    </div-->
+    <!--  chose end  -->
+    <!--div class="con">
+    	<div class="search_1">
+        	<ul>
+            	<li><a href="#">全部房间</a></li>
+                <li><a href="#">查看周边房间</a></li>
+            </ul>
+        </div>
+        <div class="search_2">找到<span> 507 </span>家民宿  共 <span>5015</span> 间房  <span class="fy_blue"> <a href="#">上一页</a> </span>1/55 <span class="fy_blue"><a href="#">下一页</a></span></div>
+        <div class="clear"></div>
+    </div-->
+    <!--  search end  -->
+    <!--div class="con">
+    	<div class="tab_div">
+        	<ul>
+            	<li class="tab_ts"><a href="#">综合排序</a></li>
+                <li><a href="#">价格<img src="images/icon_1.png" /></a></li>
+                <li><a href="#">销量<img src="images/icon_1.png" /></a></li>
+                <li><a href="#">好评</a><img src="images/icon_1.png" /></a></li>
+            </ul>
+        </div>
+    </div-->
+   <div id="result"></div>
+    <div class="page" id="paging">
+    </div>
+    <div class="clear"></div>
+    </div>
+    </div>
+</div>
+<!--  list end  -->
+<!-- fonnter  -->
+<!--#include virtual="/inc/tail.shtml"-->
+</body>
+</html>

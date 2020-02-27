@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head xmlns="">
+        <title>朱彩凤农家院</title>
+        <meta content="text/html; charset=gb2312" http-equiv="Content-Type" />
+        <link rel="stylesheet" type="text/css" href="http://njy01.coosite.com/css/style01.css" /><script type="text/javascript" src="http://njy01.coosite.com/js/181.js"></script><script type="text/javascript" src="http://njy01.coosite.com/js/jquery.img_silder.js"></script><script src="http://njy01.coosite.com/js/jquery-1.4.js" type="text/javascript"></script><script src="http://njy01.coosite.com/js/njycommon.js" type="text/javascript"></script><style type="text/css">
+<!--
+.rightP {
+width: 150px;
+height: 150px;
+position: fixed;
+top: 200px;
+left: 50%;
+margin-left: 480px;
+z-index: 999;
+}
+.rightm {
+width: 65px;
+height: 58px;
+position: fixed;
+bottom: 30px;
+left: 50%;
+margin-left: 500px;
+z-index: 999;
+}
+--></style><script language="javascript">
+        $(function(){
+            $('#silder').imgSilder({
+				s_width:1000, //容器宽度
+				s_height:302, //容器高度
+				is_showTit:true, // 是否显示图片标题 false :不显示，true :显示
+				s_times:2500, //设置滚动时间
+				css_link:'/images/banner.css'//样式文件位置
+			});
+		});
+
+        function openDivWin(infotype) {
+            if (infotype=="_messages") {
+                htmlobj=$.ajax({
+                    //url:"getPageHTML.jsp?ptype=_messages",
+                    url:"/_messages/message.jsp",
+                    dataType:'html',
+                    async:false,
+                    cache:false,
+                    success:function(data){
+                        //alert(data);
+                        var selObj = $("#msgid");
+                        selObj.show();
+                        selObj.html(data);
+                    }
+                });
+            } else if (infotype=="_comment"){
+                htmlobj=$.ajax({
+                    //url:"getPageHTML.jsp?ptype=_comment",
+                    url:"/_comment/comment.jsp",
+                    dataType:'html',
+                    async:false,
+                    cache:false,
+                    success:function(data){
+                        //alert(data);
+                        var selObj = $("#commentid");
+                        selObj.show();
+                        selObj.html(data);
+                    }
+                });
+            }
+        }
+
+        function divwinclose(infotype) {
+            if (infotype=="_messages")
+                $('#msgid').hide();
+            else if (infotype=="_comment")
+                $("#commentid").hide();
+        }
+
+        $(function(){
+            $.post("/_members/getSessionInfo.jsp",{},
+                    function(data) {
+                        if (data.indexOf("<uname>") > -1) {
+                            var sposi = data.indexOf("<uname>");
+                            var eposi = data.indexOf("</uname>");
+                            var ttbuf = data.substring(sposi+"<uname>".length,eposi);
+                            var posi = ttbuf.indexOf("-");
+							var username = ttbuf.substring(0,posi);
+							var usertype = ttbuf.substring(posi);
+                            $("#welcomeid").html(username + "，您好，欢迎来到周边旅游行网！");
+							//if (usertype == 0)
+							//{
+                               $("#funid").html("<a href=\"javascript:windowOpen('http://www.gugulx.com/_membercerter/fdzx.jsp','_blank')\">用户中心</a> | <a href=\"javascript:logoff();\">退出</a>");
+							//} else {
+                            //   $("#funid").html("<a href=\"http://www.gugulx.com/_membercerter/grzx.jsp\">用户中心</a> | <a href=\"javascript:logoff();\">退出</a>");
+							//}
+                        }
+                    }
+            )
+        });
+
+        function logoff() {
+            $.post("/_members/logoff.jsp",{},
+                    function(data) {
+                        if (data.indexOf("<logoutflag>") > -1) {
+                            $("#welcomeid").html("您好，欢迎来到周边旅游行网！");
+                            $("#funid").html("<a href=\"http://www.gugulx.com/_members/zhuce.jsp\">注册</a> | <a href=\"http://www.gugulx.com/_members/login.jsp\">登录</a>");
+                        }
+                    }
+            )
+        }
+
+        function windowOpen(url,target){
+            var a = document.createElement("a");
+            a.setAttribute("href", url);
+            if(target == null){
+                target = '';
+            }
+
+            a.setAttribute("target", target);
+            document.body.appendChild(a);
+
+            if(a.click){
+                a.click();
+            }else{
+                try{
+                    var evt = document.createEvent('Event');
+                    a.initEvent('click', true, true);
+                    a.dispatchEvent(evt);
+                }catch(e){
+                    window.open(url);
+                }
+            }
+
+            document.body.removeChild(a);
+        }
+</script>
+    </head>
+    <body xmlns="" style="background-image: url(http://njy01.coosite.com/images/sinablogb.jpg)">
+        <div class="nav">
+        <div class="nav_box">
+        <div id="welcomeid" class="nav_left">欢迎光临朱彩凤农家院</div>
+        <div id="funid" class="nav_right"><a href="http://www.gugulx.com/_members/zhuce.jsp">注册</a> | <a href="http://www.gugulx.com/_members/login.jsp">登录</a></div>
+        </div>
+        </div>
+        <div class="head">
+        <div id="number11" class="top">
+        <div class="n_name">朱彩凤农家院</div>
+        <div class="n_call">联系电话：13436619023</div>
+        </div>
+        <!--定义留言板显示的DIV-->
+        <div id="msgid" class="div1"></div>
+        <!--定义评论显示的DIV-->
+        <div id="commentid" class="div2"></div>
+        <div class="menu">
+        <div class="menu_con"><a href="#number1">农家乐介绍</a> <a href="#number2">房间房型</a> <a href="#number3">特色美食</a> <a href="#number4">特色活动</a> <a href="#number5">联系方式</a> <a href="#number6">注意事项</a> <a href="#number7">往客留影</a> <a href="javascript:openDivWin('_messages')">留言板</a> <a href="#">视频</a></div>
+        </div>
+        <div class="box">
+        <div class="f_pic">
+        <div id="silder" class="silder">
+        <ul id="silder_list" class="silder_list">
+            <li><a target="_blank" href="#"><img border="0" alt="" src="http://njy01.coosite.com/images/11.jpg" /></a></li>
+            <li><a target="_blank" href="#"><img border="0" alt="" src="http://njy01.coosite.com/images/12.jpg" /></a></li>
+        </ul>
+        </div>
+        </div>
+        <div id="number1" class="txt">
+        <div class="title">农家乐介绍:</div>
+        <div class="txt_con"><!--#include virtual="/infos/brief.shtml"--></div>
+        </div>
+        <div id="number2" class="txt">
+        <div class="title">房间房型:</div>
+        <div class="txt_con">
+</div>
+        </div>
+        <div id="number3" class="txt">
+        <div class="title">特色美食:</div>
+        <div class="txt_con">
+        <ul>&nbsp;<!--#include virtual="/foods/tesems.shtml"--></ul>
+            </div>
+            </div>
+            <div id="number4" class="txt">
+            <div class="title">特色活动:</div>
+            <div class="txt_con">
+            <ul>&nbsp;<!--#include virtual="/activities/tesehd.shtml"--></ul>
+                </div>
+                </div>
+                <div id="number5" class="txt">
+                <div class="title">联系方式:</div>
+                <div class="txt_con"><!--#include virtual="/contact/contactus.shtml"--></div>
+                </div>
+                <div id="number6" class="txt">
+                <div class="title">注意事项:</div>
+                <div class="txt_con"><!--#include virtual="/attion/notes.shtml"--></div>
+                </div>
+                <div id="number7" class="txt">
+                <div class="title">往客留影:</div>
+                <div class="txt_con">
+                <ul>
+</ul>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div id="divclose" class="rightP ie6fixedTL ie6fixedBR"><a href="javascript:openDivWin('_comment')"><img alt="" src="http://njy01.coosite.com/images/piao_2016229.png" /></a></div>
+                    <div id="divclose" class="rightm ie6fixedTL ie6fixedBR"><a href="#number11"><img alt="" src="http://njy01.coosite.com/images/top.jpg" /></a></div>
+                </body>
+            </html>

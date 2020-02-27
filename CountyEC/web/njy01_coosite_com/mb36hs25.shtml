@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head xmlns="">
+        <title>农家乐</title>
+        <meta content="text/html; charset=gb2312" http-equiv="Content-Type" />
+        <link rel="stylesheet" type="text/css" href="/css/style10.css" /><style type="text/css">
+<!--
+.rightP {
+width: 241px;
+height: 79px;
+position: fixed;
+top: 200px;
+left: 50%;
+margin-left: 500px;
+z-index: 999;
+}
+.rightP .bg{ background:url(/images/fly_call.png) no-repeat; padding:50px 20px 0px 52px ; width:162px; height:225px; font-size:18px; line-height:28px; color:#d33c3c; font-weight:bold; text-align:center;}
+.rightm {
+width: 65px;
+height: 58px;
+position: fixed;
+bottom: 30px;
+left: 50%;
+margin-left: 500px;
+z-index: 999;
+}
+.latestWeb{ width:860px; float:left; padding-left:10px;}
+.latestWeb ul{ overflow:hidden; _height:1%;}
+.latestWeb li{ float:left; background:#fff;  border:1px solid #eceae9; padding:3px; margin-right:15px;}
+--></style><!--下面是鼠标滑过图片放大效果的JS--><script language=JavaScript> 
+nereidFadeObjects = new Object();
+nereidFadeTimers = new Object();
+function nereidFade(object, destOp, rate, delta){
+if (!document.all)
+return
+    if (object != "[object]"){  //do this so I can take a string too
+        setTimeout("nereidFade("+object+","+destOp+","+rate+","+delta+")",0);
+        return;
+    }
+    clearTimeout(nereidFadeTimers[object.sourceIndex]);
+    diff = destOp-object.filters.alpha.opacity;
+    direction = 1;
+    if (object.filters.alpha.opacity > destOp){
+        direction = -1;
+    }
+    delta=Math.min(direction*diff,delta);
+    object.filters.alpha.opacity+=direction*delta;
+    if (object.filters.alpha.opacity != destOp){
+        nereidFadeObjects[object.sourceIndex]=object;
+        nereidFadeTimers[object.sourceIndex]=setTimeout("nereidFade(nereidFadeObjects["+object.sourceIndex+"],"+destOp+","+rate+","+delta+")",rate);
+    }
+}
+</script><!--图片轮换的JS--><script>
+        $(function(){
+            $('#silder').imgSilder({
+				s_width:1000, //容器宽度
+				s_height:302, //容器高度
+				is_showTit:true, // 是否显示图片标题 false :不显示，true :显示
+				s_times:2500, //设置滚动时间
+				css_link:'/images/banner.css'//样式文件位置
+			});
+		});
+</script>
+    </head>
+    <body xmlns="">
+        <div class="top1">
+        <div id="number11" class="top1_logo">
+        <div class="top1_02">
+        <div class="top1_02_1">北京司马台闫福霞农家乐</div>
+        <div class="top1_02_2">联系电话：15010287698</div>
+        </div>
+        </div>
+        </div>
+        <div class="top2">
+        <div class="top2_pic">
+        <div class="top2_banner"><a href="#number1">农家乐介绍</a> <a href="#number2">房间房型</a> <a href="#number3">特色美食</a> <a href="#number4">特色活动</a> <a href="#number5">联系方式</a> <a href="#number6">注意事项</a> <a href="#number7">过往客人的留影</a> <a href="#">留言板</a> <a href="#">视频</a></div>
+        <div class="top2_00">
+        <div id="silder" class="silder">
+        <ul id="silder_list" class="silder_list">
+            <li><a target="_blank" href="#"><img border="0" hspace="0" alt="" href="#" src="#" /><img border="0" hspace="0" alt="" src="/images/picnf67omq4.jpg" /></a></li>
+            <li><a target="_blank" href="#"><img border="0" hspace="0" alt="" src="/images/picp4p2t4b8.jpg" />&quot; /&gt;</a></li>
+            <li></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="content">
+        <div class="content_c">
+        <div id="number1" class="title">农家乐介绍:</div>
+        <div class="txt">
+        <p><!--#include virtual="/infos/brief.shtml"--></p>
+        </div>
+        <div id="number2" class="title">房间房型:</div>
+        <div class="txt">
+        <p align="center">
+<p align="center"><img alt="" width="479" height="320" src="/room/images/pic1j607c15.jpg" /></p><p align="center"><img alt="" width="479" height="320" src="/room/images/pic75l6mqcs.jpg" /></p><p align="center"><img alt="" width="479" height="320" src="/room/images/picgi28n7l4.jpg" /></p><p align="center"><img alt="" width="479" height="320" src="/room/images/picp6qf75ha.JPG" /></p>
+</p>
+        </div>
+        <div class="title">所有评论:</div>
+        <div class="txt">
+        <div class="zs_jj">
+        <div class="zs_pj">53条评价<span><img alt="" src="/images/20150527_60.jpg" /><img alt="" src="/images/20150527_60.jpg" /><img alt="" src="/images/20150527_60.jpg" /><img alt="" src="/images/20150527_60.jpg" /><img alt="" src="/images/20150527_60.jpg" /></span></div>
+        <div class="zs_pj_1">
+        <div class="pj_11">摘要</div>
+        <div class="pj_22">设备设施<span><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /></span></div>
+        <div class="pj_22">环境卫生<span><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /></span></div>
+        <div class="clear"></div>
+        </div>
+        <div class="zs_pj_1">
+        <div class="pj_11">&nbsp;</div>
+        <div class="pj_22">服务质量<span><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /></span></div>
+        <div class="pj_22">地铁位置<span><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /></span></div>
+        <div class="clear"></div>
+        </div>
+        <div class="zs_pj_1">
+        <div class="pj_11">&nbsp;</div>
+        <div class="pj_22">餐饮服务<span><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /></span></div>
+        <div class="pj_22">性 价 比<span><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /><img alt="" src="/images/20150527_61.jpg" /></span></div>
+        <div class="clear"></div>
+        </div>
+        <div class="zs_jlnr">
+        <div class="zs_jlnr_1"><img alt="" src="/images/20150527_8.png" /><br />
+        yunliu</div>
+        <div class="zs_jlnr_2">环境很好，十一入住的，一百元标准间，不贵。老板人特别热情，不管去哪个景点都车接车送。总之，石人峰是来十渡的首选。<br />
+        <span>2014年12月</span></div>
+        <div class="latestWeb">
+        <ul>
+            <li>
+            <div><a href="#"><img border="0" alt="" width="90" height="59" onmouseout="toolTip()" onmouseover="toolTip('&lt;img src=/images/55e736d12f2eb938622bcb79d3628535e4dd6ff3.jpg _fcksavedurl=/images/55e736d12f2eb938622bcb79d3628535e4dd6ff3.jpg _fcksavedurl=/images/55e736d12f2eb938622bcb79d3628535e4dd6ff3.jpg _fcksavedurl=/images/55e736d12f2eb938622bcb79d3628535e4dd6ff3.jpg&gt;')" src="/images/55e736d12f2eb938622bcb79d3628535e4dd6ff3.jpg" /></a></div>
+            </li>
+            <li>
+            <div><a href="#"><img border="0" alt="" width="90" height="59" onmouseout="toolTip()" onmouseover="toolTip('&lt;img src=/images/203fb80e7bec54e7c0aaab95bf389b504ec26af3.jpg _fcksavedurl=/images/203fb80e7bec54e7c0aaab95bf389b504ec26af3.jpg _fcksavedurl=/images/203fb80e7bec54e7c0aaab95bf389b504ec26af3.jpg _fcksavedurl=/images/203fb80e7bec54e7c0aaab95bf389b504ec26af3.jpg&gt;')" src="/images/203fb80e7bec54e7c0aaab95bf389b504ec26af3.jpg" /></a></div>
+            </li>
+            <li>
+            <div><a href="#"><img border="0" alt="" width="90" height="59" onmouseout="toolTip()" onmouseover="toolTip('&lt;img src=/images/b8389b504fc2d562794e6166e11190ef77c66cf3.jpg _fcksavedurl=/images/b8389b504fc2d562794e6166e11190ef77c66cf3.jpg _fcksavedurl=/images/b8389b504fc2d562794e6166e11190ef77c66cf3.jpg _fcksavedurl=/images/b8389b504fc2d562794e6166e11190ef77c66cf3.jpg&gt;')" src="/images/b8389b504fc2d562794e6166e11190ef77c66cf3.jpg" /></a></div>
+            </li>
+        </ul>
+        </div>
+        <div class="clear"></div>
+        </div>
+        <div class="zs_jlnr">
+        <div class="zs_jlnr_1"><img alt="" src="/images/20150527_8.png" /><br />
+        yunliu</div>
+        <div class="zs_jlnr_2">环境很好，十一入住的，一百元标准间，不贵。老板人特别热情，不管去哪个景点都车接车送。总之，石人峰是来十渡的首选。<br />
+        <span>2014年12月</span></div>
+        <div class="clear"></div>
+        </div>
+        <div class="zs_jlnr">
+        <div class="zs_jlnr_1"><img alt="" src="/images/20150527_8.png" /><br />
+        yunliu</div>
+        <div class="zs_jlnr_2">环境很好，十一入住的，一百元标准间，不贵。老板人特别热情，不管去哪个景点都车接车送。总之，石人峰是来十渡的首选。<br />
+        <span>2014年12月</span></div>
+        <div class="clear"></div>
+        </div>
+        <script language="javascript" src="/js/ToolTip.js"></script>
+        <div class="clear"></div>
+        <div class="nj_label"><a href="#">上一页</a><a class="red" href="#">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">下一页</a></div>
+        </div>
+        </div>
+        <div id="number3" class="title">特色美食:</div>
+        <div class="txt_con">
+        <ul>
+<li><a href=/foods/20151224/211631.shtml><img src="/foods/images/pic1u6dxyyl.jpg" /></a><a href=/foods/20151224/211631.shtml>大蒜炒回锅肉</a></li><li><a href=/foods/20151224/211629.shtml><img src="/foods/images/picxd338i4r.jpg" /></a><a href=/foods/20151224/211629.shtml>干锅香辣虾</a></li><li><a href=/foods/20151224/211628.shtml><img src="/foods/images/pic3of42480.jpg" /></a><a href=/foods/20151224/211628.shtml>鸡米豆腐煲</a></li>
+</ul>
+            </div>
+            <div id="number4" class="title">特色活动:</div>
+            <div class="txt_con">
+            <ul>
+<li><a href=/activities/20151225/211667.shtml><img src="/activities/images/picai1ubahh.jpg" /></a><a href=/activities/20151225/211667.shtml>篝火</a></li><li><a href=/activities/20151225/211666.shtml><img src="/activities/images/picy4b4golg.jpg" /></a><a href=/activities/20151225/211666.shtml>烧烤派对</a></li><li><a href=/activities/20151225/211665.shtml><img src="/activities/images/pic36be414r.jpg" /></a><a href=/activities/20151225/211665.shtml>烧烤派对</a></li>
+</ul>
+                </div>
+                <div id="number5" class="title">联系方式:</div>
+                <div class="txt">
+                <p><!--#include virtual="/contact/contactus.shtml"--></p>
+                </div>
+                <div id="number6" class="title">注意事项:</div>
+                <div class="txt">
+                <p><!--#include virtual="/attion/notes.shtml"--></p>
+                </div>
+                <div id="number7" class="title">过往客人的留影:</div>
+                <div class="txt_con">
+                <ul>
+<li><a href=/recall/20151219/211541.shtml><img src="/recall/images/pic88g7xo5b.jpg" /></a><a href=/recall/20151219/211541.shtml>我的第六张图片</a></li><li><a href=/recall/20151219/211540.shtml><img src="/recall/images/picm75rh6c4.jpg" /></a><a href=/recall/20151219/211540.shtml>我的第五张图片</a></li><li><a href=/recall/20151219/211539.shtml><img src="/recall/images/pice02134b2.jpg" /></a><a href=/recall/20151219/211539.shtml>我的第四章图片</a></li><li><a href=/recall/20151219/211538.shtml><img src="/recall/images/pic28nvrguf.jpg" /></a><a href=/recall/20151219/211538.shtml>我的第三章图片</a></li><li><a href=/recall/20151219/211537.shtml><img src="/recall/images/pico38ee0e4.jpg" /></a><a href=/recall/20151219/211537.shtml>我的第二章图片</a></li><li><a href=/recall/20151219/211536.shtml><img src="/recall/images/picf0nirc4q.jpg" /></a><a href=/recall/20151219/211536.shtml>我的第一张图片</a></li>
+</ul>
+                    </div>
+                    </div>
+                    <div id="divclose" class="rightP ie6fixedTL ie6fixedBR">
+                    <div class="bg">电话：15010287698<br />
+                    QQ:<br />
+                    5269631</div>
+                    </div>
+                    <div id="divclose" class="rightm ie6fixedTL ie6fixedBR"><a href="#number11"><img alt="" src="/images/top.jpg" /></a></div>
+                    <p></p>
+                    </div>
+                </body>
+            </html>

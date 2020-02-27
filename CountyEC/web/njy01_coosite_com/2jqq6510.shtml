@@ -1,0 +1,20 @@
+<html dir="ltr">
+    <head>
+        <title></title>
+        <meta content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
+        <link rel="stylesheet" type="text/css" href="/css/m_style_1.css" />
+    </head>
+    <body>
+        <div class="m_top">
+        <div class="title">北京司马台闫福霞农家乐<br />
+        <span>联系电话：010-56982635</span></div>
+        </div>
+        <div class="m_menu"><a class="m_menu_1" href="#number1">农家乐介绍</a><a class="m_menu_2" href="#number2">房间房型</a><a class="m_menu_3" href="#number3">特色美食</a><a class="m_menu_4" href="#number4">特色活动</a><a class="m_menu_5" href="#number5">联系方式</a><a class="m_menu_6" href="#number6">注意事项</a><a class="m_menu_7" href="#number7">往客留影</a><a class="m_menu_8" href="#">留言板</a><a class="m_menu_9" href="#">视频</a></div>
+        <div class="m_content">
+        <div class="m_title">农家乐介绍</div>
+        <div class="m_con">
+        <p>古北水镇司马台闫福霞农家乐，位于古北水镇司马台长城附近，开车2分钟即可到达古北水镇司马台长城景区，是一家干净卫生、功能齐全、具有一定接待能力的二层住宅。司马台农家院门前设有宽敞的停车位（24小时设有监控录像，确保您的的车辆安全），停车十分方便。室内配备有空调、彩电、无线宽带、24小时热水器、电动麻将机、家庭式KTV、烧烤设备等。夏天坐在凉风习习的农家凉亭下，乘凉休闲、棋牌麻将、喝茶聊天、品农家美食，是您休闲度假理想的下榻之处。</p>
+        </div>
+        </div>
+    </body>
+</html>

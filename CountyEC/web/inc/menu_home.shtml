@@ -1,0 +1,41 @@
+<div class="top">
+    <div class="top_logo"><img src="/images/logo2018.jpg" width="217" height="80" /></div>
+    <div class="menu">
+        <ul>
+            <script language="javascript">
+                var infotype = getQueryString('type');
+                if (infotype == null) {
+                    document.write('<li><a href="/" class="blue">首页</a></li>');
+                    document.write('<li><a href="/njl.shtml?type=njy" target="_blank">农家乐</a></li>');
+                    document.write('<li><a href="/mlxc.shtml?type=mlxc" target="_blank">美丽乡村</a></li>');
+                    document.write('<li><a href="/czy.shtml?type=czy" target="_blank">采摘园</a></li>');
+                    document.write('<li><a href="/list.shtml?type=jq" target="_blank">景点景区</a></li>');
+                }else if (infotype == 'njy') {
+                    document.write('<li><a href="/">首页</a></li>');
+                    document.write('<li><a href="/njl.shtml?type=njy" target="_blank" class="blue">农家乐</a></li>');
+                    document.write('<li><a href="/mlxc.shtml?type=mlxc" target="_blank">美丽乡村</a></li>');
+                    document.write('<li><a href="/czy.shtml?type=czy" target="_blank">采摘园</a></li>');
+                    document.write('<li><a href="/list.shtml?type=jq" target="_blank">景点景区</a></li>');
+                } else if (infotype == 'mlxc') {
+                    document.write('<li><a href="/">首页</a></li>');
+                    document.write('<li><a href="/njl.shtml?type=njy" target="_blank">农家乐</a></li>');
+                    document.write('<li><a href="/mlxc.shtml?type=mlxc" target="_blank" class="blue">美丽乡村</a></li>');
+                    document.write('<li><a href="/czy.shtml?type=czy" target="_blank">采摘园</a></li>');
+                    document.write('<li><a href="/list.shtml?type=jq" target="_blank">景点景区</a></li>');
+                } else if (infotype == 'czy') {
+                    document.write('<li><a href="/">首页</a></li>');
+                    document.write('<li><a href="/njl.shtml?type=njy" target="_blank">农家乐</a></li>');
+                    document.write('<li><a href="/mlxc.shtml?type=mlxc" target="_blank">美丽乡村</a></li>');
+                    document.write('<li><a href="/czy.shtml?type=czy" target="_blank" class="blue">采摘园</a></li>');
+                    document.write('<li><a href="/list.shtml?type=jq" target="_blank">景点景区</a></li>');
+                } else {
+                    document.write('<li><a href="/">首页</a></li>');
+                    document.write('<li><a href="/njl.shtml?type=njy" target="_blank">农家乐</a></li>');
+                    document.write('<li><a href="/mlxc.shtml?type=mlxc" target="_blank">美丽乡村</a></li>');
+                    document.write('<li><a href="/czy.shtml?type=czy" target="_blank">采摘园</a></li>');
+                    document.write('<li><a href="/list.shtml?type=jq" target="_blank" class="blue">景点景区</a></li>');
+                }
+            </script>
+        </ul>
+    </div>
+</div>

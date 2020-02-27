@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>周边旅游行网</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="/css/search_20160219.css" rel="stylesheet" type="text/css" />
+<link href="/css/top_2016.css" rel="stylesheet" type="text/css" />
+<script src="/js/jquery-1.4.4.min.js" type="text/javascript"></script>
+<script src="/js/List.js" type="text/javascript"></script>
+</head>
+
+<body>
+<!--#include virtual="/inc/top.shtml"-->
+<!--  sub end  -->
+<div class="box">
+	<div style=" width:1000px; height:30px;">&nbsp;</div>
+    <!--#include virtual="/inc/menu.shtml"-->
+</div>
+<div></div>
+<div class="country_banner"></div>
+
+<div class="country">
+	<div class="box">
+		   <div class="country_left">
+				<div class="country_left_1"><img src="/images/country_38_2.jpg" /></div>
+				<div class="country_left_2">
+				     <ul>
+					     <li><a href="#" class="add">最美乡村</a></li>
+						 <li><a href="#">古村风情</a></li>
+						 <li><a href="#">小城镇</a></li>
+					 </ul>
+				</div>
+		   </div>
+		   <div class="country_right">
+		        <div class="country_title">最美乡村</div>
+				<div class="country_lei">
+				     <div class="country_lei_1">地区：<a href="#">全部</a></div>
+					 <div class="country_lei_2">
+					      <ul>
+						       <li><a href="#">朝阳区</a></li>
+							   <li><a href="#">海淀区</a></li>
+							   <li><a href="#">丰台区</a></li>
+							   <li><a href="#">门头沟</a></li>
+							   <li><a href="#">丰台区</a></li>
+							   <li><a href="#">大兴区</a></li>
+							   <li><a href="#">昌平区</a></li>
+							   <li><a href="#">房山区</a></li>
+							   <li><a href="#">平谷区</a></li>
+							   <li><a href="#">怀柔区</a></li>
+							   <li><a href="#">密云县</a></li>
+							   <li><a href="#">延庆县</a></li>
+							   <li><a href="#"><img src="/images/country_38_4.jpg" /></a></li>
+						  </ul>
+					 </div>
+				</div>
+				<div class="country_list">
+				     <ul>
+					     <li>
+						     <a href="#"><img src="/images/country_38_5.jpg" /></a>
+							 <a href="#" class="ming">草桥村</a>
+							 <a href="#">圆满完成了2008年北京第29届奥运会和第13届残奥会颁奖用花的制作和......</a>
+						 </li>
+						 <li>
+						     <a href="#"><img src="/images/country_38_5.jpg" /></a>
+							 <a href="#" class="ming">草桥村</a>
+							 <a href="#">圆满完成了2008年北京第29届奥运会和第13届残奥会颁奖用花的制作和......</a>
+						 </li>
+						 <li>
+						     <a href="#"><img src="/images/country_38_5.jpg" /></a>
+							 <a href="#" class="ming">草桥村</a>
+							 <a href="#">圆满完成了2008年北京第29届奥运会和第13届残奥会颁奖用花的制作和......</a>
+						 </li>
+					 </ul>
+				</div>
+				 <div class="country_page"><a href="#">上一页</a><a href="#">1</a><a href="#">2</a><a class="ts" href="#">3</a><a href="#">4</a>……　<a href="#">56</a><a href="#">下一页</a></div>
+
+		   </div>  
+	</div>
+</div>
+<!--  list end  -->
+<!-- fonnter  -->
+<!--#include virtual="/inc/tail.shtml"-->
+</body>
+</html>
