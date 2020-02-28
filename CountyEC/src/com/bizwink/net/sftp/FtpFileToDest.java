@@ -5,8 +5,8 @@ import java.io.IOException;
 import java.util.Properties;
 
 import com.jcraft.jsch.*;
-import org.apache.regexp.*;
 import com.bizwink.util.StringUtil;
+import org.apache.regexp.RE;
 
 public class FtpFileToDest
 {
